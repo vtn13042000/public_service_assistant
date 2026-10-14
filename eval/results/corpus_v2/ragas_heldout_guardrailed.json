@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "variant": "guardrailed",
+  "result_file": "eval/results/corpus_v2/heldout_guardrailed.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T14:38:44+00:00",
+  "relevancy_subset": 0,
+  "context_budget_chars": 12000,
+  "max_context_chars": 1500,
+  "contexts": "faithfulness/relevancy: cited evidence (all retrieved if none cited); precision/recall: all evidence in graph order",
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T14:43:18+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 17,
+  "run": 17,
+  "declined": 11,
+  "no_context": 0,
+  "scored": 6
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.3067,
+   "n": 6,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 0.8333,
+   "n": 6,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.5737,
+   "n": 6,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "H-003": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8235,
+   "context_precision": 0.1898,
+   "context_recall": 1.0
+  },
+  "H-004": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8611,
+   "context_precision": 0.474,
+   "context_recall": 0.0
+  },
+  "H-006": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.84,
+   "context_precision": 0.3167,
+   "context_recall": 1.0
+  },
+  "H-009": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8,
+   "context_precision": 0.2487,
+   "context_recall": 1.0
+  },
+  "H-012": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.1176,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "H-014": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "variant": "guardrailed",
+  "result_file": "eval/results/heldout_guardrailed.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T07:19:38+00:00",
+  "relevancy_subset": 0,
+  "max_contexts": 8,
+  "max_context_chars": 1500,
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T07:22:35+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 17,
+  "run": 17,
+  "declined": 11,
+  "no_context": 0,
+  "scored": 6
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.495,
+   "n": 6,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 0.8333,
+   "n": 6,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.5088,
+   "n": 6,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "H-003": {
+   "faithfulness": 0.0588,
+   "context_precision": 0.5536,
+   "context_recall": 1.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  },
+  "H-004": {
+   "faithfulness": 0.0741,
+   "context_precision": 1.0,
+   "context_recall": 0.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  },
+  "H-006": {
+   "faithfulness": 0.12,
+   "context_precision": 0.5,
+   "context_recall": 1.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  },
+  "H-009": {
+   "faithfulness": 0.8,
+   "context_precision": 0.1667,
+   "context_recall": 1.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  },
+  "H-012": {
+   "faithfulness": 1.0,
+   "context_precision": 0.25,
+   "context_recall": 1.0,
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0
+  },
+  "H-014": {
+   "faithfulness": 1.0,
+   "context_precision": 0.5,
+   "context_recall": 1.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  }
+ }
+}

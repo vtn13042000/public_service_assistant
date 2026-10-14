@@ -1,0 +1,3525 @@
+{
+ "config": {
+  "variant": "guardrailed_v3",
+  "graph": "guardrailed",
+  "graph_config": {
+   "draft_prompt": "v2",
+   "citation_parse": "tolerant",
+   "story_rewrite": true,
+   "f2_rule": "distinguishing_words",
+   "base_title_preference": true
+  },
+  "llm_model": "qwen3.5",
+  "judge_model": "qwen3.6",
+  "env_flags": {},
+  "embed_model": "bge-m3",
+  "num_ctx": 16384,
+  "temperature": 0,
+  "seed": 42,
+  "recursion_limit": 50,
+  "testset": "data/testset_heldout.jsonl",
+  "testset_sha256": "f9a1ed51cea308b8e489154ff0171c1598eb12c1e9456b3a6e001606cd0323ec",
+  "testset_frozen_sha256": "f9a1ed51cea308b8e489154ff0171c1598eb12c1e9456b3a6e001606cd0323ec",
+  "corpus": {
+   "label": "v2",
+   "db_path": "data/app.db",
+   "chroma_path": "data/chroma",
+   "db_sha256": "46c3f0d64e5da97c528ff234f84fdc2721d79130df6e97515e4b6dd824ffe941",
+   "db_counts": {
+    "agencies": 55,
+    "document_procedures": 857,
+    "document_sections": 332,
+    "documents": 210,
+    "fees": 218,
+    "procedures": 57,
+    "required_documents": 341,
+    "sources": 94
+   },
+   "chunks": 2429
+  },
+  "artifacts_at_start": {
+   "data/app.db": "46c3f0d64e5da97c528ff234f84fdc2721d79130df6e97515e4b6dd824ffe941",
+   "data/chroma/chroma.sqlite3": "0aa6fedffec80206538a17b3002c3bd182a40b39067a0d0807c61bb256ef3a87"
+  },
+  "started_at": "2026-10-10T12:42:26+00:00",
+  "langfuse_tag": "variant=guardrailed_v3",
+  "finished_at": "2026-10-10T12:45:40+00:00",
+  "artifacts_at_end": {
+   "data/app.db": "46c3f0d64e5da97c528ff234f84fdc2721d79130df6e97515e4b6dd824ffe941",
+   "data/chroma/chroma.sqlite3": "3efdce5ed49c94e88d30cf2126261b3a8b663dc2142664fe9ec115a84880196b"
+  }
+ },
+ "items": {
+  "H-001": {
+   "outcome": "answer",
+   "answer": "Thành phần hồ sơ:\n1. Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:1]\n2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:2]\n3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:3]\n4. Trường hợp trẻ em bị bỏ rơi thì phải có biên bản về việc trẻ bị bỏ rơi do cơ quan có thẩm quyền lập. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:4]\n5. Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:5]\n6. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:6]\n7. Mẫu hộ tịch điện tử tương tác đăng ký khai sinh (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:7]\n8. Tờ khai đăng ký khai sinh theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:8]\n\nNguồn:\n- [db:required_documents:1.001193:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:3] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:4] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:5] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:6] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:7] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.001193:8] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ. Trang chính thức có thể có cập nhật: https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-301-2026-nd-cp-470197.htm, https://xaydungchinhsach.chinhphu.vn/nghi-dinh-301-2026-nd-cp-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bhyt-dang-ky-khai-tu-giai-quyet-mai-tang-phi-tu-tuat-1192609011059423.htm, https://xaydungchinhsach.chinhphu.vn/chuyen-tu-quan-ly-thu-dong-sang-phuc-vu-chu-dong-voi-cac-quy-dinh-ve-dang-ky-khai-sinh-khai-tu-chu-dong-119260528165126725.htm\n\nLưu ý: thủ tục này có thay đổi theo «QUY ĐỊNH MỚI về đăng ký khai sinh; chi trả hỗ trợ tài chính cho phụ nữ sinh con», hiệu lực 01/09/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-giai-quyet-ho-so-dang-ky-khai-sinh-chi-tra-ho-tro-cho-phu-nu-sinh-con-119260901172000388.htm\n\nLưu ý: thủ tục này có thay đổi theo «QUY ĐỊNH MỚI về đăng ký khai sinh, thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi từ tháng 9/2026», hiệu lực 01/09/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bao-hiem-y-te-cho-tre-em-duoi-6-tuoi-tu-thang-9-2026-119260901170341732.htm\n\nThông tin trên áp dụng cho «Thủ tục đăng ký khai sinh». Nếu trường hợp của bạn là «Thủ tục đăng ký khai sinh có yếu tố nước ngoài», vui lòng hỏi lại và nêu rõ.",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.001193",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.984113,
+     "family": "1.001193",
+     "lexical": 0.4,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.6336,
+     "rescued": true
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.9621224999999999,
+     "family": "1.001193",
+     "lexical": 0.4,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.6248
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.9471469999999999,
+     "family": "1.001193",
+     "lexical": 0.3478,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.5875
+    },
+    {
+     "procedure_id": "1.003583",
+     "title": "Thủ tục đăng ký khai sinh lưu động",
+     "rrf": 0.953125,
+     "family": "1.001193",
+     "lexical": 0.3333,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.5812
+    },
+    {
+     "procedure_id": "2.000528",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài",
+     "rrf": 0.961177,
+     "family": "1.001193",
+     "lexical": 0.2667,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.5445,
+     "rescued": true
+    },
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.375,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.225
+    },
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.3636,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.2182
+    },
+    {
+     "procedure_id": "2.000522",
+     "title": "Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.25,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.15
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.1538,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0923
+    },
+    {
+     "procedure_id": "1.012549",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1053,
+     "core": 0.0667,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.0632
+    }
+   ],
+   "claims": [
+    {
+     "text": "1. Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "4. Trường hợp trẻ em bị bỏ rơi thì phải có biên bản về việc trẻ bị bỏ rơi do cơ quan có thẩm quyền lập. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:4]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:4"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "5. Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:5]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:5"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "6. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:6]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:6"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "7. Mẫu hộ tịch điện tử tương tác đăng ký khai sinh (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:7]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:7"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "8. Tờ khai đăng ký khai sinh theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.001193:8]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.001193:8"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:required_documents:1.001193:1",
+    "db:required_documents:1.001193:2",
+    "db:required_documents:1.001193:3",
+    "db:required_documents:1.001193:4",
+    "db:required_documents:1.001193:5",
+    "db:required_documents:1.001193:6",
+    "db:required_documents:1.001193:7",
+    "db:required_documents:1.001193:8"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.001193:summary",
+    "db:procedures:1.001193:processing_time",
+    "db:procedures:1.001193:channels",
+    "db:procedures:1.001193:conditions",
+    "db:procedures:1.001193:legal_basis",
+    "db:procedures:1.001193:fee_summary",
+    "db:procedures:1.001193:agency_summary",
+    "db:agencies:1.001193:1",
+    "db:required_documents:1.001193:1",
+    "db:required_documents:1.001193:2",
+    "db:required_documents:1.001193:3",
+    "db:required_documents:1.001193:4",
+    "db:required_documents:1.001193:5",
+    "db:required_documents:1.001193:6",
+    "db:required_documents:1.001193:7",
+    "db:required_documents:1.001193:8",
+    "doc:1.001193:required_documents:0"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục đăng ký khai sinh (mã 1.001193). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.",
+    "Cách thức thực hiện: Trực tuyến; Qua bưu chính công ích; Trực tiếp",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; 01/2022/TT-BTP – Thông tư sửa đổi; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 52/2014/QH13 – Luật Hôn nhân và Gia đình; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP - Quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 60/2014/QH13 – Luật 60/2014/QH13; 66.7/2025/NQ-CP; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.",
+    "Lệ phí (tóm tắt): theo HĐND tỉnh — đăng ký khai sinh không đúng hạn (theo tỉnh); miễn lệ phí — trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); theo HĐND tỉnh — Mức lệ phí theo quy định của HĐND tỉnh (Đắk Lắk); miễn lệ phí — trường hợp đăng ký khai sinh đúng hạn; người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (Đắk Lắk); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc",
+    "1. Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh. (Số bản chính: 1; Số bản sao: 0)",
+    "2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. (Số bản chính: 1; Số bản sao: 0)",
+    "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "4. Trường hợp trẻ em bị bỏ rơi thì phải có biên bản về việc trẻ bị bỏ rơi do cơ quan có thẩm quyền lập. (Số bản chính: 1; Số bản sao: 0)",
+    "5. Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ. (Số bản chính: 1; Số bản sao: 0)",
+    "6. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)",
+    "7. Mẫu hộ tịch điện tử tương tác đăng ký khai sinh (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) (Số bản chính: 1; Số bản sao: 0)",
+    "8. Tờ khai đăng ký khai sinh theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); (Số bản chính: 1; Số bản sao: 0)",
+    "[Thủ tục: Thủ tục đăng ký khai sinh] [Mục: Thành phần hồ sơ] 1. Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh.; số lượng: Số bản chính: 1; Số bản sao: 0\n2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực.; số lượng: Số bản chính: 1; Số bản sao: 0\n3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến).; số lượng: Số bản chính: 1; Số bản sao: 0\n4. Trường hợp trẻ em bị bỏ rơi thì phải có biên bản về việc trẻ bị bỏ rơi do cơ quan có thẩm quyền lập.; số lượng: Số bản chính: 1; Số bản sao: 0\n5. Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ.; số lượng: Số bản chính: 1; Số bản sao: 0\n6. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch.; số lượng: Số bản chính: 1; Số bản sao: 0\n7. Mẫu hộ tịch điện tử tương tác đăng ký khai sinh (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến); số lượng: Số bản chính: 1; Số bản sao: 0\n8. Tờ khai đăng ký khai sinh theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính);; số lượng: Số bản chính: 1; Số bản sao: 0"
+   ],
+   "context_ids": [
+    "db:procedures:1.001193:summary",
+    "db:procedures:1.001193:processing_time",
+    "db:procedures:1.001193:channels",
+    "db:procedures:1.001193:conditions",
+    "db:procedures:1.001193:legal_basis",
+    "db:procedures:1.001193:fee_summary",
+    "db:procedures:1.001193:agency_summary",
+    "db:agencies:1.001193:1",
+    "db:required_documents:1.001193:1",
+    "db:required_documents:1.001193:2",
+    "db:required_documents:1.001193:3",
+    "db:required_documents:1.001193:4",
+    "db:required_documents:1.001193:5",
+    "db:required_documents:1.001193:6",
+    "db:required_documents:1.001193:7",
+    "db:required_documents:1.001193:8",
+    "doc:1.001193:required_documents:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "change_notice"
+    ],
+    "change_notices": [
+     {
+      "doc_id": "change:xdcs:nd301-2026-khai-sinh-ho-tro-sinh-con",
+      "title": "QUY ĐỊNH MỚI về đăng ký khai sinh; chi trả hỗ trợ tài chính cho phụ nữ sinh con",
+      "effective_date": "2026-09-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-giai-quyet-ho-so-dang-ky-khai-sinh-chi-tra-ho-tro-cho-phu-nu-sinh-con-119260901172000388.htm"
+     },
+     {
+      "doc_id": "change:xdcs:nd301-2026-lien-thong-khai-sinh-duoi-6-tuoi",
+      "title": "QUY ĐỊNH MỚI về đăng ký khai sinh, thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi từ tháng 9/2026",
+      "effective_date": "2026-09-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bao-hiem-y-te-cho-tre-em-duoi-6-tuoi-tu-thang-9-2026-119260901170341732.htm"
+     }
+    ],
+    "web_links": [
+     "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-301-2026-nd-cp-470197.htm",
+     "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-301-2026-nd-cp-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bhyt-dang-ky-khai-tu-giai-quyet-mai-tang-phi-tu-tuat-1192609011059423.htm",
+     "https://xaydungchinhsach.chinhphu.vn/chuyen-tu-quan-ly-thu-dong-sang-phuc-vu-chu-dong-voi-cac-quy-dinh-ve-dang-ky-khai-sinh-khai-tu-chu-dong-119260528165126725.htm"
+    ]
+   },
+   "web_called": true,
+   "errors": [],
+   "question": "e ơi cho c hỏi làm giấy khai sinh cho bé cần mang j theo vậy, bé mới đẻ ở bv tỉnh tuần rồi",
+   "category": "in_corpus_structured",
+   "latency_s": 22.088,
+   "llm_calls": 4,
+   "trace_id": "42e8a8416de80e5f029512573f98ad4f"
+  },
+  "H-002": {
+   "outcome": "answer",
+   "answer": "Thành phần hồ sơ:\n1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:1]\n2. Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ. Hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:2]\n3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:3]\n4. Mẫu hộ tịch điện tử tương tác đăng ký kết hôn (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:4]\n\nNguồn:\n- [db:required_documents:1.000894:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000894.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000894:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000894.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000894:3] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000894.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000894:4] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000894.html (ngày lấy 2026-10-10)\n\nThông tin trên áp dụng cho «Thủ tục đăng ký kết hôn». Nếu trường hợp của bạn là «Thủ tục đăng ký kết hôn lưu động», vui lòng hỏi lại và nêu rõ.",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.000894",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.000894",
+     "title": "Thủ tục đăng ký kết hôn",
+     "rrf": 1.0,
+     "family": "1.000894",
+     "lexical": 1.0,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 1.0
+    },
+    {
+     "procedure_id": "1.004746",
+     "title": "Thủ tục đăng ký lại kết hôn",
+     "rrf": 0.9684969999999998,
+     "family": "1.000894",
+     "lexical": 0.8889,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.9207
+    },
+    {
+     "procedure_id": "1.000593",
+     "title": "Thủ tục đăng ký kết hôn lưu động",
+     "rrf": 0.9760610000000001,
+     "family": "1.000894",
+     "lexical": 0.8,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.8704
+    },
+    {
+     "procedure_id": "2.000806",
+     "title": "Thủ tục đăng ký kết hôn có yếu tố nước ngoài",
+     "rrf": 0.9458049999999999,
+     "family": "1.000894",
+     "lexical": 0.6154,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.7476
+    },
+    {
+     "procedure_id": "1.000094",
+     "title": "Thủ tục đăng ký kết hôn có yếu tố nước ngoài tại khu vực biên giới",
+     "rrf": 0.9462625,
+     "family": "1.000894",
+     "lexical": 0.4444,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.6451
+    },
+    {
+     "procedure_id": "2.000513",
+     "title": "Thủ tục đăng ký lại kết hôn có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.5714,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.3428
+    },
+    {
+     "procedure_id": "1.000689",
+     "title": "Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.4286,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.2572
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.1818,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.1091
+    },
+    {
+     "procedure_id": "2.002189",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.1429,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.0857
+    },
+    {
+     "procedure_id": "2.000554",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc ly hôn, hủy việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.1333,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.08
+    }
+   ],
+   "claims": [
+    {
+     "text": "1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000894:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "2. Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ. Hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000894:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000894:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "4. Mẫu hộ tịch điện tử tương tác đăng ký kết hôn (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000894:4]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000894:4"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:required_documents:1.000894:1",
+    "db:required_documents:1.000894:2",
+    "db:required_documents:1.000894:3",
+    "db:required_documents:1.000894:4"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.000894:summary",
+    "db:procedures:1.000894:processing_time",
+    "db:procedures:1.000894:channels",
+    "db:procedures:1.000894:conditions",
+    "db:procedures:1.000894:legal_basis",
+    "db:procedures:1.000894:fee_summary",
+    "db:procedures:1.000894:agency_summary",
+    "db:agencies:1.000894:1",
+    "db:required_documents:1.000894:1",
+    "db:required_documents:1.000894:2",
+    "db:required_documents:1.000894:3",
+    "db:required_documents:1.000894:4",
+    "doc:1.000894:required_documents:0"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục đăng ký kết hôn (mã 1.000894). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh điều kiện kết hôn của hai bên nam, nữ thì thời hạn giải quyết không quá 05 ngày làm việc",
+    "Cách thức thực hiện: Qua bưu chính công ích; Trực tuyến; Trực tiếp",
+    "Điều kiện: - Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên;\n- Việc kết hôn do nam và nữ tự nguyện quyết định;\n- Các bên không bị mất năng lực hành vi dân sự;\n- Việc kết hôn không thuộc một trong các trường hợp cấm kết hôn, gồm:\n+ Kết hôn giả tạo;\n+ Tảo hôn, cưỡng ép kết hôn, lừa dối kết hôn, cản trở kết hôn;\n+ Người đang có vợ, có chồng mà kết hôn với người khác hoặc chưa có vợ, chưa có chồng mà kết hôn với người đang có chồng, có vợ;\n+ Kết hôn giữa những người cùng dòng máu về trực hệ; giữa những người có họ trong phạm vi ba đời; giữa cha, mẹ nuôi với con nuôi; giữa người đã từng là cha, mẹ nuôi với con nuôi, cha chồng với con dâu, mẹ vợ với con rể, cha dượng với con riêng của vợ, mẹ kế với con riêng của chồng.\n* Nhà nước không thừa nhận hôn nhân giữa những người cùng giới tính.",
+    "Căn cứ pháp lý: 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 66.7/2025/NQ-CP; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 60/2014/QH13 – Luật 60/2014/QH13-Hộ tịch; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 52/2014/QH13 – Luật 52/2014/QH13 Hôn nhân và gia đình; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP - Quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 01/2022/TT-BTP – Thông tư sửa đổi; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.",
+    "Lệ phí (tóm tắt): miễn lệ phí (toàn quốc); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Trích lục kết hôn (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (toàn quốc); miễn lệ phí (Đắk Lắk); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Trích lục kết hôn (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc",
+    "1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)",
+    "2. Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ. Hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); (Số bản chính: 1; Số bản sao: 0)",
+    "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "4. Mẫu hộ tịch điện tử tương tác đăng ký kết hôn (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) (Số bản chính: 1; Số bản sao: 0)",
+    "[Thủ tục: Thủ tục đăng ký kết hôn] [Mục: Thành phần hồ sơ] 1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch.; số lượng: Số bản chính: 1; Số bản sao: 0\n2. Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ. Hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp);; số lượng: Số bản chính: 1; Số bản sao: 0\n3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến).; số lượng: Số bản chính: 1; Số bản sao: 0\n4. Mẫu hộ tịch điện tử tương tác đăng ký kết hôn (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến); số lượng: Số bản chính: 1; Số bản sao: 0"
+   ],
+   "context_ids": [
+    "db:procedures:1.000894:summary",
+    "db:procedures:1.000894:processing_time",
+    "db:procedures:1.000894:channels",
+    "db:procedures:1.000894:conditions",
+    "db:procedures:1.000894:legal_basis",
+    "db:procedures:1.000894:fee_summary",
+    "db:procedures:1.000894:agency_summary",
+    "db:agencies:1.000894:1",
+    "db:required_documents:1.000894:1",
+    "db:required_documents:1.000894:2",
+    "db:required_documents:1.000894:3",
+    "db:required_documents:1.000894:4",
+    "doc:1.000894:required_documents:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": false,
+    "reasons": [],
+    "change_notices": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "đk kết hôn ở xã cần nhũng giấy tờ gì ạ",
+   "category": "in_corpus_structured",
+   "latency_s": 10.551,
+   "llm_calls": 3,
+   "trace_id": "991e930a958b00d16f94a331ac4ef496"
+  },
+  "H-003": {
+   "outcome": "answer",
+   "answer": "Cơ quan tiếp nhận:\n- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.000656:1]\n\nThành phần hồ sơ:\n1. Mẫu hộ tịch điện tử tương tác đăng ký khai tử (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:1]\n2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai tử. Trường hợp người có trách nhiệm đăng ký khai tử ủy quyền cho người khác thực hiện việc đăng ký khai tử mà người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:2]\n3. Trường hợp không xác định được nơi cư trú cuối cùng của người chết thì xuất trình giấy tờ chứng minh nơi người đó chết hoặc nơi phát hiện thi thể của người chết. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:3]\n4. Giấy tờ, tài liệu, chứng cứ do cơ quan, tổ chức có thẩm quyền cấp hoặc xác nhận hợp lệ chứng minh sự kiện chết đối với trường hợp đăng ký khai tử cho người chết đã lâu, không có Giấy báo tử hoặc giấy tờ thay thế Giấy báo tử. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:4]\n5. Giấy tờ chứng minh nơi cư trú cuối cùng của người chết để xác định thẩm quyền trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:5]\n6. Giấy báo tử hoặc giấy tờ thay Giấy báo tử do cơ quan có thẩm quyền cấp. Trường hợp người yêu cầu đã nộp bản điện tử Giấy báo tử hoặc cơ quan đăng ký hộ tịch đã khai thác được dữ liệu điện tử có ký số của Giấy báo tử thì không phải nộp bản giấy. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:6]\n7. Tờ khai đăng ký khai tử theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:7]\n8. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:8]\n\nNguồn:\n- [db:agencies:1.000656:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:3] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:4] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:5] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:6] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:7] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.000656:8] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.000656.html (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ. Trang chính thức có thể có cập nhật: https://xaydungchinhsach.chinhphu.vn/huong-dan-giai-quyet-ho-so-dang-ky-khai-tu-xoa-dang-ky-thuong-tru-giai-quyet-mai-tang-phi-tu-tuat-119260901180612295.htm, https://xaydungchinhsach.chinhphu.vn/nghi-dinh-301-2026-nd-cp-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bhyt-dang-ky-khai-tu-giai-quyet-mai-tang-phi-tu-tuat-1192609011059423.htm, https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-301-2026-nd-cp-470197.htm\n\nThông tin trên áp dụng cho «Thủ tục đăng ký khai tử». Nếu trường hợp của bạn là «Thủ tục đăng ký khai tử lưu động» hoặc «Thủ tục đăng ký khai tử có yếu tố nước ngoài» hoặc «Thủ tục đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới», vui lòng hỏi lại và nêu rõ.\n\nViệc bạn có đủ điều kiện hay không do cơ quan tiếp nhận xác định.",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.000656",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.000656",
+     "title": "Thủ tục đăng ký khai tử",
+     "rrf": 1.0,
+     "family": "1.000656",
+     "lexical": 0.25,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.55
+    },
+    {
+     "procedure_id": "1.005461",
+     "title": "Đăng ký lại khai tử",
+     "rrf": 0.968253,
+     "family": "1.000656",
+     "lexical": 0.2222,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.5206
+    },
+    {
+     "procedure_id": "1.000419",
+     "title": "Thủ tục đăng ký khai tử lưu động",
+     "rrf": 0.9684969999999998,
+     "family": "1.000656",
+     "lexical": 0.2,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.5074
+    },
+    {
+     "procedure_id": "1.001766",
+     "title": "Thủ tục đăng ký khai tử có yếu tố nước ngoài",
+     "rrf": 0.961177,
+     "family": "1.000656",
+     "lexical": 0.1538,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.4768
+    },
+    {
+     "procedure_id": "1.004827",
+     "title": "Thủ tục đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới",
+     "rrf": 0.931348,
+     "family": "1.000656",
+     "lexical": 0.1111,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.4392
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.1818,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1091
+    },
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1429,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.0857
+    },
+    {
+     "procedure_id": "2.000497",
+     "title": "Thủ tục đăng ký lại khai tử có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.1429,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.0857
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1111,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.0667
+    },
+    {
+     "procedure_id": "2.001178",
+     "title": "Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.001178",
+     "lexical": 0.1053,
+     "core": 1.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.0632
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.0952,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.0571
+    }
+   ],
+   "claims": [
+    {
+     "text": "- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.000656:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:agencies:1.000656:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "1. Mẫu hộ tịch điện tử tương tác đăng ký khai tử (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai tử. Trường hợp người có trách nhiệm đăng ký khai tử ủy quyền cho người khác thực hiện việc đăng ký khai tử mà người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "3. Trường hợp không xác định được nơi cư trú cuối cùng của người chết thì xuất trình giấy tờ chứng minh nơi người đó chết hoặc nơi phát hiện thi thể của người chết. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "4. Giấy tờ, tài liệu, chứng cứ do cơ quan, tổ chức có thẩm quyền cấp hoặc xác nhận hợp lệ chứng minh sự kiện chết đối với trường hợp đăng ký khai tử cho người chết đã lâu, không có Giấy báo tử hoặc giấy tờ thay thế Giấy báo tử. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:4]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:4"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "5. Giấy tờ chứng minh nơi cư trú cuối cùng của người chết để xác định thẩm quyền trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:5]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:5"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "6. Giấy báo tử hoặc giấy tờ thay Giấy báo tử do cơ quan có thẩm quyền cấp. Trường hợp người yêu cầu đã nộp bản điện tử Giấy báo tử hoặc cơ quan đăng ký hộ tịch đã khai thác được dữ liệu điện tử có ký số của Giấy báo tử thì không phải nộp bản giấy. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:6]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:6"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "7. Tờ khai đăng ký khai tử theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:7]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:7"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "8. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.000656:8]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.000656:8"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:agencies:1.000656:1",
+    "db:required_documents:1.000656:1",
+    "db:required_documents:1.000656:2",
+    "db:required_documents:1.000656:3",
+    "db:required_documents:1.000656:4",
+    "db:required_documents:1.000656:5",
+    "db:required_documents:1.000656:6",
+    "db:required_documents:1.000656:7",
+    "db:required_documents:1.000656:8"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.000656:summary",
+    "db:procedures:1.000656:processing_time",
+    "db:procedures:1.000656:channels",
+    "db:procedures:1.000656:conditions",
+    "db:procedures:1.000656:legal_basis",
+    "db:procedures:1.000656:fee_summary",
+    "db:procedures:1.000656:agency_summary",
+    "db:agencies:1.000656:1",
+    "db:required_documents:1.000656:1",
+    "db:required_documents:1.000656:2",
+    "db:required_documents:1.000656:3",
+    "db:required_documents:1.000656:4",
+    "db:required_documents:1.000656:5",
+    "db:required_documents:1.000656:6",
+    "db:required_documents:1.000656:7",
+    "db:required_documents:1.000656:8",
+    "doc:1.000656:agency:0"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục đăng ký khai tử (mã 1.000656). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Qua bưu chính công ích, Trực tiếp: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.; Trực tuyến: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.",
+    "Cách thức thực hiện: Qua bưu chính công ích; Trực tiếp; Trực tuyến",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 66.7/2025/NQ-CP; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 01/2022/TT-BTP – Thông tư sửa đổi; 60/2014/QH13 – Luật 60/2014/QH13; Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch",
+    "Lệ phí (tóm tắt): theo HĐND tỉnh — Mức lệ phí cụ thể do Hội đồng nhân dân tỉnh, thành phố trực thuộc Trung ương quyết định (theo tỉnh); miễn lệ phí — trường hợp đăng ký khai tử đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Trích lục khai tử (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (toàn quốc); theo HĐND tỉnh — Mức lệ phí theo quy định của HĐND tỉnh (Đắk Lắk); miễn lệ phí — trường hợp đăng ký khai tử đúng hạn; người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (Đắk Lắk); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Trích lục khai tử (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc",
+    "1. Mẫu hộ tịch điện tử tương tác đăng ký khai tử (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) (Số bản chính: 1; Số bản sao: 0)",
+    "2. Văn bản ủy quyền (được chứng thực) theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký khai tử. Trường hợp người có trách nhiệm đăng ký khai tử ủy quyền cho người khác thực hiện việc đăng ký khai tử mà người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. (Số bản chính: 1; Số bản sao: 0)",
+    "3. Trường hợp không xác định được nơi cư trú cuối cùng của người chết thì xuất trình giấy tờ chứng minh nơi người đó chết hoặc nơi phát hiện thi thể của người chết. (Số bản chính: 1; Số bản sao: 0)",
+    "4. Giấy tờ, tài liệu, chứng cứ do cơ quan, tổ chức có thẩm quyền cấp hoặc xác nhận hợp lệ chứng minh sự kiện chết đối với trường hợp đăng ký khai tử cho người chết đã lâu, không có Giấy báo tử hoặc giấy tờ thay thế Giấy báo tử. (Số bản chính: 1; Số bản sao: 0)",
+    "5. Giấy tờ chứng minh nơi cư trú cuối cùng của người chết để xác định thẩm quyền trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "6. Giấy báo tử hoặc giấy tờ thay Giấy báo tử do cơ quan có thẩm quyền cấp. Trường hợp người yêu cầu đã nộp bản điện tử Giấy báo tử hoặc cơ quan đăng ký hộ tịch đã khai thác được dữ liệu điện tử có ký số của Giấy báo tử thì không phải nộp bản giấy. (Số bản chính: 1; Số bản sao: 0)",
+    "7. Tờ khai đăng ký khai tử theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); (Số bản chính: 1; Số bản sao: 0)",
+    "8. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)",
+    "[Thủ tục: Thủ tục đăng ký khai tử] [Mục: Cơ quan thực hiện] UBND cấp xã (toàn quốc)"
+   ],
+   "context_ids": [
+    "db:procedures:1.000656:summary",
+    "db:procedures:1.000656:processing_time",
+    "db:procedures:1.000656:channels",
+    "db:procedures:1.000656:conditions",
+    "db:procedures:1.000656:legal_basis",
+    "db:procedures:1.000656:fee_summary",
+    "db:procedures:1.000656:agency_summary",
+    "db:agencies:1.000656:1",
+    "db:required_documents:1.000656:1",
+    "db:required_documents:1.000656:2",
+    "db:required_documents:1.000656:3",
+    "db:required_documents:1.000656:4",
+    "db:required_documents:1.000656:5",
+    "db:required_documents:1.000656:6",
+    "db:required_documents:1.000656:7",
+    "db:required_documents:1.000656:8",
+    "doc:1.000656:agency:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "agency"
+    ],
+    "change_notices": [],
+    "web_links": [
+     "https://xaydungchinhsach.chinhphu.vn/huong-dan-giai-quyet-ho-so-dang-ky-khai-tu-xoa-dang-ky-thuong-tru-giai-quyet-mai-tang-phi-tu-tuat-119260901180612295.htm",
+     "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-301-2026-nd-cp-ve-dang-ky-khai-sinh-thuong-tru-cap-the-bhyt-dang-ky-khai-tu-giai-quyet-mai-tang-phi-tu-tuat-1192609011059423.htm",
+     "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-301-2026-nd-cp-470197.htm"
+    ]
+   },
+   "web_called": true,
+   "errors": [],
+   "question": "ba em mới mất tuần trước, giờ đi làm giấy chứng tử ở đâu vậy, có tốn tiền ko mn",
+   "category": "in_corpus_structured",
+   "latency_s": 10.726,
+   "llm_calls": 4,
+   "trace_id": "6db9dd28479aa2fec0d9e72da9d1dfe9"
+  },
+  "H-004": {
+   "outcome": "answer",
+   "answer": "Cơ quan tiếp nhận:\n- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.004884:1]\n\nThành phần hồ sơ:\n1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:1]\n2. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký lại khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:2]\n3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:3]\n4. Bản sao Giấy khai sinh do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ (bản sao được chứng thực từ bản chính, bản sao được cấp từ Sổ đăng ký khai sinh); bản chính hoặc bản sao giấy tờ có giá trị thay thế Giấy khai sinh được cấp trước năm 1945 ở miền Bắc và trước năm 1975 ở miền Nam. — Số bản chính: 0; Số bản sao: 1 [db:required_documents:1.004884:4]\n5. Mẫu hộ tịch điện tử tương tác đăng ký lại khai sinh, trong đó có cam đoan các thông tin cung cấp là đúng sự thật, không còn bản chính Giấy khai sinh, đã nộp đủ các giấy tờ hiện có và chịu hoàn toàn trách nhiệm trước pháp luật về nội dung cam đoan của mình (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:5]\n6. Tờ khai đăng ký lại khai sinh theo mẫu, trong đó có cam đoan của người yêu cầu về việc đã nộp đủ các giấy tờ hiện có (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:6]\n7. Trường hợp người yêu cầu đăng ký lại khai sinh là cán bộ, công chức, viên chức, người đang công tác trong lực lượng vũ trang thì phải có văn bản xác nhận của Thủ trưởng cơ quan, đơn vị về việc những nội dung khai sinh của người đó gồm họ, chữ đệm, tên; giới tính; ngày, tháng, năm sinh; dân tộc; quốc tịch; quê quán; quan hệ cha - con, mẹ - con phù hợp với hồ sơ do cơ quan, đơn vị đang quản lý. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:7]\n8. Trường hợp người yêu cầu không có giấy tờ nêu trên thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, hồ sơ học tập do cơ quan có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ, tên, ngày, tháng, năm sinh của cá nhân. — Số bản chính: 0; Số bản sao: 1 [db:required_documents:1.004884:8]\n\nNguồn:\n- [db:agencies:1.004884:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:3] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:4] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:5] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:6] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:7] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004884:8] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004884.html (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ.\n\nThông tin trên áp dụng cho «Thủ tục đăng ký lại khai sinh». Nếu trường hợp của bạn là «Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài», vui lòng hỏi lại và nêu rõ.\n\nViệc bạn có đủ điều kiện hay không do cơ quan tiếp nhận xác định.",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.004884",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.9760610000000001,
+     "family": "1.001193",
+     "lexical": 0.5,
+     "core": 0.75,
+     "field": "Hộ tịch",
+     "score": 0.6904
+    },
+    {
+     "procedure_id": "2.000522",
+     "title": "Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài",
+     "rrf": 0.991921,
+     "family": "1.001193",
+     "lexical": 0.4706,
+     "core": 0.75,
+     "field": "Hộ tịch",
+     "score": 0.6791
+    },
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 0.984113,
+     "family": "1.001193",
+     "lexical": 0.4706,
+     "core": 0.75,
+     "field": "Hộ tịch",
+     "score": 0.676
+    },
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.931348,
+     "family": "1.001193",
+     "lexical": 0.3636,
+     "core": 0.5,
+     "field": "Hộ tịch",
+     "score": 0.5907
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.9458049999999999,
+     "family": "1.001193",
+     "lexical": 0.2857,
+     "core": 0.5,
+     "field": "Hộ tịch",
+     "score": 0.5497
+    },
+    {
+     "procedure_id": "2.000528",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.375,
+     "core": 0.5,
+     "field": "Hộ tịch",
+     "score": 0.225
+    },
+    {
+     "procedure_id": "2.000497",
+     "title": "Thủ tục đăng ký lại khai tử có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.3529,
+     "core": 0.75,
+     "field": "Hộ tịch",
+     "score": 0.2117
+    },
+    {
+     "procedure_id": "1.005461",
+     "title": "Đăng ký lại khai tử",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.3333,
+     "core": 0.75,
+     "field": "Hộ tịch",
+     "score": 0.2
+    },
+    {
+     "procedure_id": "1.003583",
+     "title": "Thủ tục đăng ký khai sinh lưu động",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.3077,
+     "core": 0.5,
+     "field": "Hộ tịch",
+     "score": 0.1846
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.25,
+     "core": 0.5,
+     "field": "Hộ tịch",
+     "score": 0.15
+    }
+   ],
+   "claims": [
+    {
+     "text": "- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.004884:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:agencies:1.004884:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "2. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký lại khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "4. Bản sao Giấy khai sinh do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ (bản sao được chứng thực từ bản chính, bản sao được cấp từ Sổ đăng ký khai sinh); bản chính hoặc bản sao giấy tờ có giá trị thay thế Giấy khai sinh được cấp trước năm 1945 ở miền Bắc và trước năm 1975 ở miền Nam. — Số bản chính: 0; Số bản sao: 1 [db:required_documents:1.004884:4]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:4"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "5. Mẫu hộ tịch điện tử tương tác đăng ký lại khai sinh, trong đó có cam đoan các thông tin cung cấp là đúng sự thật, không còn bản chính Giấy khai sinh, đã nộp đủ các giấy tờ hiện có và chịu hoàn toàn trách nhiệm trước pháp luật về nội dung cam đoan của mình (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:5]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:5"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "6. Tờ khai đăng ký lại khai sinh theo mẫu, trong đó có cam đoan của người yêu cầu về việc đã nộp đủ các giấy tờ hiện có (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:6]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:6"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "7. Trường hợp người yêu cầu đăng ký lại khai sinh là cán bộ, công chức, viên chức, người đang công tác trong lực lượng vũ trang thì phải có văn bản xác nhận của Thủ trưởng cơ quan, đơn vị về việc những nội dung khai sinh của người đó gồm họ, chữ đệm, tên; giới tính; ngày, tháng, năm sinh; dân tộc; quốc tịch; quê quán; quan hệ cha - con, mẹ - con phù hợp với hồ sơ do cơ quan, đơn vị đang quản lý. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004884:7]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:7"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "8. Trường hợp người yêu cầu không có giấy tờ nêu trên thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, hồ sơ học tập do cơ quan có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ, tên, ngày, tháng, năm sinh của cá nhân. — Số bản chính: 0; Số bản sao: 1 [db:required_documents:1.004884:8]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004884:8"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:agencies:1.004884:1",
+    "db:required_documents:1.004884:1",
+    "db:required_documents:1.004884:2",
+    "db:required_documents:1.004884:3",
+    "db:required_documents:1.004884:4",
+    "db:required_documents:1.004884:5",
+    "db:required_documents:1.004884:6",
+    "db:required_documents:1.004884:7",
+    "db:required_documents:1.004884:8"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.004884:summary",
+    "db:procedures:1.004884:processing_time",
+    "db:procedures:1.004884:channels",
+    "db:procedures:1.004884:conditions",
+    "db:procedures:1.004884:legal_basis",
+    "db:procedures:1.004884:fee_summary",
+    "db:procedures:1.004884:agency_summary",
+    "db:agencies:1.004884:1",
+    "db:required_documents:1.004884:1",
+    "db:required_documents:1.004884:2",
+    "db:required_documents:1.004884:3",
+    "db:required_documents:1.004884:4",
+    "db:required_documents:1.004884:5",
+    "db:required_documents:1.004884:6",
+    "db:required_documents:1.004884:7",
+    "db:required_documents:1.004884:8",
+    "doc:1.004884:agency:0"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục đăng ký lại khai sinh (mã 1.004884). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: 05 ngày làm việc; trường hợp phải xác minh thì thời hạn giải quyết không quá 25 ngày.",
+    "Cách thức thực hiện: Trực tiếp; Qua bưu chính công ích; Trực tuyến",
+    "Điều kiện: - Việc khai sinh đã được đăng ký tại cơ quan có thẩm quyền của Việt Nam trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người có yêu cầu còn sống tại thời điểm yêu cầu đăng ký lại.",
+    "Căn cứ pháp lý: Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 66.7/2025/NQ-CP; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 60/2014/QH13 – Luật 60/2014/QH13; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.; 01/2022/TT-BTP – Thông tư sửa đổi; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 09/2022/TT-BTP – Thông tư 09/2022/TT-BTP",
+    "Lệ phí (tóm tắt): theo HĐND tỉnh — Mức lệ phí cụ thể do Hội đồng nhân dân tỉnh, thành phố trực thuộc Trung ương quyết định (theo tỉnh); miễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (toàn quốc); theo HĐND tỉnh — Mức lệ phí theo quy định của HĐND tỉnh (Đắk Lắk); miễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (Đắk Lắk); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc",
+    "1. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)",
+    "2. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc đăng ký lại khai sinh. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. (Số bản chính: 1; Số bản sao: 0)",
+    "3. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "4. Bản sao Giấy khai sinh do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ (bản sao được chứng thực từ bản chính, bản sao được cấp từ Sổ đăng ký khai sinh); bản chính hoặc bản sao giấy tờ có giá trị thay thế Giấy khai sinh được cấp trước năm 1945 ở miền Bắc và trước năm 1975 ở miền Nam. (Số bản chính: 0; Số bản sao: 1)",
+    "5. Mẫu hộ tịch điện tử tương tác đăng ký lại khai sinh, trong đó có cam đoan các thông tin cung cấp là đúng sự thật, không còn bản chính Giấy khai sinh, đã nộp đủ các giấy tờ hiện có và chịu hoàn toàn trách nhiệm trước pháp luật về nội dung cam đoan của mình (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "6. Tờ khai đăng ký lại khai sinh theo mẫu, trong đó có cam đoan của người yêu cầu về việc đã nộp đủ các giấy tờ hiện có (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); (Số bản chính: 1; Số bản sao: 0)",
+    "7. Trường hợp người yêu cầu đăng ký lại khai sinh là cán bộ, công chức, viên chức, người đang công tác trong lực lượng vũ trang thì phải có văn bản xác nhận của Thủ trưởng cơ quan, đơn vị về việc những nội dung khai sinh của người đó gồm họ, chữ đệm, tên; giới tính; ngày, tháng, năm sinh; dân tộc; quốc tịch; quê quán; quan hệ cha - con, mẹ - con phù hợp với hồ sơ do cơ quan, đơn vị đang quản lý. (Số bản chính: 1; Số bản sao: 0)",
+    "8. Trường hợp người yêu cầu không có giấy tờ nêu trên thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, hồ sơ học tập do cơ quan có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ, tên, ngày, tháng, năm sinh của cá nhân. (Số bản chính: 0; Số bản sao: 1)",
+    "[Thủ tục: Thủ tục đăng ký lại khai sinh] [Mục: Cơ quan thực hiện] UBND cấp xã (toàn quốc)"
+   ],
+   "context_ids": [
+    "db:procedures:1.004884:summary",
+    "db:procedures:1.004884:processing_time",
+    "db:procedures:1.004884:channels",
+    "db:procedures:1.004884:conditions",
+    "db:procedures:1.004884:legal_basis",
+    "db:procedures:1.004884:fee_summary",
+    "db:procedures:1.004884:agency_summary",
+    "db:agencies:1.004884:1",
+    "db:required_documents:1.004884:1",
+    "db:required_documents:1.004884:2",
+    "db:required_documents:1.004884:3",
+    "db:required_documents:1.004884:4",
+    "db:required_documents:1.004884:5",
+    "db:required_documents:1.004884:6",
+    "db:required_documents:1.004884:7",
+    "db:required_documents:1.004884:8",
+    "doc:1.004884:agency:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "agency"
+    ],
+    "change_notices": [],
+    "web_links": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "mình lỡ làm mất tờ khai sinh bản gốc rồi, giờ xin lại bản sao thì tới chỗ nào xin dc",
+   "category": "in_corpus_structured",
+   "latency_s": 9.308,
+   "llm_calls": 4,
+   "trace_id": "bef8eee2749f45fbc09ae5116b62c46e"
+  },
+  "H-005": {
+   "outcome": "refuse",
+   "answer": "Kho thủ tục hiện không có thủ tục này, nên tôi không liệt kê hồ sơ hay lệ phí để tránh thông tin sai.\nTrang chính thức có thể liên quan (chưa được kiểm chứng): https://vpcp.dichvucong.gov.vn/p/phananhkiennghi/pakn-detail.html?id=2D7B777AA22A0CAAE063490AA8C07866\nGợi ý: thủ tục hành chính thường do UBND cấp xã, Sở hoặc Bộ quản lý lĩnh vực tiếp nhận; vui lòng tra cứu tại https://dichvucong.gov.vn hoặc hỏi bộ phận một cửa nơi bạn cư trú.",
+   "refusal_type": "not_in_corpus",
+   "refusal": {
+    "type": "not_in_corpus",
+    "agency": null,
+    "portal_url": "https://vpcp.dichvucong.gov.vn/p/phananhkiennghi/pakn-detail.html?id=2D7B777AA22A0CAAE063490AA8C07866",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.000894",
+     "title": "Thủ tục đăng ký kết hôn",
+     "rrf": 0.9760610000000001,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3904
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.9458049999999999,
+     "family": "1.004873",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3783
+    },
+    {
+     "procedure_id": "1.000593",
+     "title": "Thủ tục đăng ký kết hôn lưu động",
+     "rrf": 0.9242414999999999,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3697
+    },
+    {
+     "procedure_id": "2.000806",
+     "title": "Thủ tục đăng ký kết hôn có yếu tố nước ngoài",
+     "rrf": 0.9121634999999999,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3649
+    },
+    {
+     "procedure_id": "1.004222",
+     "title": "Đăng ký thường trú",
+     "rrf": 0.9037455,
+     "family": "1.004222",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.3615
+    },
+    {
+     "procedure_id": "1.001247",
+     "title": "Cấp thẻ căn cước cho người từ đủ 14 tuổi trở lên (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1818,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1091
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "1.000889",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "1.012549",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1111,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.0667
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1053,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0632
+    },
+    {
+     "procedure_id": "1.014062",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi thực hiện tại Công an cấp xã",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.1,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.06
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.0909,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0545
+    },
+    {
+     "procedure_id": "2.000200",
+     "title": "Cấp thẻ Căn cước cho người từ đủ 14 tuổi trở lên thực hiện tại Công an cấp tỉnh",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.087,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.0522
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.0,
+     "family": "1.004194",
+     "lexical": 0.087,
+     "core": 0.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.0522
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [
+    "Cổng Dịch vụ công Quốc gia - vpcp.dichvucong.gov.vn\nHơn hai tháng qua, chúng tôi đã tìm hiểu kỹ lưỡng các quy định của nhà nước về đăng ký kết hôn với người nước ngoài, dành nhiều thời gian chuẩn bị giấy tờ và thực hiện không dưới ba lần đến UBND quận Hoàng Mai để nộp hồ sơ."
+   ],
+   "context_ids": [
+    null
+   ],
+   "freshness": null,
+   "web_called": true,
+   "errors": [],
+   "question": "tui tính cưới vợ người Trung Quốc, giấy tờ phải chuẩn bị những gì vậy mấy bác",
+   "category": "in_corpus_structured",
+   "latency_s": 8.794,
+   "llm_calls": 3,
+   "trace_id": "38b2c06fb444ae80726e66dc46a1fbbb"
+  },
+  "H-006": {
+   "outcome": "answer",
+   "answer": "Cơ quan tiếp nhận:\n- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.004873:1]\n\nThành phần hồ sơ:\n1. Tờ khai cấp Giấy xác nhận tình trạng hôn nhân (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:1]\n2. Mẫu điện tử tương tác cấp Giấy xác nhận tình trạng hôn nhân (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:2]\n3. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:3]\n4. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:4]\n5. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc cấp Giấy xác nhận tình trạng hôn nhân. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:5]\n6. Trường hợp cá nhân yêu cầu cấp lại Giấy xác nhận tình trạng hôn nhân để sử dụng vào mục đích khác hoặc do Giấy xác nhận tình trạng hôn nhân đã hết thời hạn sử dụng theo quy định thì phải nộp lại Giấy xác nhận tình trạng hôn nhân đã được cấp trước đó. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:6]\n\nNguồn:\n- [db:agencies:1.004873:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:3] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:4] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:5] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n- [db:required_documents:1.004873:6] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.004873.html (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ.\n\nViệc bạn có đủ điều kiện hay không do cơ quan tiếp nhận xác định.",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.004873",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 1.0,
+     "family": "1.004873",
+     "lexical": 0.4615,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.6769
+    },
+    {
+     "procedure_id": "2.001178",
+     "title": "Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp tỉnh)",
+     "rrf": 0.931775,
+     "family": "2.001178",
+     "lexical": 0.1905,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.487
+    },
+    {
+     "procedure_id": "1.000894",
+     "title": "Thủ tục đăng ký kết hôn",
+     "rrf": 0.9760610000000001,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.3904
+    },
+    {
+     "procedure_id": "1.000593",
+     "title": "Thủ tục đăng ký kết hôn lưu động",
+     "rrf": 0.9606889999999999,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.3843
+    },
+    {
+     "procedure_id": "2.000806",
+     "title": "Thủ tục đăng ký kết hôn có yếu tố nước ngoài",
+     "rrf": 0.9471469999999999,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.3789
+    },
+    {
+     "procedure_id": "2.002516",
+     "title": "Thủ tục xác nhận thông tin hộ tịch",
+     "rrf": 0.0,
+     "family": "2.002516",
+     "lexical": 0.3333,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.2
+    },
+    {
+     "procedure_id": "1.010041",
+     "title": "Xác nhận thông tin về cư trú",
+     "rrf": 0.0,
+     "family": "1.010041",
+     "lexical": 0.3077,
+     "core": 0.3333,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.1846
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.12
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1739,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1043
+    },
+    {
+     "procedure_id": "1.001022",
+     "title": "Thủ tục đăng ký nhận cha, mẹ, con",
+     "rrf": 0.0,
+     "family": "1.001022",
+     "lexical": 0.1667,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1
+    },
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.125,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.075
+    },
+    {
+     "procedure_id": "1.004859",
+     "title": "Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc",
+     "rrf": 0.0,
+     "family": "1.004859",
+     "lexical": 0.0952,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.0571
+    },
+    {
+     "procedure_id": "2.000547",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.0952,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.0571
+    }
+   ],
+   "claims": [
+    {
+     "text": "- UBND cấp xã — phạm vi: toàn quốc — ngày lấy 2026-10-10 [db:agencies:1.004873:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:agencies:1.004873:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "1. Tờ khai cấp Giấy xác nhận tình trạng hôn nhân (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "2. Mẫu điện tử tương tác cấp Giấy xác nhận tình trạng hôn nhân (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "3. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "4. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:4]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:4"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "5. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc cấp Giấy xác nhận tình trạng hôn nhân. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:5]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:5"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "6. Trường hợp cá nhân yêu cầu cấp lại Giấy xác nhận tình trạng hôn nhân để sử dụng vào mục đích khác hoặc do Giấy xác nhận tình trạng hôn nhân đã hết thời hạn sử dụng theo quy định thì phải nộp lại Giấy xác nhận tình trạng hôn nhân đã được cấp trước đó. — Số bản chính: 1; Số bản sao: 0 [db:required_documents:1.004873:6]",
+     "type": "core",
+     "evidence_ids": [
+      "db:required_documents:1.004873:6"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:agencies:1.004873:1",
+    "db:required_documents:1.004873:1",
+    "db:required_documents:1.004873:2",
+    "db:required_documents:1.004873:3",
+    "db:required_documents:1.004873:4",
+    "db:required_documents:1.004873:5",
+    "db:required_documents:1.004873:6"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.004873:summary",
+    "db:procedures:1.004873:processing_time",
+    "db:procedures:1.004873:channels",
+    "db:procedures:1.004873:conditions",
+    "db:procedures:1.004873:legal_basis",
+    "db:procedures:1.004873:fee_summary",
+    "db:procedures:1.004873:agency_summary",
+    "db:agencies:1.004873:1",
+    "db:required_documents:1.004873:1",
+    "db:required_documents:1.004873:2",
+    "db:required_documents:1.004873:3",
+    "db:required_documents:1.004873:4",
+    "db:required_documents:1.004873:5",
+    "db:required_documents:1.004873:6",
+    "doc:1.004873:agency:0"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục cấp Giấy xác nhận tình trạng hôn nhân (mã 1.004873). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: 03 ngày làm việc; trường hợp phải xác minh thì thời hạn giải quyết không quá 23 ngày.",
+    "Cách thức thực hiện: Trực tuyến; Trực tiếp; Qua bưu chính công ích",
+    "Điều kiện: Trường hợp yêu cầu xác nhận tình trạng hôn nhân nhằm mục đích kết hôn thì người yêu cầu phải đáp ứng đủ điều kiện kết hôn:\n- Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên;\n- Việc kết hôn do nam và nữ tự nguyện quyết định;\n- Không bị mất năng lực hành vi dân sự;\n- Việc kết hôn không thuộc một trong các trường hợp cấm kết hôn, gồm:\n+ Kết hôn giả tạo, ly hôn giả tạo;\n+ Tảo hôn, cưỡng ép kết hôn, lừa dối kết hôn, cản trở kết hôn;\n+ Người đang có vợ, có chồng mà kết hôn với người khác hoặc chưa có vợ, chưa có chồng mà kết hôn với người đang có chồng, có vợ;\n+ Kết hôn giữa những người cùng dòng máu về trực hệ; giữa những người có họ trong phạm vi ba đời; giữa cha, mẹ nuôi với con nuôi; giữa người đã từng là cha, mẹ nuôi với con nuôi, cha chồng với con dâu, mẹ vợ với con rể, cha dượng với con riêng của vợ, mẹ kế với con riêng của chồng.\n- Nhà nước không thừa nhận hôn nhân giữa những người cùng giới tính.\nTrường hợp yêu cầu cấp Giấy xác nhận tình trạng hôn nhân để sử dụng vào mục đích khác, không phải để đăng ký kết hôn, thì người yêu cầu không phải đáp ứng điều kiện kết hôn.",
+    "Căn cứ pháp lý: 01/2022/TT-BTP – Thông tư sửa đổi; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 52/2014/QH13 – Luật Hôn nhân và gia đình 52/2014/QH13; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 66.7/2025/NQ-CP; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 60/2014/QH13 – Luật 60/2014/QH13",
+    "Lệ phí (tóm tắt): theo HĐND tỉnh — Mức lệ phí cụ thể do Hội đồng nhân dân tỉnh, thành phố trực thuộc Trung ương quyết định (theo tỉnh); miễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); theo HĐND tỉnh — Mức lệ phí theo quy định của HĐND tỉnh (Đắk Lắk); miễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc",
+    "1. Tờ khai cấp Giấy xác nhận tình trạng hôn nhân (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp); (Số bản chính: 1; Số bản sao: 0)",
+    "2. Mẫu điện tử tương tác cấp Giấy xác nhận tình trạng hôn nhân (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) (Số bản chính: 1; Số bản sao: 0)",
+    "3. Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)",
+    "4. Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)",
+    "5. Văn bản ủy quyền theo quy định của pháp luật trong trường hợp ủy quyền thực hiện việc cấp Giấy xác nhận tình trạng hôn nhân. Trường hợp người được ủy quyền là ông, bà, cha, mẹ, con, vợ, chồng, anh, chị, em ruột của người ủy quyền thì văn bản ủy quyền không phải chứng thực. (Số bản chính: 1; Số bản sao: 0)",
+    "6. Trường hợp cá nhân yêu cầu cấp lại Giấy xác nhận tình trạng hôn nhân để sử dụng vào mục đích khác hoặc do Giấy xác nhận tình trạng hôn nhân đã hết thời hạn sử dụng theo quy định thì phải nộp lại Giấy xác nhận tình trạng hôn nhân đã được cấp trước đó. (Số bản chính: 1; Số bản sao: 0)",
+    "[Thủ tục: Thủ tục cấp Giấy xác nhận tình trạng hôn nhân] [Mục: Cơ quan thực hiện] UBND cấp xã (toàn quốc)"
+   ],
+   "context_ids": [
+    "db:procedures:1.004873:summary",
+    "db:procedures:1.004873:processing_time",
+    "db:procedures:1.004873:channels",
+    "db:procedures:1.004873:conditions",
+    "db:procedures:1.004873:legal_basis",
+    "db:procedures:1.004873:fee_summary",
+    "db:procedures:1.004873:agency_summary",
+    "db:agencies:1.004873:1",
+    "db:required_documents:1.004873:1",
+    "db:required_documents:1.004873:2",
+    "db:required_documents:1.004873:3",
+    "db:required_documents:1.004873:4",
+    "db:required_documents:1.004873:5",
+    "db:required_documents:1.004873:6",
+    "doc:1.004873:agency:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "agency"
+    ],
+    "change_notices": [],
+    "web_links": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "giấy xác nhận độc thân xin ở đâu, mấy ngày thì lấy được",
+   "category": "in_corpus_structured",
+   "latency_s": 10.158,
+   "llm_calls": 4,
+   "trace_id": "a1b7ebce2902dbf87d46904ea2083bfb"
+  },
+  "H-007": {
+   "outcome": "refuse",
+   "answer": "Tôi chưa đủ căn cứ trong kho thủ tục để trả lời về: nội dung bạn hỏi.\nThủ tục đã xác định: Thủ tục đăng ký khai sinh.\nĐể được hướng dẫn chính xác, vui lòng liên hệ: UBND cấp xã — https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html.\n(Dữ liệu lấy ngày 2026-10-10; cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025.)",
+   "refusal_type": "insufficient_evidence",
+   "refusal": {
+    "type": "insufficient_evidence",
+    "agency": "UBND cấp xã",
+    "portal_url": "https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.001193.html",
+    "missing": [
+     "nội dung bạn hỏi"
+    ],
+    "procedure_id": "1.001193",
+    "title": "Thủ tục đăng ký khai sinh"
+   },
+   "procedure_id": "1.001193",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.9552295,
+     "family": "1.001193",
+     "lexical": 0.3636,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.6003
+    },
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.984113,
+     "family": "1.001193",
+     "lexical": 0.3077,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.5783
+    },
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.9458049999999999,
+     "family": "1.001193",
+     "lexical": 0.3333,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.5783,
+     "rescued": true
+    },
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 0.921527,
+     "family": "1.001193",
+     "lexical": 0.3333,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.5686
+    },
+    {
+     "procedure_id": "2.000522",
+     "title": "Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài",
+     "rrf": 0.9471469999999999,
+     "family": "1.001193",
+     "lexical": 0.2222,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.5122
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.32,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.192
+    },
+    {
+     "procedure_id": "1.003583",
+     "title": "Thủ tục đăng ký khai sinh lưu động",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2857,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.1714
+    },
+    {
+     "procedure_id": "2.000528",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2353,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.1412,
+     "rescued": true
+    },
+    {
+     "procedure_id": "2.000547",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1364,
+     "core": 0.6667,
+     "field": "Hộ tịch",
+     "score": 0.0818
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.08
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [
+    "db:procedures:1.001193:summary",
+    "db:procedures:1.001193:processing_time",
+    "db:procedures:1.001193:channels",
+    "db:procedures:1.001193:conditions",
+    "db:procedures:1.001193:legal_basis",
+    "db:procedures:1.001193:fee_summary",
+    "db:procedures:1.001193:agency_summary",
+    "db:agencies:1.001193:1"
+   ],
+   "contexts": [
+    "Thủ tục: Thủ tục đăng ký khai sinh (mã 1.001193). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.",
+    "Cách thức thực hiện: Trực tuyến; Qua bưu chính công ích; Trực tiếp",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công; 01/2022/TT-BTP – Thông tư sửa đổi; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 52/2014/QH13 – Luật Hôn nhân và Gia đình; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP - Quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 60/2014/QH13 – Luật 60/2014/QH13; 66.7/2025/NQ-CP; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.",
+    "Lệ phí (tóm tắt): theo HĐND tỉnh — đăng ký khai sinh không đúng hạn (theo tỉnh); miễn lệ phí — trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); theo HĐND tỉnh — Mức lệ phí theo quy định của HĐND tỉnh (Đắk Lắk); miễn lệ phí — trường hợp đăng ký khai sinh đúng hạn; người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (Đắk Lắk); theo Thông tư số 281/2016/TT-BTC — Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): UBND cấp xã (toàn quốc)",
+    "Cơ quan thực hiện: UBND cấp xã — phạm vi: toàn quốc"
+   ],
+   "context_ids": [
+    "db:procedures:1.001193:summary",
+    "db:procedures:1.001193:processing_time",
+    "db:procedures:1.001193:channels",
+    "db:procedures:1.001193:conditions",
+    "db:procedures:1.001193:legal_basis",
+    "db:procedures:1.001193:fee_summary",
+    "db:procedures:1.001193:agency_summary",
+    "db:agencies:1.001193:1"
+   ],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "Chuyện là vầy, em sinh năm 1990 ở quê, hồi đó ba mẹ có làm khai sinh ở xã rồi, mà mấy năm trước trụ sở xã bị lũ cuốn mất sổ sách, còn tờ khai sinh gốc nhà em cũng thất lạc lâu rồi tìm không ra. Giờ em cần giấy khai sinh để làm hồ sơ, vậy em phải làm thủ tục gì ạ?",
+   "category": "in_corpus_narrative",
+   "latency_s": 13.051,
+   "llm_calls": 4,
+   "trace_id": "cd83331a10a55e7438147bfaf455f479"
+  },
+  "H-008": {
+   "outcome": "out_of_scope",
+   "answer": "Câu hỏi này nằm ngoài phạm vi của trợ lý. Tôi có thể hướng dẫn thành phần hồ sơ, lệ phí, cơ quan tiếp nhận, thời gian giải quyết và trình tự thực hiện của các thủ tục hành chính (chủ yếu hộ tịch, cư trú, căn cước).\nTra cứu thủ tục: https://dichvucong.gov.vn",
+   "refusal_type": "out_of_scope",
+   "refusal": {
+    "type": "out_of_scope",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": null,
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "e vs anh ấy sống chung ko cưới hỏi gì, nay có em bé rồi, làm giấy tờ cho bé mà muốn ghi tên ba luôn 1 lần đc hok",
+   "category": "near_miss",
+   "latency_s": 1.516,
+   "llm_calls": 1,
+   "trace_id": "20096b77f09146b6a3d9b53528e37f04"
+  },
+  "H-009": {
+   "outcome": "answer",
+   "answer": "Lệ phí (áp dụng toàn quốc / theo quy định chung):\n- 8.000 đồng (8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký) — phạm vi: toàn quốc — theo nguồn https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html, ngày lấy 2026-10-10 [db:fees:2.000635:1]\n- miễn lệ phí (người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật) — phạm vi: toàn quốc — theo nguồn https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html, ngày lấy 2026-10-10 [db:fees:2.000635:2]\n\nLệ phí tại Đắk Lắk:\n- 8.000 đồng (8.000 đồng /bản sao Trích lục/sự kiện hộ tịch đã đăng ký) — phạm vi: Đắk Lắk — theo nguồn https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf, ngày lấy 2026-10-10 [db:fees:2.000635:3]\n\nLệ phí cấp bản sao trích lục khai sinh tại Đắk Lắk là 8.000 đồng cho mỗi bản [db:fees:2.000635:3]. Người thuộc gia đình có công với cách mạng, hộ nghèo hoặc người khuyết tật được miễn lệ phí toàn quốc [db:fees:2.000635:2]. Lệ phí áp dụng chung trên cả nước cũng là 8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký [db:fees:2.000635:1].\n\nNguồn:\n- [db:fees:2.000635:1] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html (ngày lấy 2026-10-10)\n- [db:fees:2.000635:2] https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html (ngày lấy 2026-10-10)\n- [db:fees:2.000635:3] https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf (ngày lấy 2026-10-10, hiệu lực 2026-01-08)",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "2.000635",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "2.000635",
+     "title": "Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh",
+     "rrf": 1.0,
+     "family": "1.001193",
+     "lexical": 0.7059,
+     "core": 1.0,
+     "field": "Hộ tịch",
+     "score": 0.8235
+    },
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.9250955,
+     "family": "1.001193",
+     "lexical": 0.3636,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.5882
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.961177,
+     "family": "1.001193",
+     "lexical": 0.1905,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.4988
+    },
+    {
+     "procedure_id": "1.001695",
+     "title": "Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài",
+     "rrf": 0.9471469999999999,
+     "family": "1.001193",
+     "lexical": 0.1818,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.4879
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.9393389999999999,
+     "family": "1.001193",
+     "lexical": 0.1667,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.4758
+    },
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.3333,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.2
+    },
+    {
+     "procedure_id": "1.003583",
+     "title": "Thủ tục đăng ký khai sinh lưu động",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.3077,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.1846
+    },
+    {
+     "procedure_id": "2.000528",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.25,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.15
+    },
+    {
+     "procedure_id": "2.000522",
+     "title": "Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2353,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.1412
+    },
+    {
+     "procedure_id": "1.000689",
+     "title": "Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2353,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.1412
+    },
+    {
+     "procedure_id": "1.000110",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1905,
+     "core": 0.4,
+     "field": "Hộ tịch",
+     "score": 0.1143
+    }
+   ],
+   "claims": [
+    {
+     "text": "- 8.000 đồng (8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký) — phạm vi: toàn quốc — theo nguồn https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html, ngày lấy 2026-10-10 [db:fees:2.000635:1]",
+     "type": "core",
+     "evidence_ids": [
+      "db:fees:2.000635:1"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "- miễn lệ phí (người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật) — phạm vi: toàn quốc — theo nguồn https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-2.000635.html, ngày lấy 2026-10-10 [db:fees:2.000635:2]",
+     "type": "core",
+     "evidence_ids": [
+      "db:fees:2.000635:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "- 8.000 đồng (8.000 đồng /bản sao Trích lục/sự kiện hộ tịch đã đăng ký) — phạm vi: Đắk Lắk — theo nguồn https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf, ngày lấy 2026-10-10 [db:fees:2.000635:3]",
+     "type": "core",
+     "evidence_ids": [
+      "db:fees:2.000635:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Lệ phí cấp bản sao trích lục khai sinh tại Đắk Lắk là 8.000 đồng cho mỗi bản [db:fees:2.000635:3].",
+     "type": "minor",
+     "evidence_ids": [
+      "db:fees:2.000635:3"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Người thuộc gia đình có công với cách mạng, hộ nghèo hoặc người khuyết tật được miễn lệ phí toàn quốc [db:fees:2.000635:2].",
+     "type": "minor",
+     "evidence_ids": [
+      "db:fees:2.000635:2"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Lệ phí áp dụng chung trên cả nước cũng là 8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký [db:fees:2.000635:1].",
+     "type": "minor",
+     "evidence_ids": [
+      "db:fees:2.000635:1"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:fees:2.000635:1",
+    "db:fees:2.000635:2",
+    "db:fees:2.000635:3"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:2.000635:summary",
+    "db:procedures:2.000635:processing_time",
+    "db:procedures:2.000635:channels",
+    "db:procedures:2.000635:conditions",
+    "db:procedures:2.000635:legal_basis",
+    "db:procedures:2.000635:fee_summary",
+    "db:procedures:2.000635:agency_summary",
+    "db:agencies:2.000635:1",
+    "db:fees:2.000635:1",
+    "db:fees:2.000635:2",
+    "db:fees:2.000635:3",
+    "doc:2.000635:fees:0"
+   ],
+   "contexts": [
+    "Thủ tục: Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh (mã 2.000635). Lĩnh vực: Hộ tịch. Cấp thực hiện: cấp tỉnh / cấp xã.",
+    "Thời hạn giải quyết: Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.",
+    "Cách thức thực hiện: Trực tuyến; Qua bưu chính công ích; Trực tiếp",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: Thông tư số 281/2016/TT-BTC – quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin trong cơ sở dữ liệu hộ tịch, phí xác nhận có quốc tịch Việt Nam, phí xác nhận là người gốc Việt Nam, lệ phí quốc tịch; 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC; 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.; 85/2019/TT-BTC – Thông tư số 85/2019/TT-BTC ngày 29 tháng 11 năm 2019 của Bộ trưởng Bộ Tài chính hướng dẫn về phí và lệ phí thuộc thẩm quyền quyết định của HĐND tỉnh, thành phố trực thuộc Trung ương (được sửa đổi bổ sung tại Thông tư số 106/2021/TT-BTC ngày 26 tháng 11 năm 2021 và Thông tư số 75/2022/TT-BTC ngày 22 tháng 12 năm 2022 của Bộ trưởng Bộ Tài chính); 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP; 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.; 66.7/2025/NQ-CP; 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp; Thông tư số 03/2023/TT-BTP – Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp; 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp; 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch; 87/2020/NĐ-CP – Nghị định 87/2020/NĐ-CP; 60/2014/QH13 – Luật 60/2014/QH13; 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP; 01/2022/TT-BTP – Thông tư sửa đổi; 281/2016/TT-BTC – Thông tư 281/2016/TT-BTC",
+    "Lệ phí (tóm tắt): 8.000 đồng — 8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký (toàn quốc); miễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc); 8.000 đồng — 8.000 đồng /bản sao Trích lục/sự kiện hộ tịch đã đăng ký (Đắk Lắk)",
+    "Cơ quan thực hiện (tóm tắt): Cơ quan quản lý Cơ sở dữ liệu hộ tịch điện tử (Sở Tư pháp, UBND cấp xã) (toàn quốc)",
+    "Cơ quan thực hiện: Cơ quan quản lý Cơ sở dữ liệu hộ tịch điện tử (Sở Tư pháp, UBND cấp xã) — phạm vi: toàn quốc",
+    "Lệ phí: 8.000 đồng — điều kiện: 8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký — phạm vi: toàn quốc",
+    "Lệ phí: miễn lệ phí — điều kiện: người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật — phạm vi: toàn quốc",
+    "Lệ phí: 8.000 đồng — điều kiện: 8.000 đồng /bản sao Trích lục/sự kiện hộ tịch đã đăng ký — phạm vi: Đắk Lắk",
+    "[Thủ tục: Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh] [Mục: Phí, lệ phí] 8.000 đồng — 8.000 đồng/bản sao Trích lục/sự kiện hộ tịch đã đăng ký (toàn quốc)\nmiễn lệ phí — người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật (toàn quốc)\n8.000 đồng — 8.000 đồng /bản sao Trích lục/sự kiện hộ tịch đã đăng ký (Đắk Lắk)"
+   ],
+   "context_ids": [
+    "db:procedures:2.000635:summary",
+    "db:procedures:2.000635:processing_time",
+    "db:procedures:2.000635:channels",
+    "db:procedures:2.000635:conditions",
+    "db:procedures:2.000635:legal_basis",
+    "db:procedures:2.000635:fee_summary",
+    "db:procedures:2.000635:agency_summary",
+    "db:agencies:2.000635:1",
+    "db:fees:2.000635:1",
+    "db:fees:2.000635:2",
+    "db:fees:2.000635:3",
+    "doc:2.000635:fees:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": false,
+    "reasons": [],
+    "change_notices": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "ở BMT xin bản sao trích lục khai sinh hết bao nhiu tiền vậy",
+   "category": "jurisdiction_fee",
+   "latency_s": 6.834,
+   "llm_calls": 3,
+   "trace_id": "0a56fd6a248dfb4b2a91113ae9c82ecd"
+  },
+  "H-010": {
+   "outcome": "refuse",
+   "answer": "Kho thủ tục hiện không có thủ tục này, nên tôi không liệt kê hồ sơ hay lệ phí để tránh thông tin sai.\nGợi ý: thủ tục hành chính thường do UBND cấp xã, Sở hoặc Bộ quản lý lĩnh vực tiếp nhận; vui lòng tra cứu tại https://dichvucong.gov.vn hoặc hỏi bộ phận một cửa nơi bạn cư trú.",
+   "refusal_type": "not_in_corpus",
+   "refusal": {
+    "type": "not_in_corpus",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.010038",
+     "title": "Tách hộ",
+     "rrf": 0.9121634999999999,
+     "family": "1.010038",
+     "lexical": 0.1818,
+     "core": 0.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4739
+    },
+    {
+     "procedure_id": "1.004222",
+     "title": "Đăng ký thường trú",
+     "rrf": 0.9765489999999999,
+     "family": "1.004222",
+     "lexical": 0.0,
+     "core": 0.1429,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.3906
+    },
+    {
+     "procedure_id": "2.000547",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)",
+     "rrf": 0.909754,
+     "family": "1.001193",
+     "lexical": 0.0444,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3905
+    },
+    {
+     "procedure_id": "1.004746",
+     "title": "Thủ tục đăng ký lại kết hôn",
+     "rrf": 0.9540705,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3816
+    },
+    {
+     "procedure_id": "1.000894",
+     "title": "Thủ tục đăng ký kết hôn",
+     "rrf": 0.953369,
+     "family": "1.000894",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3813
+    },
+    {
+     "procedure_id": "1.004837",
+     "title": "Thủ tục đăng ký giám hộ",
+     "rrf": 0.0,
+     "family": "1.004837",
+     "lexical": 0.1538,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0923
+    },
+    {
+     "procedure_id": "3.000323",
+     "title": "Đăng ký giám sát việc giám hộ",
+     "rrf": 0.0,
+     "family": "3.000323",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "1.004845",
+     "title": "Thủ tục đăng ký chấm dứt giám hộ",
+     "rrf": 0.0,
+     "family": "1.004845",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "2.002516",
+     "title": "Thủ tục xác nhận thông tin hộ tịch",
+     "rrf": 0.0,
+     "family": "2.002516",
+     "lexical": 0.1333,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "1.010041",
+     "title": "Xác nhận thông tin về cư trú",
+     "rrf": 0.0,
+     "family": "1.010041",
+     "lexical": 0.125,
+     "core": 0.2857,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.075
+    },
+    {
+     "procedure_id": "3.000322",
+     "title": "Đăng ký chấm dứt giám sát việc giám hộ",
+     "rrf": 0.0,
+     "family": "3.000322",
+     "lexical": 0.1176,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0706
+    },
+    {
+     "procedure_id": "1.001669",
+     "title": "Thủ tục đăng ký giám hộ có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.004837",
+     "lexical": 0.1111,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0667
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.0,
+     "family": "1.004194",
+     "lexical": 0.0741,
+     "core": 0.2857,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.0445
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "cưới xong muốn nhập hộ khẩu về nhà chồng thì cần giấy tờ gì",
+   "category": "in_corpus_structured",
+   "latency_s": 8.451,
+   "llm_calls": 3,
+   "trace_id": "6438a5ff2e7d7025608be1e204c361f9"
+  },
+  "H-011": {
+   "outcome": "refuse",
+   "answer": "Tôi chưa đủ căn cứ trong kho thủ tục để trả lời về: nội dung bạn hỏi.\nThủ tục đã xác định: Đăng ký tạm trú.\nĐể được hướng dẫn chính xác, vui lòng liên hệ: Công an Xã — https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26356.\n(Dữ liệu lấy ngày 2026-10-10; cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025.)",
+   "refusal_type": "insufficient_evidence",
+   "refusal": {
+    "type": "insufficient_evidence",
+    "agency": "Công an Xã",
+    "portal_url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26356",
+    "missing": [],
+    "procedure_id": "1.004194",
+    "title": "Đăng ký tạm trú"
+   },
+   "procedure_id": "1.004194",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.004194",
+     "title": "Đăng ký tạm trú",
+     "rrf": 0.983869,
+     "family": "1.004194",
+     "lexical": 0.5333,
+     "core": 1.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.7135,
+     "rescued": true
+    },
+    {
+     "procedure_id": "1.010028",
+     "title": "Xóa đăng ký tạm trú",
+     "rrf": 0.968253,
+     "family": "1.004194",
+     "lexical": 0.5,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.6873
+    },
+    {
+     "procedure_id": "1.004222",
+     "title": "Đăng ký thường trú",
+     "rrf": 0.969229,
+     "family": "1.004222",
+     "lexical": 0.4,
+     "core": 0.125,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.6277
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.9765489999999999,
+     "family": "1.004194",
+     "lexical": 0.2759,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5562
+    },
+    {
+     "procedure_id": "1.002755",
+     "title": "Gia hạn tạm trú",
+     "rrf": 0.9458049999999999,
+     "family": "1.004194",
+     "lexical": 0.2667,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5383
+    },
+    {
+     "procedure_id": "1.003197",
+     "title": "Xóa đăng ký thường trú",
+     "rrf": 0.0,
+     "family": "1.004222",
+     "lexical": 0.375,
+     "core": 0.125,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.225
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.32,
+     "core": 0.125,
+     "field": "Hộ tịch",
+     "score": 0.192
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2857,
+     "core": 0.125,
+     "field": "Hộ tịch",
+     "score": 0.1714
+    },
+    {
+     "procedure_id": "1.003677",
+     "title": "Khai báo tạm vắng",
+     "rrf": 0.0,
+     "family": "1.003677",
+     "lexical": 0.1333,
+     "core": 0.125,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.08
+    },
+    {
+     "procedure_id": "1.010041",
+     "title": "Xác nhận thông tin về cư trú",
+     "rrf": 0.0,
+     "family": "1.010041",
+     "lexical": 0.1111,
+     "core": 0.125,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.0667
+    }
+   ],
+   "claims": [
+    {
+     "text": "Người thuê trọ cần chuẩn bị văn bản cho thuê, cho mượn hoặc cho ở nhờ nhà ở của cá nhân, tổ chức làm giấy tờ chứng minh chỗ ở hợp pháp.",
+     "type": "minor",
+     "evidence_ids": [],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Sau đó nộp hồ sơ đến Công an cấp xã để thực hiện thủ tục đăng ký tạm trú theo quy trình tiếp nhận và thẩm định thông tin.",
+     "type": "minor",
+     "evidence_ids": [],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Thời hạn giải quyết là 03 ngày làm việc kể từ khi cơ quan này nhận được hồ sơ đầy đủ và hợp lệ.",
+     "type": "minor",
+     "evidence_ids": [],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Không có căn cứ về: trình tự thực hiện",
+     "type": "core",
+     "evidence_ids": [],
+     "verdict": "unsupported"
+    }
+   ],
+   "cited_ids": [],
+   "state_evidence_ids": [
+    "db:procedures:1.004194:summary",
+    "db:procedures:1.004194:processing_time",
+    "db:procedures:1.004194:channels",
+    "db:procedures:1.004194:conditions",
+    "db:procedures:1.004194:legal_basis",
+    "db:procedures:1.004194:fee_summary",
+    "db:procedures:1.004194:agency_summary",
+    "db:agencies:1.004194:1",
+    "doc:1.004194:steps:ae2471da-5",
+    "doc:1.004194:steps:ae2471da-1"
+   ],
+   "contexts": [
+    "Thủ tục: Đăng ký tạm trú (mã 1.004194). Lĩnh vực: Đăng ký, quản lý cư trú. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc",
+    "Cách thức thực hiện: Trực tiếp; Trực tuyến",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: Luật 68/2020/QH14 Số: 68/2020/QH14; Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA; Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA; Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA; Thông tư 85/2019/TT-BTC Số: 85/2019/TT-BTC",
+    "Lệ phí (tóm tắt): miễn lệ phí — Lệ phí: trang ghi \"Không\" (toàn quốc)",
+    "Cơ quan thực hiện (tóm tắt): Công an Xã (toàn quốc)",
+    "Cơ quan thực hiện: Công an Xã — phạm vi: toàn quốc",
+    "[Thủ tục: Đăng ký tạm trú] [Văn bản: Hướng dẫn THỦ TỤC ĐĂNG KÝ TẠM TRÚ] [Mục: *Luu ý:] - Trường hợp giấy tờ, tài liệu chứng minh chỗ ở hợp pháp để đăng ký tạm trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ là văn bản cho thuê, cho mượn, cho ở nhờ nhà ở, nhà khác của cá nhân, tổ chức thì văn bản đó không bắt buộc phải công chứng hoặc chứng thực.\n- Người nước ngoài được nhập quốc tịch Việt Nam khi đăng ký tạm trú lần đầu phải có Quyết định của Chủ tịch nước về việc cho nhập quốc tịch Việt Nam. Người gốc Việt Nam được trở lại quốc tịch Việt Nam khi đăng ký tạm trú lần đầu sau khi được cho trở lại quốc tịch Việt Nam phải có Quyết định của Chủ tịch nước về việc cho trở lại quốc tịch Việt Nam trừ trường hợp đã khai thác được thông tin trong Cơ sở dữ liệu quốc tịch.\n- Công dân đăng ký tạm trú về với hộ gia đình thuộc trường hợp quy định tại khoản 2 Điều 20 Luật Cư trú khi chủ hộ, chủ sở hữu chỗ ở hợp pháp đồng ý và không phải xuất trình, cung cấp giấy tờ chứng minh chỗ ở hợp pháp.\n- Trong thời hạn tối đa 60 ngày kể từ ngày người chưa thành niên được đăng ký khai sinh thì phải thực hiện thủ tục đăng ký cư trú.\nSố lượng hồ sơ: 01 bộ hồ sơ.\nThời hạn giải quyết: Thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, cơ quan đăng ký cư trú có trách nhiệm thẩm định, cập nhật thông tin về nơi tạm trú mới của người đăng ký vào Cơ sở dữ liệu về cư trú và thông báo cho người đăng ký về việc đã cập nhật thông tin đăng ký tạm trú; trường hợp từ chối đăng ký thì phải trả lời bằng văn bản và nêu rõ lý do.\n- Trường hợp công dân nộp hồ sơ đăng ký tạm trú và Tờ khai đề nghị xác nhận nơi thường xuyên đậu, đỗ; sử dụng phương tiện vào mục đích để ở hoặc Tờ khai xác nhận tình trạng chỗ ở hợp pháp, diện tích nhà ở tối thiểu để đăng ký thường trú, đăng ký tạm trú đến cơ quan đăng ký cư trú thì thời hạn giải quyết của Ủy ban nhân dân cấp xã không tính vào thời hạn giải quyết hồ sơ đăng ký tạm trú.\nĐối tượng thực hiện thủ tục hành chính: Cơ quan, tổ chức, cá nhân có liên quan đến đăng ký tạm trú.\nCơ quan thực hiện thủ tục hành chính: Công an cấp xã.",
+    "[Thủ tục: Đăng ký tạm trú] [Văn bản: Hướng dẫn THỦ TỤC ĐĂNG KÝ TẠM TRÚ] [Mục: Trình tự thực hiện:] Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\nBước 3: Khi tiếp nhận hồ sơ đăng ký tạm trú, cán bộ đăng ký kiểm tra hồ sơ, đối chiếu các thông tin mà công dân đã khai báo với thông tin trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu về cư trú, cơ sở dữ liệu khác có liên quan, hệ thống thông tin, Kho quản lý dữ liệu điện tử của tổ chức, cá nhân để kiểm tra tính chính xác các thông tin. Đối chiếu với các quy định của pháp luật về cư trú và thực hiện như sau:\n- Trường hợp hồ sơ đủ điều kiện theo quy định tại Điều 27 Luật Cư trú thì cán bộ đăng ký tiếp nhận và cấp Phiểu tiếp nhận hồ sơ và hẹn trả kết quả (Mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\nBước 4: Cá nhân, tổ chức nộp lệ phí đăng ký tạm trú theo quy định.\nBước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+   ],
+   "context_ids": [
+    "db:procedures:1.004194:summary",
+    "db:procedures:1.004194:processing_time",
+    "db:procedures:1.004194:channels",
+    "db:procedures:1.004194:conditions",
+    "db:procedures:1.004194:legal_basis",
+    "db:procedures:1.004194:fee_summary",
+    "db:procedures:1.004194:agency_summary",
+    "db:agencies:1.004194:1",
+    "doc:1.004194:steps:ae2471da-5",
+    "doc:1.004194:steps:ae2471da-1"
+   ],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "sv đi học thuê trọ có phải đk tạm trú ko, mà đk ở đâu vậy",
+   "category": "in_corpus_structured",
+   "latency_s": 22.886,
+   "llm_calls": 8,
+   "trace_id": "89d49fef36f241122454dd244b040760"
+  },
+  "H-012": {
+   "outcome": "answer",
+   "answer": "Không đúng — theo dữ liệu thủ tục, thời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc [db:procedures:1.002755:processing_time]\n\nThời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc [db:procedures:1.002755:processing_time]\n\nNguồn:\n- [db:procedures:1.002755:processing_time] https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26345 (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ.\n\nLưu ý: thủ tục này có thay đổi theo «Quy định mới về lĩnh vực cư trú, góp phần nâng cao chất lượng phục vụ nhân dân», hiệu lực 01/07/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-linh-vuc-cu-tru-gop-phan-nang-cao-chat-luong-phuc-vu-nhan-dan-1783934790\n\nLưu ý: thủ tục này có thay đổi theo «Luật số 118/2025/QH15 sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự», hiệu lực 01/07/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://xaydungchinhsach.chinhphu.vn/luat-so-118-2025-qh15-sua-doi-bo-sung-mot-so-dieu-cua-10-luat-co-lien-quan-den-an-ninh-trat-tu-119251229111316641.htm\n\nvà 1 văn bản khác (xem nguồn).",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.002755",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.002755",
+     "title": "Gia hạn tạm trú",
+     "rrf": 1.0,
+     "family": "1.004194",
+     "lexical": 0.8,
+     "core": 1.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.88
+    },
+    {
+     "procedure_id": "1.004194",
+     "title": "Đăng ký tạm trú",
+     "rrf": 0.983869,
+     "family": "1.004194",
+     "lexical": 0.4,
+     "core": 0.5,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.6335
+    },
+    {
+     "procedure_id": "1.010028",
+     "title": "Xóa đăng ký tạm trú",
+     "rrf": 0.9606889999999999,
+     "family": "1.004194",
+     "lexical": 0.3636,
+     "core": 0.5,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.6024
+    },
+    {
+     "procedure_id": "1.003677",
+     "title": "Khai báo tạm vắng",
+     "rrf": 0.931348,
+     "family": "1.003677",
+     "lexical": 0.2,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4925
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.9606889999999999,
+     "family": "1.004194",
+     "lexical": 0.1667,
+     "core": 0.5,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4843
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.12
+    },
+    {
+     "procedure_id": "1.004222",
+     "title": "Đăng ký thường trú",
+     "rrf": 0.0,
+     "family": "1.004222",
+     "lexical": 0.2,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.12
+    },
+    {
+     "procedure_id": "1.003197",
+     "title": "Xóa đăng ký thường trú",
+     "rrf": 0.0,
+     "family": "1.004222",
+     "lexical": 0.1818,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.1091
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1739,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1043
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.1538,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0923
+    }
+   ],
+   "claims": [
+    {
+     "text": "Không đúng — theo dữ liệu thủ tục, thời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc [db:procedures:1.002755:processing_time]",
+     "type": "core",
+     "evidence_ids": [
+      "db:procedures:1.002755:processing_time"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Thời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc [db:procedures:1.002755:processing_time]",
+     "type": "core",
+     "evidence_ids": [
+      "db:procedures:1.002755:processing_time"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:procedures:1.002755:processing_time"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.002755:summary",
+    "db:procedures:1.002755:processing_time",
+    "db:procedures:1.002755:channels",
+    "db:procedures:1.002755:conditions",
+    "db:procedures:1.002755:legal_basis",
+    "db:procedures:1.002755:fee_summary",
+    "db:procedures:1.002755:agency_summary",
+    "db:agencies:1.002755:1"
+   ],
+   "contexts": [
+    "Thủ tục: Gia hạn tạm trú (mã 1.002755). Lĩnh vực: Đăng ký, quản lý cư trú. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc",
+    "Cách thức thực hiện: Trực tiếp; Trực tuyến",
+    "Điều kiện: Trong thời hạn 15 ngày trước ngày kết thúc thời hạn tạm trú đã đăng ký, công dân phải làm thủ tục gia hạn tạm trú.",
+    "Căn cứ pháp lý: Luật 68/2020/QH14 Số: 68/2020/QH14; Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA; Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA; Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Lệ phí (tóm tắt): miễn phí — Phí: trang ghi \"Không\" (toàn quốc); miễn lệ phí — Lệ phí: trang ghi \"Không\" (toàn quốc)",
+    "Cơ quan thực hiện (tóm tắt): Công an Xã (toàn quốc)",
+    "Cơ quan thực hiện: Công an Xã — phạm vi: toàn quốc"
+   ],
+   "context_ids": [
+    "db:procedures:1.002755:summary",
+    "db:procedures:1.002755:processing_time",
+    "db:procedures:1.002755:channels",
+    "db:procedures:1.002755:conditions",
+    "db:procedures:1.002755:legal_basis",
+    "db:procedures:1.002755:fee_summary",
+    "db:procedures:1.002755:agency_summary",
+    "db:agencies:1.002755:1"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "change_notice"
+    ],
+    "change_notices": [
+     {
+      "doc_id": "change:bca:quy-dinh-moi-cu-tru-2026",
+      "title": "Quy định mới về lĩnh vực cư trú, góp phần nâng cao chất lượng phục vụ nhân dân",
+      "effective_date": "2026-07-01",
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-linh-vuc-cu-tru-gop-phan-nang-cao-chat-luong-phuc-vu-nhan-dan-1783934790"
+     },
+     {
+      "doc_id": "change:xdcs:luat-118-2025",
+      "title": "Luật số 118/2025/QH15 sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự",
+      "effective_date": "2026-07-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/luat-so-118-2025-qh15-sua-doi-bo-sung-mot-so-dieu-cua-10-luat-co-lien-quan-den-an-ninh-trat-tu-119251229111316641.htm"
+     },
+     {
+      "doc_id": "change:xdcs:luat-cu-tru-sua-doi-tt-116-2026",
+      "title": "Một số điểm mới cơ bản của Luật Cư trú (sửa đổi) và Thông tư 116/2026/TT-BCA",
+      "effective_date": "2026-07-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/mot-so-diem-moi-co-ban-cua-luat-cu-tru-sua-doi-va-thong-tu-116-2026-tt-bca-119260714094901372.htm"
+     }
+    ],
+    "web_links": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "tạm trú của mình còn có 1 tuần là hết hạn, giờ đi gia hạn còn kịp ko hay phải đăng ký lại từ đầu",
+   "category": "in_corpus_narrative",
+   "latency_s": 4.774,
+   "llm_calls": 2,
+   "trace_id": "ce82fa0e507e1472e95a14ae5cf0bef3"
+  },
+  "H-013": {
+   "outcome": "refuse",
+   "answer": "Tôi chưa đủ căn cứ trong kho thủ tục để trả lời về: Công dân thực hiện khai báo tạm vắng tại Công an cấp xã nơi đến ở ., Thời gian giải quyết hồ sơ trong 01 ngày làm việc, trường hợp phức tạp không quá, Kết quả là cơ quan đăng ký cư trú cập nhật thông tin vào Cơ sở dữ liệu về cư trú.\nThủ tục đã xác định: Khai báo tạm vắng.\nĐể được hướng dẫn chính xác, vui lòng liên hệ: Công an Xã — https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26351.\n(Dữ liệu lấy ngày 2026-10-10; cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025.)",
+   "refusal_type": "insufficient_evidence",
+   "refusal": {
+    "type": "insufficient_evidence",
+    "agency": "Công an Xã",
+    "portal_url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26351",
+    "missing": [
+     "Công dân thực hiện khai báo tạm vắng tại Công an cấp xã nơi đến ở .",
+     "Thời gian giải quyết hồ sơ trong 01 ngày làm việc, trường hợp phức tạp không quá",
+     "Kết quả là cơ quan đăng ký cư trú cập nhật thông tin vào Cơ sở dữ liệu về cư trú"
+    ],
+    "procedure_id": "1.003677",
+    "title": "Khai báo tạm vắng"
+   },
+   "procedure_id": "1.003677",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.003677",
+     "title": "Khai báo tạm vắng",
+     "rrf": 1.0,
+     "family": "1.003677",
+     "lexical": 1.0,
+     "core": 1.0,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 1.0
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.983869,
+     "family": "1.004194",
+     "lexical": 0.2727,
+     "core": 0.6667,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5572
+    },
+    {
+     "procedure_id": "1.004194",
+     "title": "Đăng ký tạm trú",
+     "rrf": 0.9606889999999999,
+     "family": "1.004194",
+     "lexical": 0.25,
+     "core": 0.3333,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5343
+    },
+    {
+     "procedure_id": "1.002755",
+     "title": "Gia hạn tạm trú",
+     "rrf": 0.9458049999999999,
+     "family": "1.004194",
+     "lexical": 0.25,
+     "core": 0.3333,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5283
+    },
+    {
+     "procedure_id": "1.010028",
+     "title": "Xóa đăng ký tạm trú",
+     "rrf": 0.953369,
+     "family": "1.004194",
+     "lexical": 0.2222,
+     "core": 0.3333,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.5147
+    },
+    {
+     "procedure_id": "1.000656",
+     "title": "Thủ tục đăng ký khai tử",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.25,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.15
+    },
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.25,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.15
+    },
+    {
+     "procedure_id": "1.005461",
+     "title": "Đăng ký lại khai tử",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.2222,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.1333
+    },
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2222,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.1333
+    },
+    {
+     "procedure_id": "1.000419",
+     "title": "Thủ tục đăng ký khai tử lưu động",
+     "rrf": 0.0,
+     "family": "1.000656",
+     "lexical": 0.2,
+     "core": 0.3333,
+     "field": "Hộ tịch",
+     "score": 0.12
+    }
+   ],
+   "claims": [
+    {
+     "text": "Công dân thực hiện khai báo tạm vắng tại Công an cấp xã nơi đến ở [doc:1.003677:steps:074d37c4-3].",
+     "type": "core",
+     "evidence_ids": [
+      "doc:1.003677:steps:074d37c4-3"
+     ],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Thời gian giải quyết hồ sơ trong 01 ngày làm việc, trường hợp phức tạp không quá 02 ngày làm việc kể từ khi tiếp nhận đề nghị của công dân [doc:1.003677:steps:074d37c4-3].",
+     "type": "core",
+     "evidence_ids": [
+      "doc:1.003677:steps:074d37c4-3"
+     ],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Kết quả là cơ quan đăng ký cư trú cập nhật thông tin vào Cơ sở dữ liệu về cư trú và cấp Phiếu khai báo tạm vắng cho người đi làm ăn xa tỉnh khác [doc:1.003677:steps:074d37c4-3].",
+     "type": "core",
+     "evidence_ids": [
+      "doc:1.003677:steps:074d37c4-3"
+     ],
+     "verdict": "unsupported"
+    },
+    {
+     "text": "Không có căn cứ về: trình tự thực hiện",
+     "type": "core",
+     "evidence_ids": [],
+     "verdict": "unsupported"
+    }
+   ],
+   "cited_ids": [
+    "doc:1.003677:steps:074d37c4-3"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.003677:summary",
+    "db:procedures:1.003677:processing_time",
+    "db:procedures:1.003677:channels",
+    "db:procedures:1.003677:conditions",
+    "db:procedures:1.003677:legal_basis",
+    "db:procedures:1.003677:fee_summary",
+    "db:procedures:1.003677:agency_summary",
+    "db:agencies:1.003677:1",
+    "doc:1.003677:steps:074d37c4-3"
+   ],
+   "contexts": [
+    "Thủ tục: Khai báo tạm vắng (mã 1.003677). Lĩnh vực: Đăng ký, quản lý cư trú. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Trực tiếp: 01 Ngày làm việc; Trực tuyến: 01 Ngày làm việc",
+    "Cách thức thực hiện: Trực tiếp; Trực tuyến",
+    "Điều kiện: - Trường hợp người quy định tại điểm d khoản 1 Điều 31 Luật Cư trú là người chưa thành niên thì người thực hiện khai báo là cha, mẹ hoặc người giám hộ.\n- Nội dung khai báo tạm vắng bao gồm họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.",
+    "Căn cứ pháp lý: Luật 68/2020/QH14 Số: 68/2020/QH14; Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA; Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA; Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Lệ phí (tóm tắt): miễn phí — Phí: trang ghi \"Không\" (toàn quốc); miễn lệ phí — Lệ phí: trang ghi \"Không\" (toàn quốc)",
+    "Cơ quan thực hiện (tóm tắt): Công an Xã (toàn quốc)",
+    "Cơ quan thực hiện: Công an Xã — phạm vi: toàn quốc",
+    "[Thủ tục: Khai báo tạm vắng] [Văn bản: Bộ Công an hướng dẫn thủ tục khai báo tạm vắng] [Mục: Thành phần hồ sơ:] - Trường hợp công dân thuộc quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú, hồ sơ gồm:\n+ Đề nghị khai báo tạm vắng;\n+ Văn bản đồng ý của cơ quan có thẩm quyền giám sát, quản lý, giáo dục người đó.\n- Trường hợp thuộc quy định tại điểm c, điểm d khoản 1 Điều 31 Luật Cư trú, nội dung khai báo tạm vắng gồm: họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.\nSố lượng hồ sơ: 01 (một) bộ.\nThời hạn giải quyết : Trong thời gian 01 ngày kể từ khi tiếp nhận đề nghị khai báo tạm vắng của công dân; trường hợp phức tạp thì có thể kéo dài hơn nhưng không quá 02 ngày làm việc.\nĐối tượng thực hiện thủ tục hành chính : Cơ quan, tổ chức, cá nhân có liên quan đến khai báo tạm vắng.\nCơ quan thực hiện thủ tục hành chính : Công an cấp xã.\nKết quả thực hiện thủ tục hành chính : Trường hợp hồ sơ đầy đủ, hợp lệ cơ quan đăng ký cư trú có trách nhiệm cập nhật thông tin khai báo tạm vắng của công dân vào Cơ sở dữ liệu về cư trú và thông báo kết quả và cấp Phiếu khai báo tạm vắng cho công dân (Mẫu CT03 và CT08 ban hành kèm theo Thông tư số 66/2023/TT-BCA).\nPhí, lệ phí : Không.\nTên mẫu đơn, mẫu tờ khai : Không"
+   ],
+   "context_ids": [
+    "db:procedures:1.003677:summary",
+    "db:procedures:1.003677:processing_time",
+    "db:procedures:1.003677:channels",
+    "db:procedures:1.003677:conditions",
+    "db:procedures:1.003677:legal_basis",
+    "db:procedures:1.003677:fee_summary",
+    "db:procedures:1.003677:agency_summary",
+    "db:agencies:1.003677:1",
+    "doc:1.003677:steps:074d37c4-3"
+   ],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "đi làm ăn xa tỉnh khác thì khai báo tạm vắng ở đâu, bao lâu xong",
+   "category": "in_corpus_structured",
+   "latency_s": 20.546,
+   "llm_calls": 7,
+   "trace_id": "4a53bae825ce1980d93569e2d2e13a2d"
+  },
+  "H-014": {
+   "outcome": "answer",
+   "answer": "Thời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 01 Ngày làm việc [db:procedures:1.010041:processing_time]\n\nNếu nộp trực tiếp thì cần mất 03 ngày làm việc để hoàn tất thủ tục xác nhận thông tin về cư trú [db:procedures:1.010041:processing_time].\n\nNguồn:\n- [db:procedures:1.010041:processing_time] https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26497 (ngày lấy 2026-10-10)\n\nLưu ý: thông tin có thể đã thay đổi (cơ quan tiếp nhận có thể đã thay đổi sau sắp xếp đơn vị hành chính 2025); vui lòng xác nhận tại cơ quan tiếp nhận trước khi nộp hồ sơ.\n\nLưu ý: thủ tục này có thay đổi theo «Quy định mới về lĩnh vực cư trú, góp phần nâng cao chất lượng phục vụ nhân dân», hiệu lực 01/07/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-linh-vuc-cu-tru-gop-phan-nang-cao-chat-luong-phuc-vu-nhan-dan-1783934790\n\nLưu ý: thủ tục này có thay đổi theo «Luật số 118/2025/QH15 sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự», hiệu lực 01/07/2026; vui lòng kiểm tra lại trước khi nộp hồ sơ. Nguồn: https://xaydungchinhsach.chinhphu.vn/luat-so-118-2025-qh15-sua-doi-bo-sung-mot-so-dieu-cua-10-luat-co-lien-quan-den-an-ninh-trat-tu-119251229111316641.htm\n\nvà 1 văn bản khác (xem nguồn).",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "1.010041",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.010041",
+     "title": "Xác nhận thông tin về cư trú",
+     "rrf": 0.991921,
+     "family": "1.010041",
+     "lexical": 0.4444,
+     "core": 0.75,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.6634
+    },
+    {
+     "procedure_id": "2.002516",
+     "title": "Thủ tục xác nhận thông tin hộ tịch",
+     "rrf": 0.9485195,
+     "family": "2.002516",
+     "lexical": 0.3529,
+     "core": 0.25,
+     "field": "Hộ tịch",
+     "score": 0.5911
+    },
+    {
+     "procedure_id": "1.010040",
+     "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+     "rrf": 0.9760610000000001,
+     "family": "1.004194",
+     "lexical": 0.1379,
+     "core": 0.5,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4732
+    },
+    {
+     "procedure_id": "1.004222",
+     "title": "Đăng ký thường trú",
+     "rrf": 0.9606889999999999,
+     "family": "1.004222",
+     "lexical": 0.1333,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4643
+    },
+    {
+     "procedure_id": "1.004194",
+     "title": "Đăng ký tạm trú",
+     "rrf": 0.9386984999999999,
+     "family": "1.004194",
+     "lexical": 0.1333,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.4555
+    },
+    {
+     "procedure_id": "1.004873",
+     "title": "Thủ tục cấp Giấy xác nhận tình trạng hôn nhân",
+     "rrf": 0.0,
+     "family": "1.004873",
+     "lexical": 0.3333,
+     "core": 0.25,
+     "field": "Hộ tịch",
+     "score": 0.2
+    },
+    {
+     "procedure_id": "1.004772",
+     "title": "Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.32,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.192
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.2857,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1714
+    },
+    {
+     "procedure_id": "3.000323",
+     "title": "Đăng ký giám sát việc giám hộ",
+     "rrf": 0.0,
+     "family": "3.000323",
+     "lexical": 0.2353,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1412
+    },
+    {
+     "procedure_id": "2.001178",
+     "title": "Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.001178",
+     "lexical": 0.2308,
+     "core": 0.25,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1385
+    },
+    {
+     "procedure_id": "1.002755",
+     "title": "Gia hạn tạm trú",
+     "rrf": 0.0,
+     "family": "1.004194",
+     "lexical": 0.1333,
+     "core": 0.25,
+     "field": "Đăng ký, quản lý cư trú",
+     "score": 0.08
+    }
+   ],
+   "claims": [
+    {
+     "text": "Thời gian giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 01 Ngày làm việc [db:procedures:1.010041:processing_time]",
+     "type": "core",
+     "evidence_ids": [
+      "db:procedures:1.010041:processing_time"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Nếu nộp trực tiếp thì cần mất 03 ngày làm việc để hoàn tất thủ tục xác nhận thông tin về cư trú [db:procedures:1.010041:processing_time].",
+     "type": "minor",
+     "evidence_ids": [
+      "db:procedures:1.010041:processing_time"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:procedures:1.010041:processing_time"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:1.010041:summary",
+    "db:procedures:1.010041:processing_time",
+    "db:procedures:1.010041:channels",
+    "db:procedures:1.010041:conditions",
+    "db:procedures:1.010041:legal_basis",
+    "db:procedures:1.010041:fee_summary",
+    "db:procedures:1.010041:agency_summary",
+    "db:agencies:1.010041:1",
+    "doc:1.010041:processing_time:0"
+   ],
+   "contexts": [
+    "Thủ tục: Xác nhận thông tin về cư trú (mã 1.010041). Lĩnh vực: Đăng ký, quản lý cư trú. Cấp thực hiện: cấp xã.",
+    "Thời hạn giải quyết: Trực tiếp: 03 Ngày làm việc; Trực tuyến: 01 Ngày làm việc",
+    "Cách thức thực hiện: Trực tiếp; Trực tuyến",
+    "Điều kiện: không",
+    "Căn cứ pháp lý: Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA; Luật 68/2020/QH14 Số: 68/2020/QH14; Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA; Nghị định 62/2021/NĐ-CP Số: 62/2021/NĐ-CP; Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Lệ phí (tóm tắt): miễn phí — Phí: trang ghi \"Không\" (toàn quốc); miễn lệ phí — Lệ phí: trang ghi \"Không\" (toàn quốc)",
+    "Cơ quan thực hiện (tóm tắt): Công an Xã (toàn quốc)",
+    "Cơ quan thực hiện: Công an Xã — phạm vi: toàn quốc",
+    "[Thủ tục: Xác nhận thông tin về cư trú] [Mục: Thời hạn giải quyết] Trực tiếp: 03 Ngày làm việc; Trực tuyến: 01 Ngày làm việc"
+   ],
+   "context_ids": [
+    "db:procedures:1.010041:summary",
+    "db:procedures:1.010041:processing_time",
+    "db:procedures:1.010041:channels",
+    "db:procedures:1.010041:conditions",
+    "db:procedures:1.010041:legal_basis",
+    "db:procedures:1.010041:fee_summary",
+    "db:procedures:1.010041:agency_summary",
+    "db:agencies:1.010041:1",
+    "doc:1.010041:processing_time:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": true,
+    "reasons": [
+     "change_notice"
+    ],
+    "change_notices": [
+     {
+      "doc_id": "change:bca:quy-dinh-moi-cu-tru-2026",
+      "title": "Quy định mới về lĩnh vực cư trú, góp phần nâng cao chất lượng phục vụ nhân dân",
+      "effective_date": "2026-07-01",
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-linh-vuc-cu-tru-gop-phan-nang-cao-chat-luong-phuc-vu-nhan-dan-1783934790"
+     },
+     {
+      "doc_id": "change:xdcs:luat-118-2025",
+      "title": "Luật số 118/2025/QH15 sửa đổi, bổ sung một số điều của 10 Luật có liên quan đến an ninh, trật tự",
+      "effective_date": "2026-07-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/luat-so-118-2025-qh15-sua-doi-bo-sung-mot-so-dieu-cua-10-luat-co-lien-quan-den-an-ninh-trat-tu-119251229111316641.htm"
+     },
+     {
+      "doc_id": "change:xdcs:luat-cu-tru-sua-doi-tt-116-2026",
+      "title": "Một số điểm mới cơ bản của Luật Cư trú (sửa đổi) và Thông tư 116/2026/TT-BCA",
+      "effective_date": "2026-07-01",
+      "url": "https://xaydungchinhsach.chinhphu.vn/mot-so-diem-moi-co-ban-cua-luat-cu-tru-sua-doi-va-thong-tu-116-2026-tt-bca-119260714094901372.htm"
+     }
+    ],
+    "web_links": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "xin giấy xác nhận cư trú để nộp hồ sơ xin việc, nộp online thì bao lâu mới có",
+   "category": "in_corpus_structured",
+   "latency_s": 7.701,
+   "llm_calls": 4,
+   "trace_id": "c9297449798df3ba7cedf6c834d20d78"
+  },
+  "H-015": {
+   "outcome": "out_of_scope",
+   "answer": "Câu hỏi này nằm ngoài phạm vi của trợ lý. Tôi có thể hướng dẫn thành phần hồ sơ, lệ phí, cơ quan tiếp nhận, thời gian giải quyết và trình tự thực hiện của các thủ tục hành chính (chủ yếu hộ tịch, cư trú, căn cước).\nTra cứu thủ tục: https://dichvucong.gov.vn",
+   "refusal_type": "out_of_scope",
+   "refusal": {
+    "type": "out_of_scope",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": null,
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "phòng trọ em chủ nhà ko chịu đưa sổ đỏ, vậy em có đk tạm trú được ko hay là bị từ chối",
+   "category": "out_of_scope",
+   "latency_s": 1.584,
+   "llm_calls": 1,
+   "trace_id": "2a5ae679e15509d35e335703fd491acf"
+  },
+  "H-016": {
+   "outcome": "clarify",
+   "answer": "Có nhiều thủ tục gần giống nhau. Bạn muốn hỏi thủ tục nào?\n(1) Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)\n(2) Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)\nVui lòng chọn một thủ tục (hoặc nêu rõ hơn trường hợp của bạn) để tôi trả lời chính xác.",
+   "refusal_type": "ambiguous",
+   "refusal": {
+    "type": "ambiguous",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null,
+    "candidates": [
+     "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)"
+    ]
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.991921,
+     "family": "2.000200",
+     "lexical": 0.5,
+     "core": 1.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6968
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.991921,
+     "family": "2.000200",
+     "lexical": 0.4706,
+     "core": 1.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6791
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "cccd bị rớt mất cùng cái bóp rồi, giờ làm lại ở đâu",
+   "category": "near_miss",
+   "latency_s": 4.047,
+   "llm_calls": 2,
+   "trace_id": "280557615093f722e061b6500420f698"
+  },
+  "H-017": {
+   "outcome": "answer",
+   "answer": "Đúng. Theo quy định, thời gian giải quyết trực tiếp là 07 ngày làm việc và thực hiện trực tuyến cũng mất 07 ngày làm việc [db:procedures:2.001195:processing_time].\n\nThời gian giải quyết: Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc [db:procedures:2.001195:processing_time]\n\nNguồn:\n- [db:procedures:2.001195:processing_time] https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26094 (ngày lấy 2026-10-10)",
+   "refusal_type": null,
+   "refusal": null,
+   "procedure_id": "2.001195",
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "2.001195",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.9684969999999998,
+     "family": "2.000200",
+     "lexical": 0.381,
+     "core": 1.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.616,
+     "rescued": true
+    },
+    {
+     "procedure_id": "1.000889",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.991921,
+     "family": "2.000200",
+     "lexical": 0.3636,
+     "core": 1.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6149,
+     "rescued": true
+    },
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.9462625,
+     "family": "2.000200",
+     "lexical": 0.381,
+     "core": 0.375,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6071
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.969229,
+     "family": "2.000200",
+     "lexical": 0.3636,
+     "core": 0.375,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6059
+    },
+    {
+     "procedure_id": "2.000200",
+     "title": "Cấp thẻ Căn cước cho người từ đủ 14 tuổi trở lên thực hiện tại Công an cấp tỉnh",
+     "rrf": 0.9462625,
+     "family": "2.000200",
+     "lexical": 0.2667,
+     "core": 0.2727,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.5385
+    },
+    {
+     "procedure_id": "1.014062",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi thực hiện tại Công an cấp xã",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2963,
+     "core": 0.25,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1778
+    },
+    {
+     "procedure_id": "1.012549",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.24,
+     "core": 0.25,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.144
+    },
+    {
+     "procedure_id": "1.004859",
+     "title": "Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc",
+     "rrf": 0.0,
+     "family": "1.004859",
+     "lexical": 0.2222,
+     "core": 0.25,
+     "field": "Hộ tịch",
+     "score": 0.1333
+    },
+    {
+     "procedure_id": "1.001247",
+     "title": "Cấp thẻ căn cước cho người từ đủ 14 tuổi trở lên (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2069,
+     "core": 0.2727,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1241
+    },
+    {
+     "procedure_id": "2.000748",
+     "title": "Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc có yếu tố nước ngoài",
+     "rrf": 0.0,
+     "family": "1.004859",
+     "lexical": 0.1875,
+     "core": 0.25,
+     "field": "Hộ tịch",
+     "score": 0.1125
+    }
+   ],
+   "claims": [
+    {
+     "text": "Đúng. Theo quy định, thời gian giải quyết trực tiếp là 07 ngày làm việc và thực hiện trực tuyến cũng mất 07 ngày làm việc [db:procedures:2.001195:processing_time].",
+     "type": "core",
+     "evidence_ids": [
+      "db:procedures:2.001195:processing_time"
+     ],
+     "verdict": "supported"
+    },
+    {
+     "text": "Thời gian giải quyết: Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc [db:procedures:2.001195:processing_time]",
+     "type": "core",
+     "evidence_ids": [
+      "db:procedures:2.001195:processing_time"
+     ],
+     "verdict": "supported"
+    }
+   ],
+   "cited_ids": [
+    "db:procedures:2.001195:processing_time"
+   ],
+   "state_evidence_ids": [
+    "db:procedures:2.001195:summary",
+    "db:procedures:2.001195:processing_time",
+    "db:procedures:2.001195:channels",
+    "db:procedures:2.001195:conditions",
+    "db:procedures:2.001195:legal_basis",
+    "db:procedures:2.001195:agency_summary",
+    "db:agencies:2.001195:1",
+    "doc:2.001195:processing_time:0"
+   ],
+   "contexts": [
+    "Thủ tục: Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh) (mã 2.001195). Lĩnh vực: Cấp, quản lý căn cước. Cấp thực hiện: cấp tỉnh.",
+    "Thời hạn giải quyết: Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc",
+    "Cách thức thực hiện: Trực tiếp; Trực tuyến",
+    "Điều kiện: Không",
+    "Căn cứ pháp lý: Luật Căn cước Số: 26/2023/QH15; Thông tư quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước Số: 17/2024/TT-BCA; Nghị định của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước Số: 70/2024/NĐ-CP; Thông tư 16/2024/TT-BCA quy định về mẫu thẻ căn cước, mẫu giấy chứng nhận căn cước Số: 16/2024/TT-BCA; Thông tư quy định quy định về quy trình cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước Số: 18/2024/TT-BCA",
+    "Cơ quan thực hiện (tóm tắt): Phòng cảnh sát quản lý hành chính về trật tự xã hội (toàn quốc)",
+    "Cơ quan thực hiện: Phòng cảnh sát quản lý hành chính về trật tự xã hội — phạm vi: toàn quốc",
+    "[Thủ tục: Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh)] [Mục: Thời hạn giải quyết] Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc"
+   ],
+   "context_ids": [
+    "db:procedures:2.001195:summary",
+    "db:procedures:2.001195:processing_time",
+    "db:procedures:2.001195:channels",
+    "db:procedures:2.001195:conditions",
+    "db:procedures:2.001195:legal_basis",
+    "db:procedures:2.001195:agency_summary",
+    "db:agencies:2.001195:1",
+    "doc:2.001195:processing_time:0"
+   ],
+   "freshness": {
+    "oldest_retrieved_at": "2026-10-10",
+    "stale": false,
+    "notice": false,
+    "reasons": [],
+    "change_notices": []
+   },
+   "web_called": false,
+   "errors": [],
+   "question": "thẻ căn cước in sai ngày sinh, lên phòng cảnh sát QLHC tỉnh đổi thẻ khác chờ lâu ko",
+   "category": "in_corpus_structured",
+   "latency_s": 8.694,
+   "llm_calls": 4,
+   "trace_id": "05e0a5dedbecc7f6d554a3352a4f6e04"
+  },
+  "H-018": {
+   "outcome": "refuse",
+   "answer": "Kho thủ tục hiện không có thủ tục này, nên tôi không liệt kê hồ sơ hay lệ phí để tránh thông tin sai.\nTrang chính thức có thể liên quan (chưa được kiểm chứng): https://xaydungchinhsach.chinhphu.vn/huong-dan-nop-ho-so-de-nghi-cap-the-can-cuoc-cho-tre-em-tu-6-den-duoi-14-tuoi-qua-cong-dvc-11924080407514591.htm\nGợi ý: thủ tục hành chính thường do UBND cấp xã, Sở hoặc Bộ quản lý lĩnh vực tiếp nhận; vui lòng tra cứu tại https://dichvucong.gov.vn hoặc hỏi bộ phận một cửa nơi bạn cư trú.",
+   "refusal_type": "not_in_corpus",
+   "refusal": {
+    "type": "not_in_corpus",
+    "agency": null,
+    "portal_url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-nop-ho-so-de-nghi-cap-the-can-cuoc-cho-tre-em-tu-6-den-duoi-14-tuoi-qua-cong-dvc-11924080407514591.htm",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.014062",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi thực hiện tại Công an cấp xã",
+     "rrf": 0.991921,
+     "family": "2.000200",
+     "lexical": 0.4615,
+     "core": 0.5,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6737
+    },
+    {
+     "procedure_id": "1.012549",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+     "rrf": 0.991921,
+     "family": "2.000200",
+     "lexical": 0.4167,
+     "core": 0.5,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6468
+    },
+    {
+     "procedure_id": "2.000200",
+     "title": "Cấp thẻ Căn cước cho người từ đủ 14 tuổi trở lên thực hiện tại Công an cấp tỉnh",
+     "rrf": 0.9606889999999999,
+     "family": "2.000200",
+     "lexical": 0.4138,
+     "core": 0.5,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6326
+    },
+    {
+     "procedure_id": "1.001247",
+     "title": "Cấp thẻ căn cước cho người từ đủ 14 tuổi trở lên (thực hiện tại cấp trung ương)",
+     "rrf": 0.9606889999999999,
+     "family": "2.000200",
+     "lexical": 0.3571,
+     "core": 0.5,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.5985
+    },
+    {
+     "procedure_id": "2.001195",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.9384545,
+     "family": "2.000200",
+     "lexical": 0.3,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.5554
+    },
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.3,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.18
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2857,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1714
+    },
+    {
+     "procedure_id": "1.000889",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2857,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1714
+    },
+    {
+     "procedure_id": "2.002189",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.1143,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0686
+    },
+    {
+     "procedure_id": "2.000554",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc ly hôn, hủy việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.1081,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.0649
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [
+    "Hướng dẫn nộp hồ sơ đề nghị cấp thẻ Căn cước cho trẻ từ 6 đến dưới 14 tuổi\nĐể đăng ký cấp thẻ Căn cước cho trẻ từ 6 tuổi đến dưới 14 tuổi, cha, mẹ hoặc người đại diện hợp pháp (sau đây gọi tắt là công dân) sử dụng tài khoản định danh điện tử (VNeID) để đăng nhập và thực hiện theo các bước sau:",
+    "Trình tự, thủ tục cấp thẻ căn cước đối với công dân từ đủ 6 tuổi đến 14 ...\nĐối với công dân từ 0 đến 6 tuổi, người đại diện hợp pháp thực hiện thủ tục cấp thẻ căn cước cho người dưới 6 tuổi thông qua Cổng dịch vụ công; ứng dụng định danh quốc gia hoặc trực tiếp tại cơ quan quản lý căn cước. Đặc biệt, cơ quan quản lý căn cước không thu nhận thông tin nhân dạng và sinh trắc học với người dưới 6 tuổi.",
+    "Hướng dẫn làm thẻ căn cước cho trẻ em dưới 14 tuổi trên VNeID\nĐối với trẻ dưới 6 tuổi, không cần thu thập vân tay và chụp ảnh. Các thủ tục hoàn toàn có thể làm trực tuyến trên VNeID. Trẻ từ 6 đến 14 tuổi cần phải đến cơ quan công an để thực hiện thủ tục sinh trắc học. Thủ tục cấp căn cước công dân cho trẻ dưới 14 tuổi được cơ quan chức năng thực hiện miễn phí."
+   ],
+   "context_ids": [
+    null,
+    null,
+    null
+   ],
+   "freshness": null,
+   "web_called": true,
+   "errors": [],
+   "question": "bé nhà em 6 tuổi, xã mình có làm thẻ cc cho trẻ nhỏ ko, đi thì mang theo những gì",
+   "category": "in_corpus_structured",
+   "latency_s": 7.079,
+   "llm_calls": 3,
+   "trace_id": "bae10186a5e997da0e03cdd6cb86cd85"
+  },
+  "H-019": {
+   "outcome": "refuse",
+   "answer": "Kho thủ tục hiện không có thủ tục này, nên tôi không liệt kê hồ sơ hay lệ phí để tránh thông tin sai.\nGợi ý: thủ tục hành chính thường do UBND cấp xã, Sở hoặc Bộ quản lý lĩnh vực tiếp nhận; vui lòng tra cứu tại https://dichvucong.gov.vn hoặc hỏi bộ phận một cửa nơi bạn cư trú.",
+   "refusal_type": "not_in_corpus",
+   "refusal": {
+    "type": "not_in_corpus",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.012549",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+     "rrf": 1.0,
+     "family": "2.000200",
+     "lexical": 0.4375,
+     "core": 0.4444,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6625
+    },
+    {
+     "procedure_id": "2.000200",
+     "title": "Cấp thẻ Căn cước cho người từ đủ 14 tuổi trở lên thực hiện tại Công an cấp tỉnh",
+     "rrf": 0.9760610000000001,
+     "family": "2.000200",
+     "lexical": 0.4324,
+     "core": 0.4444,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6499
+    },
+    {
+     "procedure_id": "1.014062",
+     "title": "Cấp thẻ căn cước cho người dưới 14 tuổi thực hiện tại Công an cấp xã",
+     "rrf": 0.953369,
+     "family": "2.000200",
+     "lexical": 0.4118,
+     "core": 0.4444,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.6284
+    },
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.961177,
+     "family": "2.000200",
+     "lexical": 0.3571,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.5987
+    },
+    {
+     "procedure_id": "2.001195",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.9386984999999999,
+     "family": "2.000200",
+     "lexical": 0.3571,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.5897
+    },
+    {
+     "procedure_id": "1.001247",
+     "title": "Cấp thẻ căn cước cho người từ đủ 14 tuổi trở lên (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.3333,
+     "core": 0.4444,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.2
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2759,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1655
+    },
+    {
+     "procedure_id": "1.000889",
+     "title": "Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.0,
+     "family": "2.000200",
+     "lexical": 0.2759,
+     "core": 0.3333,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.1655
+    },
+    {
+     "procedure_id": "2.002189",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.0,
+     "family": "1.000894",
+     "lexical": 0.186,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.1116
+    },
+    {
+     "procedure_id": "2.000547",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)",
+     "rrf": 0.0,
+     "family": "1.001193",
+     "lexical": 0.1818,
+     "core": 0.1111,
+     "field": "Hộ tịch",
+     "score": 0.1091
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "thằng con 15t chưa có cccd, dẫn lên tỉnh làm lần đầu có tốn tiền hông",
+   "category": "in_corpus_structured",
+   "latency_s": 10.045,
+   "llm_calls": 3,
+   "trace_id": "f9156c7f0456c3c07117ac0b0a32b106"
+  },
+  "H-020": {
+   "outcome": "refuse",
+   "answer": "Kho thủ tục hiện không có thủ tục này, nên tôi không liệt kê hồ sơ hay lệ phí để tránh thông tin sai.\nGợi ý: thủ tục hành chính thường do UBND cấp xã, Sở hoặc Bộ quản lý lĩnh vực tiếp nhận; vui lòng tra cứu tại https://dichvucong.gov.vn hoặc hỏi bộ phận một cửa nơi bạn cư trú.",
+   "refusal_type": "not_in_corpus",
+   "refusal": {
+    "type": "not_in_corpus",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.001247",
+     "title": "Cấp thẻ căn cước cho người từ đủ 14 tuổi trở lên (thực hiện tại cấp trung ương)",
+     "rrf": 0.9013055,
+     "family": "2.000200",
+     "lexical": 0.087,
+     "core": 0.2,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.4127
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.9185989999999999,
+     "family": "2.000200",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.3674
+    },
+    {
+     "procedure_id": "2.002516",
+     "title": "Thủ tục xác nhận thông tin hộ tịch",
+     "rrf": 0.8978285,
+     "family": "2.002516",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3591
+    },
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 0.8978285,
+     "family": "2.000200",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Cấp, quản lý căn cước",
+     "score": 0.3591
+    },
+    {
+     "procedure_id": "1.000080",
+     "title": "Thủ tục đăng ký nhận cha, mẹ, con có yếu tố nước ngoài tại khu vực biên giới",
+     "rrf": 0.892857,
+     "family": "1.001022",
+     "lexical": 0.0,
+     "core": 0.0,
+     "field": "Hộ tịch",
+     "score": 0.3571
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "thủ tục xin visa đi Mỹ du lịch làm sao, nộp ở đâu",
+   "category": "out_of_corpus",
+   "latency_s": 5.278,
+   "llm_calls": 3,
+   "trace_id": "891ad6b9a9aa2d6c1c4284ab3b36e801"
+  }
+ }
+}

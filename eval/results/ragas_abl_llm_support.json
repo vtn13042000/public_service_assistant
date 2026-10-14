@@ -1,0 +1,206 @@
+{
+ "meta": {
+  "variant": "abl_llm_support",
+  "result_file": "eval/results/abl_llm_support.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T09:30:32+00:00",
+  "relevancy_subset": 0,
+  "context_budget_chars": 12000,
+  "max_context_chars": 1500,
+  "contexts": "faithfulness/relevancy: cited evidence (all retrieved if none cited); precision/recall: all evidence in graph order",
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T09:45:41+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 54,
+  "run": 54,
+  "declined": 32,
+  "no_context": 0,
+  "scored": 22
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.268,
+   "n": 22,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 1.0,
+   "n": 22,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": 0.0,
+   "n": 3,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": 0.0,
+   "n": 3,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.8014,
+   "n": 22,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "T-004": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.2748,
+   "context_recall": 1.0
+  },
+  "T-005": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5185,
+   "context_precision": 0.3005,
+   "context_recall": 1.0
+  },
+  "T-006": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5077,
+   "context_precision": 0.1795,
+   "context_recall": 1.0
+  },
+  "T-007": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-011": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-012": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1946,
+   "context_recall": 1.0
+  },
+  "T-013": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-014": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1746,
+   "context_recall": 1.0
+  },
+  "T-017": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.2229,
+   "context_recall": 1.0
+  },
+  "T-018": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.6,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-019": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8333,
+   "context_precision": 0.2024,
+   "context_recall": 1.0
+  },
+  "T-020": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 1.0,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-023": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 1.0,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-033": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.375,
+   "context_recall": 1.0
+  },
+  "T-035": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-036": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.0955,
+   "context_recall": 1.0
+  },
+  "T-043": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.6667,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-044": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-045": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.9167,
+   "context_precision": 0.2229,
+   "context_recall": 1.0
+  },
+  "T-050": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.2487,
+   "context_recall": 1.0
+  },
+  "T-051": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.1667,
+   "context_recall": 1.0
+  },
+  "T-052": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5385,
+   "context_precision": 0.3218,
+   "context_recall": 1.0
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "variant": "guardrailed_v2_q36",
+  "result_file": "eval/results/heldout_guardrailed_v2_q36.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T10:48:30+00:00",
+  "relevancy_subset": 0,
+  "context_budget_chars": 12000,
+  "max_context_chars": 1500,
+  "contexts": "faithfulness/relevancy: cited evidence (all retrieved if none cited); precision/recall: all evidence in graph order",
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T10:54:17+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 17,
+  "run": 17,
+  "declined": 9,
+  "no_context": 0,
+  "scored": 8
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.3353,
+   "n": 8,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 1.0,
+   "n": 8,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": null,
+   "n": 0,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": null,
+   "n": 0,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.634,
+   "n": 8,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "H-003": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.5536,
+   "context_recall": 1.0
+  },
+  "H-004": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8696,
+   "context_precision": 0.2024,
+   "context_recall": 1.0
+  },
+  "H-006": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.5,
+   "context_recall": 1.0
+  },
+  "H-009": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.7857,
+   "context_precision": 0.2487,
+   "context_recall": 1.0
+  },
+  "H-011": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8333,
+   "context_precision": 0.5536,
+   "context_recall": 1.0
+  },
+  "H-013": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8333,
+   "context_precision": 0.0,
+   "context_recall": 1.0
+  },
+  "H-014": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "H-019": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.2631,
+   "context_recall": 1.0
+  }
+ }
+}

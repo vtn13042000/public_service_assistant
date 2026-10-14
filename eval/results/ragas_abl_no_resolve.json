@@ -1,0 +1,374 @@
+{
+ "meta": {
+  "variant": "abl_no_resolve",
+  "result_file": "eval/results/abl_no_resolve.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T08:56:35+00:00",
+  "relevancy_subset": 0,
+  "context_budget_chars": 12000,
+  "max_context_chars": 1500,
+  "contexts": "faithfulness/relevancy: cited evidence (all retrieved if none cited); precision/recall: all evidence in graph order",
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T09:30:29+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 54,
+  "run": 54,
+  "declined": 8,
+  "no_context": 0,
+  "scored": 46
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.2358,
+   "n": 46,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 0.8696,
+   "n": 46,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": 0.3704,
+   "n": 9,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": 0.2603,
+   "n": 9,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.6967,
+   "n": 46,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "T-001": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.0,
+   "context_recall": 1.0
+  },
+  "T-002": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.2,
+   "context_precision": 0.1111,
+   "context_recall": 0.0
+  },
+  "T-004": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8571,
+   "context_precision": 0.1465,
+   "context_recall": 1.0
+  },
+  "T-005": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.6531,
+   "context_precision": 0.276,
+   "context_recall": 1.0
+  },
+  "T-006": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5143,
+   "context_precision": 0.1795,
+   "context_recall": 1.0
+  },
+  "T-007": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-008": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.25,
+   "context_precision": 0.2056,
+   "context_recall": 1.0
+  },
+  "T-009": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.4865,
+   "context_precision": 0.1964,
+   "context_recall": 1.0
+  },
+  "T-010": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.25,
+   "context_precision": 0.2631,
+   "context_recall": 1.0
+  },
+  "T-011": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-012": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1946,
+   "context_recall": 1.0
+  },
+  "T-013": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-014": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1746,
+   "context_recall": 1.0
+  },
+  "T-015": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.1429,
+   "context_precision": 0.125,
+   "context_recall": 1.0
+  },
+  "T-016": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8929,
+   "context_precision": 0.5769,
+   "context_recall": 1.0
+  },
+  "T-017": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1106,
+   "context_recall": 1.0
+  },
+  "T-018": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.7143,
+   "context_precision": 0.1111,
+   "context_recall": 1.0
+  },
+  "T-019": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8261,
+   "context_precision": 0.4866,
+   "context_recall": 1.0
+  },
+  "T-020": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 1.0,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-021": {
+   "doc_id_precision": 1.0,
+   "doc_id_recall": 0.1429,
+   "faithfulness": 0.3,
+   "context_precision": 0.0,
+   "context_recall": 0.0
+  },
+  "T-022": {
+   "doc_id_precision": 1.0,
+   "doc_id_recall": 1.0,
+   "faithfulness": 0.875,
+   "context_precision": 0.2019,
+   "context_recall": 1.0
+  },
+  "T-023": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.6667,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-027": {
+   "doc_id_precision": 1.0,
+   "doc_id_recall": 1.0,
+   "faithfulness": 0.9667,
+   "context_precision": 0.1685,
+   "context_recall": 1.0
+  },
+  "T-029": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.4286,
+   "context_precision": 0.2296,
+   "context_recall": 1.0
+  },
+  "T-033": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.375,
+   "context_recall": 1.0
+  },
+  "T-034": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1556,
+   "context_recall": 1.0
+  },
+  "T-035": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.1111,
+   "context_recall": 1.0
+  },
+  "T-036": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.0955,
+   "context_recall": 1.0
+  },
+  "T-038": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.0769,
+   "context_recall": 1.0
+  },
+  "T-041": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8125,
+   "context_precision": 0.2556,
+   "context_recall": 1.0
+  },
+  "T-042": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5625,
+   "context_precision": 0.5061,
+   "context_recall": 1.0
+  },
+  "T-043": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.6667,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "T-044": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "T-045": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.9167,
+   "context_precision": 0.1746,
+   "context_recall": 1.0
+  },
+  "T-047": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.4444,
+   "context_precision": 0.2423,
+   "context_recall": 1.0
+  },
+  "T-048": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.2556,
+   "context_recall": 0.6667
+  },
+  "T-049": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.6111,
+   "context_precision": 0.2264,
+   "context_recall": 0.5
+  },
+  "T-050": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.2487,
+   "context_recall": 1.0
+  },
+  "T-051": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.1667,
+   "context_recall": 1.0
+  },
+  "T-052": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.6,
+   "context_precision": 0.3218,
+   "context_recall": 1.0
+  },
+  "T-065": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.5238,
+   "context_precision": 0.2,
+   "context_recall": 0.5
+  },
+  "T-066": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 0.2857,
+   "context_precision": 0.2,
+   "context_recall": 0.0
+  },
+  "T-068": {
+   "doc_id_precision": 0.3333,
+   "doc_id_recall": 0.2,
+   "faithfulness": 0.2727,
+   "context_precision": 0.2958,
+   "context_recall": 0.5
+  },
+  "T-069": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8571,
+   "context_precision": 0.4057,
+   "context_recall": 0.6667
+  },
+  "T-070": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8696,
+   "context_precision": 0.101,
+   "context_recall": 0.6667
+  },
+  "T-071": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8519,
+   "context_precision": 0.4818,
+   "context_recall": 0.5
+  }
+ }
+}

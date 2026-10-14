@@ -1,0 +1,147 @@
+{
+ "variant": "baseline",
+ "n_items": 3,
+ "metrics": {
+  "hallucinated_item_rate": {
+   "value": 0.4444,
+   "num": 4,
+   "den": 9
+  },
+  "wrong_value_rate": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "unsafe_answer_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 1
+  },
+  "correct_refusal_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 1
+  },
+  "refused_any_type_rate": {
+   "value": 1.0,
+   "num": 1,
+   "den": 1
+  },
+  "over_refusal_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 2
+  },
+  "procedure_hit_at_1": {
+   "value": 0.0,
+   "num": 0,
+   "den": 2
+  },
+  "citation_validity": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "redirect_completeness": {
+   "value": 0.0,
+   "num": 0,
+   "den": 1
+  },
+  "freshness_notice_rate": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "web_check_rate": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "outcome_accuracy": {
+   "value": 0.6667,
+   "num": 2,
+   "den": 3
+  }
+ },
+ "confusion": {
+  "answer": {
+   "answer": 1,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 0,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "answer_partial": {
+   "answer": 1,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 0,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "clarify": {
+   "answer": 0,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 0,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "refuse": {
+   "answer": 0,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 1,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "out_of_scope": {
+   "answer": 0,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 0,
+   "out_of_scope": 0,
+   "error": 0
+  }
+ },
+ "cost": {
+  "n": 3,
+  "latency_p50_s": 8.63,
+  "latency_p95_s": 21.279,
+  "llm_calls_mean": 3,
+  "llm_calls_p50": 1.0,
+  "llm_calls_p95": 6.4,
+  "errors": 0
+ },
+ "per_item": {
+  "T-001": {
+   "items": {
+    "produced": 9,
+    "hallucinated": 4,
+    "hallucinated_lines": [
+     "**Văn bản xác nhận của cơ quan quản lý:** Đối với trường hợp người đăng ký là cán bộ, công chức, viên chức hoặc lực lượng vũ trang; văn bản này phải có nội dung xác nhận họ tên, giới tính, ngày sinh, dân tộc, quốc tịch, quê quán và quan hệ cha-con/mẹ-con phù hợp.",
+     "**Bản sao hồ sơ liên quan:** Bản sao toàn bộ giấy tờ của người yêu cầu hoặc tài liệu khác chứa thông tin về khai sinh (Chứng minh nhân dân/Căn cước/Hộ chiếu; Giấy tờ chứng minh nơi cư trú; Bằng tốt nghiệp, Học bạ... có thông tin họ tên và ngày tháng năm sinh).",
+     "Lệ phí cụ thể do HĐND tỉnh quyết định (hoặc miễn đối với gia đình có công, hộ nghèo, người khuyết tật).",
+     "Có thể phát sinh **phí cấp bản sao Giấy khai sinh** nếu có yêu cầu theo Thông tư 281/2016/TT-BTC."
+    ],
+    "gold_covered": 4,
+    "gold_total": 8
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "outcome_match": true
+  },
+  "T-002": {
+   "over_refusal": false,
+   "procedure_hit": false,
+   "outcome_match": false
+  },
+  "T-003": {
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": true
+  }
+ }
+}

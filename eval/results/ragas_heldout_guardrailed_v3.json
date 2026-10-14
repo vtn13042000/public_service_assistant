@@ -1,0 +1,122 @@
+{
+ "meta": {
+  "variant": "guardrailed_v3",
+  "result_file": "eval/results/heldout_guardrailed_v3.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T11:32:14+00:00",
+  "relevancy_subset": 0,
+  "context_budget_chars": 12000,
+  "max_context_chars": 1500,
+  "contexts": "faithfulness/relevancy: cited evidence (all retrieved if none cited); precision/recall: all evidence in graph order",
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T11:38:03+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 17,
+  "run": 17,
+  "declined": 7,
+  "no_context": 0,
+  "scored": 10
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.2751,
+   "n": 10,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 0.9,
+   "n": 10,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": 0.0,
+   "n": 1,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.7592,
+   "n": 10,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "H-001": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.9333,
+   "context_precision": 0.0,
+   "context_recall": 1.0
+  },
+  "H-002": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.9412,
+   "context_precision": 0.1269,
+   "context_recall": 1.0
+  },
+  "H-003": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.474,
+   "context_recall": 1.0
+  },
+  "H-004": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8718,
+   "context_precision": 0.4874,
+   "context_recall": 0.0
+  },
+  "H-006": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.8462,
+   "context_precision": 0.3167,
+   "context_recall": 1.0
+  },
+  "H-009": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.75,
+   "context_precision": 0.2487,
+   "context_recall": 1.0
+  },
+  "H-012": {
+   "doc_id_precision": 0.0,
+   "doc_id_recall": 0.0,
+   "faithfulness": 1.0,
+   "context_precision": 0.25,
+   "context_recall": 1.0
+  },
+  "H-013": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.5,
+   "context_precision": 0.1111,
+   "context_recall": 1.0
+  },
+  "H-014": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 0.0,
+   "context_precision": 0.3611,
+   "context_recall": 1.0
+  },
+  "H-017": {
+   "doc_id_precision": null,
+   "doc_id_recall": null,
+   "faithfulness": 1.0,
+   "context_precision": 0.375,
+   "context_recall": 1.0
+  }
+ }
+}

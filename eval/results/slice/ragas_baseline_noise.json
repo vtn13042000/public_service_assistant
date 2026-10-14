@@ -1,0 +1,107 @@
+{
+ "meta": {
+  "variant": "baseline",
+  "result_file": "eval/results/slice/baseline.json",
+  "ragas_version": "0.4.3",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "started_at": "2026-10-10T04:39:08+00:00",
+  "relevancy_subset": 0,
+  "max_contexts": 8,
+  "max_context_chars": 1500,
+  "shim": "langchain_community.chat_models.vertexai stubbed (ragas 0.4.3 vs langchain-community 0.4)",
+  "finished_at": "2026-10-10T04:42:34+00:00"
+ },
+ "coverage": {
+  "gold_answerable": 54,
+  "run": 2,
+  "declined": 0,
+  "no_context": 0,
+  "scored": 2
+ },
+ "summary": {
+  "context_precision": {
+   "mean": 0.0,
+   "n": 2,
+   "failed": 0
+  },
+  "context_recall": {
+   "mean": 0.0556,
+   "n": 2,
+   "failed": 0
+  },
+  "doc_id_precision": {
+   "mean": null,
+   "n": 0,
+   "failed": 0
+  },
+  "doc_id_recall": {
+   "mean": null,
+   "n": 0,
+   "failed": 0
+  },
+  "faithfulness": {
+   "mean": 0.4,
+   "n": 2,
+   "failed": 0
+  }
+ },
+ "per_item": {
+  "T-001": {
+   "faithfulness": 0.4,
+   "context_precision": 0.0,
+   "context_recall": 0.1111,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  },
+  "T-002": {
+   "faithfulness": 0.4,
+   "context_precision": 0.0,
+   "context_recall": 0.0,
+   "doc_id_precision": null,
+   "doc_id_recall": null
+  }
+ },
+ "noise": {
+  "n_samples": 2,
+  "rerun": {
+   "T-001": {
+    "faithfulness": 0.4,
+    "context_precision": 0.0,
+    "context_recall": 0.1111,
+    "doc_id_precision": null,
+    "doc_id_recall": null
+   },
+   "T-002": {
+    "faithfulness": 0.4667,
+    "context_precision": 0.0,
+    "context_recall": 0.0,
+    "doc_id_precision": null,
+    "doc_id_recall": null
+   }
+  },
+  "agreement": {
+   "faithfulness": {
+    "n": 2,
+    "mean_abs_diff": 0.0333,
+    "within_tol": 1.0,
+    "tol": 0.1,
+    "same_side_of_0.5": 1.0
+   },
+   "context_precision": {
+    "n": 2,
+    "mean_abs_diff": 0.0,
+    "within_tol": 1.0,
+    "tol": 0.1,
+    "same_side_of_0.5": 1.0
+   },
+   "context_recall": {
+    "n": 2,
+    "mean_abs_diff": 0.0,
+    "within_tol": 1.0,
+    "tol": 0.1,
+    "same_side_of_0.5": 1.0
+   }
+  }
+ }
+}

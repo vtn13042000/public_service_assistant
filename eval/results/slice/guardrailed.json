@@ -1,0 +1,189 @@
+{
+ "config": {
+  "variant": "guardrailed",
+  "graph": "guardrailed",
+  "graph_config": {},
+  "llm_model": "qwen3.5",
+  "judge_model": "qwen3.6",
+  "embed_model": "bge-m3",
+  "num_ctx": 16384,
+  "temperature": 0,
+  "seed": 42,
+  "recursion_limit": 50,
+  "testset": "data/testset.jsonl",
+  "testset_sha256": "8e360e9f4a0834c5c48b0d73fcf7a479df554580ea872033a3d2e626731de06a",
+  "started_at": "2026-10-10T04:15:26+00:00",
+  "langfuse_tag": "variant=guardrailed",
+  "finished_at": "2026-10-10T04:15:38+00:00"
+ },
+ "items": {
+  "T-001": {
+   "outcome": "clarify",
+   "answer": "Có nhiều thủ tục gần giống nhau. Bạn muốn hỏi thủ tục nào?\n(1) Thủ tục đăng ký khai sinh\n(2) Thủ tục đăng ký lại khai sinh\n(3) Thủ tục đăng ký khai sinh lưu động\n(4) Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con\nVui lòng chọn một thủ tục (hoặc nêu rõ hơn trường hợp của bạn) để tôi trả lời chính xác.",
+   "refusal_type": "ambiguous",
+   "refusal": {
+    "type": "ambiguous",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null,
+    "candidates": [
+     "Thủ tục đăng ký khai sinh",
+     "Thủ tục đăng ký lại khai sinh",
+     "Thủ tục đăng ký khai sinh lưu động",
+     "Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con"
+    ]
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "1.001193",
+     "title": "Thủ tục đăng ký khai sinh",
+     "rrf": 0.968253,
+     "family": "1.001193",
+     "lexical": 0.8,
+     "score": 0.8673
+    },
+    {
+     "procedure_id": "1.004884",
+     "title": "Thủ tục đăng ký lại khai sinh",
+     "rrf": 0.961177,
+     "family": "1.001193",
+     "lexical": 0.7273,
+     "score": 0.8209
+    },
+    {
+     "procedure_id": "1.003583",
+     "title": "Thủ tục đăng ký khai sinh lưu động",
+     "rrf": 0.931775,
+     "family": "1.001193",
+     "lexical": 0.6667,
+     "score": 0.7727
+    },
+    {
+     "procedure_id": "1.000689",
+     "title": "Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con",
+     "rrf": 0.9621224999999999,
+     "family": "1.001193",
+     "lexical": 0.5,
+     "score": 0.6848
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "Hồ sơ đăng ký khai sinh gồm những gì?",
+   "category": "in_corpus_structured",
+   "latency_s": 5.901,
+   "llm_calls": 1,
+   "trace_id": "eac28530b20f07795815e206b2c687fe"
+  },
+  "T-002": {
+   "outcome": "clarify",
+   "answer": "Có nhiều thủ tục gần giống nhau. Bạn muốn hỏi thủ tục nào?\n(1) Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)\n(2) Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)\nVui lòng chọn một thủ tục (hoặc nêu rõ hơn trường hợp của bạn) để tôi trả lời chính xác.",
+   "refusal_type": "ambiguous",
+   "refusal": {
+    "type": "ambiguous",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null,
+    "candidates": [
+     "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)"
+    ]
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "2.001194",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh)",
+     "rrf": 1.0,
+     "family": "2.000200",
+     "lexical": 0.5333,
+     "score": 0.72
+    },
+    {
+     "procedure_id": "1.000757",
+     "title": "Cấp lại thẻ căn cước (thực hiện tại cấp trung ương)",
+     "rrf": 0.983869,
+     "family": "2.000200",
+     "lexical": 0.5,
+     "score": 0.6935
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "Lệ phí cấp lại CCCD là bao nhiêu?",
+   "category": "in_corpus_structured",
+   "latency_s": 2.601,
+   "llm_calls": 1,
+   "trace_id": "379d6a50542a55829eb79a04271ff7af"
+  },
+  "T-003": {
+   "outcome": "clarify",
+   "answer": "Có nhiều thủ tục gần giống nhau. Bạn muốn hỏi thủ tục nào?\n(1) Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài\n(2) Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân\nVui lòng chọn một thủ tục (hoặc nêu rõ hơn trường hợp của bạn) để tôi trả lời chính xác.",
+   "refusal_type": "ambiguous",
+   "refusal": {
+    "type": "ambiguous",
+    "agency": null,
+    "portal_url": "https://dichvucong.gov.vn",
+    "missing": [],
+    "procedure_id": null,
+    "title": null,
+    "candidates": [
+     "Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân"
+    ]
+   },
+   "procedure_id": null,
+   "procedure_id_inferred": false,
+   "candidates": [
+    {
+     "procedure_id": "2.002189",
+     "title": "Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài",
+     "rrf": 0.9760610000000001,
+     "family": "1.000894",
+     "lexical": 0.3889,
+     "score": 0.6238
+    },
+    {
+     "procedure_id": "1.000893",
+     "title": "Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+     "rrf": 0.991921,
+     "family": "1.001193",
+     "lexical": 0.2759,
+     "score": 0.5623
+    }
+   ],
+   "claims": [],
+   "cited_ids": [],
+   "state_evidence_ids": [],
+   "contexts": [],
+   "context_ids": [],
+   "freshness": null,
+   "web_called": false,
+   "errors": [],
+   "question": "Thủ tục nhập tịch cho người nước ngoài?",
+   "category": "out_of_corpus",
+   "latency_s": 3.17,
+   "llm_calls": 1,
+   "trace_id": "e23e5f43784c74f78f95b78078dc70ff"
+  }
+ }
+}

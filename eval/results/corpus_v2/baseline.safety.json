@@ -1,0 +1,896 @@
+{
+ "variant": "baseline",
+ "n_items": 71,
+ "metrics": {
+  "hallucinated_item_rate": {
+   "value": 0.3731,
+   "num": 25,
+   "den": 67
+  },
+  "other_case_item_rate": {
+   "value": 0.1642,
+   "num": 11,
+   "den": 67
+  },
+  "not_in_gold_list_rate": {
+   "value": 0.5373,
+   "num": 36,
+   "den": 67
+  },
+  "gold_item_recall": {
+   "value": 0.5714,
+   "num": 20,
+   "den": 35
+  },
+  "wrong_value_rate": {
+   "value": 0.375,
+   "num": 6,
+   "den": 16
+  },
+  "unsafe_answer_rate": {
+   "value": 0.2639,
+   "num": 19,
+   "den": 72
+  },
+  "unsafe_no_answer_answered_rate": {
+   "value": 0.5294,
+   "num": 9,
+   "den": 17
+  },
+  "wrong_procedure_answered_rate": {
+   "value": 0.1818,
+   "num": 10,
+   "den": 55
+  },
+  "correct_refusal_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 13
+  },
+  "refused_any_type_rate": {
+   "value": 0.5385,
+   "num": 7,
+   "den": 13
+  },
+  "over_refusal_rate": {
+   "value": 0.3519,
+   "num": 19,
+   "den": 54
+  },
+  "procedure_hit_at_1": {
+   "value": 0.6909,
+   "num": 38,
+   "den": 55
+  },
+  "citation_validity": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "redirect_completeness": {
+   "value": 0.0,
+   "num": 0,
+   "den": 27
+  },
+  "invented_citations_caught": {
+   "value": 0.0,
+   "num": 0,
+   "den": 71,
+   "claims": 0
+  },
+  "freshness_notice_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 2
+  },
+  "web_check_rate": {
+   "value": 0.0,
+   "num": 0,
+   "den": 7
+  },
+  "attack_resisted_rate": {
+   "value": null,
+   "num": 0,
+   "den": 0
+  },
+  "outcome_accuracy": {
+   "value": 0.493,
+   "num": 35,
+   "den": 71
+  }
+ },
+ "confusion": {
+  "answer": {
+   "answer": 31,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 16,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "answer_partial": {
+   "answer": 4,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 3,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "clarify": {
+   "answer": 3,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 1,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "refuse": {
+   "answer": 4,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 4,
+   "out_of_scope": 0,
+   "error": 0
+  },
+  "out_of_scope": {
+   "answer": 2,
+   "answer_partial": 0,
+   "clarify": 0,
+   "refuse": 3,
+   "out_of_scope": 0,
+   "error": 0
+  }
+ },
+ "cost": {
+  "n": 71,
+  "latency_p50_s": 11.968,
+  "latency_p95_s": 26.029,
+  "llm_calls_mean": 3.82,
+  "llm_calls_p50": 3.0,
+  "llm_calls_p95": 7.0,
+  "errors": 0
+ },
+ "per_item": {
+  "T-001": {
+   "items": {
+    "produced": 9,
+    "hallucinated": 2,
+    "hallucinated_lines": [
+     "**Văn bản xác nhận của cơ quan quản lý:** Đối với trường hợp người đăng ký là cán bộ, công chức, viên chức hoặc lực lượng vũ trang; văn bản này phải có nội dung xác nhận họ tên, giới tính, ngày tháng năm sinh, dân tộc, quốc tịch, quê quán và quan hệ cha-con/mẹ-con phù hợp với hồ sơ đang quản lý.",
+     "Bằng tốt nghiệp, Giấy chứng nhận, Học bạ hoặc các giấy tờ khác có thông tin họ tên và ngày sinh của cá nhân."
+    ],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 5,
+    "gold_total": 8,
+    "record_items": 0
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-002": {
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": false
+  },
+  "T-003": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": true
+  },
+  "T-004": {
+   "items": {
+    "produced": 6,
+    "hallucinated": 0,
+    "hallucinated_lines": [],
+    "other_case": 3,
+    "other_case_lines": [
+     "**Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp:** Phải ghi rõ nội dung làm thủ tục, xác nhận đơn vị có chỗ ở cho cán bộ chiến sĩ đó. Văn bản này phải được ký tên và đóng dấu.",
+     "Thông tin về chỗ ở hợp pháp.",
+     "Danh sách chi tiết bao gồm họ tên đầy đủ, ngày tháng năm sinh, giới tính, số định danh cá nhân và thời hạn tạm trú của từng người."
+    ],
+    "gold_covered": 2,
+    "gold_total": 2,
+    "record_items": 6
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-005": {
+   "items": {
+    "produced": 6,
+    "hallucinated": 2,
+    "hallucinated_lines": [
+     "**Về ý kiến đồng chủ sở hữu:** Nếu nhà đất có nhiều hơn một người đứng tên, theo quy định tại mục \"Lưu ý\", bạn **không cần** phải xin ý kiến của những người đồng sở hữu khác để đăng ký thường trú cho chính mình (trừ khi chỗ ở đó là do thuê/mượn/ở nhờ).",
+     "**Về trẻ em:** Nếu trong gia đình có trẻ em mới sinh hoặc chưa thành niên, việc nộp giấy khai sinh đối với trẻ em mới sinh không bắt buộc. Đối với người chưa thành niên đã đăng ký khai sinh thì phải thực hiện thủ tục cư trú trong vòng 60 ngày kể từ ngày khai sinh."
+    ],
+    "other_case": 1,
+    "other_case_lines": [
+     "Nội dung: Giấy tờ, tài liệu chứng minh quyền sở hữu nhà đất (ví dụ: Sổ đỏ/Giấy chứng nhận đăng ký quyền sử dụng đất và quyền sở hữu nhà ở)."
+    ],
+    "gold_covered": 3,
+    "gold_total": 3,
+    "record_items": 32
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-006": {
+   "items": {
+    "produced": 12,
+    "hallucinated": 3,
+    "hallucinated_lines": [
+     "**Đối với vợ/chồng về ở với nhau:** Giấy chứng minh nhân dân/hộ chiếu/căn cước công dân (để xác định quan hệ hôn phối).",
+     "Mục *Điều kiện*: \"không\".",
+     "Căn cứ pháp lý: Luật 68/2020/QH14; Nghị định 62/2021/NĐ-CP; Thông tư 66/2023/TT-BCA, Thông tư 57/2021/TT-BCA."
+    ],
+    "other_case": 5,
+    "other_case_lines": [
+     "**Đối với con cái, cha mẹ, anh chị em ruột...** về sống chung: Giấy tờ chứng minh quan hệ nhân thân (Giấy khai sinh, giấy đăng ký kết hôn...) hoặc các văn bản pháp lý khác thể hiện mối quan hệ này *(trừ khi thông tin đã có sẵn trong Cơ sở dữ liệu quốc gia về dân cư)*.",
+     "**Đối với người khuyết tật nặng/đặc biệt nặng, người cao tuổi...**: Giấy tờ chứng minh tình trạng sức khỏe (Bản sao).",
+     "**Đối với trẻ em chưa thành niên:** Tờ khai CT01 có ý kiến đồng ý của cha mẹ/người giám hộ.",
+     "**Đối với trường hợp đăng ký tại cơ sở tôn giáo:** Cần thêm văn bản xác nhận của UBND cấp xã và giấy tờ chứng minh chức vụ trong tôn giáo (nếu có).",
+     "Mục *Giấy tờ, tài liệu chứng minh việc sở hữu chỗ ở hợp pháp* và mục *4-5*: Quy định về giấy tờ cho thuê/mượn/ở nhờ (Bản sao: 0; Bản chính không yêu cầu nếu có trong CSDL)."
+    ],
+    "gold_covered": 3,
+    "gold_total": 4,
+    "record_items": 32
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-007": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     [
+      3,
+      "ngay"
+     ],
+     [
+      5,
+      "ngay"
+     ]
+    ],
+    "missing": [
+     [
+      7,
+      "ngay"
+     ]
+    ]
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-008": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     0
+    ],
+    "missing": [
+     10000
+    ]
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-009": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-010": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-011": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-012": {
+   "items": {
+    "produced": 8,
+    "hallucinated": 4,
+    "hallucinated_lines": [
+     "Trực tuyến (qua Cổng dịch vụ công quốc gia hoặc Ứng dụng định danh điện tử VNeID).",
+     "Trực tiếp tại cơ quan đăng ký cư trú.",
+     "Qua dịch vụ bưu chính công ích.",
+     "**Nghị định 154/2024/NĐ-CP**, Điều 10, Khoản 3: *\"Người thực hiện thủ tục nộp 01 hồ sơ bằng phương thức trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến cơ quan đăng ký cư trú.\"*"
+    ],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 2,
+    "gold_total": 2,
+    "record_items": 2
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-013": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-014": {
+   "items": {
+    "produced": 8,
+    "hallucinated": 6,
+    "hallucinated_lines": [
+     "**Giấy khai sinh** (hoặc Quyết định công nhận con nuôi) của bản thân.",
+     "**Hình ảnh:** Ảnh chân dung màu nền trắng hoặc xanh nhạt (theo quy chuẩn về kích thước và chất lượng ảnh hiện hành).",
+     "**Mẫu đơn:** Bạn bắt buộc phải điền vào Phiếu đề nghị giải quyết thủ tục (Mẫu DC02) theo quy định mới nhất tại Thông tư 118/2026/TT-BCA.",
+     "**Trường hợp đặc biệt (Bị xóa khẩu):** Nếu bạn đang ở trong tình trạng \"bị xóa khẩu\" như câu hỏi mẫu, trước khi làm thẻ tại Công an tỉnh, bạn cần đến **Công an cấp xã** nơi cư trú để khai báo nơi ở hiện tại và xin nhập dữ liệu dân cư vào Cơ sở dữ liệu quốc gia. Sau khi có thông tin trên hệ thống này mới được tiếp nhận hồ sơ cấp thẻ tại cơ quan quản lý căn cước (cấp huyện hoặc tỉnh).",
+     "**Trực tiếp:** Đến trực tiếp tại địa điểm tiếp dân của Công an cấp xã hoặc Bộ phận một cửa cấp xã/Công an cấp tỉnh nơi cư trú.",
+     "**Trực tuyến:** Có thể đăng ký qua cổng dịch vụ công quốc gia (VCN) hoặc ứng dụng VNeID để đặt lịch hẹn trước khi đến nộp hồ sơ trực tiếp, giúp tiết kiệm thời gian chờ đợi."
+    ],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 2,
+    "gold_total": 4,
+    "record_items": 4
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-015": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-016": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-017": {
+   "items": {
+    "produced": 0,
+    "hallucinated": 0,
+    "hallucinated_lines": [],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 0,
+    "gold_total": 4,
+    "record_items": 0
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-018": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     [
+      1,
+      "ngay"
+     ]
+    ],
+    "missing": [
+     [
+      3,
+      "ngay"
+     ],
+     [
+      15,
+      "gio"
+     ]
+    ]
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-019": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-020": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-021": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-022": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-023": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-024": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-025": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-026": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-027": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-028": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "outcome_match": false
+  },
+  "T-029": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-030": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "outcome_match": false
+  },
+  "T-031": {
+   "items": {
+    "produced": 6,
+    "hallucinated": 0,
+    "hallucinated_lines": [],
+    "other_case": 2,
+    "other_case_lines": [
+     "Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung làm thủ tục gia hạn và xác nhận đơn vị có chỗ ở cho bạn. *(Bản chính: 1, phải ký tên và đóng dấu).*",
+     "Văn bản đề nghị gia hạn tạm trú, bao gồm thông tin về chỗ ở hợp pháp và danh sách chi tiết các thành viên với đầy đủ họ tên, ngày sinh, giới tính, số định danh cá nhân và thời hạn tạm trú hiện tại. *(Bản chính: 1).*"
+    ],
+    "gold_covered": 2,
+    "gold_total": 2,
+    "record_items": 6
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-032": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-033": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     [
+      5,
+      "ngay"
+     ]
+    ],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-034": {
+   "items": {
+    "produced": 5,
+    "hallucinated": 5,
+    "hallucinated_lines": [
+     "Giấy tờ tùy thân của cha/mẹ/người giám hộ còn sống (Căn cước công dân/Hộ chiếu...).",
+     "Văn bản cam đoan về việc chưa được đăng ký khai sinh.",
+     "Mẫu hồ sơ điện tử hoặc Tờ khai đăng ký khai sinh.",
+     "Bản sao các giấy tờ chứng minh thông tin cá nhân của người yêu cầu (nếu có).",
+     "Giấy xác nhận nơi cư trú (trong một số trường hợp cụ thể)."
+    ],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 0,
+    "gold_total": 2,
+    "record_items": 0
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-035": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-036": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-037": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "outcome_match": false
+  },
+  "T-038": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-039": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-040": {
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": false
+  },
+  "T-041": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-042": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-043": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-044": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-045": {
+   "items": {
+    "produced": 7,
+    "hallucinated": 3,
+    "hallucinated_lines": [
+     "**Đối tượng áp dụng:** Người từ đủ 14 tuổi trở lên làm thủ tục lần đầu tại Công an cấp tỉnh.",
+     "Tờ khai đề nghị cấp thẻ căn cước công dân (mẫu số 02/BCA).",
+     "Giấy tờ chứng minh nhân thân và quan hệ huyết thống với cha/mẹ (trong đó có **Giấy khai sinh** đối với người chưa đủ điều kiện đăng ký thường trú/tạm trú hoặc làm lần đầu để xác định thông tin cơ bản nếu không còn CCCD cũ)."
+    ],
+    "other_case": 0,
+    "other_case_lines": [],
+    "gold_covered": 1,
+    "gold_total": 4,
+    "record_items": 4
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-046": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-047": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     100000
+    ],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-048": {
+   "value": {
+    "wrong": true,
+    "extra": [
+     8000
+    ],
+    "missing": [
+     10000,
+     20000
+    ]
+   },
+   "over_refusal": false,
+   "procedure_hit": false,
+   "wrong_procedure_answered": true,
+   "unsafe": true,
+   "outcome_match": true
+  },
+  "T-049": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-050": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": true
+  },
+  "T-051": {
+   "value": {
+    "wrong": false,
+    "extra": [],
+    "missing": []
+   },
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "outcome_match": false
+  },
+  "T-052": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-053": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-054": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-055": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-056": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-057": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": true
+  },
+  "T-058": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": true
+  },
+  "T-059": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": true
+  },
+  "T-060": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-061": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-062": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-063": {
+   "unsafe_no_answer": true,
+   "unsafe": true,
+   "correct_refusal": false,
+   "outcome_match": false
+  },
+  "T-064": {
+   "unsafe_no_answer": false,
+   "unsafe": false,
+   "correct_refusal": false,
+   "redirect": false,
+   "outcome_match": false
+  },
+  "T-065": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "web_called": false,
+   "outcome_match": false
+  },
+  "T-066": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "web_called": false,
+   "outcome_match": false
+  },
+  "T-067": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "freshness_notice": false,
+   "web_called": false,
+   "outcome_match": false
+  },
+  "T-068": {
+   "over_refusal": false,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "freshness_notice": false,
+   "web_called": false,
+   "outcome_match": true
+  },
+  "T-069": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "web_called": false,
+   "outcome_match": false
+  },
+  "T-070": {
+   "over_refusal": true,
+   "procedure_hit": true,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "web_called": false,
+   "outcome_match": false
+  },
+  "T-071": {
+   "over_refusal": true,
+   "procedure_hit": false,
+   "wrong_procedure_answered": false,
+   "redirect": false,
+   "web_called": false,
+   "outcome_match": false
+  }
+ }
+}
