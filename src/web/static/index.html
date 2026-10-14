@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trợ lý thủ tục hành chính</title>
+<style>
+  :root { --fg:#1d2430; --muted:#5b6575; --line:#d9dee6; --bg:#f6f7f9; --card:#fff;
+          --ok:#1f7a3f; --warn:#9a6200; --bad:#a3282b; --info:#245aa8; --gray:#5b6575; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--fg); background:var(--bg); }
+  main { max-width: 900px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 14px; font-size: 14px; }
+  form { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; }
+  label { font-size: 13px; color: var(--muted); display: block; margin-bottom: 4px; }
+  textarea, input, select { width: 100%; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: inherit; }
+  textarea { min-height: 84px; resize: vertical; }
+  .row { display: grid; grid-template-columns: 1fr 1fr auto; gap: 12px; align-items: end; }
+  @media (max-width: 600px) { .row { grid-template-columns: 1fr; } }
+  button { font: inherit; padding: 8px 18px; border-radius: 6px; border: 1px solid var(--info); background: var(--info); color: #fff; cursor: pointer; }
+  button:disabled { opacity: .55; cursor: wait; }
+  #result { margin-top: 20px; }
+  details.legend { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 14px; margin-bottom: 14px; font-size: 14px; }
+  details.legend summary { cursor: pointer; font-weight: 600; }
+  .legend-row { display: grid; grid-template-columns: 190px 1fr; gap: 4px 12px; padding: 8px 0; border-top: 1px solid var(--line); }
+  .legend-row:first-of-type { border-top: 0; }
+  .legend-row .why { color: var(--muted); font-size: 13px; grid-column: 2; }
+  @media (max-width: 600px) { .legend-row { grid-template-columns: 1fr; } .legend-row .why { grid-column: 1; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-left: 6px solid var(--gray); border-radius: 10px; padding: 16px; }
+  .label { border-radius: 8px; padding: 10px 12px; color: #fff; background: var(--gray); }
+  .label .name { font-weight: 700; font-size: 16px; }
+  .label .meaning { font-size: 14px; opacity: .95; }
+  .label .why { font-size: 12.5px; opacity: .85; margin-top: 2px; }
+  .answer { border-left-color: var(--ok); } .answer .label, .lab-answer { background: var(--ok); }
+  .answer_partial { border-left-color: var(--warn); } .answer_partial .label, .lab-answer_partial { background: var(--warn); }
+  .clarify { border-left-color: var(--info); } .clarify .label, .lab-clarify { background: var(--info); }
+  .refuse { border-left-color: var(--bad); } .refuse .label, .lab-refuse { background: var(--bad); }
+  .out_of_scope .label, .lab-out_of_scope { background: var(--gray); }
+  .chip { display: inline-block; color: #fff; font-weight: 600; font-size: 13px; padding: 2px 10px; border-radius: 999px; }
+  .proc { margin: 12px 0 0; font-size: 15px; }
+  .proc b { font-weight: 600; }
+  .gapbox { margin-top: 12px; padding: 10px 12px; border-radius: 6px; background: #fff3d6; border: 2px solid #e0a82e; }
+  .gapbox h3 { margin: 0 0 4px; font-size: 14px; color: #7a4b00; }
+  .summary { margin-top: 12px; padding: 8px 12px; background: #f1f4f8; border-radius: 6px; font-size: 14px; }
+  .section { margin-top: 12px; }
+  .section > summary { cursor: pointer; font-weight: 600; }
+  .section ol, .section ul { margin: 6px 0 0; padding-left: 22px; }
+  .section li { margin: 3px 0; }
+  .item.short { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; display: inline-block; vertical-align: bottom; }
+  .item-li { display: flex; gap: 8px; align-items: baseline; }
+  .item-li .itext { flex: 1; min-width: 0; }
+  .more { font-size: 12.5px; background: none; border: 0; color: var(--info); padding: 0; cursor: pointer; white-space: nowrap; }
+  code.tag { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+  .notices { margin-top: 12px; }
+  .notice { margin: 6px 0; padding: 8px 10px; background: #fff7e6; border-left: 3px solid #e0a82e; border-radius: 4px; font-size: 14px; }
+  .note { margin: 6px 0; padding: 8px 10px; background: #eef3fb; border-left: 3px solid var(--info); border-radius: 4px; font-size: 14px; }
+  .narr { margin-top: 12px; }
+  .narr h3, .gapbox h3, .notices h3 { font-size: 14px; margin: 0 0 4px; }
+  .text { white-space: pre-wrap; margin: 12px 0 0; }
+  .box { margin-top: 12px; padding: 10px 12px; border-radius: 6px; background: #fff7e6; border: 1px solid #f0d49a; }
+  .box.redirect { background: #fdeeee; border-color: #efb9ba; }
+  .box h3 { margin: 0 0 6px; font-size: 14px; }
+  .options { display: grid; gap: 8px; margin-top: 12px; }
+  .options button { text-align: left; background: #fff; color: var(--info); }
+  .options button:hover { background: #eef3fb; }
+  .cites { margin-top: 14px; font-size: 13px; }
+  .cites ol { margin: 6px 0 0; padding-left: 20px; }
+  .cites code { font-size: 12px; }
+  .meta { margin-top: 14px; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  .error { color: var(--bad); }
+  a { color: var(--info); word-break: break-all; }
+  .tabs { display: flex; gap: 4px; margin: 0 0 14px; border-bottom: 1px solid var(--line); }
+  .tabs button { background: none; color: var(--muted); border: 0; border-bottom: 3px solid transparent; border-radius: 0; padding: 8px 14px; font-weight: 600; }
+  .tabs button.on { color: var(--fg); border-bottom-color: var(--info); }
+  .policy { background: #eef3fb; border-left: 4px solid var(--info); border-radius: 6px; padding: 10px 12px; font-size: 14px; margin-bottom: 12px; }
+  .pgroup { margin-top: 18px; }
+  .pgroup h2 { font-size: 16px; margin: 0 0 8px; }
+  details.pgroup { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0 12px; margin-top: 10px; }
+  details.pgroup > summary { cursor: pointer; font-weight: 600; font-size: 16px; padding: 10px 0; }
+  details.pgroup[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+  details.pgroup .prow { margin: 6px 0; }
+  details.psub { margin: 6px 0; background: #fafbfc; }
+  details.psub > summary { font-size: 15px; padding: 8px 0; }
+  .prow { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 6px 0; }
+  .prow .ptitle { font-weight: 600; }
+  .prow .pmeta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .prow .plinks { font-size: 13px; margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+  .prow .more-btn { font-size: 13px; padding: 3px 10px; background: #fff; color: var(--info); }
+  .pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 1px 8px; border-radius: 999px; color: #fff; background: var(--bad); margin-left: 6px; }
+  .pill.gray { background: var(--gray); }
+  .pdetail { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; font-size: 14px; }
+  .pdetail li { margin: 3px 0; }
+  .src { font-size: 12px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Trợ lý thủ tục hành chính</h1>
+  <nav class="tabs">
+    <button type="button" id="tab-btn-ask" class="on">Hỏi đáp</button>
+    <button type="button" id="tab-btn-procs">Thủ tục</button>
+  </nav>
+  <div id="tab-ask">
+  <p class="sub">Hỏi về hồ sơ, lệ phí, cơ quan, thời hạn, trình tự của một thủ tục. Mỗi câu hỏi được trả lời độc lập (không lưu lịch sử).</p>
+
+  <details class="legend" id="legend" open>
+    <summary>Năm loại kết quả — cách đọc câu trả lời</summary>
+    <div id="legend-rows"></div>
+  </details>
+
+  <form id="ask">
+    <div>
+      <label for="query">Câu hỏi</label>
+      <textarea id="query" required placeholder="Ví dụ: Cấp lại thẻ căn cước cần giấy tờ gì?"></textarea>
+    </div>
+    <div class="row">
+      <div>
+        <label for="locality">Tỉnh/thành phố (không bắt buộc)</label>
+        <input id="locality" placeholder="Ví dụ: Hà Nội">
+      </div>
+      <div>
+        <label for="variant">Chế độ</label>
+        <select id="variant">
+          <option value="guardrailed">Trợ lý (có rào chắn)</option>
+          <option value="baseline">Bản so sánh không rào chắn</option>
+        </select>
+      </div>
+      <button id="submit" type="submit">Gửi câu hỏi</button>
+    </div>
+  </form>
+
+  <div id="result"></div>
+  </div>
+
+  <div id="tab-procs" hidden>
+    <p class="policy">Đây là toàn bộ thủ tục trợ lý có thể trả lời; câu hỏi ngoài danh sách này sẽ được từ chối và chuyển hướng.</p>
+    <input id="pfilter" placeholder="Lọc theo tên, mã hoặc cơ quan (ví dụ: khai sinh, 1.001193, công an)">
+    <p class="sub" id="pcount" style="margin-top:8px"></p>
+    <div id="plist"></div>
+  </div>
+</main>
+
+<script>
+// The five outcomes, the same everywhere on the page: name, one-line meaning (states the certainty), why it can be trusted.
+const OUTCOMES = {
+  answer: { name: "Trả lời có nguồn",
+    meaning: "Danh sách giấy tờ, lệ phí, cơ quan, thời hạn được chương trình sao nguyên văn từ dữ liệu chính thức, kèm nguồn; lời giải thích của mô hình được kiểm từng câu với nguồn.",
+    why: "Vì sao tin được: mỗi dòng có mã nguồn để đối chiếu; câu nào của mô hình không có căn cứ đã bị bỏ trước khi gửi." },
+  answer_partial: { name: "Trả lời một phần",
+    meaning: "Phần có căn cứ ở dưới; phần không tìm thấy căn cứ được nêu rõ, không suy đoán.",
+    why: "Vì sao tin được: như trả lời có nguồn cho phần có căn cứ; phần thiếu được ghi rõ thay vì để mô hình đoán." },
+  clarify: { name: "Cần làm rõ",
+    meaning: "Câu hỏi khớp nhiều thủ tục, hãy chọn một.",
+    why: "Vì sao tin được: chưa có câu trả lời nào được đưa ra; chọn một thủ tục để nhận câu trả lời có nguồn." },
+  refuse: { name: "Từ chối và chuyển tuyến",
+    meaning: "Không trả lời; lý do và nơi cần đến ghi dưới đây.",
+    why: "Vì sao tin được: không có câu trả lời nào được đưa ra; chỉ nêu lý do và nơi hỏi chính thức." },
+  out_of_scope: { name: "Ngoài phạm vi",
+    meaning: "Trợ lý chỉ trả lời về thủ tục hành chính.",
+    why: "Vì sao tin được: không có câu trả lời nào được đưa ra." },
+};
+const REFUSAL_REASON = {
+  not_in_corpus: "không có trong kho", insufficient_evidence: "không đủ căn cứ",
+  discontinued: "đã dừng thực hiện", system_error: "lỗi hệ thống", ambiguous: "câu hỏi chưa rõ thủ tục",
+  out_of_scope: "ngoài phạm vi",
+};
+// refuse: the one-line meaning per reason (wording follows RELEASE §3 and src/refusal.py); the legend shows the generic line
+const REFUSE_MEANING = {
+  not_in_corpus: "Thủ tục này không có trong kho dữ liệu, nên không liệt kê hồ sơ hay lệ phí; nơi tra cứu chính thức ghi dưới đây.",
+  insufficient_evidence: "Không đủ căn cứ trong dữ liệu để trả lời chắc chắn; điều còn thiếu và nơi hỏi ghi dưới đây.",
+  discontinued: "Thủ tục này đã dừng thực hiện; văn bản, ngày dừng và nơi hỏi ghi dưới đây.",
+  system_error: "Có lỗi kỹ thuật nên không trả lời; vui lòng hỏi lại hoặc tra cứu ở nơi ghi dưới đây.",
+};
+const SECTION = {  // kind → [summary label, unit]
+  documents: ["Hồ sơ", "giấy tờ"], fees: ["Lệ phí", "dòng"], agency: ["Cơ quan", "cơ quan"], time: ["Thời hạn", ""],
+};
+const LONG = 110;   // characters: longer items are cut to one line with "xem đầy đủ"
+const OPEN_MAX = 3; // lists up to this many items start open; longer lists start collapsed
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, attrs = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") n.className = v; else if (k === "onclick") n.onclick = v; else if (k === "open") n.open = v; else n.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) n.append(k);
+  return n;
+};
+const link = (href, text) => el("a", { href, target: "_blank", rel: "noopener" }, text || href);
+
+function labelBox(outcome, reason, reasonKey) {
+  const o = OUTCOMES[outcome] || { name: outcome || "?", meaning: "", why: "" };
+  const meaning = (outcome === "refuse" && REFUSE_MEANING[reasonKey]) || o.meaning;
+  return el("div", { class: "label" },
+    el("div", { class: "name" }, o.name + (reason ? " — " + reason : "")),
+    el("div", { class: "meaning" }, meaning),
+    el("div", { class: "why" }, o.why));
+}
+
+function buildLegend() {
+  const rows = $("legend-rows");
+  for (const [k, o] of Object.entries(OUTCOMES)) {
+    rows.append(el("div", { class: "legend-row" },
+      el("div", {}, el("span", { class: "chip lab-" + k }, o.name)),
+      el("div", {}, o.meaning),
+      el("div", { class: "why" }, o.why)));
+  }
+  try { if (localStorage.getItem("legendClosed") === "1") $("legend").open = false; } catch (e) {}
+  $("legend").addEventListener("toggle", () => { try { localStorage.setItem("legendClosed", $("legend").open ? "0" : "1"); } catch (e) {} });
+}
+
+let lastQuestion = null;  // the question the clarify options refer to
+
+async function ask(payload) {
+  $("submit").disabled = true;
+  $("result").replaceChildren(el("p", { class: "sub" }, "Đang xử lý… (thường 5–15 giây)"));
+  try {
+    const r = await fetch("/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+    const data = await r.json();
+    if (!r.ok) throw new Error(typeof data.detail === "string" ? data.detail : JSON.stringify(data.detail));
+    lastQuestion = payload;
+    render(data);
+  } catch (e) {
+    $("result").replaceChildren(el("p", { class: "error" }, "Lỗi: " + e.message));
+  } finally {
+    $("submit").disabled = false;
+  }
+}
+
+function itemLine(it) {
+  const tags = (it.cites || []).map((c) => el("code", { class: "tag" }, "[" + c + "]"));
+  if (it.text.length <= LONG) return el("li", {}, el("div", { class: "item-li" }, el("span", { class: "itext" }, it.text, " ", ...tags)));
+  const span = el("span", { class: "item short", title: it.text }, it.text);
+  const btn = el("button", { type: "button", class: "more" }, "xem đầy đủ");
+  btn.onclick = () => { const s = span.classList.toggle("short"); btn.textContent = s ? "xem đầy đủ" : "thu gọn"; };
+  return el("li", {}, el("div", { class: "item-li" }, el("span", { class: "itext" }, span), btn, ...tags));
+}
+
+function summaryLine(sections) {
+  const parts = [];
+  const by = {};
+  for (const s of sections) (by[s.kind] = by[s.kind] || []).push(s);
+  for (const kind of ["documents", "fees", "agency", "time"]) {
+    const ss = by[kind];
+    if (!ss) continue;
+    const n = ss.reduce((a, s) => a + s.items.length, 0);
+    const [lab, unit] = SECTION[kind];
+    if (kind === "agency") parts.push(lab + ": " + ss[0].items[0].text.split(" — ")[0] + (n > 1 ? " (+" + (n - 1) + ")" : ""));
+    else if (kind === "time") { const t = ss[0].items[0].text; parts.push(lab + ": " + (t.length <= 40 ? t : "có (xem dưới)")); }
+    else parts.push(lab + ": " + n + " " + unit);
+  }
+  return parts.join(" · ");
+}
+
+function sectionBlock(s) {
+  const n = s.items.length;
+  if (s.kind === "time" || (n === 1 && s.items[0].text.length <= LONG && s.kind !== "documents")) {
+    const it = s.items[0];
+    return el("div", { class: "section" }, el("b", {}, (s.heading ? s.heading + ": " : "")), it.text, " ",
+      ...(it.cites || []).map((c) => el("code", { class: "tag" }, "[" + c + "]")),
+      ...s.items.slice(1).map((x) => el("div", {}, x.text)));
+  }
+  const unit = (SECTION[s.kind] || ["", "mục"])[1] || "mục";
+  const list = el(s.kind === "documents" ? "ol" : "ul", {}, ...s.items.map(itemLine));
+  return el("details", { class: "section", open: n <= OPEN_MAX },
+    el("summary", {}, (s.heading || "Chi tiết") + " — " + n + " " + unit + (n > OPEN_MAX ? " (bấm để xem)" : "")), list);
+}
+
+function renderAnswer(card, d) {
+  const p = d.parts;
+  const proc = el("p", { class: "proc" }, "Thủ tục: ", el("b", {}, p.procedure.title || "?"), " (" + (p.procedure.id || "?") + ")");
+  if (p.locality) proc.append(" · Tỉnh/thành: " + p.locality);
+  card.append(proc);
+  if (p.gap_text) card.append(el("div", { class: "gapbox" }, el("h3", {}, "Không tìm thấy căn cứ"), p.gap_text));
+  if (p.sections.length) card.append(el("div", { class: "summary" }, summaryLine(p.sections)));
+  for (const s of p.sections) card.append(sectionBlock(s));
+  if (p.notices.length || p.notes.length) {
+    const box = el("div", { class: "notices" }, el("h3", {}, "Lưu ý"));
+    for (const t of p.notices) box.append(el("div", { class: "notice" }, t));
+    for (const t of p.notes) box.append(el("div", { class: "note" }, t));
+    card.append(box);
+  }
+  if (p.narrative) card.append(el("div", { class: "narr" }, el("h3", {}, "Giải thích (đã kiểm từng câu)"), el("div", { class: "text", style: "margin:0" }, p.narrative)));
+}
+
+function render(d) {
+  const ref = d.refusal || {};
+  const reason = d.outcome === "refuse" ? (REFUSAL_REASON[ref.reason] || REFUSAL_REASON[ref.type] || ref.type) : null;
+  const card = el("div", { class: "card " + (d.outcome || "") }, labelBox(d.outcome, reason, ref.reason || ref.type));
+
+  if (d.parts) {
+    renderAnswer(card, d);
+  } else {
+    card.append(el("div", { class: "text" }, d.generation || ""));
+  }
+
+  if (d.outcome === "clarify" && d.candidates.length) {
+    const opts = el("div", { class: "options" }, el("strong", {}, "Chọn thủ tục bạn muốn hỏi:"));
+    for (const c of d.candidates) {
+      opts.append(el("button", { type: "button", onclick: () =>
+        ask({ ...lastQuestion, procedure_id: c.procedure_id }) }, c.title + "  (" + c.procedure_id + ")"));
+    }
+    card.append(opts);
+  }
+
+  if (d.outcome === "refuse" && d.refusal) {
+    const box = el("div", { class: "box redirect" }, el("h3", {}, "Lý do: " + reason));
+    if (ref.title) box.append(el("div", {}, "Thủ tục: " + ref.title + (ref.procedure_id ? " (" + ref.procedure_id + ")" : "")));
+    if (ref.missing && ref.missing.length) box.append(el("div", {}, "Chưa có căn cứ về: " + ref.missing.join("; ")));
+    if (ref.agency) box.append(el("div", {}, "Nơi hỏi: " + ref.agency));
+    if (ref.portal_url) box.append(el("div", {}, "Tra cứu tại: ", link(ref.portal_url)));
+    card.append(box);
+  }
+
+  if (d.citations.length) {
+    const ol = el("ol");
+    for (const c of d.citations) {
+      ol.append(el("li", {}, el("code", {}, c.evidence_id || ""), " ",
+        c.source_url ? link(c.source_url) : "", c.retrieved_at ? "  (dữ liệu ngày " + c.retrieved_at.slice(0, 10) + ")" : ""));
+    }
+    card.append(el("details", { class: "cites" }, el("summary", {}, "Nguồn trích dẫn — " + d.citations.length + " nguồn"), ol));
+  }
+
+  const meta = el("div", { class: "meta" },
+    el("span", {}, "Thời gian: " + d.latency_s + " s"),
+    el("span", {}, "Chế độ: " + (d.variant === "baseline" ? "bản so sánh không rào chắn" : "trợ lý (có rào chắn)")),
+    d.model_calls != null ? el("span", {}, "Số lần gọi mô hình: " + d.model_calls) : null,
+    d.procedure_id ? el("span", {}, "Thủ tục: " + d.procedure_id) : null,
+    d.trace_id ? el("span", {}, "Trace: ", link(d.trace_url || "http://127.0.0.1:3000", d.trace_id)) : el("span", {}, "Trace: (LangFuse chưa bật)"));
+  card.append(meta);
+  if (d.errors && d.errors.length) card.append(el("div", { class: "meta error" }, "errors: " + d.errors.join("; ")));
+  $("result").replaceChildren(card);
+}
+
+buildLegend();
+
+// ---------------------------------------------------------------- "Thủ tục" tab (GET /procedures, /procedures/{code})
+// On-demand rule: the list shows one compact row per procedure; a row's values are fetched and shown only when asked.
+const FIELD_ORDER = ["Hộ tịch", "Cấp, quản lý căn cước", "Đăng ký, quản lý cư trú"];
+const PROVINCIAL_GROUP = "Chỉ có trong quyết định của tỉnh Đắk Lắk";
+const KIND_NAME = { legal_text: "văn bản pháp luật", change_notice: "thông báo thay đổi", guidance: "hướng dẫn",
+                    form: "biểu mẫu", fee_resolution: "nghị quyết lệ phí" };
+let procs = null;
+const fold = (t) => (t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase();
+const vnDate = (d) => d ? d.split("-").reverse().join("/") : "";
+
+function sourceName(s) {
+  if (s.kind === "provincial_decision") return "QĐ UBND tỉnh Đắk Lắk";
+  if ((s.url || "").includes("moj.gov.vn")) return "Bộ Tư pháp";
+  if ((s.url || "").includes("bocongan.gov.vn")) return "Bộ Công an";
+  return "Trang chính thức";
+}
+
+function showTab(which) {
+  $("tab-ask").hidden = which !== "ask";
+  $("tab-procs").hidden = which !== "procs";
+  $("tab-btn-ask").classList.toggle("on", which === "ask");
+  $("tab-btn-procs").classList.toggle("on", which === "procs");
+  if (which === "procs" && procs === null) loadProcs();
+}
+
+async function loadProcs() {
+  $("plist").replaceChildren(el("p", { class: "sub" }, "Đang tải danh sách…"));
+  try {
+    const r = await fetch("/procedures");
+    const data = await r.json();
+    if (!r.ok) throw new Error(data.detail || r.status);
+    procs = data.procedures;
+    renderProcs();
+  } catch (e) {
+    $("plist").replaceChildren(el("p", { class: "error" }, "Lỗi: " + e.message));
+  }
+}
+
+function srcLink(url) { return url ? el("a", { class: "src", href: url, target: "_blank", rel: "noopener" }, "nguồn") : null; }
+
+function detailList(title, unit, items) {  // collapsed to a count above 3, like the answer card
+  const n = items.length;
+  return el("details", { class: "section", open: n <= OPEN_MAX },
+    el("summary", {}, title + " — " + n + " " + unit + (n > OPEN_MAX ? " (bấm để xem)" : "")), el("ul", {}, ...items));
+}
+
+function renderDetail(box, d) {
+  const parts = [];
+  if (d.status) parts.push(el("div", { class: "notice" }, "Thủ tục này đã dừng thực hiện từ " + vnDate(d.status.since) + " theo " + (d.status.basis || "văn bản mới") + ". ",
+    d.status.notice_url ? link(d.status.notice_url, "nguồn") : null));
+  if (d.documents.length) parts.push(detailList("Thành phần hồ sơ", "giấy tờ", d.documents.map((x) =>
+    el("li", {}, x.item + (x.quantity ? " — " + x.quantity : "") + (x.mandatory === false ? " (không bắt buộc)" : "") + " ", srcLink(x.source_url)))));
+  if (d.fees.length) parts.push(detailList("Lệ phí", "dòng", d.fees.map((x) =>
+    el("li", {}, x.value + (x.condition ? " (" + x.condition + ")" : "") + (x.jurisdiction ? " — " + x.jurisdiction : "") + " ", srcLink(x.source_url)))));
+  if (d.deadline) parts.push(el("div", { class: "section" }, el("b", {}, "Thời hạn giải quyết: "), d.deadline.text, " ", srcLink(d.deadline.source_url)));
+  if (d.place.length) parts.push(detailList("Nơi nộp / cơ quan tiếp nhận", "cơ quan", d.place.map((x) =>
+    el("li", {}, x.name + (x.jurisdiction ? " — " + x.jurisdiction : "") + " ", srcLink(x.source_url)))));
+  if (d.legal_basis.length) parts.push(detailList("Căn cứ pháp lý", "văn bản", d.legal_basis.map((x) => el("li", {}, x.text + " ", srcLink(x.source_url)))));
+  if (d.depth_documents.length) parts.push(detailList("Văn bản liên quan trong kho", "văn bản", d.depth_documents.map((x) =>
+    el("li", {}, (KIND_NAME[x.kind] || x.kind) + ": ", x.url ? link(x.url, x.title) : x.title, x.effective_date ? " (hiệu lực " + vnDate(x.effective_date) + ")" : ""))));
+  if (!parts.length) parts.push(el("p", { class: "sub" }, "Không có dữ liệu chi tiết cho thủ tục này."));
+  box.replaceChildren(...parts);
+}
+
+function procRow(p) {
+  const detail = el("div", { class: "pdetail", hidden: "" });
+  let loaded = false;
+  const btn = el("button", { type: "button", class: "more-btn" }, "Xem thêm");
+  btn.onclick = async () => {
+    if (!detail.hidden) { detail.hidden = true; btn.textContent = "Xem thêm"; return; }
+    detail.hidden = false; btn.textContent = "Thu gọn";
+    if (loaded) return;
+    detail.replaceChildren(el("p", { class: "sub" }, "Đang tải…"));
+    try {
+      const r = await fetch("/procedures/" + encodeURIComponent(p.code));
+      const d = await r.json();
+      if (!r.ok) throw new Error(d.detail || r.status);
+      renderDetail(detail, d);
+      loaded = true;
+    } catch (e) { detail.replaceChildren(el("p", { class: "error" }, "Lỗi: " + e.message)); }
+  };
+  const links = el("div", { class: "plinks" }, "Nguồn chính thức:",
+    ...p.sources.map((s) => link(s.url, sourceName(s))), btn);
+  const title = el("div", { class: "ptitle" }, p.title);
+  if (p.status) title.append(el("span", { class: "pill" }, "đã dừng thực hiện"));
+  const cn = p.change_notice || {};
+  const notes = [cn.in_force ? "thay đổi gần nhất có hiệu lực " + vnDate(cn.in_force) : null,
+                 cn.upcoming ? "sắp có hiệu lực " + vnDate(cn.upcoming) : null].filter(Boolean).join(" · ");
+  return el("div", { class: "prow" }, title,
+    el("div", { class: "pmeta" }, p.code + (p.agency ? " · " + p.agency : "")),
+    notes ? el("div", { class: "pmeta" }, "Thông báo thay đổi: " + notes) : null, links, detail);
+}
+
+// <group-state> pure: which groups exist, their counts and whether they start open (tested with node in tests/test_web_app.py)
+function groupState(procs, q, fold, fieldOrder, provincialGroup) {
+  const all = {}, hit = {};
+  const key = (p) => p.provincial_only ? provincialGroup : p.field;
+  for (const p of procs) {
+    (all[key(p)] = all[key(p)] || []).push(p);
+    if (q && fold(p.title + " " + p.code + " " + (p.agency || "")).includes(q)) (hit[key(p)] = hit[key(p)] || []).push(p);
+  }
+  const order = [...fieldOrder, ...Object.keys(all).filter((g) => !fieldOrder.includes(g) && g !== provincialGroup), provincialGroup];
+  const state = (name, every, hits) => ({
+    name, total: every.length, rows: q ? hits : every,
+    label: q ? name + " (" + hits.length + " / " + every.length + ")" : name + " (" + every.length + ")",
+    open: Boolean(q) && hits.length > 0,   // no filter: all collapsed; filter: only (sub-)groups with matches open
+  });
+  return order.filter((g) => all[g]).map((g) => {
+    const st = state(g, all[g], hit[g] || []);
+    // second level: a group of more than SUBGROUP_MIN rows is split by procedure family (GET /procedures `family`,
+    // from the resolver's family-noun table); rows without a family go last, under "Khác"
+    if (all[g].length > SUBGROUP_MIN && all[g].some((p) => p.family)) {
+      const fam = {};
+      for (const p of all[g]) (fam[p.family || OTHER] = fam[p.family || OTHER] || []).push(p);
+      const hitSet = new Set((hit[g] || []).map((p) => p.code));
+      st.subgroups = Object.keys(fam)
+        .sort((a, b) => (a === OTHER) - (b === OTHER) || fam[b].length - fam[a].length || a.localeCompare(b, "vi"))
+        .map((f) => state(f, fam[f], fam[f].filter((p) => hitSet.has(p.code))));
+    }
+    return st;
+  });
+}
+const SUBGROUP_MIN = 10;
+const OTHER = "Khác";
+// </group-state>
+
+function renderProcs() {
+  const q = fold($("pfilter").value.trim());
+  const groups = groupState(procs, q, fold, FIELD_ORDER, PROVINCIAL_GROUP);
+  const shown = groups.reduce((n, g) => n + (q ? g.rows.length : g.total), 0);
+  $("pcount").textContent = shown + " / " + procs.length + " thủ tục";
+  $("plist").replaceChildren(...groups.map((g) => {
+    const box = el("details", { class: "pgroup", open: g.open }, el("summary", {}, g.label));
+    let filled = false;
+    const content = () => g.subgroups
+      ? g.subgroups.map((sg) => {  // second level: same behaviour, rows built when the sub-group is opened
+          const sub = el("details", { class: "pgroup psub", open: sg.open }, el("summary", {}, sg.label));
+          let subFilled = false;
+          const fillSub = () => { if (!subFilled && sub.open) { sub.append(...sg.rows.map(procRow)); subFilled = true; } };
+          sub.addEventListener("toggle", fillSub);
+          fillSub();
+          return sub;
+        })
+      : g.rows.map(procRow);
+    const fill = () => { if (!filled && box.open) { box.append(...content()); filled = true; } };  // built on first open; no fetch
+    box.addEventListener("toggle", fill);
+    fill();
+    return box;
+  }));
+}
+
+$("tab-btn-ask").onclick = () => showTab("ask");
+$("tab-btn-procs").onclick = () => showTab("procs");
+$("pfilter").addEventListener("input", () => { if (procs) renderProcs(); });
+if (location.hash === "#thu-tuc") showTab("procs");  // direct link to the tab: http://127.0.0.1:8000/#thu-tuc
+
+// No version or preset names on the page (owner's decision: one current product). GET /presets stays for tooling;
+// the preset is still in the /ask JSON and on the LangFuse trace.
+
+$("ask").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  const query = $("query").value.trim();
+  if (!query) return;
+  const payload = { query, variant: $("variant").value };
+  const loc = $("locality").value.trim();
+  if (loc) payload.locality = loc;
+  ask(payload);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Viết lại CÂU HỎI thành một câu truy vấn tìm kiếm ngắn, rõ ràng, bằng tiếng Việt, gắn với đúng thủ tục "$title" và nội dung người dùng cần ($intent).
+Chỉ trả về câu truy vấn, không giải thích.
+
+CÂU HỎI: $query
