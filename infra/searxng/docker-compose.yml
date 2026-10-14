@@ -1,0 +1,17 @@
+# Self-hosted SearxNG for AI5013 — official image, local only.
+# Start with infra/searxng/up.sh (reads SEARXNG_SECRET from the repo-root .env).
+name: ai5013-searxng
+services:
+  searxng:
+    image: docker.io/searxng/searxng:2026.10.9-f4822b3fc   # pinned (release of 2026-10-09)
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080        # bound to localhost only
+    environment:
+      SEARXNG_BASE_URL: http://127.0.0.1:8080/
+      SEARXNG_SECRET: ${SEARXNG_SECRET:?set SEARXNG_SECRET in .env (infra/searxng/up.sh does it)}
+    volumes:
+      - ./settings.yml:/etc/searxng/settings.yml:ro
+      - searxng_cache:/var/cache/searxng
+volumes:
+  searxng_cache:
