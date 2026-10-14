@@ -1,0 +1,285 @@
+{
+  "procedure_id": "1.004222",
+  "title": "Đăng ký thường trú",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "Giấy tờ, tài liệu chứng minh việc sở hữu chỗ ở hợp pháp. Trừ trường hợp thông tin chứng minh về chỗ ở hợp pháp của công dân đã có trong cơ sở dữ liệu chuyên ngành đã được kết nối, chia sẻ với cơ quan đăng ký cư trú hoặc được công dân cung cấp nguồn dẫn hoặc đã có bản điện tử trên dịch vụ công qua giải quyết thủ tục hành chính khác thì cơ quan đăng ký cư trú tự kiểm tra, xác minh không yêu cầu công dân xuất trình giấy tờ chứng minh.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Trường hợp công dân đăng ký thường trú vào chỗ ở hợp pháp thuộc quyền sở hữu của mình:"
+    },
+    {
+      "item": "Trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Trường hợp công dân đăng ký thường trú vào chỗ ở hợp pháp thuộc quyền sở hữu của mình: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Trường hợp công dân đăng ký thường trú vào chỗ ở hợp pháp thuộc quyền sở hữu của mình: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh đủ diện tích nhà ở để đăng ký thường trú theo quy định. Trừ trường hợp thông tin chứng minh về việc đủ diện tích nhà ở để đăng ký thường trú trên giấy chứng nhận về quyền sử dụng đất, quyền sở hữu nhà ở mà giấy tờ này đã có trong cơ sở dữ liệu chuyên ngành đã được kết nối, chia sẻ với cơ quan đăng ký cư trú thì cơ quan đăng ký cư trú tự kiểm tra, xác minh không yêu cầu công dân xuất trình giấy tờ chứng minh",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Những trường hợp khác được đăng ký thường trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ, hồ sơ gồm:"
+    },
+    {
+      "item": "Hợp đồng cho thuê, cho mượn, cho ở nhờ hoặc văn bản về việc cho mượn, cho ở nhờ chỗ ở hợp pháp đã được công chứng hoặc chứng thực theo quy định của pháp luật",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Những trường hợp khác được đăng ký thường trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ, hồ sơ gồm:"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA) trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp được cho thuê, cho mượn, cho ở nhờ hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Những trường hợp khác được đăng ký thường trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp được cho thuê, cho mượn, cho ở nhờ hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Những trường hợp khác được đăng ký thường trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh là chức sắc, chức việc, nhà tu hành hoặc người khác hoạt động tôn giáo và được hoạt động tại cơ sở tôn giáo đó theo quy định của pháp luật về tín ngưỡng, tôn giáo đối với người hoạt động tôn giáo được bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; giấy tờ, tài liệu chứng minh là người đại diện cơ sở tín ngưỡng đối với người đại diện cơ sở tín ngưỡng",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:"
+    },
+    {
+      "item": "Trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Văn bản xác nhận của Ủy ban nhân dân cấp xã về việc trong cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:"
+    },
+    {
+      "item": "Đối với người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.",
+      "quantity": null,
+      "quantity_text": "Bản chính: 0; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:"
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh là: người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ trừ trường hợp đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư, cơ sở dữ liệu chuyên ngành. (Trường hợp người cao tuổi, người chưa thành niên đã có thông tin về ngày tháng năm sinh trong Cơ sở dữ liệu quốc gia về dân cư, do đó, không yêu cầu xuất trình giấy tờ chứng minh).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Trường hợp vợ về ở với chồng, chồng về ở với vợ, con về ở với cha, mẹ hoặc cha, mẹ về ở với con; Người cao tuổi về ở với anh ruột, chị ruột, em ruột, cháu ruột; người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi về ở với ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột, cháu ruột, người giám hộ; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ về ở với cụ nội, cụ ngoại, ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột; người chưa thành niên về ở với người giám hộ được đăng ký thường trú vào chỗ ở hợp pháp không thuộc quyền sở hữu, hồ sơ gồm:"
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh quan hệ nhân thân với chủ hộ, thành viên hộ gia đình, trừ trường hợp vợ về với chồng, chồng về với vợ, cha, mẹ về với con, con về với cha mẹ, người cao tuổi, người khuyết tật, người chưa thành niên về với anh, chị, em ruột hoặc trường hợp khác đã có thông tin thể hiện quan hệ này trong Cơ sở dữ liệu quốc gia về dân cư hoặc cơ sở dữ liệu chuyên ngành (Theo quy định tại Điều 6 Nghị định số 62/2021/NĐ-CP);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Trường hợp vợ về ở với chồng, chồng về ở với vợ, con về ở với cha, mẹ hoặc cha, mẹ về ở với con; Người cao tuổi về ở với anh ruột, chị ruột, em ruột, cháu ruột; người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi về ở với ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột, cháu ruột, người giám hộ; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ về ở với cụ nội, cụ ngoại, ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột; người chưa thành niên về ở với người giám hộ được đăng ký thường trú vào chỗ ở hợp pháp không thuộc quyền sở hữu, hồ sơ gồm:"
+    },
+    {
+      "item": "Trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA). Trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 2,
+      "quantity_text": "Bản chính: 1; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Trường hợp vợ về ở với chồng, chồng về ở với vợ, con về ở với cha, mẹ hoặc cha, mẹ về ở với con; Người cao tuổi về ở với anh ruột, chị ruột, em ruột, cháu ruột; người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi về ở với ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột, cháu ruột, người giám hộ; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ về ở với cụ nội, cụ ngoại, ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột; người chưa thành niên về ở với người giám hộ được đăng ký thường trú vào chỗ ở hợp pháp không thuộc quyền sở hữu, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA), Trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Trường hợp vợ về ở với chồng, chồng về ở với vợ, con về ở với cha, mẹ hoặc cha, mẹ về ở với con; Người cao tuổi về ở với anh ruột, chị ruột, em ruột, cháu ruột; người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi về ở với ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột, cháu ruột, người giám hộ; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ về ở với cụ nội, cụ ngoại, ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột; người chưa thành niên về ở với người giám hộ được đăng ký thường trú vào chỗ ở hợp pháp không thuộc quyền sở hữu, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: - Trường hợp trẻ em, người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không nơi nương tựa được người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo đồng ý cho đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA) trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: - Trường hợp trẻ em, người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không nơi nương tựa được người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo đồng ý cho đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Văn bản xác nhận của Ủy ban nhân dân cấp xã về người thuộc đối tượng quy định tại khoản 2 Điều 17 của Luật Cư trú và việc trong cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: - Trường hợp trẻ em, người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không nơi nương tựa được người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo đồng ý cho đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:"
+    },
+    {
+      "item": "- Văn bản xác nhận của Ủy ban nhân dân cấp xã về địa điểm phương tiện đăng ký đậu, đỗ thường xuyên trong trường hợp phương tiện không phải đăng ký hoặc nơi đăng ký phương tiện không trùng với nơi thường xuyên đậu, đỗ",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm:"
+    },
+    {
+      "item": "Giấy chứng nhận đăng ký phương tiện và giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường của phương tiện hoặc văn bản xác nhận của Ủy ban nhân dân cấp xã về việc sử dụng phương tiện đó vào mục đích để ở đối với phương tiện không thuộc đối tượng phải đăng ký, đăng kiểm",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm:"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Đối với người đăng ký thường trú không phải là chủ phương tiện thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ phương tiện hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": null,
+      "quantity_text": "Bản chính: 0; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm:"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Đăng ký thường trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân nhân (đơn vị đóng quân, nhà ở công vụ) | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Đối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục đăng ký thường trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Đăng ký thường trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân nhân (đơn vị đóng quân, nhà ở công vụ)"
+    },
+    {
+      "item": "Đối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Đăng ký thường trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân nhân (đơn vị đóng quân, nhà ở công vụ)"
+    },
+    {
+      "item": "Giấy tờ, tài liệu xác nhận về việc chăm sóc, nuôi dưỡng, trợ giúp",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 0; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm:"
+    },
+    {
+      "item": "Trường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm: | Mẫu: Mẫu CT02_66.docx"
+    },
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA),",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm: | Mẫu: Mẫu CT01 _66.doc"
+    },
+    {
+      "item": "Văn bản đề nghị của người đứng đầu cơ sở trợ giúp xã hội đối với người được cơ sở trợ giúp xã hội nhận chăm sóc, nuôi dưỡng, trợ giúp",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm:"
+    },
+    {
+      "item": "Đối với người được cá nhân, hộ gia đình nhận chăm sóc, nuôi dưỡng thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ nhận chăm sóc, nuôi dưỡng, chủ sở hữu chỗ ở hợp pháp của cá nhân, hộ gia đình nhận chăm sóc, nuôi dưỡng hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": null,
+      "quantity_text": "Bản chính: 0; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm:"
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.",
+    "- Bước 3: Khi tiếp nhận hồ sơ đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (Mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký.\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sau khi tiếp nhận hồ sơ đăng ký thường trú Cơ quan đăng ký cư trú có trách nhiệm chuyển đề nghị cấp văn bản đồng ý cho giải quyết thường trú đến cơ quan quản lý xuất, nhập cảnh Công an tỉnh, thành phố trực thuộc Trung ương nơi công dân đề nghị đăng ký thường trú (kèm hồ sơ đề nghị đăng ký thường trú) để kiểm tra, xác minh và đề nghị cơ quan quản lý xuất, nhập cảnh Bộ Công an xem xét cấp văn bản đồng ý cho giải quyết thường trú;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (Mẫu CT05 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (Mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký.",
+    "- Bước 4: Cá nhân, tổ chức nộp lệ phí đăng ký cư trú theo quy định.",
+    "- Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "20.000 đồng",
+      "condition": "Phí – Trực tiếp; Trường hợp công dân nộp hồ sơ trực tiếp thu 20.000 đồng/lần đăng ký;",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "10.000 đồng",
+      "condition": "Phí – Trực tuyến; Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 10.000 đồng/lần đăng ký.",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Nghị định 62/2021/NĐ-CP Số: 62/2021/NĐ-CP",
+    "Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Thông tư 85/2019/TT-BTC Số: 85/2019/TT-BTC",
+    "Thông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú. Số: 66/2023/TT-BCA",
+    "Thông tư số 75/2022/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp và quản lý lệ phí đăng ký cư trú Số: 75/2022/TT-BTC"
+  ],
+  "conditions": "không",
+  "raw_text": "Mã thủ tục:\n1.004222\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến một phần\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.\n- Bước 3: Khi tiếp nhận hồ sơ đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (Mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký.\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sau khi tiếp nhận hồ sơ đăng ký thường trú Cơ quan đăng ký cư trú có trách nhiệm chuyển đề nghị cấp văn bản đồng ý cho giải quyết thường trú đến cơ quan quản lý xuất, nhập cảnh Công an tỉnh, thành phố trực thuộc Trung ương nơi công dân đề nghị đăng ký thường trú (kèm hồ sơ đề nghị đăng ký thường trú) để kiểm tra, xác minh và đề nghị cơ quan quản lý xuất, nhập cảnh Bộ Công an xem xét cấp văn bản đồng ý cho giải quyết thường trú;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (Mẫu CT05 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (Mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT- BCA) cho người đăng ký.\n- Bước 4: Cá nhân, tổ chức nộp lệ phí đăng ký cư trú theo quy định.\n- Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n07 Ngày làm việc\n- Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrực tuyến\n07 Ngày làm việc\n- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, ứng dụng VNeID hoặc dịch vụ công trực tuyến khác theo quy định của pháp luật;\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n\nPhí:\nTrực tiếp\n07 Ngày làm việc20.000Trường hợp công dân nộp hồ sơ trực tiếp thu 20.000 đồng/lần đăng ký;\nTrực tuyến\n07 Ngày làm việc10.000Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 10.000 đồng/lần đăng ký.\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\n* Trường hợp công dân đăng ký thường trú vào chỗ ở hợp pháp thuộc quyền sở hữu của mình:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu chứng minh việc sở hữu chỗ ở hợp pháp. Trừ trường hợp thông tin chứng minh về chỗ ở hợp pháp của công dân đã có trong cơ sở dữ liệu chuyên ngành đã được kết nối, chia sẻ với cơ quan đăng ký cư trú hoặc được công dân cung cấp nguồn dẫn hoặc đã có bản điện tử trên dịch vụ công qua giải quyết thủ tục hành chính khác thì cơ quan đăng ký cư trú tự kiểm tra, xác minh không yêu cầu công dân xuất trình giấy tờ chứng minh.\nBản chính: 0\nBản sao: 1\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA)\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\nTờ khai thay đổi thông tin cư trú (mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA)\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\n* Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Những trường hợp khác được đăng ký thường trú vào chỗ ở hợp pháp do thuê, mượn, ở nhờ, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu chứng minh đủ diện tích nhà ở để đăng ký thường trú theo quy định. Trừ trường hợp thông tin chứng minh về việc đủ diện tích nhà ở để đăng ký thường trú trên giấy chứng nhận về quyền sử dụng đất, quyền sở hữu nhà ở mà giấy tờ này đã có trong cơ sở dữ liệu chuyên ngành đã được kết nối, chia sẻ với cơ quan đăng ký cư trú thì cơ quan đăng ký cư trú tự kiểm tra, xác minh không yêu cầu công dân xuất trình giấy tờ chứng minh\nBản chính: 0\nBản sao: 1\nHợp đồng cho thuê, cho mượn, cho ở nhờ hoặc văn bản về việc cho mượn, cho ở nhờ chỗ ở hợp pháp đã được công chứng hoặc chứng thực theo quy định của pháp luật\nBản chính: 0\nBản sao: 1\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA) trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp được cho thuê, cho mượn, cho ở nhờ hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\ntrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp được cho thuê, cho mượn, cho ở nhờ hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\n* Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: Trường hợp người hoạt động tôn giáo được phong phẩm, bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; Người đại diện cơ sở tín ngưỡng; Người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu chứng minh là chức sắc, chức việc, nhà tu hành hoặc người khác hoạt động tôn giáo và được hoạt động tại cơ sở tôn giáo đó theo quy định của pháp luật về tín ngưỡng, tôn giáo đối với người hoạt động tôn giáo được bổ nhiệm, bầu cử, suy cử, phân công, thuyên chuyển đến hoạt động tôn giáo tại cơ sở tôn giáo; giấy tờ, tài liệu chứng minh là người đại diện cơ sở tín ngưỡng đối với người đại diện cơ sở tín ngưỡng\nBản chính: 0\nBản sao: 1\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA);\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA).\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\nVăn bản xác nhận của Ủy ban nhân dân cấp xã về việc trong cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở\nBản chính: 0\nBản sao: 1\nĐối với người được người đại diện hoặc ban quản lý cơ sở tín ngưỡng đồng ý cho đăng ký thường trú để trực tiếp quản lý, tổ chức hoạt động tín ngưỡng tại cơ sở tín ngưỡng thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.\nBản chính: 0\nBản sao: 0\n* Lưu ý:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n1. Ngoài những giấy tờ, tài liệu được quy định như trên thì với một số trường hợp cụ thể cần lưu ý như sau: - Không yêu cầu xuất trình Giấy khai sinh đối với trường hợp trẻ em mới sinh đăng ký thường trú lần đầu; - Trường hợp người đăng ký thường trú là người chưa thành niên thì trong tờ khai thay đổi thông tin cư trú phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản; - Trường hợp người đăng ký thường trú là người Việt Nam định cư ở nước ngoài còn quốc tịch Việt Nam thì trong hồ sơ đăng ký thường trú phải có hộ chiếu Việt Nam còn giá trị sử dụng; trường hợp người Việt Nam định cư ở nước ngoài nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ có giá trị đi lại quốc tế do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn thì trong hồ sơ đăng ký thường trú phải có hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc hộ chiếu Việt Nam bị mất, hết hạn; giấy tờ, tài liệu chứng minh có quốc tịch Việt Nam theo quy định của pháp luật Việt Nam về quốc tịch và xuất trình các giấy tờ dùng để nhập cảnh vào Việt Nam khi đăng ký thường trú để được cơ quan quản lý xuất, nhập cảnh Bộ Công an xem xét, cấp văn bản đồng ý cho giải quyết thường trú; - Trường hợp người nước ngoài được nhập quốc tịch Việt Nam thì khi đăng ký thường trú lần đầu phải có Quyết định của Chủ tịch nước về việc cho nhập quốc tịch; - Sĩ quan nghiệp vụ, hạ sĩ quan nghiệp vụ, sĩ quan chuyên môn kỹ thuật, hạ sĩ quan chuyên môn kĩ thuật, công nhân công an đã đăng ký thường trú tại đơn vị đóng quân mà chuyển đến chỗ ở hợp pháp mới ngoài đơn vị đóng quân và đủ điều kiện đăng ký thường trú, đề nghị đăng ký thường trú tại chỗ ở mới thì hồ sơ đăng ký thường trú phải kèm Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp (ký tên và đóng dấu); - Sĩ quan quân nhân chuyên nghiệp, công nhân, viên chức quốc phòng đã đăng ký thường trú vào nhà ở công vụ, đơn vị đóng quân khi chuyển đăng ký thường trú ra chỗ ở hợp pháp ngoài nơi nhà ở công vụ, nơi đơn vị đóng quân thì hồ sơ đăng ký thường trú tại chỗ ở mới phải kèm theo Giấy giới thiệu đăng ký thường trú của đơn vị đang công tác (ký tên và đóng dấu).\nBản chính: 1\nBản sao: 0\n2. Việc nộp hồ sơ đăng ký cư trú - Trường hợp nộp hồ sơ trực tiếp tại cơ quan đăng ký cư trú thì người yêu cầu đăng ký cư trú có thể nộp bản sao giấy tờ, tài liệu được chứng thực từ bản chính hoặc bản sao giấy tờ được cấp từ sổ gốc (sau đây gọi là bản sao) hoặc bản quét, bản chụp kèm theo bản chính giấy tờ, tài liệu để đối chiếu. Trường hợp người yêu cầu đăng ký cư trú nộp bản quét hoặc bản chụp kèm theo bản chính giấy tờ để đối chiếu thì người tiếp nhận có trách nhiệm kiểm tra, đối chiếu bản quét, bản chụp với bản chính và ký xác nhận, không được yêu cầu nộp bản sao giấy tờ đó. - Trường hợp thực hiện đăng ký cư trú trực tuyến, người yêu cầu đăng ký cư trú khai báo thông tin theo biểu mẫu điện tử được cung cấp sẵn, đăng tải bản quét hoặc bản chụp giấy tờ, tài liệu hợp lệ (không bắt buộc phải công chứng, chứng thực, ký số hoặc xác thực bằng hình thức khác) hoặc dẫn nguồn tài liệu từ Kho quản lý dữ liệu điện tử của tổ chức, cá nhân. Trường hợp công dân đăng tải bản quét, bản chụp giấy tờ, tài liệu mà không được ký số hoặc xác thực bằng hình thức khác thì khi cơ quan đăng ký cư trú tiến hành kiểm tra, xác minh để giải quyết thủ tục về cư trú; công dân có trách nhiệm xuất trình giấy tờ, tài liệu đã đăng tải để cơ quan đăng ký cư trú kiểm tra, đối chiếu và ghi nhận tính chính xác vào biên bản xác minh. Cơ quan đăng ký cư trú không yêu cầu công dân nộp để lưu giữ giấy tờ đó. - Bản quét hoặc bản chụp giấy tờ bằng thiết bị điện tử từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung; đã được hợp pháp hóa lãnh sự, dịch sang tiếng Việt theo quy định nếu là giấy tờ do cơ quan có thẩm quyền nước ngoài cấp trừ trường hợp được miễn hợp pháp hóa lãnh sự. - Trường hợp thông tin giấy tờ chứng minh điều kiện đăng ký cư trú đã được chia sẻ và khai thác từ cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành thì cơ quan đăng ký cư trú không được yêu cầu công dân nộp, xuất trình giấy tờ đó để giải quyết đăng ký cư trú.\nBản chính: 0\nBản sao: 0\n* Đăng ký thường trú tại chỗ ở hợp pháp không thuộc quyền sở hữu của mình: - Trường hợp vợ về ở với chồng, chồng về ở với vợ, con về ở với cha, mẹ hoặc cha, mẹ về ở với con; Người cao tuổi về ở với anh ruột, chị ruột, em ruột, cháu ruột; người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi về ở với ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột, cháu ruột, người giám hộ; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ về ở với cụ nội, cụ ngoại, ông nội, bà nội, ông ngoại, bà ngoại, anh ruột, chị ruột, em ruột, bác ruột, chú ruột, cậu ruột, cô ruột, dì ruột; người chưa thành niên về ở với người giám hộ được đăng ký thường trú vào chỗ ở hợp pháp không thuộc quyền sở hữu, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu chứng minh là: người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không có khả năng lao động, người bị bệnh tâm thần hoặc bệnh khác làm mất khả năng nhận thức, khả năng điều khiển hành vi; Người chưa thành niên được cha, mẹ hoặc người giám hộ đồng ý hoặc không còn cha, mẹ trừ trường hợp đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư, cơ sở dữ liệu chuyên ngành. (Trường hợp người cao tuổi, người chưa thành niên đã có thông tin về ngày tháng năm sinh trong Cơ sở dữ liệu quốc gia về dân cư, do đó, không yêu cầu xuất trình giấy tờ chứng minh).\nBản chính: 1\nBản sao: 0\nGiấy tờ, tài liệu chứng minh quan hệ nhân thân với chủ hộ, thành viên hộ gia đình, trừ trường hợp vợ về với chồng, chồng về với vợ, cha, mẹ về với con, con về với cha mẹ, người cao tuổi, người khuyết tật, người chưa thành niên về với anh, chị, em ruột hoặc trường hợp khác đã có thông tin thể hiện quan hệ này trong Cơ sở dữ liệu quốc gia về dân cư hoặc cơ sở dữ liệu chuyên ngành (Theo quy định tại Điều 6 Nghị định số 62/2021/NĐ-CP);\nBản chính: 1\nBản sao: 0\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA). Trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 1\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA), Trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ, chủ sở hữu chỗ ở hợp pháp hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\n* Đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở: - Trường hợp trẻ em, người khuyết tật đặc biệt nặng, người khuyết tật nặng, người không nơi nương tựa được người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo đồng ý cho đăng ký thường trú tại cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ giúp là nhà ở, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA) trong đó ghi rõ ý kiến đồng ý cho đăng ký thường trú của người đại diện hoặc ban quản lý cơ sở tín ngưỡng, người đứng đầu hoặc người đại diện cơ sở tôn giáo, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\nVăn bản xác nhận của Ủy ban nhân dân cấp xã về người thuộc đối tượng quy định tại khoản 2 Điều 17 của Luật Cư trú và việc trong cơ sở tín ngưỡng, cơ sở tôn giáo có công trình phụ trợ là nhà ở\nBản chính: 0\nBản sao: 1\n* Người sinh sống, người làm nghề lưu động trên phương tiện được đăng ký thường trú tại phương tiện, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n- Văn bản xác nhận của Ủy ban nhân dân cấp xã về địa điểm phương tiện đăng ký đậu, đỗ thường xuyên trong trường hợp phương tiện không phải đăng ký hoặc nơi đăng ký phương tiện không trùng với nơi thường xuyên đậu, đỗ\nBản chính: 0\nBản sao: 1\nGiấy chứng nhận đăng ký phương tiện và giấy chứng nhận an toàn kỹ thuật và bảo vệ môi trường của phương tiện hoặc văn bản xác nhận của Ủy ban nhân dân cấp xã về việc sử dụng phương tiện đó vào mục đích để ở đối với phương tiện không thuộc đối tượng phải đăng ký, đăng kiểm\nBản chính: 0\nBản sao: 1\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA)\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\ntrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA)\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\nĐối với người đăng ký thường trú không phải là chủ phương tiện thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ phương tiện hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nBản chính: 0\nBản sao: 0\nĐăng ký thường trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân nhân (đơn vị đóng quân, nhà ở công vụ)\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA);\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\nĐối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục đăng ký thường trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).\nBản chính: 1\nBản sao: 0\nĐối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.\nBản chính: 1\nBản sao: 0\n* Người được chăm sóc, nuôi dưỡng, trợ giúp được đăng ký thường trú tại cơ sở trợ giúp xã hội hoặc được đăng ký thường trú vào hộ gia đình nhận chăm sóc, nuôi dưỡng, trợ giúp, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu xác nhận về việc chăm sóc, nuôi dưỡng, trợ giúp\nBản chính: 0\nBản sao: 1\nTrường hợp người Việt Nam định cư ở nước ngoài về Việt Nam sinh sống nhập cảnh vào Việt Nam lần gần nhất bằng hộ chiếu do nước ngoài cấp hoặc giấy tờ thay thế hộ chiếu do nước ngoài cấp hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp hoặc sử dụng hộ chiếu Việt Nam nhưng bị mất, hết hạn sử dụng thực hiện thủ tục đăng ký thường trú thì sử dụng Tờ khai thay đổi thông tin về cư trú (dùng cho người Việt Nam định cư ở nước ngoài) (mẫu CT02 ban hành kèm theo Thông tư số 66/2023/TT-BCA).\nMẫu CT02_66.docx\nBản chính: 1\nBản sao: 0\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 Mẫu CT01 ban hành kèm theo Thông tư số 66/2023/TT-BCA),\nMẫu CT01 _66.doc\nBản chính: 1\nBản sao: 0\nVăn bản đề nghị của người đứng đầu cơ sở trợ giúp xã hội đối với người được cơ sở trợ giúp xã hội nhận chăm sóc, nuôi dưỡng, trợ giúp\nBản chính: 1\nBản sao: 0\nĐối với người được cá nhân, hộ gia đình nhận chăm sóc, nuôi dưỡng thì trong tờ khai phải ghi rõ ý kiến đồng ý cho đăng ký thường trú của chủ hộ nhận chăm sóc, nuôi dưỡng, chủ sở hữu chỗ ở hợp pháp của cá nhân, hộ gia đình nhận chăm sóc, nuôi dưỡng hoặc người được ủy quyền, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nBản chính: 0\nBản sao: 0\n\nYêu cầu - điều kiện:\nkhông\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nNghị định 62/2021/NĐ-CP\nSố: 62/2021/NĐ-CP\nThông tư 55/2021/TT-BCA\nSố: 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\nThông tư 85/2019/TT-BTC\nSố: 85/2019/TT-BTC\nThông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú.\nSố: 66/2023/TT-BCA\nThông tư số 75/2022/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp và quản lý lệ phí đăng ký cư trú\nSố: 75/2022/TT-BTC\n\nBiểu mẫu:\nFile mẫu:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA)\nTải về\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo kết quả giải quyết thủ tục về cư trú, hủy bỏ thủ tục về cư trú\nPhiếu từ chối tiếp nhận, giải quyết hồ sơ (lĩnh vực cư trú)",
+  "source": {
+    "source_id": "bca-portal#1.004222",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26360",
+    "locator": null,
+    "title": "Đăng ký thường trú — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:9040c87555c2107c81901b0a62bf92114eacc2069ea14247ae365cbe4ec39114"
+  }
+}

@@ -1,0 +1,27 @@
+{
+ "doc_id": "legal:08-2025-TT-BTP:dieu-6",
+ "kind": "legal_text",
+ "title": "Thông tư 08/2025/TT-BTP, Điều 6",
+ "issuer": "Bộ Tư pháp",
+ "effective_date": "2025-07-01",
+ "jurisdiction": null,
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRBmv6FpMi3qsZUtk3kPzAmkrA5i59Uv32B1ydWXLk_R0GU9WfyYbrAVopAgy_E08QWDrQZWE31RJA-2QUPJPj5w~~&file_name=2025_835+%2b+836_08-2025-TT-BTP.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "358c2c4783e8e189a6ae45e00f685578396fdcd37240c86cec147cfbe62c1df1",
+ "procedure_ids": [
+  "1.000656",
+  "1.000894",
+  "1.001193"
+ ],
+ "link_method": "legal_basis",
+ "original_version": false,
+ "sections": [
+  {
+   "heading": "Điều 6. Việc xóa dữ liệu hộ tịch điện tử",
+   "text": "Việc xem xét, phê duyệt các đề nghị xóa dữ liệu hộ tịch điện tử hợp lệ của Ủy ban nhân dân cấp xã; cho phép khôi phục lại dữ liệu hộ tịch điện tử trước khi điều chỉnh, xóa bỏ theo văn bản, quyết định có hiệu lực pháp luật cho phép khôi phục lại trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung quy định tại khoản 3 Điều 13 của Thông tư số 01/2022/TT-BTP ngày 04 tháng 01 năm 2022 của Bộ trưởng Bộ Tư pháp quy định chi tiết một số điều và biện pháp thi hành Nghị định số 87/2020/NĐ-CP ngày 28 tháng 7 năm 2020 của Chính phủ quy định về Cơ sở dữ liệu hộ tịch điện tử, đăng ký hộ tịch trực tuyến được sửa đổi, bổ sung năm 2023 (sau đây gọi là Thông tư số 01/2022/TT-BTP) thuộc thẩm quyền của Chủ tịch Ủy ban nhân dân cấp tỉnh."
+  }
+ ],
+ "notes": "relevance: xóa dữ liệu hộ tịch điện tử; Thông tư 08/2025/TT-BTP is cited in legal_basis of these procedures. Nguồn: Công báo (congbao.chinhphu.vn), bản Word. Văn bản đang có hiệu lực tại thời điểm thu thập; tự hết hiệu lực từ 01/03/2027 (Điều 23). Chưa kiểm tra văn bản sửa đổi sau ngày ban hành.",
+ "text_sha256": "3032871564ac7d40f744ecc4a3c8b96511a1907d6b180186a08907bd550bda76",
+ "cleaning_actions": []
+}

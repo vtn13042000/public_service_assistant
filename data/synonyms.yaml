@@ -1,0 +1,16 @@
+# Query expansion for BM25 (P20). If any term of a group occurs in the query (case-insensitive, with or
+# without diacritics), the other terms of the group are appended to the BM25 query; the dense query is unchanged.
+# Everyday wording -> the official wording used in procedure titles and sections. Keep groups domain-general.
+groups:
+  - [CCCD, căn cước công dân, thẻ căn cước, căn cước]
+  - [CMND, chứng minh nhân dân]
+  - [hộ khẩu, sổ hộ khẩu, thường trú, đăng ký cư trú]
+  - [giấy chứng tử, khai tử]
+  - [giấy khai sinh, khai sinh]
+  - [độc thân, tình trạng hôn nhân]
+  - [lấy chồng, lấy vợ, kết hôn]
+  - [làm lại, cấp lại]
+  - [sửa sai, sửa lại, cải chính]
+  - [đổi tên, thay đổi hộ tịch]
+  - [người nước ngoài, có yếu tố nước ngoài]
+  - [nhận con, "nhận cha, mẹ, con"]

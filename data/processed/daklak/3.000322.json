@@ -1,0 +1,43 @@
+{
+  "procedure_id": "3.000322",
+  "title": "Đăng ký chấm dứt giám sát việc giám hộ",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "Đắk Lắk",
+  "receiving_agency": null,
+  "channels": [],
+  "required_documents": [],
+  "steps": [],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "Mức lệ phí theo quy định của HĐND tỉnh",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "theo Thông tư số 281/2016/TT-BTC",
+      "condition": "Phí cấp bản sao Trích lục đăng ký chấm dứt giám sát việc giám hộ (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính",
+      "jurisdiction": "Đắk Lắk"
+    }
+  ],
+  "processing_time": "03 ngày làm việc, trường hợp cần phải xác minh thì thời hạn giải quyết được kéo dài nhưng không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ.",
+  "legal_basis": [],
+  "conditions": null,
+  "raw_text": "Mục: THỦ TỤC HÀNH CHÍNH CẤP XÃ\nTên thủ tục hành chính: Đăng ký chấm dứt giám sát việc giám hộ (3.000322)\nThời hạn giải quyết: 03 ngày làm việc, trường hợp cần phải xác minh thì thời hạn giải quyết được kéo dài nhưng không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ.\nCách thức thực hiện: Người yêu cầu đăng ký chấm dứt giám sát việc giám hộ trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nPhí, lệ phí: - Mức lệ phí theo quy định của HĐND tỉnh. - Miễn lệ phí cho người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. - Phí cấp bản sao Trích lục đăng ký chấm dứt giám sát việc giám hộ (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính.\nCăn cứ pháp lý:\n",
+  "submission_method_text": "Người yêu cầu đăng ký chấm dứt giám sát việc giám hộ trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#3.000322",
+    "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf",
+    "locator": "Phụ lục, THỦ TỤC HÀNH CHÍNH CẤP XÃ, TT 24, tr. 22",
+    "title": "Quyết định 33/QĐ-UBND tỉnh Đắk Lắk — Danh mục TTHC được sửa đổi, bổ sung lĩnh vực hộ tịch (căn cứ 3673/QĐ-BTP)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2026-01-08",
+    "content_hash": "sha256:9516a728384f04c202429ed77e61afe15fb053212697819399b22daa1b2df68a"
+  }
+}

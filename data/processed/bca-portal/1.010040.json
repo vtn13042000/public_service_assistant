@@ -1,0 +1,60 @@
+{
+  "procedure_id": "1.010040",
+  "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "Giấy tờ, tài liệu khác (nếu có).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã",
+    "- Bước 3: Khi tiếp nhận hồ sơ khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.",
+    "- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 05 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Nghị định 62/2021/NĐ-CP Số: 62/2021/NĐ-CP",
+    "Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA"
+  ],
+  "conditions": "Không",
+  "raw_text": "Mã thủ tục:\n1.010040\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến toàn trình\n\nCách thức thực hiện:\nTrực tiếp\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã\n- Bước 3: Khi tiếp nhận hồ sơ khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.\n- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n05 Ngày làm việc\nNộp hồ sơ trực tiếp tại Công an cấp xã.\n- Đối với trường hợp công dân đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư thì trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận thông tin khai báo cơ quan đăng ký cư trú phải tiến hành xác minh thông tin.\n- Đối với trường hợp công dân chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư thì trong thời hạn 30 ngày kể từ ngày tiếp nhận thông tin cơ quan đăng ký cư trú phải tiến hành xác minh thông tin, phức tạp có thể kéo dài nhưng không quá 60 ngày.\nSau khi kiểm tra, xác minh, cơ quan đăng ký cư trú cập nhật thông tin của công dân về nơi ở hiện tại và các thông tin khác vào Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu về cư trú và thông báo cho người đã khai báo về việc đã cập nhật thông tin, cấp xác nhận thông tin về cư trú cho công dân.\n\nPhí:\na\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\nGiấy tờ, tài liệu khác (nếu có).\nBản chính: 1\nBản sao: 0\n\nYêu cầu - điều kiện:\nKhông\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nNghị định 62/2021/NĐ-CP\nSố: 62/2021/NĐ-CP\nThông tư 55/2021/TT-BCA\nSố: 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\n\nBiểu mẫu:\nFile mẫu:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA)\nTải về\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo về kết quả giải quyết, hủy bỏ đăng ký cư trú\nXác nhận thông tin về cư trú",
+  "source": {
+    "source_id": "bca-portal#1.010040",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26492",
+    "locator": null,
+    "title": "Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:622bb9b63fa3eb489e52689b8de3cfc1a972e6a515bc2b54789094a75113d40d"
+  }
+}

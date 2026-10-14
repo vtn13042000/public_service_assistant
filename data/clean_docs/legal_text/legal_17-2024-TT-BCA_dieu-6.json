@@ -1,0 +1,36 @@
+{
+ "doc_id": "legal:17-2024-TT-BCA:dieu-6",
+ "kind": "legal_text",
+ "title": "Thông tư 17/2024/TT-BCA, Điều 6",
+ "issuer": "Bộ Công an",
+ "effective_date": "2024-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRfBN7lkyrtHwPQl8FbIva6t45Rd2YgVTSIdfFlFGucg9WT6gRZpFc-6rJBRKoWzW9N3MfF6HhfgQA4LAbYRUJpQ~~&file_name=2024_723+%2b+724_17-2024-TT-BCA.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "a7fd21d5ed618151efb80152e5caf5631bb06626813bb84362368f073abd6c58",
+ "procedure_ids": [
+  "1.001247",
+  "2.000200",
+  "1.012549",
+  "1.014062",
+  "1.000889",
+  "2.001195",
+  "1.000757",
+  "2.001194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 6. Tổ chức thu nhận hồ sơ cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước lưu động trong trường hợp cần thiết",
+   "text": "1. Cơ quan quản lý căn cước tổ chức làm thủ tục cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước tại địa chỉ của cơ quan, tổ chức khác khi có văn bản đề nghị và cơ quan quản lý căn cước có đủ điều kiện về phương tiện, trang thiết bị kỹ thuật, nhân lực thực hiện.\n2. Cơ quan quản lý căn cước tổ chức làm thủ tục cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước tại Công an cấp xã hoặc chỗ ở của người dân đối với trường hợp người già yếu, bệnh tật, tai nạn, khuyết tật và trường hợp đặc biệt khác khi cơ quan quản lý căn cước có đủ điều kiện về phương tiện, trang thiết bị kỹ thuật, nhân lực thực hiện."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: receiving applications for issue, change, re-issue. Công báo .doc (congbao.chinhphu.vn/van-ban/thong-tu-so-17-2024-tt-bca-42016/50405.htm). Amended by TT 53/2025/TT-BCA and TT 118/2026/TT-BCA (neither held as text): not merged.",
+ "original_version": true,
+ "amended_by": [
+  "TT 53/2025/TT-BCA",
+  "TT 118/2026/TT-BCA"
+ ],
+ "text_sha256": "8f9b9c6a75d4f3a6dd6d9626a814e31e709df50813bad83b82f76c27d0d81aa3",
+ "cleaning_actions": []
+}

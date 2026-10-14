@@ -1,0 +1,29 @@
+{
+ "doc_id": "legal:154-2024-ND-CP:dieu-7",
+ "kind": "legal_text",
+ "title": "Nghị định 154/2024/NĐ-CP, Điều 7",
+ "issuer": "Chính phủ",
+ "effective_date": "2025-01-10",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRnQpFDuVk1mmfpRPFNXO-fwIBlQDzZvYsR66wU-H0UyB3fAPTvbS7jIGKVQeg-t20R-nFiLeh1h5LFzrMEN2Sbw~~&file_name=2024_1301+%2b+1302_154-2024-N%c4%90-CP.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "37abbb60ec035337511284974b37a5734a0e9a348cc55b85acd978378e4767b8",
+ "procedure_ids": [
+  "1.004222",
+  "1.004194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 7. Đăng ký cư trú cho người chưa thành niên",
+   "text": "1. Trường hợp người chưa thành niên đăng ký thường trú, đăng ký tạm trú tại nơi thường trú, nơi tạm trú của cha, mẹ hoặc cha hoặc mẹ thì cha hoặc mẹ hoặc người giám hộ thực hiện kê khai, xác nhận ý kiến vào Tờ khai thay đổi thông tin cư trú.\nTrường hợp người chưa thành niên đăng ký thường trú, đăng ký tạm trú tại nơi thường trú, nơi tạm trú không phải là nơi thường trú, nơi tạm trú của cha, mẹ hoặc người giám hộ thì cha hoặc mẹ hoặc người giám hộ thực hiện kê khai, xác nhận ý kiến vào Tờ khai thay đổi thông tin cư trú. Trường hợp người chưa thành niên được Tòa án quyết định giao cho cha hoặc mẹ chăm sóc, nuôi dưỡng thì người được giao chăm sóc, nuôi dưỡng kê khai, xác nhận ý kiến vào Tờ khai thay đổi thông tin cư trú.\n2. Trong thời hạn tối đa 60 ngày, kể từ ngày người chưa thành niên được đăng ký khai sinh thì cha hoặc mẹ hoặc chủ hộ hoặc người giám hộ có trách nhiệm thực hiện thủ tục đăng ký thường trú, đăng ký tạm trú, khai báo thông tin về cư trú cho người chưa thành niên. Trường hợp cha, mẹ của người chưa thành niên có nơi thường trú nhưng không phải nơi đang thực tế sinh sống thì người chưa thành niên được đăng ký thường trú tại nơi thường trú của cha, mẹ.\n3. Trường hợp cha, mẹ của người chưa thành niên không có cả nơi thường trú, nơi tạm trú thì thực hiện khai báo thông tin về cư trú cho người chưa thành niên theo quy định tại Điều 4 Nghị định này.\n4. Trường hợp đăng ký thường trú, đăng ký tạm trú lần đầu cho người chưa thành niên theo quy định tại khoản 1, khoản 2 Điều này thì cơ quan đăng ký cư trú không phải thực hiện kiểm tra, xác minh điều kiện về tính hợp pháp của chỗ ở và tình trạng cư trú."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "manual",
+ "notes": "relevance: registration for minors. Công báo .doc (congbao.chinhphu.vn/noi-dung-van-ban-so-154-2024-nd-cp-43275). Linked manually: it replaces NĐ 62/2021/NĐ-CP, which the BCA portal pages still cite in legal_basis. Amended by NĐ 58/2026/NĐ-CP (incl. Điều 7, 9, 10; text not held): not merged.",
+ "original_version": true,
+ "amended_by": [
+  "NĐ 58/2026/NĐ-CP"
+ ],
+ "text_sha256": "9cfb69b2686982e95ebd7f3d82739b4d4b9c0fcce890bbddc151c80a5978af9d",
+ "cleaning_actions": []
+}

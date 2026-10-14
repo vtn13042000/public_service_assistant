@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai5013.local/schema/document_record.schema.json",
+  "title": "Non-procedure document record (ROUND-4-DATA.md)",
+  "description": "One JSON file per document at data/processed_docs/<kind>/<file>.json: a legal article, form, fee resolution, guidance page or change notice linked to existing procedures. Identifiers are English; content is Vietnamese verbatim (NFC). Checked by scripts/validate_documents.py and cleaned by scripts/clean_documents.py.",
+  "type": "object",
+  "required": ["doc_id", "kind", "title", "url", "retrieved_at", "sha256", "procedure_ids", "sections"],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "pattern": "^[a-z_]+:[^\\s]+$",
+      "description": "Unique, stable, no spaces: <prefix>:<identifier>, e.g. \"legal:123-2015-ND-CP:dieu-16\", \"form:TT04-2020-TT-BTP:to-khai-khai-sinh\""
+    },
+    "kind": {
+      "enum": ["legal_text", "form", "fee_resolution", "guidance", "change_notice"],
+      "description": "Must equal the <kind> directory the file sits in."
+    },
+    "title": {"type": "string", "minLength": 1, "description": "Verbatim Vietnamese, e.g. \"Nghị định 123/2015/NĐ-CP, Điều 16\""},
+    "issuer": {"type": ["string", "null"], "description": "e.g. \"Chính phủ\", \"Bộ Tư pháp\", \"HĐND tỉnh Đắk Lắk\""},
+    "effective_date": {"type": ["string", "null"], "format": "date", "description": "ISO YYYY-MM-DD; null if unknown"},
+    "jurisdiction": {"type": ["string", "null"], "description": "Province for fee_resolution / provincial guidance (e.g. \"Đắk Lắk\"); null or absent = national"},
+    "url": {"type": "string", "pattern": "^https?://", "description": "The official page or file the text was taken from"},
+    "retrieved_at": {"type": "string", "format": "date", "description": "ISO YYYY-MM-DD (a full ISO timestamp is accepted and truncated)"},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "sha256 of the fetched raw bytes (the cached response), lower-case hex. Provenance only: per-article documents cut from one file share it"},
+    "text_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "Written by scripts/clean_documents.py (collectors need not emit it): sha256 of the NFC, whitespace-collapsed section headings and texts; de-duplication key"},
+    "procedure_ids": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1},
+      "description": "Existing procedure_ids this document is about; each must exist in the procedure records"
+    },
+    "link_method": {
+      "enum": ["legal_basis", "procedure_code", "doc_links", "manual", "named", "instrument_scope"],
+      "description": "How procedure_ids were found: the record's legal_basis cites it / the page names the procedure code / data/doc_links.yaml / hand-set (say why in notes) / the document names the procedure / the procedure falls within the instrument's scope (change notices; per-link reason in notes)"
+    },
+    "sections": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["heading", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "heading": {"type": "string", "minLength": 1, "description": "e.g. \"Điều 16. Đăng ký khai sinh\"; for a form: \"Tờ khai\" / \"Hướng dẫn điền\""},
+          "text": {"type": "string", "minLength": 1, "description": "Verbatim body of the section"}
+        }
+      }
+    },
+    "original_version": {"type": "boolean", "description": "legal_text or form: true = this is the original wording of an article / form that has since been amended (see amended_by); chunks are then prefixed \"[Văn bản gốc – đã sửa đổi] \""},
+    "amended_by": {"type": "array", "items": {"type": "string", "minLength": 1}, "description": "legal_text or form: the instruments that amended / replaced this article or form, e.g. [\"Nghị định 120/2025/NĐ-CP, Điều 4\"]"},
+    "notes": {"type": ["string", "null"], "description": "Free text, e.g. relevance or why a manual link"}
+  }
+}

@@ -1,0 +1,13 @@
+# Procedures that are no longer performed (ROUND-4, read by src/nodes.py:load_procedure_status).
+# A procedure listed with status: discontinued never yields an answer; it ends in refuse_redirect (not_in_corpus,
+# reason: discontinued) with the sentence "Thủ tục này đã dừng thực hiện từ <since> theo <basis>." plus `redirect`.
+# Every value must be quotable from `notice_doc_id` (data/processed_docs/change_notice/); do not paraphrase the law here.
+"2.001178":
+  status: discontinued
+  since: "2026-03-15"
+  basis: "khoản 7 Điều 5 Nghị định 58/2026/NĐ-CP (sửa đổi Điều 12 Nghị định 70/2024/NĐ-CP)"
+  notice_doc_id: "change:bca:dung-xac-nhan-cmnd-9-so-2026"
+  notice_url: "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/ba7639df-6e51-488a-963c-33741ba40d7f"
+  redirect: >-
+    Thông tin số chứng minh nhân dân 09 số đã được tích hợp trong mã QR và bộ phận lưu trữ của thẻ căn cước và trên ứng dụng
+    VNeID; cơ quan, tổ chức không được yêu cầu công dân cung cấp giấy xác nhận số chứng minh nhân dân 09 số.

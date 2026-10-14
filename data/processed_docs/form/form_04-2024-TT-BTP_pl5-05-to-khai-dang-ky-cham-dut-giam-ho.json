@@ -1,0 +1,27 @@
+{
+  "doc_id": "form:04-2024-TT-BTP:pl5-05-to-khai-dang-ky-cham-dut-giam-ho",
+  "kind": "form",
+  "title": "Mẫu Tờ khai đăng ký chấm dứt giám hộ (Phụ lục 5, Thông tư 04/2024/TT-BTP)",
+  "issuer": "Bộ Tư pháp",
+  "effective_date": "2024-06-06",
+  "jurisdiction": null,
+  "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRhIoshbSM3VdEUWXXBZwz9zu3KfDTiY5ocHP975ifHg1psDU2Hu1pRraKHbuG6OYGzsjhZQeult9J-F4S1ssx-A~~&file_name=2024_739+%2b+740_04-2024-TT-BTP.doc",
+  "retrieved_at": "2026-10-10",
+  "sha256": "12aaea1c9d41637f682b635bf6c9c43ce5bda3ffc727925a7c3f7ac8f30dc207",
+  "procedure_ids": [
+    "1.004845",
+    "2.000756"
+  ],
+  "link_method": "manual",
+  "sections": [
+    {
+      "heading": "TỜ KHAI ĐĂNG KÝ CHẤM DỨT GIÁM HỘ",
+      "text": "Kính gửi:(1)…\nHọ, chữ đệm, tên người yêu cầu:\nNgày, tháng, năm sinh:…\nNơi cư trú:(2)\nGiấy tờ tùy thân:(3)\nĐề nghị cơ quan đăng ký chấm dứt việc giám hộ giữa:\nNgười giám hộ:\nHọ, chữ đệm, tên:\nNgày, tháng, năm sinh:\nGiới tính:(2)… Dân tộc:(2)… Quốc tịch:(2)\nNơi cư trú(2):\nGiấy tờ tùy thân:(3)\n…\nNgười được giám hộ:\nHọ, chữ đệm, tên:\nNgày, tháng, năm sinh:\nGiới tính:(2)… Dân tộc:(2)… Quốc tịch:(2)\nNơi cư trú(2):\nGiấy khai sinh/Giấy tờ tùy thân(3):\nĐã đăng ký giám hộ tại(4)\nngày… tháng… năm… số… quyển số:\nLý do chấm dứt việc giám hộ:\nTôi cam đoan những nội dung khai trên đây là đúng sự thật và chịu trách nhiệm trước pháp luật về cam đoan của mình.\nLàm tại:… , ngày… tháng… năm…\nĐề nghị cấp bản sao(5): Có , Không \nSố lượng:… bản\nNgười yêu cầu\n(Ký, ghi rõ họ, chữ đệm, tên)\n…"
+    },
+    {
+      "heading": "Chú thích (hướng dẫn ghi Tờ khai)",
+      "text": "(1) Ghi rõ tên cơ quan đăng ký chấm dứt giám hộ.\n(2) Chỉ ghi trong trường hợp người có yêu cầu đăng ký hộ tịch chưa có/không cung cấp số định danh cá nhân/căn cước công dân/thẻ căn cước/chứng minh nhân dân.\nTrường hợp phải cung cấp thông tin “Nơi cư trú” thì ghi theo nơi đăng ký thường trú; nếu không có nơi đăng ký thường trú thì ghi theo nơi đăng ký tạm trú; trường hợp không có nơi đăng ký thường trú và nơi đăng ký tạm trú thì ghi theo nơi ở hiện tại.\n(3) Ghi số định danh cá nhân/căn cước công dân/thẻ căn cước/số Giấy khai sinh (đối với trẻ em)\nVí dụ: - Căn cước công dân số 025188001010 do Cục Cảnh sát QLHC về TTXH cấp ngày 20/11/2021\n- Giấy khai sinh số 01/2014, quyển số 02 do UBND xã Mỹ Thắng, huyện Mỹ Lộc, tỉnh Nam Định cấp ngày 15/11/2014.\nTrường hợp không có số định danh cá nhân/căn cước công dân/thẻ căn cước thì ghi giấy tờ hợp lệ thay thế (hộ chiếu, chứng minh nhân dân,...).\n(4) Ghi rõ tên cơ quan đăng ký giám hộ trước đây (số, ngày tháng năm đăng ký).\n(5) Đề nghị đánh dấu X vào ô nếu có yêu cầu cấp bản sao và ghi rõ số lượng."
+    }
+  ],
+  "notes": "relevance: tờ khai số 5 trong Danh mục Phụ lục 5 (Tờ khai đăng ký hộ tịch được đăng tải trên Cổng TTĐT Bộ Tư pháp, người dân tự in) dùng cho các thủ tục này. Nguồn: Công báo (congbao.chinhphu.vn), bản Word. Dấu chấm dẫn dòng được rút gọn thành \"…\". Thay thế Phụ lục Tờ khai của Thông tư 04/2020/TT-BTP từ 06/6/2024; chưa kiểm tra mẫu có bị thay đổi sau 01/07/2025 hay không."
+}

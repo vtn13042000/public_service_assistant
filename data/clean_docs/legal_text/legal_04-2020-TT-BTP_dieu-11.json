@@ -1,0 +1,30 @@
+{
+ "doc_id": "legal:04-2020-TT-BTP:dieu-11",
+ "kind": "legal_text",
+ "title": "Thông tư 04/2020/TT-BTP, Điều 11",
+ "issuer": "Bộ Tư pháp",
+ "effective_date": "2020-07-16",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "2.000806"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "09/2022/TT-BTP",
+  "04/2024/TT-BTP",
+  "08/2025/TT-BTP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 11. Việc đăng ký kết hôn có yếu tố nước ngoài",
+   "text": "1. Việc xác minh trong thủ tục đăng ký kết hôn theo quy định tại khoản 2 Điều 38 Luật hộ tịch, khoản 1 Điều 31 Nghị định số 123/2015/NĐ-CP được thực hiện theo hướng dẫn sau đây:\nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, Phòng Tư pháp có trách nhiệm nghiên cứu, thẩm tra hồ sơ đăng ký kết hôn. Trường hợp có khiếu nại, tố cáo việc kết hôn không đủ điều kiện kết hôn theo quy định của Luật hôn nhân và gia đình hoặc xét thấy có vấn đề cần làm rõ về nhân thân của bên nam, bên nữ hoặc giấy tờ trong hồ sơ đăng ký kết hôn thì Phòng Tư pháp phối hợp với cơ quan có liên quan xác minh làm rõ.\nTrong quá trình thẩm tra, xác minh hồ sơ, nếu thấy cần thiết, Phòng Tư pháp làm việc trực tiếp với các bên để làm rõ về nhân thân, sự tự nguyện kết hôn, mục đích kết hôn.\n2. Trường hợp công dân Việt Nam đã được cơ quan có thẩm quyền nước ngoài cấp giấy tờ cho phép cư trú, có yêu cầu kết hôn với nhau hoặc kết hôn với công dân Việt Nam cư trú ở trong nước thì thẩm quyền đăng ký kết hôn thuộc Ủy ban nhân dân cấp huyện theo quy định tại Điều 37 Luật hộ tịch.\n3. Giấy tờ chứng minh tình trạng hôn nhân của người nước ngoài là giấy tờ do cơ quan có thẩm quyền của nước mà người đó là công dân cấp."
+  }
+ ],
+ "notes": "relevance: đăng ký kết hôn có yếu tố nước ngoài; Thông tư 04/2020/TT-BTP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Thông tư 09/2022/TT-BTP, 04/2024/TT-BTP và Thông tư 08/2025/TT-BTP.",
+ "text_sha256": "41e840b565fe3fcbbd0f79cb943527060d319be221123e62b2b086d0ba4a1291",
+ "cleaning_actions": []
+}

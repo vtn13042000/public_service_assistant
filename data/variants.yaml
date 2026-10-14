@@ -1,0 +1,37 @@
+# Sibling groups for clarify prompts (P19). The loader sets procedures.variant_of = root for every member
+# that has no variant_of in its record (a record's own value wins; disagreements are logged as notes).
+# The index carries the same variant_of in chunk metadata. Edit here, not in data/processed/.
+groups:
+  # --- hộ tịch (mirrors the variant_of values the moj records already carry) ---
+  - root: "1.001193"
+    label: Đăng ký khai sinh
+    members: ["1.000110", "1.000689", "1.000893", "1.001695", "1.003583", "1.004772", "1.004884", "2.000522", "2.000528", "2.000547", "2.000635"]
+  - root: "1.000894"
+    label: Đăng ký kết hôn
+    members: ["1.000094", "1.000593", "1.004746", "2.000513", "2.000554", "2.000806", "2.002189"]
+  - root: "1.000656"
+    label: Đăng ký khai tử
+    members: ["1.000419", "1.001766", "1.004827", "1.005461", "2.000497"]
+  - root: "1.001022"
+    label: Đăng ký nhận cha, mẹ, con
+    members: ["1.000080", "2.000779"]
+  - root: "1.004837"
+    label: Đăng ký giám hộ
+    members: ["1.001669"]
+  - root: "1.004845"
+    label: Đăng ký chấm dứt giám hộ
+    members: ["2.000756"]
+  - root: "1.004859"
+    label: Thay đổi, cải chính, bổ sung thông tin hộ tịch
+    members: ["2.000748"]
+  # --- căn cước (bca-portal records carry no variant_of) ---
+  - root: "2.000200"
+    label: Cấp, cấp lại, cấp đổi thẻ căn cước
+    members: ["1.001247", "1.012549", "1.014062", "2.001194", "1.000757", "2.001195", "1.000889"]
+  # --- cư trú ---
+  - root: "1.004222"
+    label: Đăng ký, xóa đăng ký thường trú
+    members: ["1.003197"]
+  - root: "1.004194"
+    label: Đăng ký, gia hạn, xóa đăng ký tạm trú; khai báo thông tin cư trú
+    members: ["1.002755", "1.010028", "1.010040"]

@@ -1,0 +1,33 @@
+{
+ "doc_id": "legal:26-2023-QH15:dieu-27",
+ "kind": "legal_text",
+ "title": "Luật Căn cước số 26/2023/QH15, Điều 27",
+ "issuer": "Quốc hội",
+ "effective_date": "2024-07-01",
+ "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat26.pdf",
+ "retrieved_at": "2026-10-10",
+ "sha256": "8dc5ff166e941a70379516d69e3f4798f5ec859735e2e18b8bad86e831401a13",
+ "procedure_ids": [
+  "1.001247",
+  "2.000200",
+  "1.012549",
+  "1.014062",
+  "1.000889",
+  "2.001195",
+  "1.000757",
+  "2.001194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 27. Nơi làm thủ tục cấp, cấp đổi, cấp lại thẻ căn cước",
+   "text": "1. Cơ quan quản lý căn cước của Công an huyện, quận, thị xã, thành phố thuộc\ntỉnh, thành phố thuộc thành phố trực thuộc Trung ương hoặc cơ quan quản lý căn\ncước của Công an tỉnh, thành phố trực thuộc Trung ương nơi công dân cư trú.\n2. Cơ quan quản lý căn cước của Bộ Công an đối với những trường hợp do thủ\ntrưởng cơ quan quản lý căn cước của Bộ Công an quyết định.\n3. Trong trường hợp cần thiết, cơ quan quản lý căn cước quy định tại khoản 1\nvà khoản 2 Điều này tổ chức làm thủ tục cấp thẻ căn cước tại xã, phường, thị trấn,\ncơ quan, đơn vị hoặc tại chỗ ở của công dân."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: where to apply. Công báo text PDF from vanban.chinhphu.vn docid=209628. Original 2023 text; amended by Luật 118/2025/QH15 (in force 01/07/2026; scanned PDF, not merged).",
+ "original_version": true,
+ "amended_by": [
+  "Luật 118/2025/QH15"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc_id": "legal:116-2026-TT-BCA:dieu-15",
+ "kind": "legal_text",
+ "title": "Thông tư 116/2026/TT-BCA, Điều 15",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.003677"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 15. Khai báo tạm vắng",
+   "text": "1. Việc khai báo tạm vắng đối với trường hợp quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú được thực hiện theo một trong các hình thức sau đây:\na) Thông qua Cổng dịch vụ công quốc gia;\nb) Thông qua Ứng dụng định danh quốc gia (VNeID).\n2. Việc khai báo tạm vắng đối với trường hợp quy định tại điểm c và điểm d khoản 1 Điều 31 Luật Cư trú được thực hiện theo một trong các hình thức sau đây:\na) Thông qua số điện thoại, trang thông tin điện tử của cơ quan đăng ký cư trú hoặc hộp thư điện tử do cơ quan đăng ký cư trú thông báo hoặc niêm yết;\nb) Thông qua Cổng dịch vụ công quốc gia, Ứng dụng định danh quốc gia (VNeID).\n3. Người phải khai báo tạm vắng thuộc trường hợp quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú là người chưa thành niên thì cha hoặc mẹ hoặc người giám hộ có trách nhiệm thực hiện thủ tục khai báo tạm vắng.\n4. Cơ quan đăng ký cư trú có trách nhiệm rà soát, cập nhật thông tin tạm vắng đối với công dân đang thực hiện nghĩa vụ trong Công an nhân dân; phối hợp với ban chỉ huy quân sự cùng cấp rà soát, cập nhật thông tin tạm vắng đối với công dân đang thực hiện nghĩa vụ trong Quân đội nhân dân vào Cơ sở dữ liệu về cư trú.\n5. Cơ quan đăng ký cư trú có trách nhiệm thông báo hoặc niêm yết công khai số điện thoại, địa chỉ hộp thư điện tử, địa chỉ trang thông tin điện tử của cơ quan đăng ký cư trú (nếu có), Cổng dịch vụ công quốc gia, Ứng dụng định danh quốc gia (VNeID) để tiếp nhận khai báo tạm vắng."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: temporary absence declaration. Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces.",
+ "text_sha256": "d5da1ad990571ec5428a0f016655ee68c30ccab1733d53872c2ea401acec1823",
+ "cleaning_actions": []
+}

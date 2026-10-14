@@ -1,0 +1,23 @@
+{
+ "doc_id": "legal:116-2026-TT-BCA:dieu-5",
+ "kind": "legal_text",
+ "title": "Thông tư 116/2026/TT-BCA, Điều 5",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.004222",
+  "1.004194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 5. Các trường hợp tạm thời chưa được thay đổi nơi cư trú",
+   "text": "1. Người quy định tại điểm a, điểm b, điểm c khoản 2 Điều 4 Luật Cư trú trong thời gian bị hạn chế quyền tự do cư trú thì tạm thời chưa được giải quyết thủ tục thay đổi nơi cư trú trừ trường hợp có sự đồng ý cho thay đổi nơi cư trú bằng văn bản của cơ quan có thẩm quyền và trường hợp quy định tại khoản 3 Điều này.\n2. Người đang sinh sống tại địa điểm, khu vực được cơ quan, người có thẩm quyền công bố đang bị cách ly vì lý do phòng, chống dịch bệnh, ban bố tình trạng khẩn cấp trong thời gian áp dụng các biện pháp cách ly tính từ thời gian bắt đầu đến khi kết thúc thì tạm thời chưa được giải quyết thủ tục thay đổi nơi cư trú.\n3. Người đang bị áp dụng hình phạt cấm cư trú thì tạm thời chưa được giải quyết các thủ tục về đăng ký cư trú tại những nơi mà người đó bị áp dụng hình phạt cấm cư trú cho đến khi chấp hành xong hoặc có văn bản cho phép của cơ quan có thẩm quyền đã áp dụng hình phạt cấm cư trú."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: cases where residence temporarily cannot be changed. Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces."
+}

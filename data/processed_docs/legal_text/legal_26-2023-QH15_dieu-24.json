@@ -1,0 +1,29 @@
+{
+ "doc_id": "legal:26-2023-QH15:dieu-24",
+ "kind": "legal_text",
+ "title": "Luật Căn cước số 26/2023/QH15, Điều 24",
+ "issuer": "Quốc hội",
+ "effective_date": "2024-07-01",
+ "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat26.pdf",
+ "retrieved_at": "2026-10-10",
+ "sha256": "8dc5ff166e941a70379516d69e3f4798f5ec859735e2e18b8bad86e831401a13",
+ "procedure_ids": [
+  "1.000889",
+  "2.001195",
+  "1.000757",
+  "2.001194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 24. Các trường hợp cấp đổi, cấp lại thẻ căn cước",
+   "text": "1. Các trường hợp cấp đổi thẻ căn cước bao gồm:\na) Các trường hợp quy định tại khoản 1 Điều 21 của Luật này;\nb) Thay đổi, cải chính thông tin về họ, chữ đệm, tên khai sinh; ngày, tháng,\nnăm sinh;\nc) Thay đổi nhân dạng; bổ sung thông tin về ảnh khuôn mặt, vân tay; xác định\nlại giới tính hoặc chuyển đổi giới tính theo quy định của pháp luật;\nd) Có sai sót về thông tin in trên thẻ căn cước;\nđ) Theo yêu cầu của người được cấp thẻ căn cước khi thông tin trên thẻ căn\ncước thay đổi do sắp xếp đơn vị hành chính;\ne) Xác lập lại số định danh cá nhân;\ng) Khi người được cấp thẻ căn cước có yêu cầu.\n2. Các trường hợp cấp lại thẻ căn cước bao gồm:\na) Bị mất thẻ căn cước hoặc thẻ căn cước bị hư hỏng không sử dụng được, trừ\ntrường hợp quy định tại Điều 21 của Luật này;\nb) Được trở lại quốc tịch Việt Nam theo quy định của pháp luật về quốc tịch\nViệt Nam."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: cases for change and re-issue. Công báo text PDF from vanban.chinhphu.vn docid=209628. Original 2023 text; amended by Luật 118/2025/QH15 (in force 01/07/2026; scanned PDF, not merged).",
+ "original_version": true,
+ "amended_by": [
+  "Luật 118/2025/QH15"
+ ]
+}

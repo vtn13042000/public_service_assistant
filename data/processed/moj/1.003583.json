@@ -1,0 +1,113 @@
+{
+  "procedure_id": "1.003583",
+  "title": "Thủ tục đăng ký khai sinh lưu động",
+  "variant_of": "1.001193",
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã",
+  "channels": [
+    "Trực tiếp"
+  ],
+  "required_documents": [
+    {
+      "item": "Bản chính Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh;",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    },
+    {
+      "item": "Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến).",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng nhận kết hôn nếu cha, mẹ đã đăng ký kết hôn. Trường hợp đã có thông tin về việc kết hôn của cha, mẹ trong CSDLHTĐT, CSDLQGVDC thì không phải xuất trình.",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    },
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu.",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    },
+    {
+      "item": "Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ.",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    },
+    {
+      "item": "Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch.",
+      "quantity": 1,
+      "quantity_text": "Số bản chính: 1; Số bản sao: 0",
+      "mandatory": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Sau khi tiếp nhận đủ hồ sơ, công chức tư pháp - hộ tịch thực hiện việc ghi vào Sổ đăng ký khai sinh, cập nhật thông tin đăng ký khai sinh trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung, lưu chính thức và chuyển thông tin đến CSDLQGVDC để lấy Số định danh cá nhân.",
+    "Công chức tư pháp - hộ tịch cấp xã được giao nhiệm vụ đăng ký khai sinh lưu động có trách nhiệm chuẩn bị đầy đủ mẫu Tờ khai đăng ký khai sinh, giấy tờ hộ tịch và điều kiện cần thiết để thực hiện đăng ký lưu động tại nhà riêng hoặc tại địa điểm tổ chức đăng ký lưu động, bảo đảm thuận lợi cho người dân.",
+    "Sau khi CSDLQGVDC trả về Số định danh cá nhân, công chức tư pháp - hộ tịch in Giấy khai sinh, trình Lãnh đạo UBND ký Giấy khai sinh để cấp cho người có yêu cầu.",
+    "[* Lưu ý:] - Đối với việc xác định họ, dân tộc, đặt tên cho trẻ:",
+    "[* Lưu ý:] Người tiếp nhận hồ sơ thực hiện khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư theo quy định pháp luật nếu người yêu cầu đăng ký hộ tịch đã cung cấp họ, chữ đệm, tên; ngày, tháng, năm sinh; số định danh cá nhân/thẻ căn cước công dân/thẻ căn cước/chứng minh nhân dân/căn cước điện tử. Trường hợp các thông tin cần khai thác không có trong Cơ sở dữ liệu quốc gia về dân cư thì đề nghị người yêu cầu kê khai đầy đủ.",
+    "[* Lưu ý:] + Trường hợp cha, mẹ không thỏa thuận được về họ, dân tộc, quê quán của con khi đăng ký khai sinh thì họ, dân tộc, quê quán của con được xác định theo tập quán nhưng phải bảo đảm theo họ, dân tộc, quê quán của cha hoặc mẹ.",
+    "Tại địa điểm đăng ký hộ tịch lưu động, công chức tư pháp - hộ tịch hướng dẫn người yêu cầu điền đầy đủ thông tin trong Tờ khai đăng ký khai sinh; kiểm tra các giấy tờ làm cơ sở cho việc đăng ký khai sinh; viết Phiếu tiếp nhận hồ sơ.",
+    "Trường hợp người yêu cầu không biết chữ thì công chức tư pháp - hộ tịch trực tiếp ghi Tờ khai, sau đó đọc cho người yêu cầu nghe lại nội dung và hướng dẫn người đó điểm chỉ vào Tờ khai. Khi trả kết quả đăng ký hộ tịch, công chức tư pháp - hộ tịch phải đọc lại nội dung Giấy khai sinh cho người yêu cầu nghe và hướng dẫn người đó điểm chỉ vào Sổ đăng ký khai sinh.",
+    "[* Lưu ý:] - Trường hợp cho phép người yêu cầu đăng ký hộ tịch lập văn bản cam đoan về nội dung yêu cầu đăng ký hộ tịch thì cơ quan đăng ký hộ tịch phải giải thích rõ cho người lập văn bản cam đoan về trách nhiệm, hệ quả pháp lý của việc cam đoan không đúng sự thật.",
+    "Công chức tư pháp - hộ tịch đem theo Giấy khai sinh và Sổ đăng ký khai sinh để trả kết quả cho người có yêu cầu tại địa điểm đăng ký lưu động; hướng dẫn người yêu cầu kiểm tra nội dung Giấy khai sinh và Sổ đăng ký khai sinh, ký, ghi rõ họ, tên trong Sổ đăng ký khai sinh; tại mục “Ghi chú” trong Sổ đăng ký khai sinh ghi rõ “Đăng ký lưu động”.",
+    "[* Lưu ý:] + Việc xác định họ, dân tộc, đặt tên cho trẻ em phải phù hợp với pháp luật và yêu cầu giữ gìn bản sắc dân tộc, tập quán, truyền thống văn hóa tốt đẹp của Việt Nam; không đặt tên quá dài, khó sử dụng.",
+    "[* Lưu ý:] Cơ quan đăng ký hộ tịch từ chối giải quyết hoặc đề nghị cơ quan có thẩm quyền hủy bỏ kết quả đăng ký hộ tịch, nếu có cơ sở xác định nội dung cam đoan không đúng sự thật."
+  ],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "đăng ký khai sinh không đúng hạn",
+      "jurisdiction": "theo tỉnh"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "5",
+  "legal_basis": [
+    "04/2020/TT-BTP – Thông tư 04/2020/TT-BTP",
+    "18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp",
+    "104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
+    "106/2021/TT-BTC – Thông tư 106/2021/TT-BTC",
+    "123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP - Quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch",
+    "85/2019/TT-BTC – Thông tư 85/2019/TT-BTC",
+    "120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.",
+    "04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch",
+    "60/2014/QH13 – Luật 60/2014/QH13-Hộ tịch",
+    "08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp",
+    "66.7/2025/NQ-CP",
+    "07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực."
+  ],
+  "conditions": "Trẻ em sinh ra mà cha mẹ bị khuyết tật, ốm bệnh không thể đi đăng ký khai sinh cho con; cha mẹ bị bắt, tạm giam hoặc đang thi hành án phạt tù mà không còn ông bà nội, ngoại và người thân thích khác hoặc những người này không có điều kiện đi đăng ký khai sinh cho trẻ.",
+  "raw_text": "Tên thủ tục: Thủ tục đăng ký khai sinh lưu động\n\nMã thủ tục: 1.003583\n\nLĩnh vực: Hộ tịch\n\nTrình tự thực hiện:\n- Sau khi tiếp nhận đủ hồ sơ, công chức tư pháp - hộ tịch thực hiện việc ghi vào Sổ đăng ký khai sinh, cập nhật thông tin đăng ký khai sinh trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung, lưu chính thức và chuyển thông tin đến CSDLQGVDC để lấy Số định danh cá nhân.\n- Công chức tư pháp - hộ tịch cấp xã được giao nhiệm vụ đăng ký khai sinh lưu động có trách nhiệm chuẩn bị đầy đủ mẫu Tờ khai đăng ký khai sinh, giấy tờ hộ tịch và điều kiện cần thiết để thực hiện đăng ký lưu động tại nhà riêng hoặc tại địa điểm tổ chức đăng ký lưu động, bảo đảm thuận lợi cho người dân.\n- Sau khi CSDLQGVDC trả về Số định danh cá nhân, công chức tư pháp - hộ tịch in Giấy khai sinh, trình Lãnh đạo UBND ký Giấy khai sinh để cấp cho người có yêu cầu.\n- [* Lưu ý:] - Đối với việc xác định họ, dân tộc, đặt tên cho trẻ:\n- [* Lưu ý:] Người tiếp nhận hồ sơ thực hiện khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư theo quy định pháp luật nếu người yêu cầu đăng ký hộ tịch đã cung cấp họ, chữ đệm, tên; ngày, tháng, năm sinh; số định danh cá nhân/thẻ căn cước công dân/thẻ căn cước/chứng minh nhân dân/căn cước điện tử. Trường hợp các thông tin cần khai thác không có trong Cơ sở dữ liệu quốc gia về dân cư thì đề nghị người yêu cầu kê khai đầy đủ.\n- [* Lưu ý:] + Trường hợp cha, mẹ không thỏa thuận được về họ, dân tộc, quê quán của con khi đăng ký khai sinh thì họ, dân tộc, quê quán của con được xác định theo tập quán nhưng phải bảo đảm theo họ, dân tộc, quê quán của cha hoặc mẹ.\n- Tại địa điểm đăng ký hộ tịch lưu động, công chức tư pháp - hộ tịch hướng dẫn người yêu cầu điền đầy đủ thông tin trong Tờ khai đăng ký khai sinh; kiểm tra các giấy tờ làm cơ sở cho việc đăng ký khai sinh; viết Phiếu tiếp nhận hồ sơ.\n- Trường hợp người yêu cầu không biết chữ thì công chức tư pháp - hộ tịch trực tiếp ghi Tờ khai, sau đó đọc cho người yêu cầu nghe lại nội dung và hướng dẫn người đó điểm chỉ vào Tờ khai. Khi trả kết quả đăng ký hộ tịch, công chức tư pháp - hộ tịch phải đọc lại nội dung Giấy khai sinh cho người yêu cầu nghe và hướng dẫn người đó điểm chỉ vào Sổ đăng ký khai sinh.\n- [* Lưu ý:] - Trường hợp cho phép người yêu cầu đăng ký hộ tịch lập văn bản cam đoan về nội dung yêu cầu đăng ký hộ tịch thì cơ quan đăng ký hộ tịch phải giải thích rõ cho người lập văn bản cam đoan về trách nhiệm, hệ quả pháp lý của việc cam đoan không đúng sự thật.\n- Công chức tư pháp - hộ tịch đem theo Giấy khai sinh và Sổ đăng ký khai sinh để trả kết quả cho người có yêu cầu tại địa điểm đăng ký lưu động; hướng dẫn người yêu cầu kiểm tra nội dung Giấy khai sinh và Sổ đăng ký khai sinh, ký, ghi rõ họ, tên trong Sổ đăng ký khai sinh; tại mục “Ghi chú” trong Sổ đăng ký khai sinh ghi rõ “Đăng ký lưu động”.\n- [* Lưu ý:] + Việc xác định họ, dân tộc, đặt tên cho trẻ em phải phù hợp với pháp luật và yêu cầu giữ gìn bản sắc dân tộc, tập quán, truyền thống văn hóa tốt đẹp của Việt Nam; không đặt tên quá dài, khó sử dụng.\n- [* Lưu ý:] Cơ quan đăng ký hộ tịch từ chối giải quyết hoặc đề nghị cơ quan có thẩm quyền hủy bỏ kết quả đăng ký hộ tịch, nếu có cơ sở xác định nội dung cam đoan không đúng sự thật.\n\nCách thực hiện:\nTrực tiếp | 5 | - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. | Thực hiện đăng ký lưu động tại nhà riêng hoặc tại địa điểm tổ chức đăng ký lưu động.\n\nThành phần hồ sơ:\n- Bản chính Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh; (Số bản chính: 1; Số bản sao: 0)\n- Giấy tờ có giá trị chứng minh thông tin về cư trú trong trường hợp cơ quan đăng ký hộ tịch không thể khai thác được thông tin về nơi cư trú của công dân theo các phương thức quy định tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp các thông tin về giấy tờ chứng minh nơi cư trú đã được khai thác từ Cơ sở dữ liệu quốc gia về dân cư bằng các phương thức này thì người có yêu cầu không phải xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến). (Số bản chính: 1; Số bản sao: 0)\n- Giấy chứng nhận kết hôn nếu cha, mẹ đã đăng ký kết hôn. Trường hợp đã có thông tin về việc kết hôn của cha, mẹ trong CSDLHTĐT, CSDLQGVDC thì không phải xuất trình. (Số bản chính: 1; Số bản sao: 0)\n- Tờ khai đăng ký khai sinh theo mẫu. (Số bản chính: 1; Số bản sao: 0)\n- Trường hợp khai sinh cho trẻ em sinh ra do mang thai hộ phải có văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản cho việc mang thai hộ. (Số bản chính: 1; Số bản sao: 0)\n- Hộ chiếu/Thẻ căn cước công dân/Thẻ căn cước/Căn cước điện tử/Giấy chứng nhận căn cước hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi tắt là giấy tờ tùy thân) để chứng minh về nhân thân khi làm thủ tục trực tiếp tại cơ quan đăng ký hộ tịch. (Số bản chính: 1; Số bản sao: 0)\n\nGhi chú về hồ sơ (các dòng 0 bản trên trang nguồn):\n- Trường hợp giấy tờ tùy thân sử dụng là: Hộ chiếu, Thẻ căn cước, Căn cước công dân, Giấy chứng nhận căn cước thì người có yêu cầu đăng ký hộ tịch chỉ cần cung cấp thông tin số định danh cá nhân hoặc thông tin về giấy tờ (số, ngày/tháng/năm cấp), cơ quan đăng ký hộ tịch có trách nhiệm tra cứu thông tin thông qua kết nối với Cơ sở dữ liệu hộ tịch điện tử, Cơ sở dữ liệu quốc gia về dân cư hoặc cơ sở dữ liệu khác có liên quan để đối chiếu, khai thác dữ liệu.\n- Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan đăng ký hộ tịch yêu cầu người đi đăng ký hộ tịch xuất trình bản chính giấy tờ để chứng minh, đồng thời đề nghị người đi đăng ký hộ tịch cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.\n- Trường hợp người yêu cầu đã nộp bản điện tử Giấy chứng sinh hoặc cơ quan đăng ký hộ tịch đã khai thác được dữ liệu điện tử có ký số của Giấy chứng sinh thì không phải nộp bản giấy.\n\nĐối tượng thực hiện: Công dân Việt Nam\n\nCơ quan thực hiện (theo trang Bộ Tư pháp): Ủy ban Nhân dân xã, phường, thị trấn.\n\nCơ quan thực hiện (theo 1833/QĐ-BTP, Phần I): UBND cấp xã\n\nKết quả thực hiện: Giấy khai sinh; Giấy khai sinh\n\nCăn cứ pháp lý:\n- 04/2020/TT-BTP – Thông tư 04/2020/TT-BTP\n- 18/2026/NĐ-CP – Sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Tư pháp\n- 104/2022/NĐ-CP – Nghị định sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công\n- 106/2021/TT-BTC – Thông tư 106/2021/TT-BTC\n- 123/2015/NĐ-CP – Nghị định 123/2015/NĐ-CP - Quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch\n- 85/2019/TT-BTC – Thông tư 85/2019/TT-BTC\n- 120/2025/NĐ-CP – Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.\n- 04/2024/TT-BTP – Sửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP ngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng, quản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành một số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch\n- 60/2014/QH13 – Luật 60/2014/QH13-Hộ tịch\n- 08/2025/TT-BTP – Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp\n- 66.7/2025/NQ-CP\n- 07/2025/NĐ-CP – Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực.\n\nYêu cầu, điều kiện thực hiện: Trẻ em sinh ra mà cha mẹ bị khuyết tật, ốm bệnh không thể đi đăng ký khai sinh cho con; cha mẹ bị bắt, tạm giam hoặc đang thi hành án phạt tù mà không còn ông bà nội, ngoại và người thân thích khác hoặc những người này không có điều kiện đi đăng ký khai sinh cho trẻ.",
+  "parse_flags": [
+    "processing_time_bare_number_at_source",
+    "required_documents_order_is_portal_order_not_decision_order",
+    "stale_agency_wording_at_source"
+  ],
+  "source": {
+    "source_id": "moj-portal#1.003583",
+    "url": "https://moj.gov.vn/portal/thu-tuc-hanh-chinh/chi-tiet-1.003583.html",
+    "locator": "moj.gov.vn TTHC chi tiết mã 1.003583; cơ quan theo 1833/QĐ-BTP Phần I, mục A.30 (https://cdn.haiphong.gov.vn/gov-hpg/6855/tintuc/2025/11/1833638988795114181791.pdf)",
+    "title": "Thủ tục đăng ký khai sinh lưu động",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:33c75df087e8dac122c805f33c28f139970f1663ddb8594522fbc712c1a882dc"
+  }
+}

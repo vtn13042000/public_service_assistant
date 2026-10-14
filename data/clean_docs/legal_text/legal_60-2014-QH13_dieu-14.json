@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:60-2014-QH13:dieu-14",
+ "kind": "legal_text",
+ "title": "Luật Hộ tịch số 60/2014/QH13, Điều 14",
+ "issuer": "Quốc hội",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.000689",
+  "1.001193",
+  "1.003583",
+  "1.004772"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 14. Nội dung đăng ký khai sinh",
+   "text": "1. Nội dung đăng ký khai sinh gồm:\na) Thông tin của người được đăng ký khai sinh: Họ, chữ đệm và tên; giới tính; ngày, tháng, năm sinh; nơi sinh; quê quán; dân tộc; quốc tịch;\nb) Thông tin của cha, mẹ người được đăng ký khai sinh: Họ, chữ đệm và tên; năm sinh; dân tộc; quốc tịch; nơi cư trú;\nc) Số định danh cá nhân của người được đăng ký khai sinh.\n2. Việc xác định quốc tịch, dân tộc, họ của người được khai sinh được thực hiện theo quy định của pháp luật về quốc tịch Việt Nam và pháp luật dân sự.\n3. Nội dung đăng ký khai sinh quy định tại khoản 1 Điều này là thông tin hộ tịch cơ bản của cá nhân, được ghi vào Sổ hộ tịch, Giấy khai sinh, cập nhật vào Cơ sở dữ liệu hộ tịch điện tử và Cơ sở dữ liệu quốc gia về dân cư. Hồ sơ, giấy tờ của cá nhân liên quan đến thông tin khai sinh phải phù hợp với nội dung đăng ký khai sinh của người đó.\nChính phủ quy định việc cấp số định danh cá nhân cho người được đăng ký khai sinh."
+  }
+ ],
+ "notes": "relevance: đăng ký khai sinh tại UBND cấp xã; Luật Hộ tịch số 60/2014/QH13 is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Luật đã được sửa đổi, bổ sung; thẩm quyền của UBND cấp huyện trong Luật được phân định lại cho UBND cấp xã từ 01/07/2025 (Nghị định 120/2025/NĐ-CP, Điều 4). Luật Hộ tịch số 03/2026/QH16 thay thế Luật này từ 01/03/2027.",
+ "text_sha256": "e3385a2233ca77d5380ee016d8a733f434da1ecdd4d57dfb57c97aef1ab2bc9f",
+ "cleaning_actions": []
+}

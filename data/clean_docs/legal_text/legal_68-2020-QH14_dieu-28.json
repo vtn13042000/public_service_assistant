@@ -1,0 +1,29 @@
+{
+ "doc_id": "legal:68-2020-QH14:dieu-28",
+ "kind": "legal_text",
+ "title": "Luật Cư trú số 68/2020/QH14, Điều 28",
+ "issuer": "Quốc hội",
+ "effective_date": "2021-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRNrNSxQZcIVxROlbOBMPyFCakHIAcxbiImTALBx5katzIlwtElvJCWxXpfDiVJl4Br2g7oT6pC-CQC6BvsNJdmw~~&file_name=2020_1179+%2b+1180_68-2020-QH14.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "7fc5cda418466120284106896ad8aba938abc1174f8eb591a35a6e1435745d75",
+ "procedure_ids": [
+  "1.004194",
+  "1.002755"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 28. Hồ sơ, thủ tục đăng ký tạm trú, gia hạn tạm trú",
+   "text": "1. Hồ sơ đăng ký tạm trú bao gồm:\na) Tờ khai thay đổi thông tin cư trú; đối với người đăng ký tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nb) Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp.\n2. Người đăng ký tạm trú nộp hồ sơ đăng ký tạm trú đến cơ quan đăng ký cư trú nơi mình dự kiến tạm trú.\nKhi tiếp nhận hồ sơ đăng ký tạm trú, cơ quan đăng ký cư trú kiểm tra và cấp phiếu tiếp nhận hồ sơ cho người đăng ký; trường hợp hồ sơ chưa đầy đủ thì hướng dẫn người đăng ký bổ sung hồ sơ.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, cơ quan đăng ký cư trú có trách nhiệm thẩm định, cập nhật thông tin về nơi tạm trú mới, thời hạn tạm trú của người đăng ký vào Cơ sở dữ liệu về cư trú và thông báo cho người đăng ký về việc đã cập nhật thông tin đăng ký tạm trú; trường hợp từ chối đăng ký thì phải trả lời bằng văn bản và nêu rõ lý do.\n3. Trong thời hạn 15 ngày trước ngày kết thúc thời hạn tạm trú đã đăng ký, công dân phải làm thủ tục gia hạn tạm trú.\nHồ sơ, thủ tục gia hạn tạm trú thực hiện theo quy định tại khoản 1 và khoản 2 Điều này. Sau khi thẩm định hồ sơ, cơ quan đăng ký cư trú có trách nhiệm cập nhật thông tin về thời hạn tạm trú mới của người đăng ký vào Cơ sở dữ liệu về cư trú và thông báo cho người đăng ký về việc đã cập nhật thông tin đăng ký tạm trú; trường hợp từ chối đăng ký thì phải trả lời bằng văn bản và nêu rõ lý do."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: dossier/procedure for temporary registration and extension. Công báo .doc (congbao.chinhphu.vn tai-ve-van-ban-so-68-2020-qh14). Original 2020 text; amended by Luật 118/2025/QH15 (in force 01/07/2026; its text is only a scanned PDF on datafiles.chinhphu.vn) and earlier consolidated as VBHN 01/VBHN-VPQH (2025, not held): amendments not merged.",
+ "original_version": true,
+ "amended_by": [
+  "Luật 118/2025/QH15"
+ ],
+ "text_sha256": "9e30ef63ad87e686bbd1a3e184046b3d706df1137a85345f887e6afdfbc0b562",
+ "cleaning_actions": []
+}

@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:04-2020-TT-BTP:dieu-15",
+ "kind": "legal_text",
+ "title": "Thông tư 04/2020/TT-BTP, Điều 15",
+ "issuer": "Bộ Tư pháp",
+ "effective_date": "2020-07-16",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.000689",
+  "1.001695"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "09/2022/TT-BTP",
+  "04/2024/TT-BTP",
+  "08/2025/TT-BTP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 15. Kết hợp giải quyết việc đăng ký khai sinh và nhận cha, mẹ, con",
+   "text": "1. Khi đăng ký khai sinh cho trẻ em mà có người yêu cầu đăng ký nhận cha, mẹ, con thì Ủy ban nhân dân cấp xã nơi cư trú của cha hoặc mẹ kết hợp giải quyết thủ tục đăng ký khai sinh và thủ tục đăng ký nhận cha, mẹ, con.\nTrường hợp đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con mà một bên có yêu cầu là người nước ngoài, công dân Việt Nam định cư ở nước ngoài thì thẩm quyền thuộc Ủy ban nhân dân cấp huyện nơi cư trú của cha hoặc mẹ là công dân Việt Nam.\n2. Hồ sơ đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con bao gồm:\na) Tờ khai đăng ký khai sinh, Tờ khai đăng ký nhận cha, mẹ, con theo mẫu quy định;\nb) Giấy chứng sinh hoặc giấy tờ thay thế Giấy chứng sinh theo quy định tại khoản 1 Điều 16 của Luật hộ tịch;\nc) Chứng cứ chứng minh quan hệ cha, mẹ, con theo quy định tại Điều 14 của Thông tư này.\n3. Trình tự, thủ tục giải quyết việc đăng ký khai sinh kết hợp nhận cha, mẹ, con được thực hiện theo quy định tại khoản 1, khoản 2 Điều 16 và Điều 25 Luật hộ tịch trong trường hợp thuộc thẩm quyền của Ủy ban nhân dân cấp xã; theo quy định tại khoản 1, khoản 2 Điều 36 và Điều 44 Luật hộ tịch trong trường hợp thuộc thẩm quyền của Ủy ban nhân dân cấp huyện.\nNội dung đăng ký khai sinh xác định theo quy định tại khoản 1 Điều 4 Nghị định số 123/2015/NĐ-CP và Điều 6 Thông tư này. Giấy khai sinh và Trích lục đăng ký nhận cha, mẹ, con được cấp đồng thời cho người yêu cầu."
+  }
+ ],
+ "notes": "relevance: kết hợp đăng ký khai sinh và nhận cha, mẹ, con; Thông tư 04/2020/TT-BTP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Thông tư 09/2022/TT-BTP, 04/2024/TT-BTP và Thông tư 08/2025/TT-BTP.",
+ "text_sha256": "42dcede6bd6f68bdad61011fbdffe49f1b961234a0f44e4041a71a730b983d0b",
+ "cleaning_actions": []
+}

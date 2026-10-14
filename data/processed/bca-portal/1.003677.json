@@ -1,0 +1,72 @@
+{
+  "procedure_id": "1.003677",
+  "title": "Khai báo tạm vắng",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "+ Đề nghị khai báo tạm vắng;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Trường hợp công dân thuộc quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú, hồ sơ gồm:"
+    },
+    {
+      "item": "+ Văn bản đồng ý của cơ quan có thẩm quyền giám sát, quản lý, giáo dục người đó.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Trường hợp công dân thuộc quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú, hồ sơ gồm:"
+    },
+    {
+      "item": "Nội dung khai báo tạm vắng gồm: họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.",
+      "quantity": 2,
+      "quantity_text": "Bản chính: 1; Bản sao: 1",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Trường hợp thuộc quy định tại điểm c, điểm d khoản 1 Điều 31 Luật Cư trú:"
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ Công an cấp xã.",
+    "- Bước 3: Khi tiếp nhận hồ sơ khai báo tạm vắng trong Cơ sở dữ liệu về cư trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.",
+    "- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "miễn phí",
+      "condition": "Phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 01 Ngày làm việc; Trực tuyến: 01 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA"
+  ],
+  "conditions": "- Trường hợp người quy định tại điểm d khoản 1 Điều 31 Luật Cư trú là người chưa thành niên thì người thực hiện khai báo là cha, mẹ hoặc người giám hộ.\n- Nội dung khai báo tạm vắng bao gồm họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.",
+  "raw_text": "Mã thủ tục:\n1.003677\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến toàn trình\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ Công an cấp xã.\n- Bước 3: Khi tiếp nhận hồ sơ khai báo tạm vắng trong Cơ sở dữ liệu về cư trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.\n- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n01 Ngày làm việc\n- Trường hợp công dân thuộc quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú nộp hồ sơ trực tiếp tại cơ quan đăng ký cư trú.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrong thời gian 01 ngày kể từ khi tiếp nhận đề nghị khai báo tạm vắng của công dân.\n02 Ngày làm việc\ntrường hợp phức tạp thì có thể kéo dài hơn nhưng không quá 02 ngày làm việc.\nTrực tuyến\n01 Ngày làm việc\n- Trường hợp thuộc quy định tại điểm c, điểm d khoản 1 Điều 31 Luật Cư trú thì khai báo tạm vắng qua:\n+ Trực tiếp tại cơ quan đăng ký cư trú hoặc tại địa điểm tiếp nhận khai báo tạm vắng do cơ quan đăng ký cư trú quy định;\n+ Số điện thoại hoặc hộp thư điện tử do cơ quan đăng ký cư trú thông báo hoặc niêm yết;\n+ Trang thông tin điện tử của cơ quan đăng ký cư trú hoặc qua các cổng cung cấp dịch vụ công trực tuyến như: Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, Cổng dịch vụ công quản lý cư trú;\n+ Ứng dụng trên thiết bị điện tử.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrong thời gian 01 ngày kể từ khi tiếp nhận đề nghị khai báo tạm vắng của công dân.\n02 Ngày làm việc\ntrường hợp phức tạp thì có thể kéo dài hơn nhưng không quá 02 ngày làm việc.\n\nPhí:\nKhông\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\n- Trường hợp công dân thuộc quy định tại điểm a, điểm b khoản 1 Điều 31 Luật Cư trú, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n+ Đề nghị khai báo tạm vắng;\nBản chính: 1\nBản sao: 0\n+ Văn bản đồng ý của cơ quan có thẩm quyền giám sát, quản lý, giáo dục người đó.\nBản chính: 1\nBản sao: 0\n- Trường hợp thuộc quy định tại điểm c, điểm d khoản 1 Điều 31 Luật Cư trú:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nNội dung khai báo tạm vắng gồm: họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.\nBản chính: 1\nBản sao: 1\n\nYêu cầu - điều kiện:\n- Trường hợp người quy định tại điểm d khoản 1 Điều 31 Luật Cư trú là người chưa thành niên thì người thực hiện khai báo là cha, mẹ hoặc người giám hộ.\n- Nội dung khai báo tạm vắng bao gồm họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nThông tư 55/2021/TT-BCA\nSố: 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo về kết quả giải quyết, hủy bỏ đăng ký cư trú\nPhiếu khai báo tạm vắng",
+  "source": {
+    "source_id": "bca-portal#1.003677",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26351",
+    "locator": null,
+    "title": "Khai báo tạm vắng — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:d0efde41a591a3da34a7da7eba2ba2ce005aaf34d2c21236c1643c9e8dec68d7"
+  }
+}

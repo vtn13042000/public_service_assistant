@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:123-2015-ND-CP:dieu-14",
+ "kind": "legal_text",
+ "title": "Nghị định 123/2015/NĐ-CP, Điều 14",
+ "issuer": "Chính phủ",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.001193"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "87/2020/NĐ-CP",
+  "104/2022/NĐ-CP",
+  "07/2025/NĐ-CP",
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 14. Đăng ký khai sinh cho trẻ bị bỏ rơi",
+   "text": "1. Người phát hiện trẻ bị bỏ rơi có trách nhiệm bảo vệ trẻ và thông báo ngay cho Ủy ban nhân dân hoặc công an cấp xã nơi trẻ bị bỏ rơi. Trường hợp trẻ bị bỏ rơi tại cơ sở y tế thì Thủ trưởng cơ sở y tế có trách nhiệm thông báo.\nNgay sau khi nhận được thông báo, Chủ tịch Ủy ban nhân dân cấp xã hoặc Trưởng công an cấp xã có trách nhiệm tổ chức lập biên bản về việc trẻ bị bỏ rơi; Ủy ban nhân dân cấp xã có trách nhiệm giao trẻ cho cá nhân hoặc tổ chức tạm thời nuôi dưỡng theo quy định pháp luật.\nBiên bản phải ghi rõ thời gian, địa điểm phát hiện trẻ bị bỏ rơi; đặc điểm nhận dạng như giới tính, thể trạng, tình trạng sức khỏe; tài sản hoặc đồ vật khác của trẻ, nếu có; họ, tên, giấy tờ chứng minh nhân thân, nơi cư trú của người phát hiện trẻ bị bỏ rơi. Biên bản phải được người lập, người phát hiện trẻ bị bỏ rơi, người làm chứng (nếu có) ký tên và đóng dấu xác nhận của cơ quan lập.\nBiên bản được lập thành hai bản, một bản lưu tại cơ quan lập, một bản giao cá nhân hoặc tổ chức tạm thời nuôi dưỡng trẻ.\n2. Sau khi lập biên bản theo quy định tại Khoản 1 Điều này, Ủy ban nhân dân cấp xã tiến hành niêm yết tại trụ sở Ủy ban nhân dân trong 7 ngày liên tục về việc trẻ bị bỏ rơi.\n3. Hết thời hạn niêm yết, nếu không có thông tin về cha, mẹ đẻ của trẻ, Ủy ban nhân dân cấp xã thông báo cho cá nhân hoặc tổ chức đang tạm thời nuôi dưỡng trẻ để tiến hành đăng ký khai sinh cho trẻ. Cá nhân hoặc tổ chức đang tạm thời nuôi dưỡng trẻ có trách nhiệm khai sinh cho trẻ em. Thủ tục đăng ký khai sinh được thực hiện theo quy định tại Khoản 2 Điều 16 của Luật Hộ tịch.\nHọ, chữ đệm, tên của trẻ được xác định theo quy định của pháp luật dân sự. Nếu không có cơ sở để xác định ngày, tháng, năm sinh và nơi sinh của trẻ thì lấy ngày, tháng phát hiện trẻ bị bỏ rơi là ngày, tháng sinh; căn cứ thể trạng của trẻ để xác định năm sinh; nơi sinh là nơi phát hiện trẻ bị bỏ rơi; quê quán được xác định theo nơi sinh; quốc tịch của trẻ là quốc tịch Việt Nam. Phần khai về cha, mẹ và dân tộc của trẻ trong Giấy khai sinh và Sổ hộ tịch để trống; trong Sổ hộ tịch ghi rõ “Trẻ bị bỏ rơi”."
+  }
+ ],
+ "notes": "relevance: đăng ký khai sinh trong trường hợp đặc biệt (trẻ bị bỏ rơi, chưa xác định cha mẹ, mang thai hộ); Nghị định 123/2015/NĐ-CP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Nghị định 87/2020/NĐ-CP, 104/2022/NĐ-CP, 07/2025/NĐ-CP và thẩm quyền được phân định lại theo Nghị định 120/2025/NĐ-CP (từ 01/07/2025).",
+ "text_sha256": "75a920d75d49cc229aaf931c987fd0c3c3b7688eada8b123a13e7b24f5e65ad1",
+ "cleaning_actions": []
+}

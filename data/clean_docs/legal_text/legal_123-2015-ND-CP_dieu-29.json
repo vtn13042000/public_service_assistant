@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:123-2015-ND-CP:dieu-29",
+ "kind": "legal_text",
+ "title": "Nghị định 123/2015/NĐ-CP, Điều 29",
+ "issuer": "Chính phủ",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.001193"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "87/2020/NĐ-CP",
+  "104/2022/NĐ-CP",
+  "07/2025/NĐ-CP",
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 29. Đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài về cư trú tại Việt Nam",
+   "text": "1. Ủy ban nhân dân cấp huyện nơi cư trú của trẻ em có cha hoặc mẹ hoặc cả cha và mẹ là công dân Việt Nam, thực hiện đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài mà chưa được đăng ký khai sinh.\n2. Người yêu cầu đăng ký khai sinh xuất trình giấy tờ chứng minh việc trẻ em cư trú tại Việt Nam và nộp các giấy tờ sau đây:\na) Tờ khai theo mẫu quy định;\nb) Giấy chứng sinh hoặc giấy tờ khác do cơ quan có thẩm quyền nước ngoài cấp xác nhận về việc trẻ em được sinh ra ở nước ngoài và quan hệ mẹ - con nếu có;\nc) Văn bản thỏa thuận của cha mẹ lựa chọn quốc tịch cho con theo quy định tại Khoản 1 Điều 36 của Luật Hộ tịch đối với trường hợp trẻ em có cha hoặc mẹ là công dân Việt Nam, người kia là công dân nước ngoài.\n3. Trường hợp không có giấy tờ quy định tại Điểm b Khoản 2 Điều này thì thực hiện việc đăng ký khai sinh cho trẻ em theo thủ tục quy định tại Khoản 5 Điều 15 của Nghị định này.\n4. Ngay trong ngày tiếp nhận yêu cầu, Phòng Tư pháp kiểm tra hồ sơ. Nếu thấy hồ sơ đầy đủ, chính xác và đúng quy định pháp luật thì đăng ký theo trình tự, thủ tục quy định tại Khoản 2 Điều 36 của Luật Hộ tịch. Nội dung khai sinh được xác định theo quy định tại Khoản 1 Điều 4 của Nghị định này."
+  }
+ ],
+ "notes": "relevance: khai sinh cho trẻ em sinh ra ở nước ngoài về cư trú tại Việt Nam; Nghị định 123/2015/NĐ-CP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Nghị định 87/2020/NĐ-CP, 104/2022/NĐ-CP, 07/2025/NĐ-CP và thẩm quyền được phân định lại theo Nghị định 120/2025/NĐ-CP (từ 01/07/2025).",
+ "text_sha256": "ea77efab72cc8684813ed9bc1b366ed1221c819b2e8b247662883c89d6052777",
+ "cleaning_actions": []
+}

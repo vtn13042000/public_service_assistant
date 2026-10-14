@@ -1,0 +1,33 @@
+{
+ "doc_id": "legal:123-2015-ND-CP:dieu-2",
+ "kind": "legal_text",
+ "title": "Nghị định 123/2015/NĐ-CP, Điều 2",
+ "issuer": "Chính phủ",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.000656",
+  "1.000894",
+  "1.001193"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "87/2020/NĐ-CP",
+  "104/2022/NĐ-CP",
+  "07/2025/NĐ-CP",
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 2. Quy định về xuất trình, nộp giấy tờ khi đăng ký hộ tịch, cấp bản sao trích lục hộ tịch",
+   "text": "1. Người yêu cầu đăng ký hộ tịch, cấp bản sao trích lục hộ tịch xuất trình bản chính một trong các giấy tờ là hộ chiếu, chứng minh nhân dân, thẻ căn cước công dân hoặc giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng (sau đây gọi là giấy tờ tùy thân) để chứng minh về nhân thân.\nTrong giai đoạn chuyển tiếp, người yêu cầu đăng ký hộ tịch phải xuất trình giấy tờ chứng minh nơi cư trú.\n2. Người yêu cầu đăng ký khai sinh phải nộp bản chính Giấy chứng sinh hoặc giấy tờ thay Giấy chứng sinh theo quy định tại Khoản 1 Điều 16 của Luật Hộ tịch; đăng ký khai tử phải nộp bản chính Giấy báo tử hoặc giấy tờ thay Giấy báo tử theo quy định tại Khoản 1 Điều 34 của Luật Hộ tịch và tại Khoản 2 Điều 4 của Nghị định này; đăng ký kết hôn phải nộp bản chính Giấy xác nhận tình trạng hôn nhân theo quy định tại Mục 3 Chương III của Nghị định này.\n3. Giấy tờ bằng tiếng nước ngoài sử dụng để đăng ký hộ tịch tại Việt Nam phải được dịch ra tiếng Việt và công chứng bản dịch hoặc chứng thực chữ ký người dịch theo quy định của pháp luật.\n4. Giấy tờ do cơ quan có thẩm quyền của nước có chung đường biên giới với Việt Nam (sau đây gọi là nước láng giềng) lập, cấp, xác nhận sử dụng để đăng ký hộ tịch theo quy định tại Điểm d Khoản 1 Điều 7 của Luật Hộ tịch được miễn hợp pháp hóa lãnh sự; dịch ra tiếng Việt và có cam kết của người dịch về việc dịch đúng nội dung.\n5. Bản sao giấy tờ trong hồ sơ đăng ký hộ tịch là bản sao được cấp từ sổ gốc hoặc chứng thực từ bản chính theo quy định của pháp luật; trường hợp người yêu cầu nộp bản sao không được chứng thực thì phải xuất trình bản chính để đối chiếu."
+  }
+ ],
+ "notes": "relevance: giấy tờ nộp, xuất trình và cách thức nộp hồ sơ đăng ký hộ tịch; Nghị định 123/2015/NĐ-CP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Nghị định 87/2020/NĐ-CP, 104/2022/NĐ-CP, 07/2025/NĐ-CP và thẩm quyền được phân định lại theo Nghị định 120/2025/NĐ-CP (từ 01/07/2025).",
+ "text_sha256": "b6d6bb5d9011d6ff869ec9e30ecc2a2cf4da2f1807fefbd909d10d58b9ec77a3",
+ "cleaning_actions": []
+}

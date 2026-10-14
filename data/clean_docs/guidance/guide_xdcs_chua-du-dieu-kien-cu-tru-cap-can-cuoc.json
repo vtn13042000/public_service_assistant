@@ -1,0 +1,30 @@
+{
+ "doc_id": "guide:xdcs:chua-du-dieu-kien-cu-tru-cap-can-cuoc",
+ "kind": "guidance",
+ "title": "Không đủ điều kiện đăng ký thường trú, đăng ký tạm trú có được cấp thẻ căn cước?",
+ "issuer": "Cổng Thông tin điện tử Chính phủ (xaydungchinhsach.chinhphu.vn)",
+ "effective_date": null,
+ "url": "https://xaydungchinhsach.chinhphu.vn/khong-du-dieu-kien-dang-ky-thuong-tru-dang-ky-tam-tru-co-duoc-cap-the-can-cuoc-119250212105138254.htm",
+ "retrieved_at": "2026-10-10",
+ "sha256": "1e2d5c6f327b9a6aad230a2e7fb8a6255eb2bb93b3f144d239bfa338b86c6a97",
+ "procedure_ids": [
+  "1.010040",
+  "1.001247",
+  "2.000200",
+  "1.012549",
+  "1.014062"
+ ],
+ "sections": [
+  {
+   "heading": "Không đủ điều kiện đăng ký thường trú, đăng ký tạm trú có được cấp thẻ căn cước?",
+   "text": "Bạn đọc nêu câu hỏi: \"Tôi đăng ký thường trú tại ấp Cái Côn, xã Đại Thành, thành phố Ngã Bảy, Tỉnh Hậu Giang. Tuy nhiên, cha tôi bán nhà, đất và cả gia đình đi làm thuê ở tỉnh khác (tỉnh Bình Dương) đã lâu không về địa phương.\nNăm 2023 tôi có về địa phương 1 lần để xin số định danh và xin cấp thẻ căn cước (cả gia đình tôi chưa có thẻ căn cước, chỉ có chứng minh nhân dân) thì địa phương báo là đã bị xoá khẩu, không có thông tin trên Cơ sở dữ liệu quốc gia về dân cư.\nTháng 9/2024, tôi về địa phương 1 lần nữa thì cơ quan chức năng vẫn báo là đã bị xoá khẩu, tôi xin nhập khẩu nơi khác khi có sự đồng ý của chủ hộ rồi, nhưng vẫn không được hỗ trợ chuyển khẩu.\nHiện nay, tôi đang rất cần thẻ căn cước để phục vụ cho công việc cũng như giấy tờ của con tôi, Bộ Công an cho tôi hỏi, trường hợp của tôi để được cấp thẻ căn cước thì phải làm những thủ tục gì?\"\nBộ Công an trả lời như sau: Tại Điều 19 Luật Căn cước năm 2023, mọi công dân Việt Nam được cấp thẻ căn cước. Đồng thời, theo quy định tại Điều 4 Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ trưởng Bộ Công an quy định nội dung thể hiện trên thẻ căn cước đối với thông tin về nơi cư trú, trường hợp người đề nghị cấp, cấp đổi, cấp lại thẻ căn cước không có nơi thường trú, nơi tạm trú do không đủ điều kiện đăng ký thường trú, đăng ký tạm trú thì thông tin nơi cư trú thể hiện trên thẻ căn cước là thông tin nơi ở hiện tại của người được cấp thẻ.\nDo vậy, đối với trường hợp trên, đề nghị công dân đến Công an cấp xã nơi cư trú để được hướng dẫn thủ tục đăng ký cư trú.\nTrong trường hợp không đủ điều kiện đăng ký thường trú, tạm trú thì khai báo nơi ở hiện tại và được nhập dữ liệu dân cư trên hệ thống Cơ sở dữ liệu quốc gia về dân cư.\nSau khi đã có thông tin trên hệ thống Cơ sở dữ liệu quốc gia về dân cư, công dân thực hiện thủ tục cấp căn cước tại cơ quan quản lý căn cước cấp huyện hoặc cấp tỉnh nơi công dân cư trú theo quy định pháp luật.\nTheo Bộ Công an"
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "manual",
+ "notes": "relevance: can people without registered residence get a card. Published 2025-02-17. Linked manually from the page topic (the page gives no mã TTHC). Published before Luật 118/2025/QH15 and TT 116/2026/TT-BCA took effect (01/07/2026): check against current rules.",
+ "text_sha256": "317b6816a079962b4023e540271ee526f5a3dd3476d22393a270643a49542ac4",
+ "cleaning_actions": [
+  "section 'Không đủ điều kiện đăng ký thư': nfc"
+ ]
+}

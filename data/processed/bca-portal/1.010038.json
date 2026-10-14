@@ -1,0 +1,66 @@
+{
+  "procedure_id": "1.010038",
+  "title": "Tách hộ",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho tách hộ của chủ hộ, chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Tách hộ để đăng ký thường trú tại cùng một chỗ ở hợp pháp, hồ sơ gồm: | Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "+ Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Trường hợp thành viên hộ gia đình đăng ký tách hộ là vợ, chồng đã ly hôn mà vẫn được ở cùng chỗ ở hợp pháp, hồ sơ gồm: | Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "+ Giấy tờ, tài liệu chứng minh việc ly hôn và việc tiếp tục được sử dụng chỗ ở hợp pháp đó.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: - Trường hợp thành viên hộ gia đình đăng ký tách hộ là vợ, chồng đã ly hôn mà vẫn được ở cùng chỗ ở hợp pháp, hồ sơ gồm:"
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.",
+    "- Bước 3: Khi tiếp nhận hồ sơ tách hộ, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.",
+    "- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 05 Ngày làm việc; Trực tuyến: 05 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA"
+  ],
+  "conditions": "Thành viên hộ gia đình được tách hộ để đăng ký thường trú tại cùng một nơi thường trú phải có năng lực hành vi dân sự đầy đủ; trường hợp có nhiều thành viên cùng đăng ký tách hộ để lập thành một hộ gia đình mới thì trong số các thành viên đó có ít nhất một người có năng lực hành vi dân sự đầy đủ.",
+  "raw_text": "Mã thủ tục:\n1.010038\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến một phần\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.\n- Bước 3: Khi tiếp nhận hồ sơ tách hộ, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.\n- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n05 Ngày làm việc\n- Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, cơ quan đăng ký cư trú có trách nhiệm thẩm định, cập nhật thông tin về hộ gia đình liên quan đến việc tách hộ trong Cơ sở dữ liệu về cư trú và thông báo cho người đăng ký về việc đã cập nhật thông tin này; trường hợp từ chối giải quyết tách hộ thì phải trả lời bằng văn bản và nêu rõ lý do.\nTrực tuyến\n05 Ngày làm việc\n- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Cổng dịch vụ công qua Cổng dịch vụ công quốc gia, hoặc qua Cổng dịch vụ công Bộ Công an, Cổng dịch vụ công quản lý cư trú;\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, cơ quan đăng ký cư trú có trách nhiệm thẩm định, cập nhật thông tin về hộ gia đình liên quan đến việc tách hộ trong Cơ sở dữ liệu về cư trú và thông báo cho người đăng ký về việc đã cập nhật thông tin này; trường hợp từ chối giải quyết tách hộ thì phải trả lời bằng văn bản và nêu rõ lý do.\n\nPhí:\na\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\n- Tách hộ để đăng ký thường trú tại cùng một chỗ ở hợp pháp, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA), trong đó ghi rõ ý kiến đồng ý cho tách hộ của chủ hộ, chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n- Trường hợp thành viên hộ gia đình đăng ký tách hộ là vợ, chồng đã ly hôn mà vẫn được ở cùng chỗ ở hợp pháp, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n+ Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n+ Giấy tờ, tài liệu chứng minh việc ly hôn và việc tiếp tục được sử dụng chỗ ở hợp pháp đó.\nBản chính: 1\nBản sao: 0\n\nYêu cầu - điều kiện:\nThành viên hộ gia đình được tách hộ để đăng ký thường trú tại cùng một nơi thường trú phải có năng lực hành vi dân sự đầy đủ; trường hợp có nhiều thành viên cùng đăng ký tách hộ để lập thành một hộ gia đình mới thì trong số các thành viên đó có ít nhất một người có năng lực hành vi dân sự đầy đủ.\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\n\nBiểu mẫu:\nFile mẫu:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA)\nTải về\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo về kết quả giải quyết, hủy bỏ đăng ký cư trú\nPhiếu từ chối tiếp nhận, giải quyết hồ sơ",
+  "source": {
+    "source_id": "bca-portal#1.010038",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26499",
+    "locator": null,
+    "title": "Tách hộ — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:f29a419625a71dd0a9dc2f060e3082964110b59d8a6e892f09ac42c5e56b6711"
+  }
+}

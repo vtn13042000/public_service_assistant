@@ -1,0 +1,28 @@
+{
+ "doc_id": "legal:60-2014-QH13:dieu-47",
+ "kind": "legal_text",
+ "title": "Luật Hộ tịch số 60/2014/QH13, Điều 47",
+ "issuer": "Quốc hội",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "2.000748"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 47. Thủ tục đăng ký thay đổi, cải chính, bổ sung hộ tịch, xác định lại dân tộc",
+   "text": "1. Thủ tục đăng ký thay đổi, cải chính hộ tịch được áp dụng theo quy định tại Điều 28 của Luật này.\nTrường hợp yêu cầu xác định lại dân tộc thì phải có giấy tờ làm căn cứ chứng minh theo quy định của pháp luật; trình tự được thực hiện theo quy định tại Điều 28 của Luật này.\n2. Thủ tục yêu cầu bổ sung thông tin hộ tịch được áp dụng theo quy định tại Điều 29 của Luật này."
+  }
+ ],
+ "notes": "relevance: thay đổi, cải chính, bổ sung hộ tịch, xác định lại dân tộc có yếu tố nước ngoài; Luật Hộ tịch số 60/2014/QH13 is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Luật đã được sửa đổi, bổ sung; thẩm quyền của UBND cấp huyện trong Luật được phân định lại cho UBND cấp xã từ 01/07/2025 (Nghị định 120/2025/NĐ-CP, Điều 4). Luật Hộ tịch số 03/2026/QH16 thay thế Luật này từ 01/03/2027.",
+ "text_sha256": "843ada9d9b39f4809ea119ad1dfc2a96edc719c0a523cfd7415edd661e8e1a58",
+ "cleaning_actions": []
+}

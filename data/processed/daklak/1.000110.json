@@ -1,0 +1,61 @@
+{
+  "procedure_id": "1.000110",
+  "title": "Đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "Đắk Lắk",
+  "receiving_agency": null,
+  "channels": [],
+  "required_documents": [],
+  "steps": [],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "Mức lệ phí theo quy định của HĐND tỉnh",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "theo Thông tư số 281/2016/TT-BTC",
+      "condition": "Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính",
+      "jurisdiction": "Đắk Lắk"
+    }
+  ],
+  "processing_time": "Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.",
+  "legal_basis": [
+    "Luật Hộ tịch năm 2014;",
+    "Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ;",
+    "Nghị định số 87/2020/NĐ-CP ngày 28/7/2020 của Chính phủ;",
+    "Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ;",
+    "Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ;",
+    "Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ;",
+    "Nghị quyết số 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ;",
+    "Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 01/2022/TT-BTP ngày 04/01/2022 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 04/2024/TT-BTP ngày 06/6/2024 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;",
+    "Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.",
+    "Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk."
+  ],
+  "conditions": null,
+  "raw_text": "Mục: THỦ TỤC HÀNH CHÍNH CẤP XÃ\nTên thủ tục hành chính: Đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới (1.000110)\nThời hạn giải quyết: Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.\nCách thức thực hiện: Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã hoặc gửi hồ sơ qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến trên Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn)\nPhí, lệ phí: - Mức lệ phí theo quy định của HĐND tỉnh. . - Miễn lệ phí cho người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. - Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính.\nCăn cứ pháp lý:\n- Luật Hộ tịch năm 2014;\n- Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của Chính phủ;\n- Nghị định số 87/2020/NĐ-CP ngày 28/7/2020 của Chính phủ;\n- Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ;\n- Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ;\n- Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ;\n- Nghị quyết số 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ;\n- Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 01/2022/TT-BTP ngày 04/01/2022 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 04/2024/TT-BTP ngày 06/6/2024 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;\n- Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.\n- Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk.",
+  "submission_method_text": "Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã hoặc gửi hồ sơ qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến trên Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn)",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#1.000110",
+    "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf",
+    "locator": "Phụ lục, THỦ TỤC HÀNH CHÍNH CẤP XÃ, TT 33, tr. 29–31",
+    "title": "Quyết định 33/QĐ-UBND tỉnh Đắk Lắk — Danh mục TTHC được sửa đổi, bổ sung lĩnh vực hộ tịch (căn cứ 3673/QĐ-BTP)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2026-01-08",
+    "content_hash": "sha256:9516a728384f04c202429ed77e61afe15fb053212697819399b22daa1b2df68a"
+  }
+}

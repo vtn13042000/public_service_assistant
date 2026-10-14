@@ -1,0 +1,26 @@
+{
+ "doc_id": "form:116-2026-TT-BCA:CT03",
+ "kind": "form",
+ "title": "Mẫu CT03 – Phiếu khai báo tạm vắng (Thông tư 116/2026/TT-BCA)",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.003677"
+ ],
+ "sections": [
+  {
+   "heading": "Mẫu CT03 – Phiếu khai báo tạm vắng",
+   "text": "Mẫu CT03 ban hành kèm theo Thông tư số 116/2026/TT-BCA\nngày 29 tháng 6 năm 2026 của Bộ trưởng Bộ Công an\n\n...............................................(1)\n................................................(2)\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập – Tự do – Hạnh phúc\n\nPHIẾU KHAI BÁO TẠM VẮNG\n1. Họ, chữ đệm và tên:\n2. Ngày, tháng, năm sinh:............/ .........../................3. Giới tính:\n4. Số định danh cá nhân:\n\n5. Nơi thường trú:\n\n6. Nơi tạm trú:\n\n7. Nơi ở hiện tại:\n\n8. Tạm vắng từ ngày, tháng, năm:......./............../ ............. đến ngày......../.........../ .................\n9. Lý do tạm vắng: .......................................................................................................................................................\n\n10. Địa chỉ nơi đến (3):…………………………………………………………………………\n\n.............ngày ........tháng........năm........ ........\nNGƯỜI KÊ KHAI\n(Ký, ghi rõ họ tên)\n\n................ngày ........tháng........năm........ NGƯỜI TIẾP NHẬN KHAI BÁO\n(Ký, ghi rõ họ tên)\n\nXÁC NHẬN CỦA CƠ QUAN ĐĂNG KÝ CƯ TRÚ\n.................ngày ........tháng........năm……….\nTHỦ TRƯỞNG CƠ QUAN\n(Ký, ghi rõ họ tên và đóng dấu)\n(Chữ ký số của Thủ trưởng cơ quan)\n\nChú thích:\n(1) Cơ quan cấp trên của cơ quan đăng ký cư trú\n(2) Cơ quan đăng ký cư trú\n(3) Ghi rõ số nhà, đường phố, tổ dân phố, thôn, xóm, làng, ấp, bản, buôn, phum, sóc; xã/phường/đặc khu; tỉnh/thành phố trừ trường hợp cập nhật thông tin tạm vắng cho công dân đang thực hiện nghĩa vụ trong Công an nhân dân, Quân đội nhân dân ghi tới địa bàn cấp xã."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "procedure_code",
+ "notes": "Linked through the form code CT03 named in the procedures' document lists (BCA portal records). Current version (TT 116/2026/TT-BCA, from 01/07/2026). Source: Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces.",
+ "text_sha256": "18a763a56b63410e32b5cbdab743a45d6a4c9bfbd68aca95b0b20e7744e70e13",
+ "cleaning_actions": [
+  "section 'Mẫu CT03 – Phiếu khai báo tạm ': nfc"
+ ]
+}

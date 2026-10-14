@@ -1,0 +1,34 @@
+{
+ "doc_id": "legal:17-2024-TT-BCA:dieu-8",
+ "kind": "legal_text",
+ "title": "Thông tư 17/2024/TT-BCA, Điều 8",
+ "issuer": "Bộ Công an",
+ "effective_date": "2024-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRfBN7lkyrtHwPQl8FbIva6t45Rd2YgVTSIdfFlFGucg9WT6gRZpFc-6rJBRKoWzW9N3MfF6HhfgQA4LAbYRUJpQ~~&file_name=2024_723+%2b+724_17-2024-TT-BCA.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "a7fd21d5ed618151efb80152e5caf5631bb06626813bb84362368f073abd6c58",
+ "procedure_ids": [
+  "1.001247",
+  "2.000200",
+  "1.012549",
+  "1.014062",
+  "1.000889",
+  "2.001195",
+  "1.000757",
+  "2.001194"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 8. Biểu mẫu sử dụng trong cấp, quản lý căn cước",
+   "text": "1. Phiếu thu nhận thông tin căn cước (ký hiệu là CC01)\nPhiếu thu nhận thông tin căn cước được cơ quan quản lý căn cước nơi tiếp nhận hồ sơ cấp, cấp đổi, cấp lại thẻ căn cước hoặc giấy chứng nhận căn cước tạo lập trên cơ sở trích xuất thông tin của công dân, người gốc Việt Nam chưa xác định được quốc tịch đang sinh sống tại Việt Nam (sau đây gọi là người gốc Việt Nam chưa xác định được quốc tịch) trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước khi thực hiện thủ tục.\n2. Giấy hẹn trả kết quả giải quyết thủ tục về căn cước (ký hiệu là CC02)\nGiấy hẹn trả kết quả giải quyết thủ tục về căn cước do cơ quan quản lý căn cước nơi tiếp nhận hồ sơ tạo lập cấp cho công dân, người gốc Việt Nam chưa xác định được quốc tịch để hẹn ngày trả kết quả giải quyết thủ tục về căn cước.\n3. Thông báo về việc từ chối giải quyết thủ tục về căn cước (ký hiệu là CC03)\nThông báo về việc từ chối giải quyết thủ tục về căn cước do cơ quan quản lý căn cước nơi tiếp nhận hồ sơ lập để thông báo cho công dân, người gốc Việt Nam chưa xác định được quốc tịch về việc từ chối giải quyết thủ tục về căn cước.\n4. Giấy xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (ký hiệu là CC04)\nGiấy xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân được cơ quan quản lý căn cước hoặc Công an cấp xã cấp cho công dân để xác nhận thông tin số chứng minh nhân dân 09 số với số định danh cá nhân; số định danh cá nhân đã hủy với số định danh cá nhân đã xác lập lại.\n5. Biên bản về việc thu hồi thẻ căn cước, giấy chứng nhận căn cước (ký hiệu là CC05)\nBiên bản về việc thu hồi thẻ căn cước, giấy chứng nhận căn cước do cơ quan có thẩm quyền thu hồi lập đối với các trường hợp thẻ căn cước, giấy chứng nhận căn cước bị thu hồi theo quy định."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: forms used (CC01 …). Công báo .doc (congbao.chinhphu.vn/van-ban/thong-tu-so-17-2024-tt-bca-42016/50405.htm). Amended by TT 53/2025/TT-BCA and TT 118/2026/TT-BCA (neither held as text): not merged.",
+ "original_version": true,
+ "amended_by": [
+  "TT 53/2025/TT-BCA",
+  "TT 118/2026/TT-BCA"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "doc_id": "change:bcp:cap-doi-can-cuoc-mien-phi-vneid-2025",
+ "kind": "change_notice",
+ "title": "Người dân được cấp đổi thẻ Căn cước miễn phí khi thay đổi địa giới hành chính trên VNeID",
+ "issuer": "Báo Điện tử Chính phủ (baochinhphu.vn)",
+ "effective_date": "2025-08-12",
+ "url": "https://baochinhphu.vn/nguoi-dan-duoc-cap-doi-the-can-cuoc-mien-phi-khi-thay-doi-dia-gioi-hanh-chinh-tren-vneid-102250812175451353.htm",
+ "retrieved_at": "2026-10-10",
+ "sha256": "5ca9c86febe0362a4a484a869028bbed36e1e768829dfe95fd9fd25a297347a6",
+ "procedure_ids": [
+  "1.000889",
+  "2.001195"
+ ],
+ "sections": [
+  {
+   "heading": "Người dân được cấp đổi thẻ Căn cước miễn phí khi thay đổi địa giới hành chính trên VNeID",
+   "text": "Việc đổi thẻ Căn cước áp dụng cho công dân có thẻ Căn cước còn hạn\nChiều 12/8, Cục Cảnh sát quản lý hành chính về trật tự xã hội (Bộ Công an) cho biết, hiện người dân có thể cấp đổi thẻ Căn cước khi thay đổi địa giới hành chính trên ứng dụng VNeID.\n- Người dân yên tâm chờ đợi để được điều chỉnh chính xác thông tin trên VNeID"
+  },
+  {
+   "heading": "Người dân yên tâm chờ đợi để được điều chỉnh chính xác thông tin trên VNeID",
+   "text": "- Cảnh sát giao thông sẽ quản lý bằng lái xe qua VNeID: Tiết kiệm rất nhiều chi phí, thời gian cho người dân"
+  },
+  {
+   "heading": "Cảnh sát giao thông sẽ quản lý bằng lái xe qua VNeID: Tiết kiệm rất nhiều chi phí, thời gian cho người dân",
+   "text": "- Nhận giấy phép lái xe điện tử trên VNeID"
+  },
+  {
+   "heading": "Nhận giấy phép lái xe điện tử trên VNeID",
+   "text": "Theo đó, việc đổi thẻ Căn cước áp dụng cho công dân có thẻ Căn cước còn hạn, trên thẻ vẫn in theo đơn vị hành chính cũ, trong khi nơi cư trú, đơn vị hành chính đã thay đổi do sắp xếp, điều chỉnh.\nCách thức thực hiện trực tuyến trên ứng dụng VNeID và có tài khoản định danh mức 2.\nĐối với việc thực hiện trực tuyến trên ứng dụng VNeID sẽ được miễn lệ phí khi chọn đúng lý do “do sắp xếp/điều chỉnh ĐVHC”. Ngoài ra, còn có thể đặt lịch linh hoạt; theo dõi trạng thái; nhận kết quả tại cơ quan chức năng hoặc qua bưu chính.\nCác bước thực hiện, người dân truy cập vào dịch vụ công Căn cước → cấp đổi → chọn lý do “do sắp xếp/điều chỉnh ĐVHC”.\nSau đó, kiểm tra thông tin → chọn nơi thực hiện & hình thức nhận → gửi hồ sơ. Cuối cùng là theo dõi lịch sử yêu cầu → đến thu nhận theo lịch (nếu có).\nThời hạn giải quyết 7 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "named",
+ "notes": "relevance: free card change on VNeID after administrative-boundary changes (2025). Published 2025-08-12. Published before Luật 118/2025/QH15 and TT 116/2026/TT-BCA took effect (01/07/2026): check against current rules. Links: 1.000889 (named): names 'cấp đổi thẻ Căn cước' (central level); 2.001195 (named): names 'cấp đổi thẻ Căn cước' (provincial level). effective_date: notice gives no effective date; publication date used."
+}

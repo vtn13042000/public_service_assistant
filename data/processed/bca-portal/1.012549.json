@@ -1,0 +1,71 @@
+{
+  "procedure_id": "1.012549",
+  "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh)",
+  "variant_of": null,
+  "field": "Cấp, quản lý căn cước",
+  "level": "cấp tỉnh",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an tỉnh",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "Phiếu đề nghị giải quyết thủ tục về căn cước (Mẫu DC02 ban hành kèm theo Thông tư số 17/2024/TT-BCA của Bộ Công an)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Công dân kê khai đối với trường hợp nộp hồ sơ trực tuyến | Mẫu: Mẫu DC02 Phiếu đề nghị giải quyết thủ tục về căn cước.doc"
+    },
+    {
+      "item": "Phiếu thu nhận thông tin căn cước (Mẫu CC01 ban hành kèm theo Thông tư số 17/2024/TT-BCA của Bộ Công an)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Phiếu được tạo lập khi trích xuất thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân cư và in trong quá trình thu nhận hồ sơ căn cước để công dân kiểm tra và ký xác nhận | Mẫu: Mẫu CC01 Phiếu thu nhận thông tin căn cước.doc"
+    },
+    {
+      "item": "Giấy tờ, tài liệu có giá trị pháp lý chứng minh là người đại diện hợp pháp của người dưới 14 tuổi",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Phiếu được tạo lập khi trích xuất thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân cư và in trong quá trình thu nhận hồ sơ căn cước để công dân kiểm tra và ký xác nhận"
+    },
+    {
+      "item": "Phiếu thu thập thông tin dân cư (mẫu DC01 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ Công an)",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: Trường hợp công dân chưa có thông tin trong cơ sở dữ liệu quốc gia về dân cư thì hồ sơ còn có: | Mẫu: Mẫu DC01 Phiếu thu thập thông tin dân cư.docx"
+    }
+  ],
+  "steps": [
+    "- Bước 1:\n+ Trường hợp người đại diện hợp pháp thực hiện thủ tục cấp thẻ căn cước cho người dưới 06 tuổi thông qua cổng dịch vụ công hoặc ứng dụng định danh quốc gia thì lựa chọn thủ tục, kiểm tra thông tin của người dưới 06 tuổi trong Cơ sở dữ liệu quốc gia về dân cư. Trường hợp thông tin chính xác thì người đại diện hợp pháp xác nhận chuyển hồ sơ đề nghị đến cơ quan quản lý căn cước của Công an cấp tỉnh xem xét, giải quyết việc cấp thẻ căn cước.\n+ Trường hợp thực hiện trực tiếp tại cơ quan quản lý căn cước của Công an cấp tỉnh, người đại diện hợp pháp đưa người dưới 14 tuổi đến địa điểm làm thủ tục cấp thẻ căn cước.",
+    "- Bước 2: Cán bộ thu nhận thông tin công dân tìm kiếm thông tin trong Cơ sở dữ liệu quốc gia về dân cư để lập hồ sơ cấp thẻ căn cước\n+ Trường hợp thông tin công dân chưa có trong Cơ sở dữ liệu quốc gia về dân cư Cán bộ thu nhận đề nghị công dân xuất trình một trong các loại giấy tờ pháp lý chứng minh nội dung thông tin cá nhân và hướng dẫn thu thập, cập nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư trước khi thực hiện thủ tục cấp thẻ căn cước.\n+ Trường hợp thông tin công dân có sự thay đổi, điều chỉnh thì Cán bộ thu nhận hướng dẫn công dân thực hiện thủ tục điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư trước khi thực hiện thủ tục cấp thẻ căn cước\n+ Trường hợp thông tin công dân đầy đủ, chính xác thì sử dụng thông tin của công dân trong cơ sở dữ liệu quốc gia về dân cư để lập hồ sơ cấp thẻ căn cước.\n+ Trường hợp công dân không đủ điều kiện cấp thẻ căn cước thì từ chối tiếp nhận và nêu rõ lý do, thông báo về việc từ chối giải quyết thủ tục về căn cước (mẫu CC03 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ Công an).",
+    "- Bước 3: Tiến hành thu nhận vân tay, chụp ảnh khuôn mặt và thu nhận ảnh mống mắt của người từ đủ 06 tuổi đến dưới 14 tuổi.",
+    "- Bước 4: In Phiếu thu nhận thông tin căn cước để người đại diện hợp pháp kiểm tra, ký xác nhận; in Phiếu thu thập thông tin dân cư (nếu có) cho người đại diện hợp pháp của người dưới 14 tuổi kiểm tra, ký xác nhận.",
+    "- Bước 5: thu lệ phí (nếu có) và cấp giấy hẹn trả kết quả giải quyết thủ tục về căn cước (mẫu CC02 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ trưởng Bộ Công an).",
+    "Bước 6: Nhận kết quả trực tiếp tại cơ quan quản lý căn cước của Công an cấp tỉnh hoặc trả qua dịch vụ bưu chính đến địa chỉ theo yêu cầu."
+  ],
+  "fees": [],
+  "processing_time": "Trực tiếp: 07 Ngày làm việc; Trực tuyến: 07 Ngày làm việc",
+  "legal_basis": [
+    "Luật Căn cước Số: 26/2023/QH15",
+    "Thông tư quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước Số: 17/2024/TT-BCA",
+    "Nghị định của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước Số: 70/2024/NĐ-CP",
+    "Thông tư 16/2024/TT-BCA quy định về mẫu thẻ căn cước, mẫu giấy chứng nhận căn cước Số: 16/2024/TT-BCA",
+    "Thông tư quy định quy định về quy trình cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước Số: 18/2024/TT-BCA"
+  ],
+  "conditions": "Không.",
+  "raw_text": "Mã thủ tục:\n1.012549\n\nLĩnh vực:\nCấp, quản lý căn cước\n\nCơ quan thực hiện:\nCông an tỉnh\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến một phần\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1:\n+ Trường hợp người đại diện hợp pháp thực hiện thủ tục cấp thẻ căn cước cho người dưới 06 tuổi thông qua cổng dịch vụ công hoặc ứng dụng định danh quốc gia thì lựa chọn thủ tục, kiểm tra thông tin của người dưới 06 tuổi trong Cơ sở dữ liệu quốc gia về dân cư. Trường hợp thông tin chính xác thì người đại diện hợp pháp xác nhận chuyển hồ sơ đề nghị đến cơ quan quản lý căn cước của Công an cấp tỉnh xem xét, giải quyết việc cấp thẻ căn cước.\n+ Trường hợp thực hiện trực tiếp tại cơ quan quản lý căn cước của Công an cấp tỉnh, người đại diện hợp pháp đưa người dưới 14 tuổi đến địa điểm làm thủ tục cấp thẻ căn cước.\n- Bước 2: Cán bộ thu nhận thông tin công dân tìm kiếm thông tin trong Cơ sở dữ liệu quốc gia về dân cư để lập hồ sơ cấp thẻ căn cước\n+ Trường hợp thông tin công dân chưa có trong Cơ sở dữ liệu quốc gia về dân cư Cán bộ thu nhận đề nghị công dân xuất trình một trong các loại giấy tờ pháp lý chứng minh nội dung thông tin cá nhân và hướng dẫn thu thập, cập nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư trước khi thực hiện thủ tục cấp thẻ căn cước.\n+ Trường hợp thông tin công dân có sự thay đổi, điều chỉnh thì Cán bộ thu nhận hướng dẫn công dân thực hiện thủ tục điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư trước khi thực hiện thủ tục cấp thẻ căn cước\n+ Trường hợp thông tin công dân đầy đủ, chính xác thì sử dụng thông tin của công dân trong cơ sở dữ liệu quốc gia về dân cư để lập hồ sơ cấp thẻ căn cước.\n+ Trường hợp công dân không đủ điều kiện cấp thẻ căn cước thì từ chối tiếp nhận và nêu rõ lý do, thông báo về việc từ chối giải quyết thủ tục về căn cước (mẫu CC03 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ Công an).\n- Bước 3: Tiến hành thu nhận vân tay, chụp ảnh khuôn mặt và thu nhận ảnh mống mắt của người từ đủ 06 tuổi đến dưới 14 tuổi.\n- Bước 4: In Phiếu thu nhận thông tin căn cước để người đại diện hợp pháp kiểm tra, ký xác nhận; in Phiếu thu thập thông tin dân cư (nếu có) cho người đại diện hợp pháp của người dưới 14 tuổi kiểm tra, ký xác nhận.\n- Bước 5: thu lệ phí (nếu có) và cấp giấy hẹn trả kết quả giải quyết thủ tục về căn cước (mẫu CC02 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ trưởng Bộ Công an).\nBước 6: Nhận kết quả trực tiếp tại cơ quan quản lý căn cước của Công an cấp tỉnh hoặc trả qua dịch vụ bưu chính đến địa chỉ theo yêu cầu.\n\nThời hạn giải quyết:\nTrực tiếp\n07 Ngày làm việc\n- Trực tiếp tại địa điểm tiếp dân cơ quan quản lý căn cước của Công an cấp tỉnh (Phòng Cảnh sát Quản lý hành chính về trật tự xã hội, Công an các tỉnh, thành phố trực thuộc Trung ương).\n- Thời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrực tuyến\n07 Ngày làm việc\n- Thông qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, Ứng dụng định danh quốc gia để đăng ký thời gian, địa điểm làm thủ tục đề nghị cấp thẻ căn cước.\n- Thời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n\nPhí:\nTrực tiếp Trực tuyến\n\nLệ Phí:\n07 Ngày làm việc\nChưa quy định.\n07 Ngày làm việc\nChưa quy định.\n\nThành phần hồ sơ:\nCông dân kê khai đối với trường hợp nộp hồ sơ trực tuyến\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nPhiếu đề nghị giải quyết thủ tục về căn cước (Mẫu DC02 ban hành kèm theo Thông tư số 17/2024/TT-BCA của Bộ Công an)\nMẫu DC02 Phiếu đề nghị giải quyết thủ tục về căn cước.doc\nBản chính: 1\nBản sao: 0\nPhiếu được tạo lập khi trích xuất thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân cư và in trong quá trình thu nhận hồ sơ căn cước để công dân kiểm tra và ký xác nhận\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nPhiếu thu nhận thông tin căn cước (Mẫu CC01 ban hành kèm theo Thông tư số 17/2024/TT-BCA của Bộ Công an)\nMẫu CC01 Phiếu thu nhận thông tin căn cước.doc\nBản chính: 1\nBản sao: 0\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nGiấy tờ, tài liệu có giá trị pháp lý chứng minh là người đại diện hợp pháp của người dưới 14 tuổi\nBản chính: 1\nBản sao: 0\nTrường hợp công dân chưa có thông tin trong cơ sở dữ liệu quốc gia về dân cư thì hồ sơ còn có:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\nPhiếu thu thập thông tin dân cư (mẫu DC01 ban hành kèm theo Thông tư số 17/2024/TT-BCA ngày 15/5/2024 của Bộ Công an)\nMẫu DC01 Phiếu thu thập thông tin dân cư.docx\nBản chính: 1\nBản sao: 0\n\nYêu cầu - điều kiện:\nKhông.\n\nCăn cứ pháp lý:\nLuật Căn cước\nSố: 26/2023/QH15\nThông tư quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước\nSố: 17/2024/TT-BCA\nNghị định của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước\nSố: 70/2024/NĐ-CP\nThông tư 16/2024/TT-BCA quy định về mẫu thẻ căn cước, mẫu giấy chứng nhận căn cước\nSố: 16/2024/TT-BCA\nThông tư quy định quy định về quy trình cấp, cấp đổi, cấp lại thẻ căn cước, giấy chứng nhận căn cước\nSố: 18/2024/TT-BCA\n\nKết quả thực hiện:\nThẻ căn cước",
+  "source": {
+    "source_id": "bca-portal#1.012549",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=57013",
+    "locator": null,
+    "title": "Cấp thẻ căn cước cho người dưới 14 tuổi (thực hiện tại cấp tỉnh) — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:717073eb106ad4ad78771b99cc9387886879761a674959cd54e8287c9a09bb43"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "procedure_id": "1.004194",
+  "title": "Đăng ký tạm trú",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA); đối với người đăng ký tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Hồ sơ đăng ký tạm trú gồm: | Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "- Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Hồ sơ đăng ký tạm trú gồm:"
+    },
+    {
+      "item": "- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, hồ sơ gồm: | Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "- Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục đăng ký tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, hồ sơ gồm:"
+    },
+    {
+      "item": "- Tờ khai thay đổi thông tin cư trú (của từng người) (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký tạm trú theo danh sách, hồ sơ gồm: | Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "- Văn bản đề nghị đăng ký tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Nhóm hồ sơ: * Đăng ký tạm trú theo danh sách, hồ sơ gồm:"
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.",
+    "- Bước 3: Khi tiếp nhận hồ sơ đăng ký tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.",
+    "- Bước 4: Cá nhân, tổ chức nộp lệ phí đăng ký cư trú theo quy định.",
+    "- Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 03 Ngày làm việc; Trực tuyến: 03 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Thông tư 85/2019/TT-BTC Số: 85/2019/TT-BTC"
+  ],
+  "conditions": "Không",
+  "raw_text": "Mã thủ tục:\n1.004194\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến một phần\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.\n- Bước 3: Khi tiếp nhận hồ sơ đăng ký tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.\n- Bước 4: Cá nhân, tổ chức nộp lệ phí đăng ký cư trú theo quy định.\n- Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n03 Ngày làm việc\n- Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrực tuyến\n03 Ngày làm việc\n- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến tại Cổng dịch vụ công qua Cổng dịch vụ công quốc gia, hoặc qua Cổng dịch vụ công Bộ Công an, Cổng dịch vụ công quản lý cư trú;\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n\nPhí:\n1\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\n* Hồ sơ đăng ký tạm trú gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA); đối với người đăng ký tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n- Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp.\nBản chính: 1\nBản sao: 0\n* Đăng ký tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n- Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục đăng ký tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).\nBản chính: 1\nBản sao: 0\n* Đăng ký tạm trú theo danh sách, hồ sơ gồm:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n- Tờ khai thay đổi thông tin cư trú (của từng người) (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n- Văn bản đề nghị đăng ký tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.\nBản chính: 1\nBản sao: 0\n\nYêu cầu - điều kiện:\nKhông\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nThông tư 55/2021/TT-BCA\nSố: 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\nThông tư 85/2019/TT-BTC\nSố: 85/2019/TT-BTC\n\nBiểu mẫu:\nFile mẫu:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA)\nTải về\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA); đối với người đăng ký tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản;\nTải về\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo về kết quả giải quyết, hủy bỏ đăng ký cư trú\nPhiếu từ chối tiếp nhận, giải quyết hồ sơ",
+  "source": {
+    "source_id": "bca-portal#1.004194",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26356",
+    "locator": null,
+    "title": "Đăng ký tạm trú — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:a8913333ab043399fb6aa93de8cf8653bf8a5d2fcb43bf40df4fae91e12f2bbb"
+  }
+}

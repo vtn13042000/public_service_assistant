@@ -1,0 +1,28 @@
+{
+ "doc_id": "legal:60-2014-QH13:dieu-64",
+ "kind": "legal_text",
+ "title": "Luật Hộ tịch số 60/2014/QH13, Điều 64",
+ "issuer": "Quốc hội",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "2.000635"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 64. Thủ tục cấp bản sao trích lục hộ tịch",
+   "text": "1. Người yêu cầu cấp bản sao trích lục hộ tịch trực tiếp hoặc thông qua người đại diện gửi tờ khai theo mẫu quy định cho Cơ quan quản lý Cơ sở dữ liệu hộ tịch.\nTrường hợp cơ quan, tổ chức có thẩm quyền đề nghị cấp bản sao trích lục hộ tịch của cá nhân thì gửi văn bản yêu cầu nêu rõ lý do cho Cơ quan quản lý Cơ sở dữ liệu hộ tịch.\n2. Ngay sau khi nhận được yêu cầu, nếu đủ điều kiện thì Cơ quan quản lý Cơ sở dữ liệu hộ tịch cấp bản sao trích lục hộ tịch cho người yêu cầu."
+  }
+ ],
+ "notes": "relevance: cấp bản sao trích lục hộ tịch; Luật Hộ tịch số 60/2014/QH13 is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Luật đã được sửa đổi, bổ sung; thẩm quyền của UBND cấp huyện trong Luật được phân định lại cho UBND cấp xã từ 01/07/2025 (Nghị định 120/2025/NĐ-CP, Điều 4). Luật Hộ tịch số 03/2026/QH16 thay thế Luật này từ 01/03/2027.",
+ "text_sha256": "3483c02f83b3a1c71a829152f5495766eb511edd43ffdf721390dc5a401c7a18",
+ "cleaning_actions": []
+}

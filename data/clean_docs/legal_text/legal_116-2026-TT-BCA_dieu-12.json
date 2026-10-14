@@ -1,0 +1,25 @@
+{
+ "doc_id": "legal:116-2026-TT-BCA:dieu-12",
+ "kind": "legal_text",
+ "title": "Thông tư 116/2026/TT-BCA, Điều 12",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.004194",
+  "1.002755"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 12. Đăng ký tạm trú",
+   "text": "1. Công dân thay đổi chỗ ở ngoài nơi đã đăng ký tạm trú có trách nhiệm thực hiện đăng ký tạm trú mới. Trường hợp chỗ ở đó trong phạm vi đơn vị hành chính cấp xã nơi đã đăng ký thường trú thì thực hiện theo quy định tại khoản 3 Điều 6 Thông tư này.\n2. Học sinh, sinh viên, học viên đến ở tập trung trong ký túc xá, khu nhà ở của học sinh, sinh viên, học viên; người lao động đến ở tập trung tại các khu nhà ở của người lao động, khu lán trại công trường xây dựng, nông trường, nông trại, đồn điền; người hoạt động tín ngưỡng, tôn giáo sinh sống trong cơ sở tín ngưỡng, cơ sở tôn giáo; trẻ em, người khuyết tật, người không nơi nương tựa được nhận nuôi và sinh sống trong cơ sở tín ngưỡng, cơ sở tôn giáo; người được chăm sóc, nuôi dưỡng, trợ giúp tại cơ sở trợ giúp xã hội có thể thực hiện đăng ký tạm trú thông qua cơ quan, tổ chức quản lý trực tiếp chỗ ở đó.\nCơ quan, tổ chức quản lý trực tiếp có trách nhiệm lập danh sách người tạm trú, kèm Tờ khai thay đổi thông tin cư trú của từng người, văn bản đề nghị đăng ký tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp và được cơ quan đăng ký cư trú cập nhật thông tin về nơi tạm trú vào Cơ sở dữ liệu về cư trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.\n3. Trường hợp người thuê, mượn, ở nhờ chấm dứt việc thuê, mượn, ở nhờ thì người cho thuê, cho mượn, cho ở nhờ có trách nhiệm thông báo cho cơ quan đăng ký cư trú để thực hiện xóa đăng ký tạm trú."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: temporary registration. Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces.",
+ "text_sha256": "d8701c6e767592b441b7a4a9c2d5f883af8fdbcfd49f9488ee815470976939d0",
+ "cleaning_actions": []
+}

@@ -1,0 +1,35 @@
+# Chat-abbreviation normalisation (ROUND-2 item 4), on with env RAG_ABBREV=1 (default off).
+# Each `words` key is replaced by its full form when it stands as a whole token (case-insensitive); `patterns` are
+# regexes (case-insensitive) over the query. The normalised query feeds BOTH BM25 (then synonyms) and the dense embedding.
+# Generic Vietnamese chat shorthand only; written from general usage, not from any test-set miss.
+# Left out on purpose: ambiguous shorthand in this domain (hk = hộ khẩu / học kỳ, hs = hồ sơ / học sinh, hn = hôn nhân / Hà Nội).
+words:
+  đk: đăng ký
+  dk: đăng ký
+  đký: đăng ký
+  ko: không
+  k: không
+  kh: không
+  hok: không
+  j: gì
+  gi: gì
+  sv: sinh viên
+  cccd: căn cước công dân
+  cmnd: chứng minh nhân dân
+  cmt: chứng minh thư
+  gks: giấy khai sinh
+  ubnd: ủy ban nhân dân
+  tp: thành phố
+  bmt: Buôn Ma Thuột
+  đc: được
+  dc: được
+  vs: với
+  ng: người
+  bn: bao nhiêu
+  mk: mình
+  ntn: như thế nào
+  tgian: thời gian
+  r: rồi
+patterns:
+  - ['\b(\d{1,3})\s?t\b', '\1 tuổi']      # 15t -> 15 tuổi
+  - ['\b(\d{1,3})\s?th\b', '\1 tháng']    # 6th -> 6 tháng

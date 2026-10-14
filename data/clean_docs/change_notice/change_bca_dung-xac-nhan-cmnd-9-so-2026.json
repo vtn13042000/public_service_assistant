@@ -1,0 +1,24 @@
+{
+ "doc_id": "change:bca:dung-xac-nhan-cmnd-9-so-2026",
+ "kind": "change_notice",
+ "title": "Hỏi về thủ tục xác nhận số chứng minh nhân dân",
+ "issuer": "Bộ Công an (bocongan.gov.vn)",
+ "effective_date": "2026-03-15",
+ "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/ba7639df-6e51-488a-963c-33741ba40d7f",
+ "retrieved_at": "2026-10-10",
+ "sha256": "3c74b698ef3464c8477d2fc91652e7c49befbe45544594c64438d80aab6fa91d",
+ "procedure_ids": [
+  "2.001178"
+ ],
+ "sections": [
+  {
+   "heading": "Hỏi về thủ tục xác nhận số chứng minh nhân dân",
+   "text": "Tại khoản 7 Điều 5 Nghị định 58/2026/NĐ-CP ngày 13/02/2026 của Chính phủ về sửa đổi, bổ sung một số điều Nghị định số 70/2024/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước (sau đây viết gọn là Nghị định số 70/2024/NĐ-CP) quy định như sau:\n\"Sửa đổi, bổ sung Điều 12 như sau:\n\"Điều 12. Thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy\nThông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy được mã hóa, tích hợp trong mã QR trên thẻ căn cước, trong bộ phận lưu trữ của thẻ căn cước, trên Ứng dụng định danh quốc gia (VNeID). Cơ quan, tổ chức, cá nhân quét mã QR trên thẻ căn cước, khai thác thông tin trong bộ phận lưu trữ của thẻ căn cước, khai thác thông tin trên Ứng dụng định danh quốc gia (VNeID) và sử dụng thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy truy xuất được qua mã QR, trong bộ phận lưu trữ của thẻ căn cước, khai thác thông tin trên Ứng dụng định danh quốc gia (VNeID) để phục vụ giải quyết thủ tục hành chính, dịch vụ công, các giao dịch và hoạt động khác; không được yêu cầu công dân phải cung cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy.\"\nCăn cứ quy định trên, kể từ ngày 15/03/2026, Công an cấp xã, cơ quan quản lý căn cước dừng việc cấp giấy xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân theo quy định."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "named",
+ "notes": "relevance: BCA answer: from 15/03/2026 confirmation of 9-digit CMND numbers is no longer issued (NĐ 58/2026 Điều 5 khoản 7 rewrites NĐ 70/2024 Điều 12). Excerpt: the answer's part about the asker's own ID numbers is left out (personal data). Published 2026-08-21. Links: 2.001178 (named): answer names 'xác nhận số chứng minh nhân dân 09 số' and says it stopped on 15/03/2026. effective_date: stated in the notice text (\"kể từ ngày 15/03/2026\").",
+ "text_sha256": "8774b47d35273eef67da637ac78ececb4b502fc4cf0cd17bea92573d2c35c69a",
+ "cleaning_actions": []
+}

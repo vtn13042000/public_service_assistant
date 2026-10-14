@@ -1,0 +1,43 @@
+{
+ "doc_id": "form:04-2024-TT-BTP:pl5-13-to-khai-ghi-vao-so-ho-tich-cac-viec-ho-tich-khac",
+ "kind": "form",
+ "title": "Mẫu Tờ khai ghi vào Sổ hộ tịch các việc hộ tịch khác (Phụ lục 5, Thông tư 04/2024/TT-BTP)",
+ "issuer": "Bộ Tư pháp",
+ "effective_date": "2024-06-06",
+ "jurisdiction": null,
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRhIoshbSM3VdEUWXXBZwz9zu3KfDTiY5ocHP975ifHg1psDU2Hu1pRraKHbuG6OYGzsjhZQeult9J-F4S1ssx-A~~&file_name=2024_739+%2b+740_04-2024-TT-BTP.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "12aaea1c9d41637f682b635bf6c9c43ce5bda3ffc727925a7c3f7ac8f30dc207",
+ "procedure_ids": [
+  "2.000547"
+ ],
+ "link_method": "manual",
+ "sections": [
+  {
+   "heading": "TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC VIỆC HỘ TỊCH KHÁC",
+   "text": "Đề nghị cơ quan ghi vào Sổ hộ tịch việc(4)\ncho người có tên dưới đây:\nGiới tính:(2)… Dân tộc:(2)… Quốc tịch:(2)\nNội dung ghi vào sổ hộ tịch(4):\nTheo(5)\nsố… do(6)\n… cấp ngày… tháng… năm\nLàm tại:…, ngày… tháng… năm…\nĐề nghị cấp bản sao(7): Có , Không "
+  },
+  {
+   "heading": "Chú thích (hướng dẫn ghi Tờ khai)",
+   "text": "(1) Ghi rõ tên cơ quan thực hiện ghi vào Sổ hộ tịch.\n(2) Chỉ ghi trong trường hợp người có yêu cầu đăng ký hộ tịch chưa có/không cung cấp số định danh cá nhân/căn cước công dân/thẻ căn cước/chứng minh nhân dân.\nTrường hợp phải cung cấp thông tin “Nơi cư trú” thì ghi theo nơi đăng ký thường trú; nếu không có nơi đăng ký thường trú thì ghi theo nơi đăng ký tạm trú; trường hợp không có nơi đăng ký thường trú và nơi đăng ký tạm trú thì ghi theo nơi ở hiện tại.\n(3) Ghi số định danh cá nhân/căn cước công dân/thẻ căn cước (ví dụ: Căn cước công dân số 025188001010 do Cục Cảnh sát QLHC về TTXH cấp ngày 20/11/2021). Trường hợp không có số định danh cá nhân/căn cước công dân/thẻ căn cước thì ghi giấy tờ hợp lệ thay thế (hộ chiếu, chứng minh nhân dân,...).\n(4) Ghi rõ loại việc hộ tịch đã đăng ký (ví dụ: thay đổi hộ tịch).\n(5) Ghi rõ tên giấy tờ hộ tịch được cơ quan có thẩm quyền nước ngoài cấp.\n(6) Ghi rõ tên cơ quan nước ngoài đã đăng ký sự kiện hộ tịch.\n(7) Đề nghị đánh dấu X vào ô nếu có yêu cầu cấp bản sao và ghi rõ số lượng.\n(Xem tiếp Công báo số 741 + 742)\nVĂN BẢN QUY PHẠM PHÁP LUẬT\nBỘ TƯ PHÁP\nThông tư số 04/2024/TT-BTP ngày 06 tháng 6 năm 2024\nsửa đổi, bổ sung một số điều của Thông tư số 02/2020/TT-BTP\nngày 08/4/2020 của Bộ trưởng Bộ Tư pháp ban hành, hướng dẫn sử dụng,\nquản lý mẫu sổ quốc tịch và mẫu giấy tờ về quốc tịch và Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ trưởng Bộ Tư pháp quy định chi tiết thi hành\nmột số điều của Luật Hộ tịch và Nghị định số 123/2015/NĐ-CP\nngày 15/11/2015 của Chính phủ quy định chi tiết một số điều\nvà biện pháp thi hành Luật Hộ tịch\n(Tiếp theo Công báo số 739 + 740)"
+  }
+ ],
+ "notes": "relevance: tờ khai số 13 trong Danh mục Phụ lục 5 (Tờ khai đăng ký hộ tịch được đăng tải trên Cổng TTĐT Bộ Tư pháp, người dân tự in) dùng cho các thủ tục này. Nguồn: Công báo (congbao.chinhphu.vn), bản Word. Dấu chấm dẫn dòng được rút gọn thành \"…\". Thay thế Phụ lục Tờ khai của Thông tư 04/2020/TT-BTP từ 06/6/2024; chưa kiểm tra mẫu có bị thay đổi sau 01/07/2025 hay không.",
+ "text_sha256": "e4c3a0702e5835c3125346041e96f0ea47305a0d6a4b3345f8190efb5a9c7f0a",
+ "cleaning_actions": [
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Kính gửi:(1)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Họ, chữ đệm, tên người yêu cầu:'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Ngày, tháng, năm sinh:'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Nơi cư trú:(2)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Giấy tờ tùy thân:(3)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Họ, chữ đệm, tên:'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Ngày, tháng, năm sinh:'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Nơi cư trú:(2)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Giấy tờ tùy thân:(3)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Tôi cam đoan những nội dung khai trên đâ'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Số lượng:… bản'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line 'Người yêu cầu'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line '(Ký, ghi rõ họ, chữ đệm, tên)'",
+  "section 'TỜ KHAI GHI VÀO SỔ HỘ TỊCH CÁC': repeated site line '…'"
+ ]
+}

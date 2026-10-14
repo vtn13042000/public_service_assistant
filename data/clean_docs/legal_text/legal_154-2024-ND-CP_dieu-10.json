@@ -1,0 +1,28 @@
+{
+ "doc_id": "legal:154-2024-ND-CP:dieu-10",
+ "kind": "legal_text",
+ "title": "Nghị định 154/2024/NĐ-CP, Điều 10",
+ "issuer": "Chính phủ",
+ "effective_date": "2025-01-10",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAQWsKg3tuqaY0aWypnY78U6M2BY68Ekp0Gvvr483flbRnQpFDuVk1mmfpRPFNXO-fwIBlQDzZvYsR66wU-H0UyB3fAPTvbS7jIGKVQeg-t20R-nFiLeh1h5LFzrMEN2Sbw~~&file_name=2024_1301+%2b+1302_154-2024-N%c4%90-CP.doc",
+ "retrieved_at": "2026-10-10",
+ "sha256": "37abbb60ec035337511284974b37a5734a0e9a348cc55b85acd978378e4767b8",
+ "procedure_ids": [
+  "1.010028"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 10. Hồ sơ, thủ tục xóa đăng ký tạm trú",
+   "text": "1. Trong thời hạn 07 ngày, kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký tạm trú thì người thuộc diện xóa đăng ký tạm trú hoặc đại diện hộ gia đình có trách nhiệm thực hiện thủ tục xóa đăng ký tạm trú.\n2. Hồ sơ xóa đăng ký tạm trú gồm: Tờ khai thay đổi thông tin cư trú và giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký tạm trú.\n3. Người thực hiện thủ tục nộp 01 hồ sơ bằng phương thức trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến cơ quan đăng ký cư trú.\n4. Trường hợp người bị đề nghị xóa đăng ký tạm trú chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư hoặc thông tin về người đó trong Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, chính xác thì cơ quan đăng ký cư trú có trách nhiệm thu thập, cập nhật vào Cơ sở dữ liệu quốc gia về dân cư.\n5. Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ thì cơ quan đăng ký cư trú phải xóa đăng ký tạm trú đối với công dân và cập nhật việc xóa đăng ký tạm trú vào Cơ sở dữ liệu về cư trú, Cơ sở dữ liệu quốc gia về dân cư.\n6. Trường hợp hộ gia đình chỉ có 01 người hoặc người thuộc diện xóa đăng ký tạm trú hoặc đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký tạm trú thì cơ quan đăng ký cư trú có trách nhiệm kiểm tra, xác minh, lập biên bản về việc công dân, đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký tạm trú và thực hiện xóa đăng ký tạm trú đối với công dân.\n7. Cơ quan, đơn vị quản lý người học tập, công tác, làm việc trong lực lượng vũ trang nhân dân có văn bản đề nghị cơ quan đăng ký cư trú trên địa bàn đóng quân xóa đăng ký tạm trú đối với người thuộc đơn vị mình quản lý. Văn bản đề nghị cần nêu rõ họ, chữ đệm và tên khai sinh; ngày, tháng, năm sinh; số định danh cá nhân hoặc Chứng minh nhân dân 09 số của người cần xóa đăng ký tạm trú; lý do đề nghị xóa đăng ký tạm trú.\n8. Trong thời hạn 01 ngày làm việc, kể từ ngày hệ thống Cơ sở dữ liệu quốc gia về dân cư tiếp nhận thông tin quy định tại khoản 1 Điều 29 Luật Cư trú thông qua kết nối, chia sẻ, đồng bộ dữ liệu từ cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, cơ sở dữ liệu khác do cơ quan, tổ chức quản lý, cơ quan đăng ký cư trú có trách nhiệm kiểm tra, xác minh, thực hiện xóa đăng ký tạm trú đối với công dân và cập nhật việc xóa đăng ký tạm trú vào Cơ sở dữ liệu về cư trú, Cơ sở dữ liệu quốc gia về dân cư.\n9. Sau khi thực hiện việc xóa đăng ký tạm trú, cơ quan đăng ký cư trú thông báo bằng văn bản giấy hoặc bản điện tử hoặc hình thức điện tử khác cho người bị xóa đăng ký tạm trú hoặc đại diện hộ gia đình."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "manual",
+ "notes": "relevance: dossier/procedure for temporary deregistration. Công báo .doc (congbao.chinhphu.vn/noi-dung-van-ban-so-154-2024-nd-cp-43275). Linked manually: it replaces NĐ 62/2021/NĐ-CP, which the BCA portal pages still cite in legal_basis. Amended by NĐ 58/2026/NĐ-CP (incl. Điều 7, 9, 10; text not held): not merged.",
+ "original_version": true,
+ "amended_by": [
+  "NĐ 58/2026/NĐ-CP"
+ ],
+ "text_sha256": "77c143d4ed6f51ad6dbeb65030f9dd29fd182fd966a331ffeccd5685297fea37",
+ "cleaning_actions": []
+}

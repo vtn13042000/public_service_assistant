@@ -1,0 +1,211 @@
+# Source conflicts
+
+Generated 2026-10-10T04:39:14Z by `scripts/build_db.py` (sources: data/processed/moj, data/processed/bca-portal, data/processed/daklak; prefer: moj > bca-portal > daklak).
+
+- **1.000080** `title`: moj=`Thủ tục đăng ký nhận cha, mẹ, con có yếu tố nước ngoài tại khu vực biên giới` vs daklak=`Đăng ký nhận cha, mẹ, con có yếu tố nước ngoài tại khu vực biên giới` → kept moj
+- **1.000080** `variant_of`: moj=`1.001022` vs daklak=`None` → kept moj
+- **1.000080** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000080** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.000094** `title`: moj=`Thủ tục đăng ký kết hôn có yếu tố nước ngoài tại khu vực biên giới` vs daklak=`Đăng ký kết hôn có yếu tố nước ngoài tại khu vực biên giới` → kept moj
+- **1.000094** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **1.000094** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000094** `processing_time`: moj=`03 ngày làm việc. Trường hợp cần xác minh thì thời hạn giải quyết không quá 08 ngày làm việc` vs daklak=`03 ngày làm việc. Trường hợp cần xác minh thì thời hạn giải quyết không quá 08 ngày làm việc.` → kept moj
+- **1.000094** `required_documents (count)`: moj=`9` vs daklak=`0` → kept moj
+- **1.000110** `title`: moj=`Thủ tục đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới` vs daklak=`Đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới` → kept moj
+- **1.000110** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.000110** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000110** `processing_time`: moj=`Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **1.000110** `required_documents (count)`: moj=`9` vs daklak=`0` → kept moj
+- **1.000419** `title`: moj=`Thủ tục đăng ký khai tử lưu động` vs daklak=`Đăng ký khai tử lưu động` → kept moj
+- **1.000419** `variant_of`: moj=`1.000656` vs daklak=`None` → kept moj
+- **1.000419** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000419** `processing_time`: moj=`5` vs daklak=`05 ngày làm việc.` → kept moj
+- **1.000419** `required_documents (count)`: moj=`5` vs daklak=`0` → kept moj
+- **1.000593** `title`: moj=`Thủ tục đăng ký kết hôn lưu động` vs daklak=`Đăng ký kết hôn lưu động` → kept moj
+- **1.000593** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **1.000593** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000593** `processing_time`: moj=`5` vs daklak=`05 ngày làm việc.` → kept moj
+- **1.000593** `required_documents (count)`: moj=`3` vs daklak=`0` → kept moj
+- **1.000656** `title`: moj=`Thủ tục đăng ký khai tử` vs daklak=`Đăng ký khai tử` → kept moj
+- **1.000656** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000656** `processing_time`: moj=`Qua bưu chính công ích, Trực tiếp: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.; Trực tuyến: Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.` vs daklak=`Trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **1.000656** `required_documents (count)`: moj=`8` vs daklak=`0` → kept moj
+- **1.000689** `title`: moj=`Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con` vs daklak=`Đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con` → kept moj
+- **1.000689** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.000689** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000689** `processing_time`: moj=`Qua bưu chính công ích, Trực tuyến: 03 ngày làm việc, trường hợp cần phải xác minh không quá 08 ngày làm việc; Trực tiếp: 03 ngày làm việc, trường hợp phải xác minh thì không quá 08 ngày làm việc.` vs daklak=`03 ngày làm việc, trường hợp phải xác minh thì thời hạn giải quyết không quá 08 ngày làm việc.` → kept moj
+- **1.000689** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.000893** `title`: moj=`Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân` vs daklak=`Đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân` → kept moj
+- **1.000893** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.000893** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000893** `processing_time`: moj=`05 ngày làm việc; trường hợp phải xác minh thì thời hạn giải quyết không quá 25 ngày.` vs daklak=`05 ngày làm việc. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày.` → kept moj
+- **1.000893** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.000894** `title`: moj=`Thủ tục đăng ký kết hôn` vs daklak=`Đăng ký kết hôn` → kept moj
+- **1.000894** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.000894** `processing_time`: moj=`Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh điều kiện kết hôn của hai bên nam, nữ thì thời hạn giải quyết không quá 05 ngày làm việc` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh điều kiện kết hôn của hai bên nam, nữ thì thời hạn giải quyết không quá 05 ngày làm việc.` → kept moj
+- **1.000894** `required_documents (count)`: moj=`4` vs daklak=`0` → kept moj
+- **1.001022** `title`: moj=`Thủ tục đăng ký nhận cha, mẹ, con` vs daklak=`Đăng ký nhận cha, mẹ, con` → kept moj
+- **1.001022** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.001022** `required_documents (count)`: moj=`5` vs daklak=`0` → kept moj
+- **1.001193** `title`: moj=`Thủ tục đăng ký khai sinh` vs daklak=`Đăng ký khai sinh` → kept moj
+- **1.001193** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.001193** `processing_time`: moj=`Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` vs daklak=`Trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **1.001193** `required_documents (count)`: moj=`8` vs daklak=`0` → kept moj
+- **1.001669** `title`: moj=`Thủ tục đăng ký giám hộ có yếu tố nước ngoài` vs daklak=`Đăng ký giám hộ có yếu tố nước ngoài` → kept moj
+- **1.001669** `variant_of`: moj=`1.004837` vs daklak=`None` → kept moj
+- **1.001669** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.001669** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **1.001695** `title`: moj=`Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài` vs daklak=`Đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài` → kept moj
+- **1.001695** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.001695** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.001695** `processing_time`: moj=`10` vs daklak=`10 ngày làm việc` → kept moj
+- **1.001695** `required_documents (count)`: moj=`11` vs daklak=`0` → kept moj
+- **1.001766** `title`: moj=`Thủ tục đăng ký khai tử có yếu tố nước ngoài` vs daklak=`Đăng ký khai tử có yếu tố nước ngoài` → kept moj
+- **1.001766** `variant_of`: moj=`1.000656` vs daklak=`None` → kept moj
+- **1.001766** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.001766** `processing_time`: moj=`Trực tuyến, Qua bưu chính công ích: Ngay trong ngày tiếp nhận hồ sơ, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.; Trực tiếp: Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.` → kept moj
+- **1.001766** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.003583** `title`: moj=`Thủ tục đăng ký khai sinh lưu động` vs daklak=`Đăng ký khai sinh lưu động` → kept moj
+- **1.003583** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.003583** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.003583** `processing_time`: moj=`5` vs daklak=`05 ngày làm việc.` → kept moj
+- **1.003583** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **1.004746** `title`: moj=`Thủ tục đăng ký lại kết hôn` vs daklak=`Đăng ký lại kết hôn` → kept moj
+- **1.004746** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **1.004746** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004746** `required_documents (count)`: moj=`5` vs daklak=`0` → kept moj
+- **1.004772** `title`: moj=`Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân` vs daklak=`Đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân` → kept moj
+- **1.004772** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.004772** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004772** `processing_time`: moj=`05 ngày làm việc; trường hợp phải xác minh thì thời hạn giải quyết không quá 25 ngày.` vs daklak=`05 ngày làm việc. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày.` → kept moj
+- **1.004772** `required_documents (count)`: moj=`8` vs daklak=`0` → kept moj
+- **1.004827** `title`: moj=`Thủ tục đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới` vs daklak=`Đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới` → kept moj
+- **1.004827** `variant_of`: moj=`1.000656` vs daklak=`None` → kept moj
+- **1.004827** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004827** `processing_time`: moj=`Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.` → kept moj
+- **1.004827** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.004837** `title`: moj=`Thủ tục đăng ký giám hộ` vs daklak=`Đăng ký giám hộ` → kept moj
+- **1.004837** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004837** `processing_time`: moj=`Qua bưu chính công ích, Trực tuyến: 03; Trực tiếp: 3` vs daklak=`03 ngày làm việc.` → kept moj
+- **1.004837** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **1.004845** `title`: moj=`Thủ tục đăng ký chấm dứt giám hộ` vs daklak=`Đăng ký chấm dứt giám hộ` → kept moj
+- **1.004845** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004845** `processing_time`: moj=`02` vs daklak=`02 ngày làm việc.` → kept moj
+- **1.004845** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **1.004859** `title`: moj=`Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc` vs daklak=`Thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc` → kept moj
+- **1.004859** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004859** `processing_time`: moj=`- 03 ngày làm việc đối với yêu cầu thay đổi, cải chính hộ tịch; trường hợp phải xác minh thì thời hạn giải quyết không quá 06 ngày làm việc. - Ngay trong ngày làm việc đối với yêu cầu bổ sung thông tin hộ tịch, trường hợp nhận hồ sơ sau 15 giờ mà không gi` vs daklak=`- Trong ngày làm việc đối với việc bổ sung thông tin hộ tịch, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. - 03 ngày làm việc đối với việc thay đổi, cải chính hộ tịch, xác định lại dân tộc. Trường hợp cần phải xác minh thì thời hạn được kéo dài thêm không quá 03 ngày làm việc.` → kept moj
+- **1.004859** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **1.004873** `title`: moj=`Thủ tục cấp Giấy xác nhận tình trạng hôn nhân` vs daklak=`Cấp Giấy xác nhận tình trạng hôn nhân` → kept moj
+- **1.004873** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004873** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **1.004884** `title`: moj=`Thủ tục đăng ký lại khai sinh` vs daklak=`Đăng ký lại khai sinh` → kept moj
+- **1.004884** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **1.004884** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.004884** `processing_time`: moj=`05 ngày làm việc; trường hợp phải xác minh thì thời hạn giải quyết không quá 25 ngày.` vs daklak=`05 ngày làm việc. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày.` → kept moj
+- **1.004884** `required_documents (count)`: moj=`8` vs daklak=`0` → kept moj
+- **1.005461** `variant_of`: moj=`1.000656` vs daklak=`None` → kept moj
+- **1.005461** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **1.005461** `processing_time`: moj=`Trực tuyến, Trực tiếp: 05 ngày làm việc. Trường hợp cần xác minh thì thời hạn giải quyết không quá 10 ngày làm việc.; Qua bưu chính công ích: 05 ngày làm việc; trường hợp cần xác minh thì thời hạn giải quyết không quá 10 ngày làm việc.` vs daklak=`05 ngày làm việc; trường hợp cần xác minh thì thời hạn giải quyết không quá 10 ngày làm việc.` → kept moj
+- **1.005461** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000497** `title`: moj=`Thủ tục đăng ký lại khai tử có yếu tố nước ngoài` vs daklak=`Đăng ký lại khai tử có yếu tố nước ngoài` → kept moj
+- **2.000497** `variant_of`: moj=`1.000656` vs daklak=`None` → kept moj
+- **2.000497** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000497** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000513** `title`: moj=`Thủ tục đăng ký lại kết hôn có yếu tố nước ngoài` vs daklak=`Đăng ký lại kết hôn có yếu tố nước ngoài` → kept moj
+- **2.000513** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **2.000513** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000513** `required_documents (count)`: moj=`5` vs daklak=`0` → kept moj
+- **2.000522** `title`: moj=`Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài` vs daklak=`Đăng ký lại khai sinh có yếu tố nước ngoài` → kept moj
+- **2.000522** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **2.000522** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000522** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **2.000528** `title`: moj=`Thủ tục đăng ký khai sinh có yếu tố nước ngoài` vs daklak=`Đăng ký khai sinh có yếu tố nước ngoài` → kept moj
+- **2.000528** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **2.000528** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000528** `processing_time`: moj=`Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **2.000528** `required_documents (count)`: moj=`10` vs daklak=`0` → kept moj
+- **2.000547** `title`: moj=`Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)` vs daklak=`Ghi vào sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)` → kept moj
+- **2.000547** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **2.000547** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000547** `processing_time`: moj=`Ngay trong ngày tiếp nhận hồ sơ, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trong trường hợp phải xác minh thì thời hạn giải quyết không quá 3 ngày làm việc.` vs daklak=`Trong ngày tiếp nhận hồ sơ, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trong trường hợp phải xác minh thì thời hạn giải quyết không quá 3 ngày làm việc.` → kept moj
+- **2.000547** `required_documents (count)`: moj=`15` vs daklak=`0` → kept moj
+- **2.000554** `title`: moj=`Thủ tục ghi vào Sổ hộ tịch việc ly hôn, hủy việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài` vs daklak=`Ghi vào sổ hộ tịch việc ly hôn, hủy việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài` → kept moj
+- **2.000554** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **2.000554** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000554** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000635** `variant_of`: moj=`1.001193` vs daklak=`None` → kept moj
+- **2.000635** `processing_time`: moj=`Ngay trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` vs daklak=`Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **2.000635** `required_documents (count)`: moj=`5` vs daklak=`0` → kept moj
+- **2.000748** `title`: moj=`Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc có yếu tố nước ngoài` vs daklak=`Thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc có yếu tố nước ngoài` → kept moj
+- **2.000748** `variant_of`: moj=`1.004859` vs daklak=`None` → kept moj
+- **2.000748** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000748** `processing_time`: moj=`- Ngay trong ngày làm việc đối với việc bổ sung thông tin hộ tịch, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. - 03 ngày làm việc đối với việc thay đổi, cải chính hộ tịch, xác định lại dân` vs daklak=`- 03 ngày làm việc đối với việc thay đổi, cải chính hộ tịch, xác định lại dân tộc; trường hợp phải xác minh thì thời hạn giải quyết không quá 06 ngày làm việc. - Trong ngày làm việc đối với yêu cầu bổ sung thông tin hộ tịch, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo.` → kept moj
+- **2.000748** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000756** `title`: moj=`Thủ tục đăng ký chấm dứt giám hộ có yếu tố nước ngoài` vs daklak=`Đăng ký chấm dứt giám hộ có yếu tố nước ngoài` → kept moj
+- **2.000756** `variant_of`: moj=`1.004845` vs daklak=`None` → kept moj
+- **2.000756** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000756** `processing_time`: moj=`2` vs daklak=`02 ngày làm việc.` → kept moj
+- **2.000756** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000779** `title`: moj=`Thủ tục đăng ký nhận cha, mẹ, con có yếu tố nước ngoài` vs daklak=`Đăng ký nhận cha, mẹ, con có yếu tố nước ngoài` → kept moj
+- **2.000779** `variant_of`: moj=`1.001022` vs daklak=`None` → kept moj
+- **2.000779** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000779** `processing_time`: moj=`10` vs daklak=`10 ngày làm việc.` → kept moj
+- **2.000779** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+- **2.000806** `title`: moj=`Thủ tục đăng ký kết hôn có yếu tố nước ngoài` vs daklak=`Đăng ký kết hôn có yếu tố nước ngoài` → kept moj
+- **2.000806** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **2.000806** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.000806** `required_documents (count)`: moj=`12` vs daklak=`0` → kept moj
+- **2.002189** `title`: moj=`Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài` vs daklak=`Ghi vào sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài` → kept moj
+- **2.002189** `variant_of`: moj=`1.000894` vs daklak=`None` → kept moj
+- **2.002189** `receiving_agency`: moj=`UBND cấp xã` vs daklak=`None` → kept moj
+- **2.002189** `required_documents (count)`: moj=`7` vs daklak=`0` → kept moj
+- **2.002516** `processing_time`: moj=`03 ngày làm việc. Trường hợp phải kiểm tra, xác minh thì thời hạn có thể kéo dài nhưng không quá 10 ngày làm việc.` vs daklak=`03 ngày. Trường hợp phải kiểm tra, xác minh thì thời hạn có thể kéo dài nhưng không quá 10 ngày làm việc.` → kept moj
+- **2.002516** `required_documents (count)`: moj=`6` vs daklak=`0` → kept moj
+
+## Notes
+
+- **1.000080**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.000080
+- **1.000094**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.000094
+- **1.000110**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.000110
+- **1.000419**: processing_time '5' → '05 ngày làm việc.' from daklak-33/QD-UBND#1.000419
+- **1.000419**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.000419
+- **1.000593**: processing_time '5' → '05 ngày làm việc.' from daklak-33/QD-UBND#1.000593
+- **1.000593**: +1 provincial fee row(s) from daklak-33/QD-UBND#1.000593
+- **1.000656**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.000656
+- **1.000689**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.000689
+- **1.000893**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.000893
+- **1.000894**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.000894
+- **1.001022**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.001022
+- **1.001193**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.001193
+- **1.001669**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.001669
+- **1.001695**: processing_time '10' → '10 ngày làm việc' from daklak-33/QD-UBND#1.001695
+- **1.001695**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.001695
+- **1.001766**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.001766
+- **1.003583**: processing_time '5' → '05 ngày làm việc.' from daklak-33/QD-UBND#1.003583
+- **1.003583**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.003583
+- **1.004746**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.004746
+- **1.004772**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.004772
+- **1.004827**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.004827
+- **1.004837**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.004837
+- **1.004845**: processing_time '02' → '02 ngày làm việc.' from daklak-33/QD-UBND#1.004845
+- **1.004845**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.004845
+- **1.004859**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.004859
+- **1.004873**: +2 provincial fee row(s) from daklak-33/QD-UBND#1.004873
+- **1.004884**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.004884
+- **1.005461**: +3 provincial fee row(s) from daklak-33/QD-UBND#1.005461
+- **2.000497**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000497
+- **2.000513**: +2 provincial fee row(s) from daklak-33/QD-UBND#2.000513
+- **2.000522**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000522
+- **2.000528**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000528
+- **2.000547**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000547
+- **2.000554**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000554
+- **2.000635**: +1 provincial fee row(s) from daklak-33/QD-UBND#2.000635
+- **2.000748**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000748
+- **2.000756**: processing_time '2' → '02 ngày làm việc.' from daklak-33/QD-UBND#2.000756
+- **2.000756**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000756
+- **2.000779**: processing_time '10' → '10 ngày làm việc.' from daklak-33/QD-UBND#2.000779
+- **2.000779**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.000779
+- **2.000806**: +2 provincial fee row(s) from daklak-33/QD-UBND#2.000806
+- **2.002189**: +3 provincial fee row(s) from daklak-33/QD-UBND#2.002189
+- **2.002516**: +1 provincial fee row(s) from daklak-33/QD-UBND#2.002516

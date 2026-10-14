@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai5013.local/schema/procedure_record.schema.json",
+  "title": "Canonical procedure record (data-model.md §1)",
+  "description": "One JSON file per procedure at data/processed/<source>/<id>.json. Identifiers are English; content is Vietnamese verbatim. See data-model.md §1 field rules.",
+  "type": "object",
+  "required": [
+    "procedure_id",
+    "title",
+    "field",
+    "required_documents",
+    "source"
+  ],
+  "properties": {
+    "procedure_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "e.g. \"KS-01\""
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "variant_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "procedure_id of the base sibling, e.g. KS-02 -> \"KS-01\""
+    },
+    "field": {
+      "type": "string",
+      "minLength": 1,
+      "description": "lĩnh vực, e.g. \"Hộ tịch\""
+    },
+    "level": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "cấp xã / cấp tỉnh / trung ương"
+    },
+    "jurisdiction": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "receiving_agency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channels": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item"
+        ],
+        "properties": {
+          "item": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantity": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "quantity_text": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "source wording verbatim, e.g. \"01 bản chính và 01 bản sao\""
+          },
+          "mandatory": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "steps": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "fees": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "required": [
+          "value"
+        ],
+        "properties": {
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "condition": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "jurisdiction": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "[] or null = unknown; a stated 'không'/'miễn' must be an explicit {\"value\": \"miễn lệ phí\"} entry"
+    },
+    "processing_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "legal_basis": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "conditions": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "source_id",
+        "url",
+        "retrieved_at"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "\"<doc-id>#<procedure_id>\", e.g. \"moj-1234/QD-BTP#1.004873\""
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "where in the document, e.g. \"Mục I.3, tr. 12\""
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrieved_at": {
+          "type": "string",
+          "minLength": 1,
+          "description": "ISO date or datetime; non-ISO is a validator warning"
+        },
+        "effective_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "content_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,49 @@
+{
+  "procedure_id": "1.001766",
+  "title": "Đăng ký khai tử có yếu tố nước ngoài",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "Đắk Lắk",
+  "receiving_agency": null,
+  "channels": [],
+  "required_documents": [],
+  "steps": [],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "Mức lệ phí theo quy định của HĐND tỉnh",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "theo Thông tư số 281/2016/TT-BTC",
+      "condition": "Phí cấp bản sao Trích lục khai tử (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính",
+      "jurisdiction": "Đắk Lắk"
+    }
+  ],
+  "processing_time": "Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.",
+  "legal_basis": [
+    "ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;",
+    "Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.",
+    "Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk."
+  ],
+  "conditions": null,
+  "raw_text": "Mục: THỦ TỤC HÀNH CHÍNH CẤP XÃ\nTên thủ tục hành chính: Đăng ký khai tử có yếu tố nước ngoài (1.001766)\nThời hạn giải quyết: Trong ngày tiếp nhận hồ sơ; trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Trường hợp cần xác minh thì thời hạn giải quyết không quá 03 ngày làm việc.\nCách thức thực hiện: Người yêu cầu đăng ký khai tử trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nPhí, lệ phí: - Mức lệ phí theo quy định của HĐND tỉnh. - Miễn lệ phí cho người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. - Phí cấp bản sao Trích lục khai tử (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính\nCăn cứ pháp lý:\n- ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;\n- Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.\n- Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk.",
+  "submission_method_text": "Người yêu cầu đăng ký khai tử trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#1.001766",
+    "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf",
+    "locator": "Phụ lục, THỦ TỤC HÀNH CHÍNH CẤP XÃ, TT 16, tr. 15–16",
+    "title": "Quyết định 33/QĐ-UBND tỉnh Đắk Lắk — Danh mục TTHC được sửa đổi, bổ sung lĩnh vực hộ tịch (căn cứ 3673/QĐ-BTP)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2026-01-08",
+    "content_hash": "sha256:9516a728384f04c202429ed77e61afe15fb053212697819399b22daa1b2df68a"
+  }
+}

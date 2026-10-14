@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:26-2023-QH15:dieu-21",
+ "kind": "legal_text",
+ "title": "Luật Căn cước số 26/2023/QH15, Điều 21",
+ "issuer": "Quốc hội",
+ "effective_date": "2024-07-01",
+ "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/01/luat26.pdf",
+ "retrieved_at": "2026-10-10",
+ "sha256": "8dc5ff166e941a70379516d69e3f4798f5ec859735e2e18b8bad86e831401a13",
+ "procedure_ids": [
+  "1.001247",
+  "2.000200",
+  "1.012549",
+  "1.014062",
+  "1.000889",
+  "2.001195"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 21. Độ tuổi cấp đổi thẻ căn cước",
+   "text": "1. Công dân Việt Nam đã được cấp thẻ căn cước phải thực hiện thủ tục cấp đổi\nthẻ căn cước khi đủ 14 tuổi, 25 tuổi, 40 tuổi và 60 tuổi.\n2. Thẻ căn cước đã được cấp, cấp đổi, cấp lại trong thời hạn 02 năm trước độ\ntuổi cấp đổi thẻ căn cước quy định tại khoản 1 Điều này có giá trị sử dụng đến tuổi\ncấp đổi thẻ căn cước tiếp theo."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: ages at which the card must be changed. Công báo text PDF from vanban.chinhphu.vn docid=209628. Original 2023 text; amended by Luật 118/2025/QH15 (in force 01/07/2026; scanned PDF, not merged).",
+ "original_version": true,
+ "amended_by": [
+  "Luật 118/2025/QH15"
+ ]
+}

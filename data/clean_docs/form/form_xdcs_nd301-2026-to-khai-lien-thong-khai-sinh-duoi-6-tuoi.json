@@ -1,0 +1,24 @@
+{
+ "doc_id": "form:xdcs:nd301-2026-to-khai-lien-thong-khai-sinh-duoi-6-tuoi",
+ "kind": "form",
+ "title": "Mẫu Tờ khai điện tử liên thông đăng ký khai sinh, thường trú, cấp thẻ bảo hiểm y tế, căn cước công dân cho trẻ em dưới 6 tuổi (NĐ 301/2026/NĐ-CP)",
+ "issuer": "Cổng TTĐT Chính phủ – Chính sách và cuộc sống (xaydungchinhsach.chinhphu.vn)",
+ "effective_date": null,
+ "jurisdiction": null,
+ "url": "https://xaydungchinhsach.chinhphu.vn/mau-to-khai-dien-tu-lien-thong-dang-ky-khai-sinh-thuong-tru-cap-the-bao-hiem-y-te-can-cuoc-cong-dan-cho-tre-em-duoi-6-tuoi-119260901181511323.htm",
+ "retrieved_at": "2026-10-10",
+ "sha256": "99890b56725fd12ce7fcb2b63b036921c9f65af91ae5d3982b11f2a62f1ff3cf",
+ "procedure_ids": [
+  "1.001193"
+ ],
+ "link_method": "manual",
+ "sections": [
+  {
+   "heading": "Mẫu Tờ khai điện tử liên thông đăng ký khai sinh, thường trú, cấp thẻ bảo hiểm y tế, căn cước công dân cho trẻ em dưới 6 tuổi (NĐ 301/2026/NĐ-CP)",
+   "text": "(Chinhphu.vn) -Tại Nghị định số 301/2026/NĐ-CP, Chính phủ mẫu Tờ khai điện tử liên thông đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước công dân cho trẻ em dưới 6 tuổi.\nChính phủ ban hành Nghị định số 301/2026/NĐ-CP, ngày 30/07/2026 sửa đổi, bổ sung một số điều của Nghị định số 63/2024/NĐ-CP ngày 10/6/2024 quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục hành chính: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất. Nghị định số 301/2026/NĐ-CP có hiệu lực từ 01/9/2026.\nMẫu Tờ khai điện tử liên thông đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước công dân cho trẻ em dưới 6 tuổi\nTại Nghị định số 301/2026/NĐ-CP, Chính phủ quy định mẫu Tờ khai điện tử liên thông đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước công dân cho trẻ em dưới 6 tuổi."
+  }
+ ],
+ "notes": "relevance: mẫu tờ khai điện tử liên thông dùng khi đăng ký khai sinh cho trẻ dưới 6 tuổi qua Cổng DVC (Mẫu số 01 thay thế theo NĐ 301/2026/NĐ-CP Điều 17). Nội dung lấy từ bài giới thiệu trên xaydungchinhsach.chinhphu.vn, không phải bản phụ lục gốc.",
+ "text_sha256": "bfe1be7cf9579801310de81247b5edd4fbf3a52c4c4bc555e561130d561f0c8f",
+ "cleaning_actions": []
+}

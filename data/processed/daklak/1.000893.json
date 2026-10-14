@@ -1,0 +1,46 @@
+{
+  "procedure_id": "1.000893",
+  "title": "Đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "Đắk Lắk",
+  "receiving_agency": null,
+  "channels": [],
+  "required_documents": [],
+  "steps": [],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "Mức lệ phí theo quy định của HĐND tỉnh",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "theo Thông tư số 281/2016/TT-BTC",
+      "condition": "Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính",
+      "jurisdiction": "Đắk Lắk"
+    }
+  ],
+  "processing_time": "05 ngày làm việc. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày.",
+  "legal_basis": [
+    "Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của Hội đồng Nhân dân tỉnh Đắk Lắk;",
+    "Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk."
+  ],
+  "conditions": null,
+  "raw_text": "Mục: THỦ TỤC HÀNH CHÍNH CẤP XÃ\nTên thủ tục hành chính: Đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân (1.000893)\nThời hạn giải quyết: 05 ngày làm việc. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày.\nCách thức thực hiện: Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nPhí, lệ phí: - Mức lệ phí theo quy định của HĐND tỉnh. - Miễn lệ phí đối với người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. - Phí cấp bản sao Giấy khai sinh (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính.\nCăn cứ pháp lý:\n- Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của Hội đồng Nhân dân tỉnh Đắk Lắk;\n- Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk.",
+  "submission_method_text": "Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#1.000893",
+    "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf",
+    "locator": "Phụ lục, THỦ TỤC HÀNH CHÍNH CẤP XÃ, TT 10, tr. 11–12",
+    "title": "Quyết định 33/QĐ-UBND tỉnh Đắk Lắk — Danh mục TTHC được sửa đổi, bổ sung lĩnh vực hộ tịch (căn cứ 3673/QĐ-BTP)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2026-01-08",
+    "content_hash": "sha256:9516a728384f04c202429ed77e61afe15fb053212697819399b22daa1b2df68a"
+  }
+}

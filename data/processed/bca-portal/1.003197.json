@@ -1,0 +1,66 @@
+{
+  "procedure_id": "1.003197",
+  "title": "Xóa đăng ký thường trú",
+  "variant_of": null,
+  "field": "Đăng ký, quản lý cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an Xã",
+  "channels": [
+    "Trực tiếp",
+    "Trực tuyến"
+  ],
+  "required_documents": [
+    {
+      "item": "- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": "Mẫu: CT01 Tờ khai thay đổi thông tin cư trú.doc"
+    },
+    {
+      "item": "- Giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký thường trú.",
+      "quantity": 1,
+      "quantity_text": "Bản chính: 1; Bản sao: 0",
+      "mandatory": null,
+      "note": null
+    }
+  ],
+  "steps": [
+    "- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
+    "- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.",
+    "- Bước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.",
+    "- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có)."
+  ],
+  "fees": [
+    {
+      "value": "miễn phí",
+      "condition": "Phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "Lệ phí: trang ghi \"Không\"",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "Trực tiếp: 05 Ngày làm việc; Trực tuyến: 05 Ngày làm việc",
+  "legal_basis": [
+    "Luật 68/2020/QH14 Số: 68/2020/QH14",
+    "Thông tư 55/2021/TT-BCA Số: 55/2021/TT-BCA",
+    "Thông tư 56/2021/TT-BCA Số: 56/2021/TT-BCA",
+    "Thông tư 57/2021/TT-BCA Số: 57/2021/TT-BCA",
+    "Nghị định 62/2021/NĐ-CP Số: 62/2021/NĐ-CP"
+  ],
+  "conditions": "- Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú thì người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình có trách nhiệm nộp hồ sơ làm thủ tục xóa đăng ký thường trú đến cơ quan đăng ký cư trú.\n- Trường hợp cơ quan đăng ký cư trú phát hiện công dân đó thuộc một trong các trường hợp bị xóa đăng ký thường trú: Trước khi thực hiện việc xóa đăng ký thường trú, cơ quan đăng ký cư trú thông báo về việc xóa đăng ký thường trú tới công dân hoặc đại diện hộ gia đình để biết và thực hiện việc nộp hồ sơ làm thủ tục xóa đăng ký thường trú theo quy định. Trường hợp quá 07 ngày kể từ ngày cơ quan đăng ký cư trú thông báo mà người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình không nộp hồ sơ làm thủ tục xóa đăng ký thường trú thì cơ quan đăng ký cư trú tiến hành lập biên bản về việc công dân, đại diện hộ gia đình không nộp hồ sơ làm thủ tục xóa đăng ký thường trú và thực hiện xóa đăng ký thường trú đối với công dân. Cơ quan đăng ký cư trú thông báo bằng văn bản cho công dân đó hoặc chủ hộ về việc xóa đăng ký thường trú sau khi đã thực hiện.",
+  "raw_text": "Mã thủ tục:\n1.003197\n\nLĩnh vực:\nĐăng ký, quản lý cư trú\n\nCơ quan thực hiện:\nCông an Xã\n\nMức độ cung cấp dịch vụ công trực tuyến:\nDịch vụ công trực tuyến toàn trình\n\nCách thức thực hiện:\nTrực tiếp\nTrực tuyến\n\nTrình tự thực hiện:\n- Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Cá nhân, tổ chức nộp hồ sơ tại Công an cấp xã.\n- Bước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ đủ điều kiện nhưng chưa đủ hồ sơ thì hướng dẫn bổ sung, hoàn thiện và cấp Phiếu hướng dẫn bổ sung, hoàn thiện hồ sơ (mẫu CT05 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký;\n+ Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 56/2021/TT-BCA) cho người đăng ký.\n- Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n\nThời hạn giải quyết:\nTrực tiếp\n05 Ngày làm việc\n- Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\nTrực tuyến\n05 Ngày làm việc\n- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến tại Cổng dịch vụ công qua Cổng dịch vụ công quốc gia, hoặc qua Cổng dịch vụ công Bộ Công an, Cổng dịch vụ công quản lý cư trú;\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n\nPhí:\nKhông\n\nLệ Phí:\nKhông\n\nThành phần hồ sơ:\nTên giấy tờ\nMẫu đơn, tờ khai\nSố lượng\n- Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA);\nCT01 Tờ khai thay đổi thông tin cư trú.doc\nBản chính: 1\nBản sao: 0\n- Giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký thường trú.\nBản chính: 1\nBản sao: 0\n\nYêu cầu - điều kiện:\n- Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú thì người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình có trách nhiệm nộp hồ sơ làm thủ tục xóa đăng ký thường trú đến cơ quan đăng ký cư trú.\n- Trường hợp cơ quan đăng ký cư trú phát hiện công dân đó thuộc một trong các trường hợp bị xóa đăng ký thường trú: Trước khi thực hiện việc xóa đăng ký thường trú, cơ quan đăng ký cư trú thông báo về việc xóa đăng ký thường trú tới công dân hoặc đại diện hộ gia đình để biết và thực hiện việc nộp hồ sơ làm thủ tục xóa đăng ký thường trú theo quy định. Trường hợp quá 07 ngày kể từ ngày cơ quan đăng ký cư trú thông báo mà người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình không nộp hồ sơ làm thủ tục xóa đăng ký thường trú thì cơ quan đăng ký cư trú tiến hành lập biên bản về việc công dân, đại diện hộ gia đình không nộp hồ sơ làm thủ tục xóa đăng ký thường trú và thực hiện xóa đăng ký thường trú đối với công dân. Cơ quan đăng ký cư trú thông báo bằng văn bản cho công dân đó hoặc chủ hộ về việc xóa đăng ký thường trú sau khi đã thực hiện.\n\nCăn cứ pháp lý:\nLuật 68/2020/QH14\nSố: 68/2020/QH14\nThông tư 55/2021/TT-BCA\nSố: 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA\nSố: 56/2021/TT-BCA\nThông tư 57/2021/TT-BCA\nSố: 57/2021/TT-BCA\nNghị định 62/2021/NĐ-CP\nSố: 62/2021/NĐ-CP\n\nBiểu mẫu:\nFile mẫu:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 56/2021/TT-BCA)\nTải về\n\nKết quả thực hiện:\nCập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư\nCập nhật thông tin trong Cơ sở dữ liệu về cư trú\nThông báo về kết quả giải quyết, hủy bỏ đăng ký cư trú",
+  "source": {
+    "source_id": "bca-portal#1.003197",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26348",
+    "locator": null,
+    "title": "Xóa đăng ký thường trú — Cổng Dịch vụ công Bộ Công an",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": "sha256:0fe85bbf73ad10278e16eb3a8de2a71e4df0200f14d6f4ef2ca46c7d0c643152"
+  }
+}

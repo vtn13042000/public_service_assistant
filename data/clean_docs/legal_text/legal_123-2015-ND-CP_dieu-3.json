@@ -1,0 +1,33 @@
+{
+ "doc_id": "legal:123-2015-ND-CP:dieu-3",
+ "kind": "legal_text",
+ "title": "Nghị định 123/2015/NĐ-CP, Điều 3",
+ "issuer": "Chính phủ",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.000656",
+  "1.000894",
+  "1.001193"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "87/2020/NĐ-CP",
+  "104/2022/NĐ-CP",
+  "07/2025/NĐ-CP",
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 3. Cách thức nộp và tiếp nhận hồ sơ đăng ký hộ tịch",
+   "text": "1. Người yêu cầu đăng ký kết hôn, nhận cha, mẹ, con, đăng ký lại kết hôn trực tiếp nộp hồ sơ tại cơ quan đăng ký hộ tịch; người yêu cầu đăng ký các việc hộ tịch khác có thể trực tiếp nộp hồ sơ tại cơ quan đăng ký hộ tịch, gửi hồ sơ qua hệ thống bưu chính hoặc gửi hồ sơ theo hệ thống đăng ký hộ tịch trực tuyến.\nHồ sơ đăng ký hộ tịch chỉ cần lập một (01) bộ.\n2. Người tiếp nhận hồ sơ có trách nhiệm kiểm tra các giấy tờ để đối chiếu thông tin trong Tờ khai và tính hợp lệ của giấy tờ trong hồ sơ do người yêu cầu nộp, xuất trình; trường hợp hồ sơ chưa đầy đủ thì hướng dẫn người yêu cầu bổ sung hoàn thiện. Nếu hồ sơ đầy đủ, hợp lệ, người tiếp nhận hồ sơ viết giấy tiếp nhận, trong đó ghi rõ ngày, giờ trả kết quả.\nTrường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì người tiếp nhận hồ sơ không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì người tiếp nhận hồ sơ kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó.\nTrường hợp pháp luật quy định giấy tờ xuất trình thì người tiếp nhận hồ sơ không được yêu cầu nộp thêm bản sao hoặc bản chụp của giấy tờ xuất trình.\n3. Trường hợp người yêu cầu gửi hồ sơ qua hệ thống bưu chính hoặc muốn nhận kết quả qua hệ thống bưu chính thì phải gửi nộp lệ phí đăng ký hộ tịch, lệ phí cấp bản sao trích lục hộ tịch nếu không thuộc diện được miễn lệ phí và chi phí trả kết quả qua hệ thống bưu chính. Người tiếp nhận hồ sơ ghi rõ phương thức trả kết quả trong giấy tiếp nhận.\nĐược trả kết quả qua hệ thống bưu chính đối với yêu cầu ghi vào sổ hộ tịch các việc hộ tịch do cơ quan có thẩm quyền của nước ngoài giải quyết, bao gồm khai sinh; kết hôn; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; thay đổi hộ tịch; khai tử; ly hôn; hủy hôn nhân trái pháp luật và yêu cầu cấp bản sao trích lục hộ tịch theo quy định tại Điều 63 của Luật Hộ tịch.\n4. Đối với việc đăng ký hộ tịch phải tiến hành xác minh theo quy định của Luật Hộ tịch và Nghị định này thì thời gian gửi văn bản yêu cầu và thời gian trả lời kết quả không tính vào thời hạn giải quyết việc hộ tịch cụ thể."
+  }
+ ],
+ "notes": "relevance: giấy tờ nộp, xuất trình và cách thức nộp hồ sơ đăng ký hộ tịch; Nghị định 123/2015/NĐ-CP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Nghị định 87/2020/NĐ-CP, 104/2022/NĐ-CP, 07/2025/NĐ-CP và thẩm quyền được phân định lại theo Nghị định 120/2025/NĐ-CP (từ 01/07/2025).",
+ "text_sha256": "9cbafae8ea3dbcad407a8d301cd26cf1bab5ee2b1835b62aaf338966f3e02ccc",
+ "cleaning_actions": []
+}

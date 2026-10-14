@@ -1,0 +1,31 @@
+{
+ "doc_id": "legal:04-2020-TT-BTP:dieu-10",
+ "kind": "legal_text",
+ "title": "Thông tư 04/2020/TT-BTP, Điều 10",
+ "issuer": "Bộ Tư pháp",
+ "effective_date": "2020-07-16",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.004884",
+  "2.000522"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "09/2022/TT-BTP",
+  "04/2024/TT-BTP",
+  "08/2025/TT-BTP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 10. Xác định nội dung đăng ký lại khai sinh",
+   "text": "1. Trường hợp người yêu cầu đăng ký lại khai sinh có giấy tờ theo quy định tại khoản 4 Điều 26 Nghị định số 123/2015/NĐ-CP và khoản 1, khoản 2 Điều 9 Thông tư này thì nội dung đăng ký lại khai sinh được xác định theo giấy tờ đó.\n2. Tại thời điểm đăng ký lại khai sinh, nếu thông tin về cha, mẹ và của bản thân người yêu cầu đăng ký lại khai sinh có thay đổi so với nội dung giấy tờ tại khoản 1 Điều này, thì người đó có trách nhiệm xuất trình giấy tờ hợp lệ chứng minh việc thay đổi. Nếu việc thay đổi thông tin là phù hợp với quy định pháp luật thì nội dung đăng ký lại khai sinh được xác định theo thông tin thay đổi; nội dung thông tin trước khi thay đổi được ghi vào mặt sau của Giấy khai sinh và mục “Ghi chú” trong Sổ đăng ký khai sinh.\nTrường hợp cha, mẹ của người yêu cầu đăng ký lại khai sinh đã chết thì mục “Nơi cư trú” trong Sổ đăng ký khai sinh, Giấy khai sinh ghi: “Đã chết”.\nTrường hợp địa danh hành chính đã có sự thay đổi so với địa danh ghi trong giấy tờ được cấp trước đây thì ghi theo địa danh hành chính hiện tại; địa danh hành chính trước đây được ghi vào mặt sau của Giấy khai sinh và mục Ghi chú trong Sổ đăng ký khai sinh."
+  }
+ ],
+ "notes": "relevance: đăng ký lại khai sinh: giấy tờ làm cơ sở, xác định nội dung; Thông tư 04/2020/TT-BTP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Thông tư 09/2022/TT-BTP, 04/2024/TT-BTP và Thông tư 08/2025/TT-BTP.",
+ "text_sha256": "df1001d29f6684395c44a36a68e16d3cf5b4d14017fb1bf56e0fa8e90f7b627c",
+ "cleaning_actions": []
+}

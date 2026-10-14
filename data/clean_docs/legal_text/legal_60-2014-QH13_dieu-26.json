@@ -1,0 +1,28 @@
+{
+ "doc_id": "legal:60-2014-QH13:dieu-26",
+ "kind": "legal_text",
+ "title": "Luật Hộ tịch số 60/2014/QH13, Điều 26",
+ "issuer": "Quốc hội",
+ "effective_date": "2016-01-01",
+ "jurisdiction": null,
+ "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+ "retrieved_at": "2026-10-10",
+ "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+ "procedure_ids": [
+  "1.004859"
+ ],
+ "link_method": "legal_basis",
+ "original_version": true,
+ "amended_by": [
+  "120/2025/NĐ-CP"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 26. Phạm vi thay đổi hộ tịch",
+   "text": "1. Thay đổi họ, chữ đệm và tên của cá nhân trong nội dung khai sinh đã đăng ký khi có căn cứ theo quy định của pháp luật dân sự.\n2. Thay đổi thông tin về cha, mẹ trong nội dung khai sinh đã đăng ký sau khi được nhận làm con nuôi theo quy định của Luật nuôi con nuôi."
+  }
+ ],
+ "notes": "relevance: thay đổi, cải chính, bổ sung hộ tịch; Luật Hộ tịch số 60/2014/QH13 is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Luật đã được sửa đổi, bổ sung; thẩm quyền của UBND cấp huyện trong Luật được phân định lại cho UBND cấp xã từ 01/07/2025 (Nghị định 120/2025/NĐ-CP, Điều 4). Luật Hộ tịch số 03/2026/QH16 thay thế Luật này từ 01/03/2027.",
+ "text_sha256": "ecea47b7ec687aa3f24f8bb937b97f338720a701e485dfd7856ff2b7d9b0434c",
+ "cleaning_actions": []
+}

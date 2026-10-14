@@ -1,0 +1,52 @@
+{
+  "procedure_id": "3.000323",
+  "title": "Đăng ký giám sát việc giám hộ",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "Đắk Lắk",
+  "receiving_agency": null,
+  "channels": [],
+  "required_documents": [],
+  "steps": [],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "Mức lệ phí theo quy định của HĐND tỉnh",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "miễn lệ phí",
+      "condition": "người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật",
+      "jurisdiction": "Đắk Lắk"
+    },
+    {
+      "value": "theo Thông tư số 281/2016/TT-BTC",
+      "condition": "Phí cấp bản sao Trích lục đăng ký giám sát việc giám hộ (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính",
+      "jurisdiction": "Đắk Lắk"
+    }
+  ],
+  "processing_time": "03 ngày làm việc, trường hợp cần phải xác minh thì thời hạn giải quyết được kéo dài nhưng không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ.",
+  "legal_basis": [
+    "Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 04/2024/TT-BTP ngày 06/6/2024 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp;",
+    "Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;",
+    "Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;",
+    "Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.",
+    "Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk."
+  ],
+  "conditions": null,
+  "raw_text": "Mục: THỦ TỤC HÀNH CHÍNH CẤP XÃ\nTên thủ tục hành chính: Đăng ký giám sát việc giám hộ (3.000323)\nThời hạn giải quyết: 03 ngày làm việc, trường hợp cần phải xác minh thì thời hạn giải quyết được kéo dài nhưng không quá 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ.\nCách thức thực hiện: Người yêu cầu đăng ký giám sát việc giám hộ trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nPhí, lệ phí: - Mức lệ phí theo quy định của HĐND tỉnh. - Miễn lệ phí cho người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. - Phí cấp bản sao Trích lục đăng ký giám sát việc giám hộ (nếu có yêu cầu) thực hiện theo quy định tại Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ Tài chính.\nCăn cứ pháp lý:\n- Thông tư số 03/2023/TT-BTP ngày 02/8/2023 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 04/2024/TT-BTP ngày 06/6/2024 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp;\n- Thông tư số 281/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 85/2019/TT-BTC ngày 29/11/2019 của Bộ trưởng Bộ Tài chính;\n- Thông tư số 106/2021/TT-BTC ngày 26/11/2021 của Bộ trưởng Bộ Tài chính;\n- Nghị quyết số 24/2024/NQ- HĐND ngày 06/12/2024 của HĐND tỉnh Đắk Lắk.\n- Nghị quyết số 09/2025/NQ- HĐND ngày 30/10/2025 của Hội đồng Nhân dân tỉnh Đắk Lắk.",
+  "submission_method_text": "Người yêu cầu đăng ký giám sát việc giám hộ trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/cấp xã, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#3.000323",
+    "url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/01-2026/Tinh/33_QD-UBND PL.pdf",
+    "locator": "Phụ lục, THỦ TỤC HÀNH CHÍNH CẤP XÃ, TT 23, tr. 21–22",
+    "title": "Quyết định 33/QĐ-UBND tỉnh Đắk Lắk — Danh mục TTHC được sửa đổi, bổ sung lĩnh vực hộ tịch (căn cứ 3673/QĐ-BTP)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2026-01-08",
+    "content_hash": "sha256:9516a728384f04c202429ed77e61afe15fb053212697819399b22daa1b2df68a"
+  }
+}

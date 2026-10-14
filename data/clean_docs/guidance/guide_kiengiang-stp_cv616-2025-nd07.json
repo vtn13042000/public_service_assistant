@@ -1,0 +1,49 @@
+{
+ "doc_id": "guide:kiengiang-stp:cv616-2025-nd07",
+ "kind": "guidance",
+ "title": "Công văn 616/STP-HC&BTTP ngày 06/3/2025 của Sở Tư pháp Kiên Giang hướng dẫn triển khai Nghị định 07/2025/NĐ-CP (hộ tịch)",
+ "issuer": "Sở Tư pháp tỉnh Kiên Giang",
+ "effective_date": "2025-03-06",
+ "jurisdiction": "Kiên Giang (nay thuộc An Giang)",
+ "url": "https://stp.angiang.gov.vn/sites/default/files/OldFiles/CV TRIỂN KHAI THỰC HIỆN NĐ 07 SỬA ĐỔI BS HT, QT, CT.pdf",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d52b938aafc043d29d5bc7ee7f530c861fef61aba4dc2897aeb1d38edcaa8334",
+ "procedure_ids": [
+  "1.000419",
+  "1.000593",
+  "1.000656",
+  "1.000689",
+  "1.000894",
+  "1.001193",
+  "1.003583",
+  "1.004772",
+  "1.004873",
+  "2.000806"
+ ],
+ "link_method": "manual",
+ "sections": [
+  {
+   "heading": "1. Tra cứu thông tin về tình trạng hôn nhân khi giải quyết hồ sơ đăng ký kết hôn; thông …",
+   "text": "1. Tra cứu thông tin về tình trạng hôn nhân khi giải quyết hồ sơ đăng ký kết hôn; thông tin Giấy chứng nhận kết hôn của cha, mẹ trẻ khi giải quyết hồ sơ đăng ký khai sinh theo quy định tại Nghị định số 07/2025/NĐ-CP\n- Công chức tiếp nhận hồ sơ tại Bộ phận Tiếp nhận và trả kết quả có trách nhiệm tra cứu thông tin của công dân trên Cơ sở dữ liệu quốc gia về dân cư thông qua kết nối giữa Hệ thống thông tin giải quyết thủ tục hành chính của tỉnh với Cơ sở dữ liệu quốc gia về dân cư, nếu thấy thông tin phù hợp (đúng thông tin về tình trạng hôn nhân: chưa kết hôn/đang có vợ, có chồng) thì tiếp nhận hồ sơ, chuyển hồ sơ vào Hệ thống đăng ký, quản lý hộ tịch điện tử để công chức làm công tác hộ tịch kiểm tra, xử lý; nếu thấy thông tin không phù hợp thì yêu cầu công dân bổ sung hoặc từ chối tiếp nhận hồ sơ (tùy thuộc tình trạng thông tin thiếu, không đầy đủ hoặc không đúng thực tế).\n- Công chức làm công tác hộ tịch tra cứu thông tin về tình trạng hôn nhân/ Giấy chứng nhận kết hôn trên Phần mềm đăng ký, quản lý hộ tịch\n(https://hotichdientu.moj.gov.vn) thông qua nghiệp vụ cấp bản sao trích lục hộ tịch (Đăng nhập, chọn mục Cấp bản sao trích lục hộ tịch -> Vào sổ cấp bản sao trích lục hộ tịch -> chọn Trích lục kết hôn (bản sao) -> chọn Tích chọn để tra cứu toàn quốc -> Điền thông tin (trường hợp không có đủ thông tin thì ít nhất phải có thông tin về Họ và tên, ngày sinh (ngày, tháng, năm sinh) của vợ/chồng, Cơ quan quản lý dữ liệu trực tiếp; có càng nhiều thông tin thì thời gian và kết quả tìm kiếm sẽ nhanh và chính xác).\n2 Trường hợp không tra cứu được (do lỗi hệ thống, do không có dữ liệu) hoặc tra cứu được nhưng thông tin không đầy đủ, không chứng minh được đúng tình trạng hôn nhân (Ví dụ: Tra cứu trong Cơ sở dữ liệu chỉ có thông tin:\nđã có vợ/có chồng nhưng không đủ thông tin về nhân thân, về thời gian, cơ quan đăng ký kết hôn, số, ngày cấp Giấy chứng nhận kết hôn, …) hoặc có dấu hiệu cho thấy thông tin người yêu cầu cung cấp không đúng sự thật thì cơ quan đăng ký hộ tịch thực hiện việc xác minh theo quy định tại điểm c khoản 3 Điều 2 Nghị định số 07/2025/NĐ-CP. Nếu việc xác minh không có kết quả thì vận dụng quy định tại Điều 4, Điều 5 Thông tư số 04/2020/TT-BTP ngày 28/5/2020 của Bộ Tư pháp cho phép công dân có văn bản cam đoan về tình trạng hôn nhân của mình.\n- Theo Công văn số 268/HTQTCT-HT của Cục Hộ tịch, quốc tịch, chứng thực thì việc xác minh về tình trạng hôn nhân được thực hiện theo 02 phương thức, tùy theo thực trạng cung cấp dịch vụ công của Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh:\n(1) Nếu Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh đã thực hiện quy trình liên thông Đăng ký kết hôn - Xác nhận tình trạng hôn nhân theo hướng dẫn tại Công văn số 5347/BTP-HTQTCT ngày 24/9/2024 của Bộ Tư pháp về việc triển khai Quy trình Đăng ký kết hôn - Xác nhận tình trạng hôn nhân trực tuyến thì yêu cầu và kết quả xác minh được gửi, nhận thông qua Hệ thống đăng ký, quản lý hộ tịch điện tử.\n(2) Các trường hợp còn lại, do không gửi được thông qua Hệ thống điện tử thì cơ quan đăng ký hộ tịch thực hiện gửi văn bản đề nghị phối hợp xác minh và xử lý theo quy định tại Điều 4, Điều 5 Thông tư số 04/2020/TT-BTP ngày 28/5/2020.\nDo hiện tại địa phương chưa hoàn thành việc số hóa Sổ hộ tịch lịch sử, chưa đủ điều kiện thực hiện liên thông Đăng ký kết hôn - Xác nhận tình trạng hôn nhân nên cơ quan đăng ký hộ tịch thực hiện theo phương thức (2), Sở Tư pháp sẽ tiếp tục hướng dẫn cơ quan đăng ký hộ tịch triển khai thực hiện khi địa phương đáp ứng đủ điều kiện."
+  },
+  {
+   "heading": "2. Điều 2 của Nghị định số 07/2025/NĐ-CP đã quy định người yêu cầu đăng ký khai sinh, …",
+   "text": "2. Điều 2 của Nghị định số 07/2025/NĐ-CP đã quy định người yêu cầu đăng ký khai sinh, đăng ký khai tử không phải nộp bản giấy Giấy chứng sinh, Giấy báo tử nếu đã có bản điện tử hoặc có dữ liệu điện tử có ký số của Giấy chứng sinh, Giấy báo tử. Hiện tại, thực hiện Đề án “Thí điểm liên thông dữ liệu cấp Giấy chứng sinh, Giấy báo tử, thông tin tử vong để thực hiện thủ tục đăng ký khai sinh, đăng ký khai tử trên môi trường điện tử”, Bộ Tư pháp đã phối hợp với Bảo hiểm xã hội Việt Nam thực hiện điều chỉnh hệ thống, khai thác được dữ liệu Giấy chứng sinh, Giấy báo tử (đã số hóa) thông qua kết nối giữa Hệ thống đăng ký, quản lý hộ tịch điện tử và Hệ thống của Bảo hiểm xã hội Việt Nam (nếu sự kiện hộ tịch xảy ra tại Cơ sở y tế, đã có Mã số Giấy chứng sinh, Giấy báo tử) nên người yêu cầu đăng ký khai sinh/khai tử chỉ cần cung 3 cấp thông tin về Mã sổ Giấy chứng sinh, Giấy báo tử, thông tin nhân than của người mẹ/người chết mà không phải tải lên Giấy chứng sinh, Giấy báo tử."
+  },
+  {
+   "heading": "3. Đối với trường hợp công dân Việt Nam đã được cấp Giấy xác nhận tình trạng hôn nhân để …",
+   "text": "3. Đối với trường hợp công dân Việt Nam đã được cấp Giấy xác nhận tình trạng hôn nhân để kết hôn tại cơ quan có thẩm quyền của Việt Nam, cơ quan có thẩm quyền của nước ngoài ở ngoài nước, nay có yêu cầu kết hôn với người khác mà không nộp lại được Giấy xác nhận tình trạng hôn nhân đã được cấp trước đây thì UBND cấp xã không gửi hồ sơ đề nghị xác minh (Cục Hộ tịch, quốc tịch, chứng thực /Sở Tư pháp). Trong trường hợp này, cơ quan đăng ký hộ tịch cũng thực hiện tra cứu thông tin về tình trạng hôn nhân của người yêu cầu theo quy định tại Nghị định số 07/2025/NĐ-CP như hướng dẫn tại Mục 1 Công văn này."
+  },
+  {
+   "heading": "4. Trường hợp người yêu cầu đăng ký kết hôn được cấp Giấy xác nhận tình trạng hôn nhân …",
+   "text": "4. Trường hợp người yêu cầu đăng ký kết hôn được cấp Giấy xác nhận tình trạng hôn nhân trước thời điểm Nghị định số 07/2025/NĐ-CP có hiệu lực, nếu Giấy xác nhận tình trạng hôn nhân có giá trị sử dụng, còn giá trị chứng minh về tình trạng hôn nhân của người yêu cầu thì cơ quan đăng ký hộ tịch vẫn chấp nhận cho sử dụng Giấy xác nhận tình trạng hôn nhân đó trong hồ sơ đăng ký kết hôn."
+  },
+  {
+   "heading": "5. Trường hợp Cơ quan đại diện Việt Nam ở nước ngoài cấp Giấy xác nhận tình trạng hôn …",
+   "text": "5. Trường hợp Cơ quan đại diện Việt Nam ở nước ngoài cấp Giấy xác nhận tình trạng hôn nhân cho công dân Việt Nam mà nội dung bảo đảm xác nhận đúng về tình trạng hôn nhân của người yêu cầu (các nội dung khác như thể thức, phần ghi về mục đích kết hôn, … chưa hoàn thành chính xác theo mẫu), do đây là lỗi của cơ quan nhà nước, tình trạng hôn nhân của người yêu cầu vẫn đúng, đủ điều kiện kết hôn thì để bảo đảm quyền lợi công dân, đề nghị cơ quan đăng ký hộ tịch tạo điều kiện tiếp nhận, giải quyết.\nTrên đây là công văn hướng dẫn triển khai thực hiện Nghị định số 07/2025/NĐ-CP ngày 09/01/2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hộ tịch, quốc tịch, chứng thực của Sở Tư pháp. Trong quá trình triển khai thực hiện, nếu phát sinh vướng mắc, đề nghị liên hệ về Sở Tư pháp (phòng Hành chính và Bổ trợ tư pháp), số điện thoại 02973.895.668 để trao đổi./."
+  }
+ ],
+ "notes": "relevance: hướng dẫn tra cứu tình trạng hôn nhân khi đăng ký kết hôn/cấp GXNTTHN, tra cứu Giấy chứng nhận kết hôn của cha mẹ khi khai sinh, Giấy chứng sinh/Giấy báo tử điện tử khi khai sinh/khai tử (NĐ 07/2025/NĐ-CP Điều 2; CV 268/HTQTCT-HT của Cục Hộ tịch, quốc tịch, chứng thực). Văn bản cấp tỉnh trước 01/07/2025 (gửi Phòng Tư pháp cấp huyện); nội dung nghiệp vụ còn dùng được, thẩm quyền cấp huyện đã chuyển cho cấp xã.",
+ "text_sha256": "e3b28265f920ed53c7efa2005c79eda3a4e10e920f0536cb523150f22b3d81b9",
+ "cleaning_actions": []
+}

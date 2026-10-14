@@ -1,0 +1,26 @@
+{
+ "doc_id": "form:116-2026-TT-BCA:CT07",
+ "kind": "form",
+ "title": "Mẫu CT07 – Xác nhận thông tin về cư trú (result document) (Thông tư 116/2026/TT-BCA)",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.010041"
+ ],
+ "sections": [
+  {
+   "heading": "Mẫu CT07 – Xác nhận thông tin về cư trú (result document)",
+   "text": "Mẫu CT07 ban hành kèm theo Thông tư số 116/2026/TT-BCA\nngày 29 tháng 6 năm 2026 của Bộ trưởng Bộ Công an\n\n....................................(1)\n....................................(2)\n\nSố: /XN\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập – Tự do – Hạnh phúc\n\n.........., ngày....tháng....năm.........\nXÁC NHẬN THÔNG TIN VỀ CƯ TRÚ\nTheo đề nghị của Ông/Bà:\nSố định danh cá nhân:\n\nCÔNG AN (2) XÁC NHẬN:\nI. Họ, chữ đệm và tên của Ông/Bà:\n1. Ngày, tháng, năm sinh:....../…..../........... 2. Giới tính:\n3. Số định danh cá nhân:\n\n4. Dân tộc: ............................. ............................. 5. Tôn giáo:\n6. Quê quán:\n7. Nơi đăng ký khai sinh:\n8. Nơi thường trú:\n\n9. Nơi tạm trú:\n\n10. Nơi ở hiện tại:\n\n11. Họ, chữ đệm và tên chủ hộ:12. Quan hệ với chủ hộ:\n13. Số định danh cá nhân chủ hộ:\n\nII. Thông tin các thành viên khác trong hộ gia đình:\nTT\nHọ, chữ đệm\nvà tên\nNgày, tháng, năm sinh\nGiới tính\nSố định danh\ncá nhân\nQuan hệ với chủ hộ\n\nIII. Nội dung xác nhận khác (các nơi cư trú trước đây, thời gian sinh sống tại từng nơi cư trú, hình thức đăng ký cư trú và các thông tin về cư trú khác có trong Cơ sở dữ liệu về cư trú, Cơ sở dữ liệu quốc gia về dân cư...):\n\nGiấy này có giá trị sử dụng đến hết ngày............tháng........năm...............\n\nTHỦ TRƯỞNG CƠ QUAN ĐĂNG KÝ CƯ TRÚ(3)\n\nChú thích:\n(1) Cơ quan cấp trên của cơ quan đăng ký cư trú.\n(2) Cơ quan đăng ký cư trú trong cả nước không phụ thuộc vào nơi cư trú của công dân.\n(3) Thủ trưởng cơ quan đăng ký cư trú ký ghi rõ họ tên hoặc ký số hoặc xác nhận bằng hình thức xác thực khác."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "procedure_code",
+ "notes": "Linked through the form code CT07 named in the procedures' document lists (BCA portal records). Current version (TT 116/2026/TT-BCA, from 01/07/2026). Source: Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces.",
+ "text_sha256": "c72b780e41c96ac651e312d2e13eb1ef7075284672df7727f3ad70413c1c35f1",
+ "cleaning_actions": [
+  "section 'Mẫu CT07 – Xác nhận thông tin ': nfc"
+ ]
+}

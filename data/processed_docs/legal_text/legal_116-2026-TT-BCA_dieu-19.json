@@ -1,0 +1,23 @@
+{
+ "doc_id": "legal:116-2026-TT-BCA:dieu-19",
+ "kind": "legal_text",
+ "title": "Thông tư 116/2026/TT-BCA, Điều 19",
+ "issuer": "Bộ Công an",
+ "effective_date": "2026-07-01",
+ "url": "https://g7.cdnchinhphu.vn/api/download/stream?Url=tm-8mq6BhNw0NbrKRhTDAaHMpvrqWaeHuYm7lW3HNfzTzww8Myg35dDL_fJB4izwAocLbnFUo4yxVg3b3uH5BHF_k0qUrqPKnSHaKITBO9IXXFX6Vx94bQyIMg7_gCUoTzOIJr3qw7lkObhGM2_EHg~~&file_name=2026_435_116%2f2026%2fTT-BCA.docx",
+ "retrieved_at": "2026-10-10",
+ "sha256": "d36d84df9d64c3e63a7c9d30fe6fb83c98ca06a024eb3ceeda80ed5a6de48a30",
+ "procedure_ids": [
+  "1.003197",
+  "1.010028"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 19. Xóa đăng ký thường trú, xóa đăng ký tạm trú",
+   "text": "Cơ quan, đơn vị quản lý trực tiếp người học tập, công tác, làm việc ở tại đơn vị đóng quân trong Công an nhân dân có trách nhiệm định kỳ hàng quý gửi danh sách kèm văn bản đề nghị xóa đăng ký thường trú, xóa đăng ký tạm trú những trường hợp thuộc diện xóa đăng ký thường trú, xóa đăng ký tạm trú theo quy định tại Điều 24 và Điều 29 Luật Cư trú tới cơ quan đăng ký cư trú nơi đơn vị đóng quân để xóa đăng ký thường trú, xóa đăng ký tạm trú theo quy định."
+  }
+ ],
+ "jurisdiction": null,
+ "link_method": "legal_basis",
+ "notes": "relevance: permanent / temporary deregistration. Công báo .docx (congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078/67091.htm). Current detailed rules for Luật Cư trú as amended by Luật 118/2025/QH15; from 01/07/2026 it repeals TT 55/2021, 56/2021, 66/2023 (Điều 27). Linked via the legal_basis entry TT 55/2021, which it replaces."
+}

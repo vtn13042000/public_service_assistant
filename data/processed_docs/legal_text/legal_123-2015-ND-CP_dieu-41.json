@@ -1,0 +1,31 @@
+{
+  "doc_id": "legal:123-2015-ND-CP:dieu-41",
+  "kind": "legal_text",
+  "title": "Nghị định 123/2015/NĐ-CP, Điều 41",
+  "issuer": "Chính phủ",
+  "effective_date": "2016-01-01",
+  "jurisdiction": null,
+  "url": "https://media.lamdong.gov.vn/media/5e84f55c-7065-4e34-abf1-da303dc5302e",
+  "retrieved_at": "2026-10-10",
+  "sha256": "e8bbce073bc0eca5f6c9148ea56f2976c7f0d476fd011d5cdc9da6db8db055de",
+  "procedure_ids": [
+    "2.000497",
+    "2.000513",
+    "2.000522"
+  ],
+  "link_method": "legal_basis",
+  "original_version": true,
+  "amended_by": [
+    "87/2020/NĐ-CP",
+    "104/2022/NĐ-CP",
+    "07/2025/NĐ-CP",
+    "120/2025/NĐ-CP"
+  ],
+  "sections": [
+    {
+      "heading": "Điều 41. Thẩm quyền đăng ký lại khai sinh, kết hôn, khai tử",
+      "text": "1. Ủy ban nhân dân cấp huyện, nơi đã đăng ký khai sinh, kết hôn, khai tử trước đây thực hiện đăng ký lại khai sinh, kết hôn, khai tử.\n2. Trường hợp khai sinh, kết hôn, khai tử trước đây được đăng ký tại Ủy ban nhân dân cấp xã thì việc đăng ký lại khai sinh, kết hôn, khai tử do Ủy ban nhân dân cấp huyện cấp trên thực hiện.\n3. Trường hợp khai sinh, kết hôn, khai tử trước đây được đăng ký tại Ủy ban nhân dân cấp tỉnh hoặc Sở Tư pháp thì việc đăng ký lại khai sinh, kết hôn, khai tử do Ủy ban nhân dân cấp huyện nơi cư trú của người yêu cầu thực hiện; nếu người đó không cư trú tại Việt Nam thì do Ủy ban nhân dân cấp huyện nơi có trụ sở hiện nay của Sở Tư pháp thực hiện."
+    }
+  ],
+  "notes": "relevance: đăng ký lại khai sinh, kết hôn, khai tử có yếu tố nước ngoài; Nghị định 123/2015/NĐ-CP is cited in legal_basis of these procedures (article chosen by topic). Source: văn bản gốc, bản Word do Cổng TTĐT tỉnh Lâm Đồng đăng tải. Hiệu lực/sửa đổi: Văn bản gốc; đã được sửa đổi, bổ sung bởi Nghị định 87/2020/NĐ-CP, 104/2022/NĐ-CP, 07/2025/NĐ-CP và thẩm quyền được phân định lại theo Nghị định 120/2025/NĐ-CP (từ 01/07/2025)."
+}
