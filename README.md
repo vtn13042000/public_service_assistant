@@ -25,6 +25,7 @@ docs/02_plan/       the plan and the requirement-to-evidence traceability
 docs/03_design/     product design: architecture, as-built pipeline, guardrails, data model, data collection,
                     data-to-RAG rationale, evaluation design, question sets, prompt index, web UI
 docs/04_decisions/  decision log
+docs/report/        technical report: design, guardrails, evaluation results
 src/                graph, nodes, Self-RAG checks, tools, rendering, web app
 scripts/            crawling, parsing, cleaning, validation, database and index builds, demo start/stop
 data/               processed records, documents, synonyms, test sets (the database and index are built locally)
