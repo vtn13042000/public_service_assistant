@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/app.db
+chroma/
+.env
+*.log
+# runtime output of scripts/demo_up.sh (the script creates the folder)
+data/logs/
+.pytest_cache/
+data/cache/
+# corpus copies (same policy as data/app.db and chroma/)
+data/app_v2.db
+data/app_v1.db
+data/chroma_v2/
+data/chroma_v1/
+# kept on disk, not published: work log, owner's study guides, report and slide sources, demo notes, screenshots
+docs/05_log/
+docs/06_rubric/
+docs/07_release/
+docs/08_handbook/
+docs/09_report/
+docs/10_slides/
+docs/11_demo/
+docs/evidence/
+ROUTING.md
+ROUTING-COMPACT.md

@@ -1,0 +1,10 @@
+# Web search allowlist for src/tools/web.py — "<domain pattern> <tier>", first match wins.
+# "example.vn"   matches example.vn and any subdomain (www.example.vn, vpcp.example.vn)
+# "*.gov.vn"     matches any subdomain of gov.vn
+# Any host that matches no line is dropped (guardrails.md L2: web_other never supports a fact; it is discarded before grading).
+dichvucong.gov.vn   web_official
+*.gov.vn            web_official
+chinhphu.vn         web_official   # Government portal and subdomains (xaydungchinhsach.chinhphu.vn); lead-approved 2026-10-10
+baochinhphu.vn      web_official   # Government newspaper; separate domain, not covered by chinhphu.vn
+thuvienphapluat.vn  web_other
+luatvietnam.vn      web_other
