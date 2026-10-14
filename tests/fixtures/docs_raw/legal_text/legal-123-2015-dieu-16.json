@@ -1,0 +1,21 @@
+{
+ "retrieved_at": "2026-10-10",
+ "link_method": "legal_basis",
+ "doc_id": "legal:123-2015-ND-CP:dieu-16",
+ "kind": "legal_text",
+ "title": "Nghị định 123/2015/NĐ-CP, Điều 16–17",
+ "issuer": "Chính phủ",
+ "effective_date": "2016-01-01",
+ "url": "https://vanban.chinhphu.vn/fixture-123",
+ "sha256": "66a6fcd21c07883680814ab75ca1d86a9d7c0b8ff9f3cf47358207c3603f4f8e",
+ "procedure_ids": [
+  "KS-01"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 16. Thủ tục đăng ký khai sinh",
+   "text": "1. Người đi đăng ký khai sinh nộp tờ khai theo mẫu quy định và giấy chứng sinh.\n\n\n2.  Ngay sau khi nhận đủ giấy tờ &amp; thấy thông tin khai sinh đầy đủ, công chức tư pháp ghi nội dung khai sinh vào Sổ hộ tịch.\nĐiều 17. Thủ tục đăng ký khai sinh lưu động\nNgười đi đăng ký khai sinh lưu động xuất trình giấy tờ tùy thân theo quy định của pháp luật."
+  }
+ ],
+ "notes": "cited in legal_basis of KS-01"
+}

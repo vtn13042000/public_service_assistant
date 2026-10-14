@@ -1,0 +1,14 @@
+{
+  "procedure_id": "BAD-01",
+  "title": "x",
+  "field": "Hộ tịch",
+  "required_documents": [
+    {
+      "item": "a",
+      "quantity": "01 bản"
+    }
+  ],
+  "source": {
+    "url": "u"
+  }
+}

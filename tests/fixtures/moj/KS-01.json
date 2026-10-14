@@ -1,0 +1,60 @@
+{
+  "procedure_id": "KS-01",
+  "title": "Đăng ký khai sinh",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã nơi cư trú của cha hoặc mẹ",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng sinh",
+      "quantity": null,
+      "quantity_text": "01 bản chính hoặc 01 bản sao",
+      "mandatory": true,
+      "note": "nếu không có: văn bản xác nhận của người làm chứng"
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ",
+    "Nhận kết quả"
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "đăng ký đúng hạn",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": "đăng ký quá hạn",
+      "jurisdiction": "theo tỉnh"
+    }
+  ],
+  "processing_time": "ngay trong ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. ",
+  "source": {
+    "source_id": "moj-0001/QD-BTP#KS-01",
+    "url": "https://moj.gov.vn/fixture-qd",
+    "locator": "Mục I.1, tr. 3",
+    "title": "Quyết định công bố TTHC (fixture)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+  }
+}

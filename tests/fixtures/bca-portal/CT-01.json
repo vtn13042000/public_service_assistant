@@ -1,0 +1,61 @@
+{
+  "procedure_id": "CT-01",
+  "title": "Đăng ký thường trú",
+  "variant_of": null,
+  "field": "Cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an cấp xã nơi cư trú",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (mẫu CT01)",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ tại Công an cấp xã hoặc qua Cổng dịch vụ công",
+    "Công an kiểm tra, cập nhật thông tin vào Cơ sở dữ liệu về cư trú"
+  ],
+  "fees": [
+    {
+      "value": "20.000 đồng",
+      "condition": "nộp trực tiếp",
+      "jurisdiction": "toàn quốc"
+    },
+    {
+      "value": "10.000 đồng",
+      "condition": "nộp trực tuyến",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "07 ngày làm việc",
+  "legal_basis": [
+    "Luật Cư trú 2020",
+    "Nghị định 154/2024/NĐ-CP"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký thường trú. Tờ khai thay đổi thông tin cư trú (mẫu CT01) Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp Đăng ký thường trú. Tờ khai thay đổi thông tin cư trú (mẫu CT01) Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp Đăng ký thường trú. Tờ khai thay đổi thông tin cư trú (mẫu CT01) Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp Đăng ký thường trú. Tờ khai thay đổi thông tin cư trú (mẫu CT01) Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp ",
+  "source": {
+    "source_id": "bca-portal#CT-01",
+    "url": "https://dichvucong.bocongan.gov.vn/fixture/CT-01",
+    "locator": null,
+    "title": "Đăng ký thường trú (fixture)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": null
+  }
+}

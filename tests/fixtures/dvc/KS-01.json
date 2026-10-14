@@ -1,0 +1,48 @@
+{
+  "procedure_id": "KS-01",
+  "title": "Đăng ký khai sinh",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp huyện",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ",
+    "Nhận kết quả"
+  ],
+  "fees": [
+    {
+      "value": "50.000 đồng",
+      "condition": null,
+      "jurisdiction": null
+    }
+  ],
+  "processing_time": "ngay trong ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. ",
+  "source": {
+    "source_id": "dvc#KS-01",
+    "url": "https://dichvucong.gov.vn/fixture-1.004873",
+    "locator": null,
+    "title": "DVC fixture",
+    "retrieved_at": "2026-10-10T03:00:00Z",
+    "effective_date": null,
+    "content_hash": null
+  }
+}

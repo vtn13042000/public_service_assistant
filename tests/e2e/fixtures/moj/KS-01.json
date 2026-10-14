@@ -1,0 +1,56 @@
+{
+  "procedure_id": "KS-01",
+  "title": "Đăng ký khai sinh",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã nơi cư trú của cha hoặc mẹ",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng sinh",
+      "quantity": 1,
+      "quantity_text": "01 bản chính",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Người đi đăng ký nộp tờ khai và giấy chứng sinh tại bộ phận một cửa.",
+    "Công chức tư pháp - hộ tịch kiểm tra hồ sơ, ghi vào Sổ hộ tịch và cấp bản chính Giấy khai sinh."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "đăng ký đúng hạn",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "ngay trong ngày làm việc; nếu nhận hồ sơ sau 15 giờ thì ngày làm việc tiếp theo",
+  "legal_basis": [
+    "Luật Hộ tịch 2014",
+    "Nghị định 123/2015/NĐ-CP"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh. Đăng ký khai sinh cho trẻ sinh ra tại Việt Nam, cha mẹ là công dân Việt Nam. Trình tự: Người đi đăng ký nộp tờ khai và giấy chứng sinh tại bộ phận một cửa. Công chức tư pháp - hộ tịch kiểm tra hồ sơ, ghi vào Sổ hộ tịch và cấp bản chính Giấy khai sinh. Thời hạn giải quyết: ngay trong ngày làm việc; nếu nhận hồ sơ sau 15 giờ thì ngày làm việc tiếp theo.",
+  "source": {
+    "source_id": "moj-e2e/QD-BTP#KS-01",
+    "url": "https://moj.gov.vn/e2e-fixture#KS-01",
+    "locator": null,
+    "title": "E2E fixture (hand-written from the design walkthroughs, not an official text)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": null
+  }
+}

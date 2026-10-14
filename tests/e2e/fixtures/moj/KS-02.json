@@ -1,0 +1,63 @@
+{
+  "procedure_id": "KS-02",
+  "title": "Đăng ký khai sinh có yếu tố nước ngoài",
+  "variant_of": "KS-01",
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã nơi cư trú của cha hoặc mẹ là công dân Việt Nam",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng sinh",
+      "quantity": 1,
+      "quantity_text": "01 bản chính",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Văn bản thỏa thuận của cha mẹ về việc lựa chọn quốc tịch cho con",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Người đi đăng ký nộp hồ sơ tại bộ phận một cửa.",
+    "Công chức tư pháp - hộ tịch kiểm tra và báo cáo Chủ tịch UBND cấp xã."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "đăng ký đúng hạn",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "03 ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014",
+    "Nghị định 123/2015/NĐ-CP"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh có yếu tố nước ngoài. Đăng ký khai sinh cho trẻ có cha hoặc mẹ là người nước ngoài, hoặc trẻ sinh ra ở nước ngoài chưa được đăng ký khai sinh. Trình tự: Người đi đăng ký nộp hồ sơ tại bộ phận một cửa. Công chức tư pháp - hộ tịch kiểm tra và báo cáo Chủ tịch UBND cấp xã. Thời hạn giải quyết: 03 ngày làm việc.",
+  "source": {
+    "source_id": "moj-e2e/QD-BTP#KS-02",
+    "url": "https://moj.gov.vn/e2e-fixture#KS-02",
+    "locator": null,
+    "title": "E2E fixture (hand-written from the design walkthroughs, not an official text)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": null
+  }
+}

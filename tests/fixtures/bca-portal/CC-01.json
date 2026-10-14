@@ -1,0 +1,49 @@
+{
+  "procedure_id": "CC-01",
+  "title": "Cấp thẻ Căn cước",
+  "variant_of": null,
+  "field": "Căn cước",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an cấp xã hoặc Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh",
+  "channels": [
+    "trực tiếp"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai căn cước (mẫu CC01)",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Công dân đến cơ quan quản lý căn cước, cung cấp thông tin để tra cứu",
+    "Thu nhận ảnh khuôn mặt, vân tay, mống mắt",
+    "Nhận thẻ căn cước"
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "cấp lần đầu",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "07 ngày làm việc",
+  "legal_basis": [
+    "Luật Căn cước 2023",
+    "Nghị định 70/2024/NĐ-CP"
+  ],
+  "conditions": null,
+  "raw_text": "Cấp thẻ Căn cước. Tờ khai căn cước (mẫu CC01) Cấp thẻ Căn cước. Tờ khai căn cước (mẫu CC01) Cấp thẻ Căn cước. Tờ khai căn cước (mẫu CC01) Cấp thẻ Căn cước. Tờ khai căn cước (mẫu CC01) ",
+  "source": {
+    "source_id": "bca-portal#CC-01",
+    "url": "https://dichvucong.bocongan.gov.vn/fixture/CC-01",
+    "locator": null,
+    "title": "Cấp thẻ Căn cước (fixture)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": null
+  }
+}

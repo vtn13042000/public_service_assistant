@@ -1,0 +1,55 @@
+{
+  "procedure_id": "CT-01",
+  "title": "Đăng ký thường trú",
+  "variant_of": null,
+  "field": "Cư trú",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an cấp xã nơi cư trú",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai thay đổi thông tin cư trú (mẫu CT01)",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp",
+      "quantity": null,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ tại Công an cấp xã hoặc qua Cổng dịch vụ công.",
+    "Cơ quan đăng ký cư trú thẩm định và cập nhật vào Cơ sở dữ liệu về cư trú."
+  ],
+  "fees": [
+    {
+      "value": "theo HĐND tỉnh",
+      "condition": null,
+      "jurisdiction": "theo tỉnh"
+    }
+  ],
+  "processing_time": "07 ngày làm việc",
+  "legal_basis": [
+    "Luật Cư trú 2020"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký thường trú. Đăng ký thường trú tại chỗ ở hợp pháp. Trình tự: Nộp hồ sơ tại Công an cấp xã hoặc qua Cổng dịch vụ công. Cơ quan đăng ký cư trú thẩm định và cập nhật vào Cơ sở dữ liệu về cư trú. Thời hạn giải quyết: 07 ngày làm việc.",
+  "source": {
+    "source_id": "moj-e2e/QD-BTP#CT-01",
+    "url": "https://moj.gov.vn/e2e-fixture#CT-01",
+    "locator": null,
+    "title": "E2E fixture (hand-written from the design walkthroughs, not an official text)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": null
+  }
+}

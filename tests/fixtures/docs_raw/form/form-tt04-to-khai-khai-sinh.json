@@ -1,0 +1,24 @@
+{
+ "retrieved_at": "2026-10-10",
+ "link_method": "doc_links",
+ "doc_id": "form:TT04-2020-TT-BTP:to-khai-khai-sinh",
+ "kind": "form",
+ "title": "Tờ khai đăng ký khai sinh (Thông tư 04/2020/TT-BTP)",
+ "issuer": "Bộ Tư pháp",
+ "url": "https://moj.gov.vn/fixture-to-khai",
+ "sha256": "07397d633f25a7101990a75864ae03d5a3b9ac07c4ed6accbc52cbfd7d7c13b4",
+ "procedure_ids": [
+  "KS-01",
+  "KS-02"
+ ],
+ "sections": [
+  {
+   "heading": "Tờ khai",
+   "text": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nTỜ KHAI ĐĂNG KÝ KHAI SINH\nHọ, chữ đệm, tên người yêu cầu: ..."
+  },
+  {
+   "heading": "Hướng dẫn điền",
+   "text": "Ghi rõ họ tên người được khai sinh bằng chữ in hoa, có dấu."
+  }
+ ]
+}

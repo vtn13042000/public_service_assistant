@@ -1,0 +1,17 @@
+{
+ "retrieved_at": "2026-10-10",
+ "link_method": "legal_basis",
+ "doc_id": "change:fixture",
+ "kind": "change_notice",
+ "title": "Thông báo thay đổi",
+ "url": "https://chinhphu.vn/fixture",
+ "procedure_ids": [
+  "CC-01"
+ ],
+ "sections": [
+  {
+   "heading": "Nội dung",
+   "text": "Từ ngày 01/7/2024 thẻ căn cước thay thẻ căn cước công dân."
+  }
+ ]
+}

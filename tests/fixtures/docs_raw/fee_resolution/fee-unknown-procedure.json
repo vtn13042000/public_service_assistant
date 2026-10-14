@@ -1,0 +1,19 @@
+{
+ "retrieved_at": "2026-10-10",
+ "link_method": "legal_basis",
+ "doc_id": "fee:99-NQ-HDND:le-phi",
+ "kind": "fee_resolution",
+ "title": "Nghị quyết lệ phí (fixture)",
+ "jurisdiction": "Đắk Lắk",
+ "url": "https://daklak.gov.vn/fixture-nq",
+ "sha256": "b80cdaae9b322bba2a38fd396299782a4cc6b4a0ccf67fccbbcc617c94a46026",
+ "procedure_ids": [
+  "ZZ-99"
+ ],
+ "sections": [
+  {
+   "heading": "Điều 1",
+   "text": "Mức thu lệ phí đăng ký cư trú khi công dân nộp hồ sơ trực tiếp là 20.000 đồng một lần đăng ký."
+  }
+ ]
+}

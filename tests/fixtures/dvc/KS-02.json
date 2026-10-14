@@ -1,0 +1,49 @@
+{
+  "procedure_id": "KS-02",
+  "title": "Đăng ký khai sinh có yếu tố nước ngoài",
+  "variant_of": "KS-01",
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": null,
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng sinh",
+      "quantity": 1,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": "nếu không có: văn bản xác nhận của người làm chứng"
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ",
+    "Nhận kết quả"
+  ],
+  "fees": null,
+  "processing_time": "ngay trong ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. ",
+  "source": {
+    "source_id": "dvc-hanoi#KS-02",
+    "url": "https://dichvucong.gov.vn/fixture-1.001193",
+    "locator": null,
+    "title": null,
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": null
+  }
+}

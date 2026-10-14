@@ -1,0 +1,56 @@
+{
+  "procedure_id": "KS-03",
+  "title": "Đăng ký lại khai sinh",
+  "variant_of": "KS-01",
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã nơi đã đăng ký khai sinh trước đây hoặc nơi cư trú",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký lại khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Bản sao giấy tờ chứng minh nội dung khai sinh",
+      "quantity": null,
+      "quantity_text": "các giấy tờ hiện có",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Người yêu cầu nộp hồ sơ tại bộ phận một cửa.",
+    "UBND cấp xã kiểm tra, xác minh và đăng ký lại khai sinh."
+  ],
+  "fees": [
+    {
+      "value": "miễn lệ phí",
+      "condition": "đăng ký đúng hạn",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "05 ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014",
+    "Nghị định 123/2015/NĐ-CP"
+  ],
+  "conditions": "Sổ hộ tịch và bản chính Giấy khai sinh đều bị mất.",
+  "raw_text": "Đăng ký lại khai sinh. Đăng ký lại khai sinh khi việc khai sinh đã đăng ký trước đây nhưng sổ hộ tịch và bản chính giấy khai sinh đều bị mất. Trình tự: Người yêu cầu nộp hồ sơ tại bộ phận một cửa. UBND cấp xã kiểm tra, xác minh và đăng ký lại khai sinh. Thời hạn giải quyết: 05 ngày làm việc.",
+  "source": {
+    "source_id": "moj-e2e/QD-BTP#KS-03",
+    "url": "https://moj.gov.vn/e2e-fixture#KS-03",
+    "locator": null,
+    "title": "E2E fixture (hand-written from the design walkthroughs, not an official text)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": null
+  }
+}

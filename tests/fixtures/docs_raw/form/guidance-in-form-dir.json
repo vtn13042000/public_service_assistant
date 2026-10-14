@@ -1,0 +1,18 @@
+{
+ "retrieved_at": "2026-10-10",
+ "link_method": "legal_basis",
+ "doc_id": "guide:wrong-dir",
+ "kind": "guidance",
+ "title": "Sai thư mục",
+ "url": "https://bocongan.gov.vn/fixture",
+ "sha256": "5200acef471dff328abf30b9c8a1a578bae534898b3288b965e31d9dd6c257d4",
+ "procedure_ids": [
+  "CC-01"
+ ],
+ "sections": [
+  {
+   "heading": "Nội dung",
+   "text": "Hướng dẫn cấp thẻ căn cước cho công dân từ đủ 14 tuổi trở lên."
+  }
+ ]
+}

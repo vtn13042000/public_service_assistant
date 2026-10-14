@@ -1,0 +1,55 @@
+{
+  "procedure_id": "KS-01",
+  "title": "Đăng ký khai sinh",
+  "variant_of": null,
+  "field": "Hộ tịch",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "UBND cấp xã",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai đăng ký khai sinh theo mẫu",
+      "quantity": 1,
+      "quantity_text": null,
+      "mandatory": true,
+      "note": null
+    },
+    {
+      "item": "Giấy chứng sinh",
+      "quantity": null,
+      "quantity_text": "01 bản chính hoặc 01 bản sao",
+      "mandatory": true,
+      "note": "nếu không có: văn bản xác nhận của người làm chứng"
+    }
+  ],
+  "steps": [
+    "Nộp hồ sơ",
+    "Nhận kết quả"
+  ],
+  "fees": [
+    {
+      "value": "8.000 đồng",
+      "condition": "đăng ký quá hạn",
+      "jurisdiction": null
+    }
+  ],
+  "processing_time": "ngay trong ngày làm việc",
+  "legal_basis": [
+    "Luật Hộ tịch 2014"
+  ],
+  "conditions": null,
+  "raw_text": "Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. Đăng ký khai sinh. ",
+  "source": {
+    "source_id": "daklak-33/QD-UBND#KS-01",
+    "url": "https://daklak.gov.vn/fixture-qd-33",
+    "locator": "Phụ lục, mục 1",
+    "title": "Quyết định 33/QĐ-UBND (fixture)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": null,
+    "content_hash": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "procedure_id": "CCCD-02",
+  "title": "Cấp lại thẻ Căn cước",
+  "variant_of": null,
+  "field": "Căn cước",
+  "level": "cấp xã",
+  "jurisdiction": "toàn quốc",
+  "receiving_agency": "Công an cấp xã nơi cư trú hoặc Phòng Cảnh sát quản lý hành chính về trật tự xã hội",
+  "channels": [
+    "trực tiếp",
+    "trực tuyến toàn trình"
+  ],
+  "required_documents": [
+    {
+      "item": "Tờ khai căn cước (mẫu CC01)",
+      "quantity": 1,
+      "quantity_text": "01 bản",
+      "mandatory": true,
+      "note": null
+    }
+  ],
+  "steps": [
+    "Công dân đến cơ quan quản lý căn cước, được thu nhận ảnh khuôn mặt và vân tay.",
+    "Nhận thẻ tại nơi làm thủ tục hoặc qua bưu chính."
+  ],
+  "fees": [
+    {
+      "value": "70.000 đồng",
+      "condition": "cấp lại",
+      "jurisdiction": "toàn quốc"
+    }
+  ],
+  "processing_time": "07 ngày làm việc",
+  "legal_basis": [
+    "Luật Căn cước 2023"
+  ],
+  "conditions": "Thẻ bị mất, hư hỏng.",
+  "raw_text": "Cấp lại thẻ Căn cước. Cấp lại thẻ căn cước khi bị mất hoặc hư hỏng không sử dụng được. Trình tự: Công dân đến cơ quan quản lý căn cước, được thu nhận ảnh khuôn mặt và vân tay. Nhận thẻ tại nơi làm thủ tục hoặc qua bưu chính. Thời hạn giải quyết: 07 ngày làm việc.",
+  "source": {
+    "source_id": "moj-e2e/QD-BTP#CCCD-02",
+    "url": "https://moj.gov.vn/e2e-fixture#CCCD-02",
+    "locator": null,
+    "title": "E2E fixture (hand-written from the design walkthroughs, not an official text)",
+    "retrieved_at": "2026-10-10",
+    "effective_date": "2025-07-01",
+    "content_hash": null
+  }
+}
